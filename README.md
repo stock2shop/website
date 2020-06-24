@@ -20,6 +20,8 @@ date: 2020-03-31T14:13:36+02:00
 draft: true
 menu: "main"
 ```
+- Section:
+- Type:
 
 ## Images
 To add image in markdown use below syntax and save image in the static directory
