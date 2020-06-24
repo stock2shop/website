@@ -7,7 +7,6 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 - Install GoHugo
 - Clone the project
 - Navigate to the project parent directory
-- Run ```hugo new site website --force```
 - Run ```hugo server -D```
 - View in your browser with http://localhost:1313/
 

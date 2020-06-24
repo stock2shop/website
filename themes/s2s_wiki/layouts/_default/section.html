@@ -1,0 +1,10 @@
+{{ define "main" }}
+<main>
+    {{ .Content }}
+    {{ range .Site.RegularPages }}
+        {{ if eq .Type "documentation"}}
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        {{ end }}
+    {{ end }}
+</main>
+{{ end }}
