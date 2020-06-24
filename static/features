@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="An efficient way to improve your workflow and make your day-to-day business easier. Our e-commerce integration lets you sync inventory, automate and fulfill orders, simplify B2B ordering and integrate multiple marketplaces."/>
+<link rel="canonical" href="/features/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Features of e-commerce integration tool Stock2Shop" />
+<meta property="og:description" content="An efficient way to improve your workflow and make your day-to-day business easier. Our e-commerce integration lets you sync inventory, automate and fulfill orders, simplify B2B ordering and integrate multiple marketplaces." />
+<meta property="og:url" content="https://www.stock2shop.com/features/" />
+<meta property="og:site_name" content="Stock2Shop" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2018/03/SYSTEM-INTEGRATION.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2018/03/AUTOMATICALLY-SYNC-INVENTORY.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2018/03/AUTOMATE-ORDERS.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2018/03/PRODUCT-DATA-MANAGEMENT.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2018/03/ORDER-MANAGEMENT.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2018/03/INTEGRATE-MULTIPLE-MARKETPLACES.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2018/03/DEVELOP-INTEGRATED-APPLICATIONS.png" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Stock2Shop &raquo; Features Comments Feed" href="/features/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.23" />
+<link rel='shortlink' href='https://www.stock2shop.com/?p=388' />
+    <!-- Basic Page Needs
+        ================================================== -->
+    <meta charset="utf-8">
+    <title>Features of e-commerce integration tool Stock2Shop</title>
+    <!-- Mobile Specific Metas
+        ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+        ================================================== -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+    </style>
+    <!-- Bootstrap  -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/bootstrap.min.css">
+    <!-- web font  -->
+    <link href='//fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Owl carousel-->
+    <link rel="stylesheet" href="/wp-content/themes/stock2shop/css/owl.carousel.css">
+    <link rel="stylesheet" href="/wp-content/themes/stock2shop/css/owl.theme.css">
+    <!-- icon fonts -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/font-icons/custom-icons/css/custom-icons.css">
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/font-icons/custom-icons/css/custom-icons-ie7.css">
+    <!-- Custom css -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/layout.css">
+    <link type="text/css" id="colors" rel="stylesheet" href="/wp-content/themes/stock2shop/css/blue.css">
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/custom.css?v=6">
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <script src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/modernizr-2.6.1.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-THVS7DT');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics - Migrate from analytics.js to gtag.js -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44949469-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-44949469-1');
+    </script>
+    <!--Freshchat-->
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
+    <!-- Favicons
+        ================================================== -->
+    <!-- begin application icons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/wp-content/themes/stock2shop/images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/wp-content/themes/stock2shop/images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/stock2shop/images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/stock2shop/images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/stock2shop/images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/stock2shop/images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/wp-content/themes/stock2shop/images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/stock2shop/images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/stock2shop/images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/wp-content/themes/stock2shop/images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/stock2shop/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/wp-content/themes/stock2shop/images/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/stock2shop/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="/wp-content/themes/stock2shop/images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://www.stock2shop.com/wp-content/themes/stock2shop/images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="header1">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THVS7DT"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- globalWrapper -->
+<div id="globalWrapper" >
+    <header class="navbar-fixed-top">
+        <!-- pre header -->
+        <div id="preHeader" class="hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <!-- Quick navigation -->
+<ul id="menu-pre-header" class="quickMenu"><li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402 primary "><a title="contact stock2shop" href="/contact-us/">Contact Us</a></li>
+<li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401 primary "><a title="api documentation" href="/developers/">Developers</a></li>
+<li id="menu-item-2078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2078 primary "><a title="Glossary" href="/glossary/">Glossary</a></li>
+<li id="menu-item-2577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2577 primary "><a href="/about-us/">About Us</a></li>
+</ul>                    </div>
+                    <div class="col-xs-6">
+                        <ul id="preHeaderRight">
+                            <li>
+                                <span><i class="icon-mobile"></i>+27 (0)21 813 5866</span>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm" href="https://console.stock2shop.com/console/"><span style="color:#F7F7F7">LOGIN</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pre header -->
+
+        <!-- header -->
+        <div id="mainHeader" role="banner">
+            <div class="container">
+
+
+                <nav class="navbar navbar-default scrollMenu" role="navigation">
+
+                    <div class="navbar-header">
+                        <!-- responsive navigation -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="/">
+                            <img src="https://www.stock2shop.com/wp-content/themes/stock2shop/images/stock2shop-logo.png" alt="Stock2Shop Logo"/>
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="mainMenu">
+
+
+                        <!-- Main navigation -->
+                        <!-- Main navigation -->
+<ul id="menu-main-menu" class="nav navbar-nav pull-right"><li id="menu-item-908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-908 primary "><a title="Magento Solution and Accounting Integration" href="/solutions/" class="firstLevel">Solutions</a></li>
+<li class="sep"></li><li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-388 current_page_item menu-item-407 primary "><a title="E-commerce Automation Features" href="/features/" class="firstLevel">Features</a></li>
+<li class="sep"></li><li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410 primary "><a title="ERP Website Integration" href="/integrations/" class="firstLevel">Integrations</a></li>
+<li class="sep"></li><li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680 primary "><a href="/resources/" class="firstLevel">Resources</a></li>
+<li class="sep"></li><li id="menu-item-2065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2065 primary "><a title="Success Stories" href="/case-studies/" class="firstLevel">Success Stories</a></li>
+<li id="menu-contact"><a href="/contact-us/">Contact Us</a></li><li>
+            <a href="/#s2s_video_anchor" title="Video on ERP Website Integration"><button type="button" class="btn btn-sm btn-info">How It Works</button></a>
+        </li></ul>
+                                <!-- End main navigation -->
+
+
+                    </div>
+                </nav>
+
+
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+<!--<header class="page-header">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-sm-6">-->
+<!--                --><!--                    <h1>Page Not Found</h1>-->
+<!--                --><!--                    <h1>--><!--"</i></h1>-->
+<!--                --><!--                    <h1>Blog Post</h1>-->
+<!--                --><!--                    <h1>--><!--</h1>-->
+<!--                --><!--                    <h1>--><!--</h1>-->
+<!--                --><!--            </div>-->
+<!--            <div class="col-sm-6 hidden-xs">-->
+<!--                --><!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->        <section id="page">
+            <section id="content" class="mt30">
+
+                <div id="post-388" class="post-388 page type-page status-publish hentry">
+                    <!-- page content-->
+                    <div class="container pb30">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Features</h1>
+            <p class="lead">
+                Stock2Shop is an efficient way to integrate your ERP or accounting system and your sales
+                channels seamlessly. Our e-commerce integration automates your data syncing so you can spend time doing
+                what you do best: growing your business.
+                <br /><br />
+                You control everything from your ERP or accounting system.
+                How you choose to run it is up to you.
+                From quote to invoice to receipt, you’re in control.
+                It’s business as usual, just better.
+            </p>
+        </div>
+    </div>
+</div>
+
+<section class="pt30 pb30 color1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 pb30"><img class="img-responsive" src="/wp-content/uploads/2018/03/SYSTEM-INTEGRATION.jpg" alt="System Integration" /></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <p class="lead">With Stock2Shop you can:</p>
+                <ul class="list-normal">
+                    <li><a href="#sync-inventory" title="Sync inventory">Sync inventory</a> with our easy-to-use automated system.</li>
+                    <li><a href="#automate-orders" title="Automate orders">Automate orders</a> from the time they’re ordered until they’re delivered.</li>
+                    <li><a href="#fulfill-orders" title="Order fulfillment">Fulfill orders</a> efficiently and accurately.</li>
+                    <li><a href="#product-data-management" title="Product data management">Manage your product data with ease.
+                    <li>Simplify <a href="#business-to-business-ordering" title="B2B ordering">business-to-business ordering</a>.</li>
+                    <li><a href="#integrate-multiple-marketplaces" title="E-commerce  integration">Integrate multiple e-commerce marketplaces</a> easily.</li>
+                    <li><a href="#integrated-application" title="Integrated applications">Develop your own integrated applications</a> seamlessly.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="container pt30 pb30">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 id="sync-inventory">Sync inventory</h2>
+            <p class="lead">Manage your inventory from your ERP or accounting system, and let Stock2Shop <strong>automatically update</strong> your e-commerce websites (B2B and B2C).</p>
+            <ul class="list-normal">
+                <li>Sync your data, near real time: inventory quantities, price lists, attribute information and images. Constantly keep your data current and updated.</li>
+                <li>Decide which data fields get synced and which don’t. Tailor the updates to suit your business.</li>
+                <li>Assign custom pricing for different customers.</li>
+                <li>Send different data to different sales channels, seamlessly.</li>
+                <li>Decide which products go into each sales channel, and  choose a price list for each sales channel.</li>
+                <li>Sell out of one or many warehouses.</li>
+                <li>Reduce the risk of human error or delays.</li>
+            </ul>
+        </div>
+        <div class="col-md-6"><img class="img-responsive" src="/wp-content/uploads/2018/03/AUTOMATICALLY-SYNC-INVENTORY.jpg" alt="Automatically sync inventory" /></div>
+    </div>
+</div>
+
+<section class="pt30 pb30 color1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 pb30"><img class="img-responsive" src="/wp-content/uploads/2018/03/AUTOMATE-ORDERS.png" alt="Automate Orders" /></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 id="automate-orders">Automate orders</h2>
+                <p class="lead">Complete the ordering process <strong>with ease</strong>. Raise orders into your ERP or accounting system automatically:</p>
+                <ul class="list-normal">
+                    <li>Into specific customer accounts.</li>
+                    <li>Into cash customer accounts.</li>
+                    <li>As a custom document type (sales order, invoice, quote).</li>
+                    <li>With custom workflows suited to your ordering needs.</li>
+                    <li>Save time and improve efficiency in your daily workflow.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2 id="fulfill-orders">Fulfill orders</h2>
+                <p class="lead">Fulfill orders <strong>quickly and easily</strong>.</p>
+                <ul class="list-normal">
+                    <li>Create order fulfillment automatically.</li>
+                    <li>Fulfill the order depending on its status (e.g. paid).</li>
+                    <li>Customise order fulfillments according to your workflow requirements.</li>
+                    <li>Have a totally automated solution: from placing an online order to delivery.</li>
+                    <li>Ensure satisfied customers, happy to get their orders fulfilled accurately and quickly.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt30 pb30">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 id="product-data-management">
+                    Product data management
+                </h2>
+                <p class="lead">Our <strong>simple-to-use online console</strong> lets you manage product data with ease.</p>
+                <ul class="list-normal">
+                    <li>Simply categorise and describe your data.</li>
+                    <li>Bulk update your data, to save time and effort.</li>
+                    <li>Make your data marketable and ready to sell on e-commerce websites.</li>
+                    <li>Import and export your data easily. Data has never been this easy to manage.</li>
+                    </p>
+            </div>
+            <div class="col-md-8"><img src="/wp-content/uploads/2018/03/PRODUCT-DATA-MANAGEMENT.jpg" alt="Product data management" class="img-responsive"></div>
+        </div>
+    </div>
+</section>
+
+<section class="pt30 pb30 color1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 id="business-to-business-ordering"><strong>Simplify</strong> business-to-business ordering</h2>
+                <p class="lead">Our <a title="B2B trade store" href="/b2b-shopping-cart">B2B trade store</a> is the <strong>perfect solution</strong> for wholesale and distribution.</p>
+                <ul class="list-normal">
+                    <li>Suitable for customers and sales reps &#8211; save time by letting select customers and reps order directly.</li>
+                    <li>Syncs with your ERP or accounting system, so you control everything from one central place.</li>
+                    <li>Assign custom pricing, specific price lists or specific / multiple warehouses.</li>
+                    <li>Manage your data simply: inventory updated near real time. Export inventory data with ease.</li>
+                    <li>Simple user management.</li>
+                    <li>Mobile-friendly platform.</li>
+                    <li>Built to suit your needs: easy to customize.</li>
+                </ul>
+            </div>
+            <div class="col-md-6"><img class="img-responsive" src="/wp-content/uploads/2018/03/ORDER-MANAGEMENT.jpg" alt="Simplify b2b ordering" /></div>
+        </div>
+    </div>
+</section>
+
+<section class="pt30 pb30">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><img class="img-responsive" src="/wp-content/uploads/2018/03/INTEGRATE-MULTIPLE-MARKETPLACES.png" alt="Integrate multiple marketplaces" /></div>
+            <div class="col-md-6">
+                <h2 id="integrate-multiple-marketplaces">Integrate multiple marketplaces</h2>
+                <p class="lead">Make selling on a number of marketplaces, with custom pricing, <strong>seamless</strong>.</p>
+                <ul class="list-normal">
+                    <li>Allow independent websites and online retailers to read inventory automatically. Reduce admin time and the risk of human error.</li>
+                    <li>Automate data syncing with any of our supported marketplaces. Make your business more efficient. </li>
+                    <li>Assign custom pricing for the same unit in different marketplaces: tailor your offering. </li>
+                    <li>Automate the process of updating stock levels and specific pricing.</li>
+                    <li>Easily list and manage all your products and keep track of inventory in one place: your ERP or accounting system.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt30 pb30 color1" style="margin-bottom:40px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 id="integrated-application">Develop your own integrated applications</h2>
+                <p class="lead">Our API lets you integrate your own applications, <strong>quickly and efficiently</strong>.</p>
+                <ul class="list-normal">
+                    <li>Easily integrate your ERP or accounting system with your custom application.</li>
+                    <li>Well defined and documented <a title="REST API" href="https://app.stock2shop.com/docs/">REST API</a> for <a title="develop with Stock2Shop" href="/developers">developers</a>.</li>
+                    <li>Allow applications to read product data and more, directly off our API.</li>
+                </ul>
+            </div>
+            <div class="col-md-6"><img class="img-responsive" src="/wp-content/uploads/2018/03/DEVELOP-INTEGRATED-APPLICATIONS.png" alt="Develop your own integrated applications" /></div>
+        </div>
+    </div>
+</section>                    <!-- end page content-->
+                </div>
+
+            </section>
+            <!-- end content -->
+        </section>
+        <!-- end page -->
+        <!-- footer -->
+    <footer id="footerWrapper" class="footer4">
+        <section id="mainFooter">
+            <div class="container">
+<!--                <div class="row footerCTA">-->
+<!--                    <div id="trial-form-response"></div>-->
+<!--                    <div class="col-sm-2">-->
+<!--                        <h3>Free 30 Day Trial</h3>-->
+<!--                        No credit card required-->
+<!--                    </div>-->
+<!--                    <div class="col-sm-10">-->
+<!--                        <form class="form-inline" role="form" id="trialfrm" method="post" action="--><!--">-->
+<!--                            <input type="hidden" class="BotCheck" name="botCheck" value="">-->
+<!--                            <input type="hidden" name="subject" value="Stock2Shop Free Trial Inquiry">-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <input type="text" name="name" class="form-control input-lg" placeholder="Enter Name">-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <input type="email" name="email" class="form-control input-lg" placeholder="Enter Email">-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <button type="submit" class="btn btn-info">Get Started Now</button>-->
+<!--                            </div>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-sm-12">-->
+<!--                        <hr>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-sm-12">-->
+<!--                        <h2>Manage inventory across multiple sales channels with Stock2Shop</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>ERP / Accounting</h3>
+                            <ul id="menu-erp-accounting-systems" class="list-unstyled iconList borderList"><li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556 primary "><a title="Sage Accounting Integration" href="/integrations/sage-one-accounting/">Sage Business Cloud Accounting (Sage One)</a></li>
+<li id="menu-item-2247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2247 primary "><a title="Sage Business Cloud Financials Integration" href="/integrations/sage-business-cloud-financials/">Sage Business Cloud Financials (Sage Live)</a></li>
+<li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420 primary "><a title="Sage Pastel Partner Inventory" href="/integrations/pastel-partner/">Sage 50cloud Pastel Partner (Pastel Partner)</a></li>
+<li id="menu-item-3762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3762 primary "><a href="/integrations/sage-50cloud-pastel-xpress-formerly-sage-partner-xpress/">Sage 50cloud Pastel Xpress (Partner Xpress)</a></li>
+<li id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419 primary "><a title="Sage Pastel Evolution Inventory" href="/integrations/sage-pastel-evolution/">Sage 100 Evolution (Evolution Standard)</a></li>
+<li id="menu-item-3765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3765 primary "><a href="/integrations/sage-200-evolution-formerly-sage-evolution-premium/">Sage 200 Evolution (Evolution Premium)</a></li>
+<li id="menu-item-3764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3764 primary "><a href="/integrations/sage-300cloud-formerly-sage-accpac/">Sage 300cloud (formerly Sage Accpac)</a></li>
+<li id="menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150 primary "><a title="SAP Business One Integration" href="/integrations/sap/">SAP Business One</a></li>
+<li id="menu-item-2246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2246 primary "><a title="iSync Solution Integration" href="/integrations/isync/">iSync Solutions</a></li>
+<li id="menu-item-1151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1151 primary "><a title="SYSPRO Integration" href="/integrations/syspro/">SYSPRO</a></li>
+<li id="menu-item-2688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2688 primary "><a title="Omni Accounts Integration" href="/integrations/omni-accounts-integration/">Omni Accounts</a></li>
+<li id="menu-item-3219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3219 primary "><a href="/integrations/iq-retail/">iQ Retail</a></li>
+<li id="menu-item-3220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3220 primary "><a href="/integrations/ms-navision-integration/">Microsoft Dynamics NAV</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>E-Commerce</h3>
+                            <ul id="menu-sales-channels" class="list-unstyled iconList borderList"><li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403 primary "><a title="b2b trade store" href="/integrations/b2b-shopping-cart/">B2B Trade Store</a></li>
+<li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404 primary "><a title="shopify integration" href="/integrations/shopify/">Shopify</a></li>
+<li id="menu-item-405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405 primary "><a title="magento integration" href="/integrations/magento/">Magento</a></li>
+<li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661 primary "><a title="Woocommerce integration" href="/integrations/woo-commerce/">WooCommerce</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>Marketplace</h3>
+                            <ul id="menu-marketplace" class="list-unstyled iconList borderList"><li id="menu-item-2888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2888 primary "><a title="Takealot Integration" href="/integrations/takealot-marketplace-integration/">Takealot Marketplace</a></li>
+</ul>                            <h3>Order Fulfillment</h3>
+                            <ul id="menu-order-fulfillment" class="list-unstyled iconList borderList"><li id="menu-item-517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517 primary "><a title="parcel ninja ecommerce order fulfillment" href="/integrations/parcel-ninja/">Parcelninja</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+
+                            <h3>Keep in touch</h3>
+                            <h1 class="phone">021 813 5866</h1>
+                            <address>
+                                <p>
+                                    <a href="mailto:sales@stock2shop.com">sales@stock2shop.com</a>
+                                </p>
+                            </address>
+<!--                            <a href="/contact-us" class="btn btn-md mb15" title="Find out more">Find out more</a>-->
+
+                            <form role="form" class="form-inline newsletterForm" method="post" action="//stock2shop.us18.list-manage.com/subscribe/post?u=3185b94e8ce17eb5959652a5a&amp;id=4447c587b2">
+                                <div class="input-group">
+                                    <input type="email" name="EMAIL" placeholder="Newsletter" class="form-control input-lg" />
+                                    <div class="input-group-btn">
+                                        <input type="submit" class="btn btn-primary btn-more" value="Join" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <section id="footerRights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </footer>
+    <!-- End footer -->
+</div>
+<!-- global wrapper -->
+
+<!-- End Document 
+	================================================== -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/respond/respond.min.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/bootstrap/bootstrap.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/smooth-scroll/jquery.smooth-scroll.min.js"></script>
+
+<!-- carousel -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/owl-carousel/owl.carousel.min.js"></script>
+
+<!-- isotope -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/isotope/jquery.isotope.min.js"></script>
+
+<!--    stellar-->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.stellar.min.js"></script>
+
+<!-- form -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.validate.min.js"></script>
+
+<!-- Custom  -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/custom.js?v=1"></script>
+
+<!-- Freshchat -->
+<script>
+    window.fcWidget.init({
+        token: "4396957b-7780-4078-a6bd-2b96b00f2f16",
+        host: "https://wchat.freshchat.com"
+    });
+</script>
+
+</body>
+</html>
