@@ -1,4 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Stock2Shop"
-theme = ["s2s","s2s_wiki"]
+theme = ["s2s_2","s2s","s2s_wiki"]
+[params]
+  site_logo = "/images/stock2shop-logo.png"
+  custom_css = ["css/custom.css","css/custom2.css"]

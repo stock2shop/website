@@ -1,0 +1,656 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="A few Stock2Shop success stories: clients who have used our service to integrate their ERP or accounting system and e-commerce websites with ease. Many top importers, wholesalers and distributors have significantly streamlined their business using Stock2Shop. You can too. Find out more!"/>
+<link rel="canonical" href="/case-studies/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Stock2Shop Success Stories" />
+<meta property="og:description" content="A few Stock2Shop success stories: clients who have used our service to integrate their ERP or accounting system and e-commerce websites with ease. Many top importers, wholesalers and distributors have significantly streamlined their business using Stock2Shop. You can too. Find out more!" />
+<meta property="og:url" content="https://www.stock2shop.com/case-studies/" />
+<meta property="og:site_name" content="Stock2Shop" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.23" />
+<link rel='shortlink' href='https://www.stock2shop.com/?p=2007' />
+    <!-- Basic Page Needs
+        ================================================== -->
+    <meta charset="utf-8">
+    <title>Stock2Shop Success Stories</title>
+    <!-- Mobile Specific Metas
+        ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+        ================================================== -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+    </style>
+    <!-- Bootstrap  -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/bootstrap.min.css">
+    <!-- web font  -->
+    <link href='//fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Owl carousel-->
+    <link rel="stylesheet" href="/wp-content/themes/stock2shop/css/owl.carousel.css">
+    <link rel="stylesheet" href="/wp-content/themes/stock2shop/css/owl.theme.css">
+    <!-- icon fonts -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/font-icons/custom-icons/css/custom-icons.css">
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/font-icons/custom-icons/css/custom-icons-ie7.css">
+    <!-- Custom css -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/layout.css">
+    <link type="text/css" id="colors" rel="stylesheet" href="/wp-content/themes/stock2shop/css/blue.css">
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/custom.css?v=6">
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <script src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/modernizr-2.6.1.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-THVS7DT');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics - Migrate from analytics.js to gtag.js -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44949469-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-44949469-1');
+    </script>
+    <!--Freshchat-->
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
+    <!-- Favicons
+        ================================================== -->
+    <!-- begin application icons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/wp-content/themes/stock2shop/images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/wp-content/themes/stock2shop/images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/stock2shop/images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/stock2shop/images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/stock2shop/images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/stock2shop/images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/wp-content/themes/stock2shop/images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/stock2shop/images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/stock2shop/images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/wp-content/themes/stock2shop/images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/stock2shop/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/wp-content/themes/stock2shop/images/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/stock2shop/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="/wp-content/themes/stock2shop/images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://www.stock2shop.com/wp-content/themes/stock2shop/images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="header1">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THVS7DT"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- globalWrapper -->
+<div id="globalWrapper" >
+    <header class="navbar-fixed-top">
+        <!-- pre header -->
+        <div id="preHeader" class="hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <!-- Quick navigation -->
+<ul id="menu-pre-header" class="quickMenu"><li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402 primary "><a title="contact stock2shop" href="/contact-us/">Contact Us</a></li>
+<li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401 primary "><a title="api documentation" href="/developers/">Developers</a></li>
+<li id="menu-item-2078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2078 primary "><a title="Glossary" href="/glossary/">Glossary</a></li>
+<li id="menu-item-2577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2577 primary "><a href="/about-us/">About Us</a></li>
+</ul>                    </div>
+                    <div class="col-xs-6">
+                        <ul id="preHeaderRight">
+                            <li>
+                                <span><i class="icon-mobile"></i>+27 (0)21 813 5866</span>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm" href="https://console.stock2shop.com/console/"><span style="color:#F7F7F7">LOGIN</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pre header -->
+
+        <!-- header -->
+        <div id="mainHeader" role="banner">
+            <div class="container">
+
+
+                <nav class="navbar navbar-default scrollMenu" role="navigation">
+
+                    <div class="navbar-header">
+                        <!-- responsive navigation -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="/">
+                            <img src="https://www.stock2shop.com/wp-content/themes/stock2shop/images/stock2shop-logo.png" alt="Stock2Shop Logo"/>
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="mainMenu">
+
+
+                        <!-- Main navigation -->
+                        <!-- Main navigation -->
+<ul id="menu-main-menu" class="nav navbar-nav pull-right"><li id="menu-item-908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-908 primary "><a title="Magento Solution and Accounting Integration" href="/solutions/" class="firstLevel">Solutions</a></li>
+<li class="sep"></li><li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407 primary "><a title="E-commerce Automation Features" href="/features/" class="firstLevel">Features</a></li>
+<li class="sep"></li><li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410 primary "><a title="ERP Website Integration" href="/integrations/" class="firstLevel">Integrations</a></li>
+<li class="sep"></li><li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680 primary "><a href="/resources/" class="firstLevel">Resources</a></li>
+<li class="sep"></li><li id="menu-item-2065" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2007 current_page_item menu-item-2065 primary "><a title="Success Stories" href="/case-studies/" class="firstLevel">Success Stories</a></li>
+<li id="menu-contact"><a href="/contact-us/">Contact Us</a></li><li>
+            <a href="/#s2s_video_anchor" title="Video on ERP Website Integration"><button type="button" class="btn btn-sm btn-info">How It Works</button></a>
+        </li></ul>
+                                <!-- End main navigation -->
+
+
+                    </div>
+                </nav>
+
+
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+<!--<header class="page-header">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-sm-6">-->
+<!--                --><!--                    <h1>Page Not Found</h1>-->
+<!--                --><!--                    <h1>--><!--"</i></h1>-->
+<!--                --><!--                    <h1>Blog Post</h1>-->
+<!--                --><!--                    <h1>--><!--</h1>-->
+<!--                --><!--                    <h1>--><!--</h1>-->
+<!--                --><!--            </div>-->
+<!--            <div class="col-sm-6 hidden-xs">-->
+<!--                --><!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->        <section id="page">
+            <section id="content" class="mt30 pb30">
+
+                <div id="post-2007" class="post-2007 page type-page status-publish hentry">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1>Our Clients</h1>
+<p class="lead"><strong>You’re in good company</strong>. Many top importers, wholesalers and distributors trust us to integrate
+their online businesses into their existing ERP and accounting systems. The result? More time. Less headache. More
+revenue. Here are a few of our clients, telling their success stories. Here&#8217;s how they streamlined their workflow, simplified their ordering processes and increased their revenue by integrating with Stock2Shop.</p>
+
+
+<hr />
+
+<h2>Success Stories</h2>
+<section class="case-studies"><div class="row">
+    <article class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <section>
+            <a href="/case-studies/case-study-omnico">
+                <img title="Learn about linking Syspro &amp; Magento" class="img-responsive imgBorder" title="" src="/wp-content/uploads/2018/02/omnico-logo-block.png" alt="Omnico"/>
+            </a>
+        </section>
+        <section class="boxContent">
+            <h3>Omnico</h3>
+            <p>
+                Imports leading lifestyle and cycle brands in South Africa. <strong>Success Story featuring B2B, SYSPRO and Magento.</strong>
+            </p>
+            <a title="Learn about linking Syspro &amp; Magento" href="/case-studies/case-study-omnico" onclick="gtag('event', 'click', {'event_category': 'Links','event_label': 'Read More'});">Read more</a>
+
+        </section>
+    </article>
+
+    <article class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <section>
+            <a href="/case-studies/case-study-al-cd-ashley">
+                <img title="Learn about linking Pastel Partner &amp; with multiple sale channels" class="img-responsive imgBorder" title="" src="/wp-content/uploads/2018/02/alcd-logo-block.png" alt="AL &amp; CD Ashley"/>
+            </a>
+        </section>
+        <section class="boxContent">
+            <h3>Al &amp; CD Ashley</h3>
+            <p>
+                Imports and distributes high quality cookware. <strong>Success Story featuring Pastel Partner, B2B and B2C stores.</strong>
+            </p>
+            <a title="Learn about linking Pastel Partner to sales channels" href="/case-studies/case-study-al-cd-ashley">Read more</a>
+        </section>
+    </article>
+    <div class="clearfix visible-xs visible-sm"><!-- every second article --></div>
+
+    <article class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <section>
+            <a href="/case-studies/case-study-falke">
+                <img title="Learn about linking Syspro &amp; Magento" class="img-responsive imgBorder" title="" src="/wp-content/uploads/2018/02/falke-logo-block.png" alt="Falke"/>
+            </a>
+        </section>
+        <section class="boxContent">
+            <h3>Falke</h3>
+            <p>
+                Develops stylish fashion for modern people: men’s and women’s fashion and sport socks and underwear. <strong>Success story featuring SYSPRO and Magento.</strong>
+            </p>
+            <a title="Learn about linking Syspro &amp; Magento" href="/case-studies/case-study-falke">Read more</a>
+        </section>
+    </article>
+
+    <article class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <section>
+            <a href="/case-studies/case-study-virgin-active">
+                <img title="Learn about linking Parcel Ninja &amp; Magento" class="img-responsive imgBorder" title="" src="/wp-content/uploads/2018/02/virgin-active-logo-block.png" alt="Virgin Active"/>
+            </a>
+        </section>
+        <section class="boxContent">
+            <h3>Virgin Active</h3>
+            <p>Enriches people's lives through physical activity. <strong>Success story featuring Parcelninja and Magento.</strong></p>
+            <a title="Learn about linking Parcel Ninja &amp; Magento" href="/case-studies/case-study-virgin-active">Read more</a>
+        </section>
+    </article>
+    <div class="clearfix visible-xs visible-sm visible-md visible-lg"><!-- every fourth article --></div>
+
+    <article class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <section>
+            <a href="/case-studies/case-study-calasca">
+                <img title="Learn about linking Parcel Ninja &amp; Magento" class="img-responsive imgBorder" title="" src="/wp-content/uploads/2020/02/Calasca-Logo.jpg" alt="Calasca"/>
+            </a>
+        </section>
+        <section class="boxContent">
+            <h3>Calasca</h3>
+            <p>Calasca supplies a wide variety of high quality products to the wholesale and retail markets, including homeware, kitchenware, kids & toys. <strong>Success story featuring Sage Evolution and multiple resellers’ ecommerce channels, as well as Takealot and a B2B Trade Store.</strong></p>
+            <a title="Learn about linking Sage Evolution &amp; B2B / B2C stores" href="/case-studies/case-study-calasca">Read more</a>
+        </section>
+    </article>
+
+    <article class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <section>
+            <a href="/case-studies/silveray">
+                <img title="Learn about linking Syspro &amp; B2B Trade Store" class="img-responsive imgBorder" title="" src="/wp-content/uploads/2020/02/silveray2.png" alt="Silveray Stationery Company"/>
+            </a>
+        </section>
+        <section class="boxContent">
+            <h3>Silveray</h3>
+            <p>Manufacturer and distributor of leading stationery brands, including Croxley, Parker, Sellotape, Sharpie, Stabilo and more. <strong>Success story featuring Syspro, WooCommerce and a B2B Trade Store.</strong></p>
+            <a title="Learn about linking Syspro &amp; B2B Trade Store" href="/case-studies/silveray/">Read more</a>
+        </section>
+    </article>
+    <div class="clearfix visible-xs visible-sm"><!-- every second article --></div>
+
+    <article class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <section>
+            <a href="/case-studies/success-story-pj-marketing/">
+                <img title="Learn about linking PJ Marketing &amp; B2B Trade Store" class="img-responsive imgBorder" title="" src="/wp-content/uploads/2020/03/pj_marketing_brand_logo.jpg" alt="PJ Marketing"/>
+            </a>
+        </section>
+        <section class="boxContent">
+            <h3>PJ Marketing</h3>
+            <p>PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries. They needed to be able to give their customers a way to upload a CSV file for bulk orders.<strong>Success story featuring Sage Pastel Partner, B2B Trade Store and Bulk Ordering.</strong></p>
+            <a title="Learn about linking Sage Pastel Partner &amp; B2B Trade Store" href="/case-studies/success-story-pj-marketing/">Read more</a>
+        </section>
+</div></section>
+
+<hr />
+
+<h2>More happy clients</h2>
+<div class="more-case-studies"><div class="row pb15">
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="New Balance - Aurora Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/new_balance_logo.png" alt="New Balance"/>
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Mercedes - Efinity Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/logo_mercedes.png" alt="Mercedes-Benz" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="USN - Sage Evolution B2B Trade Store" class="img-responsive imgBorder" src="/wp-content/uploads/2018/10/usn_logo.png" alt="USN" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="HP - Sage Evolution Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/hp_logo.png" alt="HP" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Hair Health & Beauty - Sage Evolution Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2017/09/health-and-beauty.png" alt="Hair Health & Beauty" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Umbro - Sage Evolution Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2017/09/umbro.png" alt="Umbro" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Pylones - SAP One Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2017/10/pylones-new-logo.png" alt="Pylones" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Hamleys - Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2017/10/hamleys-logo.png" alt="Hamleys" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Le coq sportif - Sage Evolution Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/logo_lecoqsportif.png" alt="Le coq sportif" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="New Era - Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/new_era_logo.png" alt="New Era" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Diesel Electric - SAP One B2B Trade Store" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/logo_diesel_electric.png" alt="Diesel Electric"/>
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Carrol Boyes - Pastel Partner Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/logo_carrol_boyes.png" alt="Carrol Boyes" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Edutrade - Pastel Partner Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2017/09/edutrade.png" alt="Edutrade" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Macs Auto - SAP One B2B Trade Store" class="img-responsive imgBorder" src="/wp-content/uploads/2017/09/macs-auto.png" alt="Macs Auto" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Illumina - Sage Evolution Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2017/09/illumina.png" alt="Illumina" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Stingray - SAP One Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/logo_stingray.png" alt="Stingray" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="WeFix - Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/04/logo_wefix.png" alt="We Fix" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="YDE - Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/11/yde_logo.jpg" alt="YDE" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Ben Sherman - Magento" class="img-responsive imgBorder" src="/wp-content/uploads/2018/11/ben_sherman_logo.jpg" alt="Ben Sherman" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Headwear24 - Magento iSync" class="img-responsive imgBorder" src="/wp-content/uploads/2018/11/headwear24_logo.jpg" alt="Headwear24" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="MedSales - Shopify Sage Evolution" class="img-responsive imgBorder" src="/wp-content/uploads/2018/11/medsales_logo.jpg" alt="MedSales" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Midwich Australia - Magento Sage Evolution" class="img-responsive imgBorder" src="/wp-content/uploads/2018/11/midwich_logo.jpg" alt="Midwich Australia" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Stealth Global- B2B" class="img-responsive imgBorder" src="/wp-content/uploads/2018/11/stealth_logo.png" alt="Stealth" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Superga - SAP One" class="img-responsive imgBorder" src="/wp-content/uploads/2018/11/superga_logo.png" alt="Superga" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Cannondale" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/cannondale-logo.jpg" alt="Cannondale" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Evox" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/evox.jpg" alt="Evox" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Fatsak" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/fatsaklogo.jpg" alt="Fatsak" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Fossil" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/fossil.jpg" alt="Fossil" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Gadget Shop" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/gadget-shop.jpg" alt="Gadget Shop" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Nintendo" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/Nintendo_Logo_2017.jpg" alt="Nintendo" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Polar" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/polar.jpg" alt="Polar" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Poobie Naidoos" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/Poobie-Naidoos.jpg" alt="Poobie Naidoos" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Rubicon" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/rubicon.jpg" alt="Rubicon" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Sainta&Summer" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/saintandsummer.jpg" alt="Sainta&Summer" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="Smollan" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/smollan.jpg" alt="Smollan" />
+        </section>
+    </article>
+    <article class="col-xxs-12 col-xs-6 col-sm-4 col-md-2 mb15">
+        <section>
+            <img title="SSN" class="img-responsive imgBorder" src="/wp-content/uploads/2020/01/ssn.jpg" alt="SSN" />
+        </section>
+    </article>
+</div></div>                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- end content -->
+        </section>
+        <!-- end page -->
+        <!-- footer -->
+    <footer id="footerWrapper" class="footer4">
+        <section id="mainFooter">
+            <div class="container">
+<!--                <div class="row footerCTA">-->
+<!--                    <div id="trial-form-response"></div>-->
+<!--                    <div class="col-sm-2">-->
+<!--                        <h3>Free 30 Day Trial</h3>-->
+<!--                        No credit card required-->
+<!--                    </div>-->
+<!--                    <div class="col-sm-10">-->
+<!--                        <form class="form-inline" role="form" id="trialfrm" method="post" action="--><!--">-->
+<!--                            <input type="hidden" class="BotCheck" name="botCheck" value="">-->
+<!--                            <input type="hidden" name="subject" value="Stock2Shop Free Trial Inquiry">-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <input type="text" name="name" class="form-control input-lg" placeholder="Enter Name">-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <input type="email" name="email" class="form-control input-lg" placeholder="Enter Email">-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <button type="submit" class="btn btn-info">Get Started Now</button>-->
+<!--                            </div>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-sm-12">-->
+<!--                        <hr>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-sm-12">-->
+<!--                        <h2>Manage inventory across multiple sales channels with Stock2Shop</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>ERP / Accounting</h3>
+                            <ul id="menu-erp-accounting-systems" class="list-unstyled iconList borderList"><li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556 primary "><a title="Sage Accounting Integration" href="/integrations/sage-one-accounting/">Sage Business Cloud Accounting (Sage One)</a></li>
+<li id="menu-item-2247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2247 primary "><a title="Sage Business Cloud Financials Integration" href="/integrations/sage-business-cloud-financials/">Sage Business Cloud Financials (Sage Live)</a></li>
+<li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420 primary "><a title="Sage Pastel Partner Inventory" href="/integrations/pastel-partner/">Sage 50cloud Pastel Partner (Pastel Partner)</a></li>
+<li id="menu-item-3762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3762 primary "><a href="/integrations/sage-50cloud-pastel-xpress-formerly-sage-partner-xpress/">Sage 50cloud Pastel Xpress (Partner Xpress)</a></li>
+<li id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419 primary "><a title="Sage Pastel Evolution Inventory" href="/integrations/sage-pastel-evolution/">Sage 100 Evolution (Evolution Standard)</a></li>
+<li id="menu-item-3765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3765 primary "><a href="/integrations/sage-200-evolution-formerly-sage-evolution-premium/">Sage 200 Evolution (Evolution Premium)</a></li>
+<li id="menu-item-3764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3764 primary "><a href="/integrations/sage-300cloud-formerly-sage-accpac/">Sage 300cloud (formerly Sage Accpac)</a></li>
+<li id="menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150 primary "><a title="SAP Business One Integration" href="/integrations/sap/">SAP Business One</a></li>
+<li id="menu-item-2246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2246 primary "><a title="iSync Solution Integration" href="/integrations/isync/">iSync Solutions</a></li>
+<li id="menu-item-1151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1151 primary "><a title="SYSPRO Integration" href="/integrations/syspro/">SYSPRO</a></li>
+<li id="menu-item-2688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2688 primary "><a title="Omni Accounts Integration" href="/integrations/omni-accounts-integration/">Omni Accounts</a></li>
+<li id="menu-item-3219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3219 primary "><a href="/integrations/iq-retail/">iQ Retail</a></li>
+<li id="menu-item-3220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3220 primary "><a href="/integrations/ms-navision-integration/">Microsoft Dynamics NAV</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>E-Commerce</h3>
+                            <ul id="menu-sales-channels" class="list-unstyled iconList borderList"><li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403 primary "><a title="b2b trade store" href="/integrations/b2b-shopping-cart/">B2B Trade Store</a></li>
+<li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404 primary "><a title="shopify integration" href="/integrations/shopify/">Shopify</a></li>
+<li id="menu-item-405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405 primary "><a title="magento integration" href="/integrations/magento/">Magento</a></li>
+<li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661 primary "><a title="Woocommerce integration" href="/integrations/woo-commerce/">WooCommerce</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>Marketplace</h3>
+                            <ul id="menu-marketplace" class="list-unstyled iconList borderList"><li id="menu-item-2888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2888 primary "><a title="Takealot Integration" href="/integrations/takealot-marketplace-integration/">Takealot Marketplace</a></li>
+</ul>                            <h3>Order Fulfillment</h3>
+                            <ul id="menu-order-fulfillment" class="list-unstyled iconList borderList"><li id="menu-item-517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517 primary "><a title="parcel ninja ecommerce order fulfillment" href="/integrations/parcel-ninja/">Parcelninja</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+
+                            <h3>Keep in touch</h3>
+                            <h1 class="phone">021 813 5866</h1>
+                            <address>
+                                <p>
+                                    <a href="mailto:sales@stock2shop.com">sales@stock2shop.com</a>
+                                </p>
+                            </address>
+<!--                            <a href="/contact-us" class="btn btn-md mb15" title="Find out more">Find out more</a>-->
+
+                            <form role="form" class="form-inline newsletterForm" method="post" action="//stock2shop.us18.list-manage.com/subscribe/post?u=3185b94e8ce17eb5959652a5a&amp;id=4447c587b2">
+                                <div class="input-group">
+                                    <input type="email" name="EMAIL" placeholder="Newsletter" class="form-control input-lg" />
+                                    <div class="input-group-btn">
+                                        <input type="submit" class="btn btn-primary btn-more" value="Join" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <section id="footerRights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </footer>
+    <!-- End footer -->
+</div>
+<!-- global wrapper -->
+
+<!-- End Document 
+	================================================== -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/respond/respond.min.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/bootstrap/bootstrap.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/smooth-scroll/jquery.smooth-scroll.min.js"></script>
+
+<!-- carousel -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/owl-carousel/owl.carousel.min.js"></script>
+
+<!-- isotope -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/isotope/jquery.isotope.min.js"></script>
+
+<!--    stellar-->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.stellar.min.js"></script>
+
+<!-- form -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.validate.min.js"></script>
+
+<!-- Custom  -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/custom.js?v=1"></script>
+
+<!-- Freshchat -->
+<script>
+    window.fcWidget.init({
+        token: "4396957b-7780-4078-a6bd-2b96b00f2f16",
+        host: "https://wchat.freshchat.com"
+    });
+</script>
+
+</body>
+</html>

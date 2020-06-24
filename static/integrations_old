@@ -1,0 +1,956 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.7.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Seamless system integration between your ERP or accounting system and your e-commerce website or B2B trade store. Integrate Sage, SAP, iSync or SYSPRO with Shopify, Magento, WooCommerce, B2B and Parcelninja."/>
+<link rel="canonical" href="/integrations/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="System Integration - ERP accounting to e-commerce and B2B" />
+<meta property="og:description" content="Seamless system integration between your ERP or accounting system and your e-commerce website or B2B trade store. Integrate Sage, SAP, iSync or SYSPRO with Shopify, Magento, WooCommerce, B2B and Parcelninja." />
+<meta property="og:url" content="https://www.stock2shop.com/integrations/" />
+<meta property="og:site_name" content="Stock2Shop" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Shopify_round.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Magento_round.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/WooCommerce_logo_round.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/S2S_logo_med.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Sage-Business-Cloud-Accounting_300x300px.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Sage-Business-Cloud-Financials_300x300px.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Sage-50cloud-Pastel-Xpress_300x300px.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Sage-50cloud-Pastel-Partner_300x300px.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Sage-100-Evolution_300x300px.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Sage-200-evolution_300x300px.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Sage300cloud_300x300px.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/SAP_logo.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/isync_logo_round.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Syspro_logo_round.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/omni_logo_round.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/iq_retail_logo.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/MS_Dynamics_NAV_logo.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/Xero-logo-300x300.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/09/Dolfin_logo_square.png" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/parcelninja_logo.jpg" />
+<meta property="og:image" content="https://www.stock2shop.com/wp-content/uploads/2019/01/takealot_logo_300x300.png" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.23" />
+<link rel='shortlink' href='https://www.stock2shop.com/?p=165' />
+    <!-- Basic Page Needs
+        ================================================== -->
+    <meta charset="utf-8">
+    <title>System Integration - ERP accounting to e-commerce and B2B</title>
+    <!-- Mobile Specific Metas
+        ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+        ================================================== -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+    </style>
+    <!-- Bootstrap  -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/bootstrap.min.css">
+    <!-- web font  -->
+    <link href='//fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Owl carousel-->
+    <link rel="stylesheet" href="/wp-content/themes/stock2shop/css/owl.carousel.css">
+    <link rel="stylesheet" href="/wp-content/themes/stock2shop/css/owl.theme.css">
+    <!-- icon fonts -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/font-icons/custom-icons/css/custom-icons.css">
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/font-icons/custom-icons/css/custom-icons-ie7.css">
+    <!-- Custom css -->
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/layout.css">
+    <link type="text/css" id="colors" rel="stylesheet" href="/wp-content/themes/stock2shop/css/blue.css">
+    <link type="text/css" rel="stylesheet" href="/wp-content/themes/stock2shop/css/custom.css?v=6">
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    <script src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/modernizr-2.6.1.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-THVS7DT');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics - Migrate from analytics.js to gtag.js -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44949469-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-44949469-1');
+    </script>
+    <!--Freshchat-->
+    <script src="https://wchat.freshchat.com/js/widget.js"></script>
+    <!-- Favicons
+        ================================================== -->
+    <!-- begin application icons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/wp-content/themes/stock2shop/images/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/wp-content/themes/stock2shop/images/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/stock2shop/images/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/stock2shop/images/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/stock2shop/images/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/stock2shop/images/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/wp-content/themes/stock2shop/images/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/stock2shop/images/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/stock2shop/images/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/wp-content/themes/stock2shop/images/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/stock2shop/images/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/wp-content/themes/stock2shop/images/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/stock2shop/images/ico/favicon-16x16.png">
+    <link rel="manifest" href="/wp-content/themes/stock2shop/images/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://www.stock2shop.com/wp-content/themes/stock2shop/images/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="header1">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THVS7DT"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- globalWrapper -->
+<div id="globalWrapper" >
+    <header class="navbar-fixed-top">
+        <!-- pre header -->
+        <div id="preHeader" class="hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <!-- Quick navigation -->
+<ul id="menu-pre-header" class="quickMenu"><li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402 primary "><a title="contact stock2shop" href="/contact-us/">Contact Us</a></li>
+<li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401 primary "><a title="api documentation" href="/developers/">Developers</a></li>
+<li id="menu-item-2078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2078 primary "><a title="Glossary" href="/glossary/">Glossary</a></li>
+<li id="menu-item-2577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2577 primary "><a href="/about-us/">About Us</a></li>
+</ul>                    </div>
+                    <div class="col-xs-6">
+                        <ul id="preHeaderRight">
+                            <li>
+                                <span><i class="icon-mobile"></i>+27 (0)21 813 5866</span>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm" href="https://console.stock2shop.com/console/"><span style="color:#F7F7F7">LOGIN</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pre header -->
+
+        <!-- header -->
+        <div id="mainHeader" role="banner">
+            <div class="container">
+
+
+                <nav class="navbar navbar-default scrollMenu" role="navigation">
+
+                    <div class="navbar-header">
+                        <!-- responsive navigation -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="/">
+                            <img src="https://www.stock2shop.com/wp-content/themes/stock2shop/images/stock2shop-logo.png" alt="Stock2Shop Logo"/>
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="mainMenu">
+
+
+                        <!-- Main navigation -->
+                        <!-- Main navigation -->
+<ul id="menu-main-menu" class="nav navbar-nav pull-right"><li id="menu-item-908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-908 primary "><a title="Magento Solution and Accounting Integration" href="/solutions/" class="firstLevel">Solutions</a></li>
+<li class="sep"></li><li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407 primary "><a title="E-commerce Automation Features" href="/features/" class="firstLevel">Features</a></li>
+<li class="sep"></li><li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-165 current_page_item menu-item-410 primary "><a title="ERP Website Integration" href="/integrations/" class="firstLevel">Integrations</a></li>
+<li class="sep"></li><li id="menu-item-680" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-680 primary "><a href="/resources/" class="firstLevel">Resources</a></li>
+<li class="sep"></li><li id="menu-item-2065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2065 primary "><a title="Success Stories" href="/case-studies/" class="firstLevel">Success Stories</a></li>
+<li id="menu-contact"><a href="/contact-us/">Contact Us</a></li><li>
+            <a href="/#s2s_video_anchor" title="Video on ERP Website Integration"><button type="button" class="btn btn-sm btn-info">How It Works</button></a>
+        </li></ul>
+                                <!-- End main navigation -->
+
+
+                    </div>
+                </nav>
+
+
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+<!--<header class="page-header">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-sm-6">-->
+<!--                --><!--                    <h1>Page Not Found</h1>-->
+<!--                --><!--                    <h1>--><!--"</i></h1>-->
+<!--                --><!--                    <h1>Blog Post</h1>-->
+<!--                --><!--                    <h1>--><!--</h1>-->
+<!--                --><!--                    <h1>--><!--</h1>-->
+<!--                --><!--            </div>-->
+<!--            <div class="col-sm-6 hidden-xs">-->
+<!--                --><!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->        <section id="page">
+            <section id="content" class="mt30 pb30">
+
+                <div id="post-165" class="post-165 page type-page status-publish hentry">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<div class="container">
+
+    <h2>AUTOMATICALLY SYNC DATA BETWEEN YOUR APPLICATIONS</h2>
+
+    <p class="lead">Integrate your accounting (or ERP) system with your online sales channels using Stock2Shop. Whether you&#8217;re selling on an e-commerce website or require a trade (wholesale) store with multi-price tier functionality, we will keep your product data in sync and ensure that orders are captured automatically.</p>
+
+    <div id="navigation">
+        <button class="w3-bar-item w3-button" onclick="openGroup('All')">View All&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('ERP')">&nbsp;&nbsp;ERP / Accounting&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('ECommerce')">&nbsp;&nbsp;E-commerce&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('B2B')">&nbsp;&nbsp;B2B&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('Marketplace')">&nbsp;&nbsp;Marketplace&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('Fulfillment')">&nbsp;&nbsp;Fulfillment / Logistics</button>
+    </div>
+
+    <!--VIEW ALL -->
+
+    <div id="All" class="group">
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Shopify Integration" href="/integrations/shopify/">
+                <div class="image-container">
+                    <img alt="Shopify Integration" src="/wp-content/uploads/2019/01/Shopify_round.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Shopify</h3></a>
+            <p>Start selling today with a purpose-built and fast growing e-commerce platform that&#8217;s quick to launch and easy to use.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Magento Integration" href="/integrations/magento/">
+                <div class="image-container">
+                    <img alt="Magento Integration" src="/wp-content/uploads/2019/01/Magento_round.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Magento</h3></a>
+            <p>A powerful open-source e-commerce platform with B2B features scaled for complex data.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="WooCommerce Integration" href="/integrations/woo-commerce/">
+                <div class="image-container">
+                    <img alt="WooCommerce Integration" src="/wp-content/uploads/2019/01/WooCommerce_logo_round.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>WooCommerce</h3></a>
+            <p>An open-source e-commerce plug-in for WordPress that&#8217;s customisable and streamlined for retail.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="B2B Trade Store Integration" href="/b2b-shopping-cart/">
+                <div class="image-container">
+                    <img alt="B2B Trade Store Integration" src="/wp-content/uploads/2019/01/S2S_logo_med.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>B2B Trade Store</h3></a>
+            <p>Our very own wholesale platform and shopping cart. Manage multiple price lists as well as warehouse and product data.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage Business Cloud Accounting Integration" href="/integrations/sage-one-accounting/">
+                <div class="image-container">
+                    <img alt="Sage Business Cloud Accounting Integration" src="/wp-content/uploads/2019/01/Sage-Business-Cloud-Accounting_300x300px.jpg" style="padding:30px;">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage Business Cloud Accounting</h3></a>
+            <p>Formerly Sage One: Simple and secure online accounting software</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage Business Cloud Financials Integration" href="/integrations/sage-business-cloud-financials/">
+                <div class="image-container">
+                    <img alt="Sage Business Cloud Financials Integration" src="/wp-content/uploads/2019/01/Sage-Business-Cloud-Financials_300x300px.jpg" style="padding:30px;">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage Business Cloud Financials</h3></a>
+            <p>Formerly Sage Live: A new business management and accounting solution for growing enterprises.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 50cloud Pastel Xpress Integration" href="/integrations/sage-50cloud-pastel-xpress-formerly-sage-partner-xpress">
+                <div class="image-container">
+                    <img alt="Sage 50cloud Pastel Xpress Integration" src="/wp-content/uploads/2019/01/Sage-50cloud-Pastel-Xpress_300x300px.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 50cloud Pastel Xpress</h3></a>
+            <p>Formerly Sage Partner Xpress Advantage: Harness the power and productivity of a trusted desktop solution that integrate with Microsoft Office 365.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 50cloud Pastel Partner Integration" href="/integrations/pastel-partner/">
+                <div class="image-container">
+                    <img alt="Sage 50cloud Pastel Partner Integration" src="/wp-content/uploads/2019/01/Sage-50cloud-Pastel-Partner_300x300px.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 50cloud Pastel Partner</h3></a>
+            <p>Formerly Sage Pastel Partner: This tried and tested accounting software includes direct bank feeds and many useful cloud features to help you boost productivity.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 100 Evolution Integration" href="/integrations/sage-pastel-evolution/">
+                <div class="image-container">
+                    <img alt="Sage 100 Evolution Integration" src="/wp-content/uploads/2019/01/Sage-100-Evolution_300x300px.jpg" style="padding:10px">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 100 Evolution</h3></a>
+            <p>Formerly Sage Evolution Standard: Ideal for growing companies to manage products, orders, customers, finances and operations.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 200 Evolution Integration" href="/integrations/sage-200-evolution-formerly-sage-evolution-premium/">
+                <div class="image-container">
+                    <img alt="Sage 200 Evolution Integration" src="/wp-content/uploads/2019/01/Sage-200-evolution_300x300px.jpg" style="padding:20px">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 200 Evolution</h3></a>
+            <p>Formerly Sage Evolution Premium: Get back to basics with smart, cost-effective software for big businesses.
+            </p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 300cloud Integration" href="/integrations/sage-300cloud-formerly-sage-accpac/">
+                <div class="image-container">
+                    <img alt="Sage 300cloud Integration" src="/wp-content/uploads/2019/01/Sage300cloud_300x300px.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 300cloud</h3></a>
+            <p>A streamlined and efficient solution for small to mid-market companies with up to several hundred users.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="SAP Integration" href="/integrations/sap/">
+                <div class="image-container">
+                    <img alt="SAP Integration" src="/wp-content/uploads/2019/01/SAP_logo.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>SAP</h3></a>
+            <p>ERP software designed to streamline key processes and provide real-time information to give you greater strategic insights, fast.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="iSync Integration" href="/integrations/isync/">
+                <div class="image-container">
+                    <img alt="iSync Integration" src="/wp-content/uploads/2019/01/isync_logo_round.png">
+                </div>
+                <section class="boxContent">
+                    <h3>iSync</h3></a>
+            <p>iSync is the comprehensive ERP &#038; PLM software solution designed specifically for the apparel industry.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Syspro Integration" href="/integrations/syspro/">
+                <div class="image-container">
+                    <img alt="Syspro Integration" src="/wp-content/uploads/2019/01/Syspro_logo_round.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>Syspro</h3></a>
+            <p> SYSPRO is an independent ERP provider, taking a simplified approach to ensuring success for manufacturers and distributors.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Omni Accounts Integration" href="/integrations/omni-accounts-integration/">
+                <div class="image-container">
+                    <img alt="Omni Accounts Integration" src="/wp-content/uploads/2019/01/omni_logo_round.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Omni Accounts</h3></a>
+            <p>Omni Accounts is an “all-in-one” accounting system that delivers focused, effective enterprise resource planning and business solutions.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="iQ Retail Integration" href="/integrations/iq-retail/">
+                <div class="image-container">
+                    <img alt="iQ Retail Integration" src="/wp-content/uploads/2019/01/iq_retail_logo.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>iQ Retail</h3></a>
+            <p> IQ Retail gives you business accounting and management solutions designed to work in a retail, distributive and hospitality environment.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Microsoft Dynamics NAV Integration" href="/integrations/ms-navision-integration/">
+                <div class="image-container">
+                    <img alt="Microsoft Dynamics NAV Integration" src="/wp-content/uploads/2019/01/MS_Dynamics_NAV_logo.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Microsoft Dynamics NAV</h3></a>
+            <p>Microsoft Dynamics NAV helps SMEs and large international groups manage their accounting and finances, supply chain, and operations.</p>
+            </section>
+        </div>
+<!--
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Xero Integration" href="/integrations/xero/">
+                <div class="image-container">
+                    <img alt="Xero Integration" src="/wp-content/uploads/2019/01/Xero-logo-300x300.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Xero</h3></a>
+            <p>Cloud Accounting software with all the time-saving tools you need to grow your business.</p>
+            </section>
+        </div>
+-->
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Dolfin Integration" href="/integrations/dolfin-integration/">
+                <div class="image-container">
+                    <img alt="Dolfin Integration" src="/wp-content/uploads/2019/09/Dolfin_logo_square.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Dolfin</h3></a>
+            <p>Dolfin Point of Sale and Merchandising presents a customisable ERP solution to meet Fashion, Apparel and General Merchandise retailer’s needs.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="ParcelNinja Integration" href="/parcel-ninja/">
+                <div class="image-container">
+                    <img alt="ParcelNinja Integration" src="/wp-content/uploads/2019/01/parcelninja_logo.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>ParcelNinja</h3></a>
+            <p>Run your e-commerce business from anywhere with ParcelNinja’s scalable, outsourced warehousing and fulfillment solution.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Takealot marketplace integration" href="/takealot-marketplace-integration/">
+                <div class="image-container">
+                    <img alt="Takealot marketplace integration" src="/wp-content/uploads/2019/01/takealot_logo_300x300.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Takealot Marketplace</h3></a>
+            <p>Automatically update your important product information such as pricing, stock levels and delivery lead times on the Takealot marketplace.</p>
+            </section>
+        </div>
+
+    </div>
+
+    <!--ERP / ACCOUNTING-->
+
+    <div id="ERP" class="group" style="display:none">
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage Business Cloud Accounting Integration" href="/integrations/sage-one-accounting/">
+                <div class="image-container">
+                    <img alt="Sage Business Cloud Accounting Integration" src="/wp-content/uploads/2019/01/Sage-Business-Cloud-Accounting_300x300px.jpg" style="padding:30px;">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage Business Cloud Accounting</h3></a>
+            <p>Formerly Sage One: Simple and secure online accounting software</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage Business Cloud Financials Integration" href="/integrations/sage-business-cloud-financials/">
+                <div class="image-container">
+                    <img alt="Sage Business Cloud Financials Integration" src="/wp-content/uploads/2019/01/Sage-Business-Cloud-Financials_300x300px.jpg" style="padding:30px;">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage Business Cloud Financials</h3></a>
+            <p>Formerly Sage Live: A new business management and accounting solution for growing enterprises.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 50cloud Pastel Xpress Integration" href="/integrations/sage-50cloud-pastel-xpress-formerly-sage-partner-xpress">
+                <div class="image-container">
+                    <img alt="Sage 50cloud Pastel Xpress Integration" src="/wp-content/uploads/2019/01/Sage-50cloud-Pastel-Xpress_300x300px.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 50cloud Pastel Xpress</h3></a>
+            <p>Formerly Sage Partner Xpress Advantage: Harness the power and productivity of a trusted desktop solution that integrate with Microsoft Office 365.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 50cloud Pastel Partner Integration" href="/integrations/pastel-partner/">
+                <div class="image-container">
+                    <img alt="Sage 50cloud Pastel Partner Integration" src="/wp-content/uploads/2019/01/Sage-50cloud-Pastel-Partner_300x300px.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 50cloud Pastel Partner</h3></a>
+            <p>Formerly Sage Pastel Partner: This tried and tested accounting software includes direct bank feeds and many useful cloud features to help you boost productivity.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 100 Evolution Integration" href="/integrations/sage-pastel-evolution/">
+                <div class="image-container">
+                    <img alt="Sage 100 Evolution Integration" src="/wp-content/uploads/2019/01/Sage-100-Evolution_300x300px.jpg" style="padding:10px">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 100 Evolution</h3></a>
+            <p>Formerly Sage Evolution Standard: Ideal for growing companies to manage products, orders, customers, finances and operations.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 200 Evolution Integration" href="/integrations/sage-200-evolution-formerly-sage-evolution-premium/">
+                <div class="image-container">
+                    <img alt="Sage 200 Evolution Integration" src="/wp-content/uploads/2019/01/Sage-200-evolution_300x300px.jpg" style="padding:20px">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 200 Evolution</h3></a>
+            <p>Formerly Sage Evolution Premium: Get back to basics with smart, cost-effective software for big businesses.
+            </p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Sage 300cloud Integration" href="/integrations/sage-pastel-evolution/">
+                <div class="image-container">
+                    <img alt="Sage 300cloud Integration" src="/wp-content/uploads/2019/01/Sage300cloud_300x300px.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>Sage 300cloud</h3></a>
+            <p>A streamlined and efficient solution for small to mid-market companies with up to several hundred users.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="SAP Integration" href="/integrations/sap/">
+                <div class="image-container">
+                    <img alt="SAP Integration" src="/wp-content/uploads/2019/01/SAP_logo.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>SAP</h3></a>
+            <p>ERP software designed to streamline key processes and provide real-time information to give you greater strategic insights, fast.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="iSync Integration" href="/integrations/isync/">
+                <div class="image-container">
+                    <img alt="iSync Integration" src="/wp-content/uploads/2019/01/isync_logo_round.png">
+                </div>
+                <section class="boxContent">
+                    <h3>iSync</h3></a>
+            <p>iSync is the comprehensive ERP &#038; PLM software solution designed specifically for the apparel industry.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Syspro Integration" href="/integrations/syspro/">
+                <div class="image-container">
+                    <img alt="Syspro Integration" src="/wp-content/uploads/2019/01/Syspro_logo_round.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>Syspro</h3></a>
+            <p> SYSPRO is an independent ERP provider, taking a simplified approach to ensuring success for manufacturers and distributors.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Omni Accounts Integration" href="/integrations/omni-accounts-integration/">
+                <div class="image-container">
+                    <img alt="Omni Accounts Integration" src="/wp-content/uploads/2019/01/omni_logo_round.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Omni Accounts</h3></a>
+            <p>Omni Accounts is an “all-in-one” accounting system that delivers focused, effective enterprise resource planning and business solutions.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="iQ Retail Integration" href="/integrations/iqretail-integration/">
+                <div class="image-container">
+                    <img alt="iQ Retail Integration" src="/wp-content/uploads/2019/01/iq_retail_logo.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>iQ Retail</h3></a>
+            <p> IQ Retail gives you business accounting and management solutions designed to work in a retail, distributive and hospitality environment.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Microsoft Dynamics NAV Integration" href="/integrations/ms-navision-integration/">
+                <div class="image-container">
+                    <img alt="Microsoft Dynamics NAV Integration" src="/wp-content/uploads/2019/01/MS_Dynamics_NAV_logo.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Microsoft Dynamics NAV</h3></a>
+            <p>Microsoft Dynamics NAV helps SMEs and large international groups manage their accounting and finances, supply chain, and operations.</p>
+            </section>
+        </div>
+<!--
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Xero Integration" href="/integrations/xero/">
+                <div class="image-container">
+                    <img alt="Xero Integration" src="/wp-content/uploads/2019/01/Xero-logo-300x300.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Xero</h3></a>
+            <p>Cloud Accounting software with all the time-saving tools you need to grow your business.</p>
+            </section>
+        </div>
+-->
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Dolfin Integration" href="/integrations/dolfin-integration/">
+                <div class="image-container">
+                    <img alt="Dolfin Integration" src="/wp-content/uploads/2019/09/Dolfin_logo_square.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Dolfin</h3></a>
+            <p>Dolfin Point of Sale and Merchandising presents a customisable ERP solution to meet Fashion, Apparel and General Merchandise retailer’s needs.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="ParcelNinja Integration" href="/parcel-ninja/">
+                <div class="image-container">
+                    <img alt="ParcelNinja Integration" src="/wp-content/uploads/2019/01/parcelninja_logo.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>ParcelNinja</h3></a>
+            <p>Run your e-commerce business from anywhere with ParcelNinja’s scalable, outsourced warehousing and fulfillment solution.</p>
+            </section>
+        </div>
+    </div>
+
+    <!--Marketplace-->
+
+    <div id="Marketplace" class="group" style="display:none">
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Takealot marketplace integration" href="/takealot-marketplace-integration/">
+                <div class="image-container">
+                    <img alt="Takealot marketplace integration" src="/wp-content/uploads/2019/01/takealot_logo_300x300.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Takealot Marketplace</h3></a>
+            <p>Automatically update your important product information such as pricing, stock levels and delivery lead times on the Takealot marketplace.</p>
+            </section>
+        </div>
+    </div>
+
+    <!--B2B-->
+
+    <div id="B2B" class="group" style="display:none">
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="B2B Trade Store Integration" href="/b2b-shopping-cart/">
+                <div class="image-container">
+                    <img alt="B2B Trade Store Integration" src="/wp-content/uploads/2019/01/S2S_logo_med.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>B2B Trade Store</h3></a>
+            <p>Our very own wholesale platform and shopping cart. Manage multiple price lists as well as warehouse and product data.</p>
+            </section>
+        </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Magento Integration" href="/integrations/magento/">
+                <div class="image-container">
+                    <img alt="Magento Integration" src="/wp-content/uploads/2019/01/Magento_round.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Magento</h3></a>
+            <p>A powerful open-source e-commerce platform with B2B features scaled for complex data.</p>
+            </section>
+        </div>
+    </div>
+
+
+    <!--ECOMMERCE-->
+
+    <div id="ECommerce" class="group" style="display:none">
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Shopify Integration" href="/integrations/shopify/">
+                <div class="image-container">
+                    <img alt="Shopify Integration" src="/wp-content/uploads/2019/01/Shopify_round.png">
+                </div>
+                <section class="boxContent">
+                    <h3>Shopify</h3></a>
+            <p>Start selling today with a purpose-built and fast growing e-commerce platform that&#8217;s quick to launch and easy to use.</p>
+            </section>
+        </div>
+
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="Magento Integration" href="/integrations/magento/">
+            <div class="image-container">
+                <img alt="Magento Integration" src="/wp-content/uploads/2019/01/Magento_round.png">
+            </div>
+            <section class="boxContent">
+                <h3>Magento</h3></a>
+            <p>A powerful open-source e-commerce platform with B2B features scaled for complex data.</p>
+            </section>
+
+    </div>
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="WooCommerce Integration" href="/integrations/woo-commerce/">
+                <div class="image-container">
+                    <img alt="WooCommerce Integration" src="/wp-content/uploads/2019/01/WooCommerce_logo_round.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>WooCommerce</h3></a>
+            <p>An open-source e-commerce plug-in for WordPress that&#8217;s customisable and streamlined for retail.</p>
+            </section>
+
+        </div>
+    </div>
+
+    <!--FULFILLMENT-->
+
+    <div id="Fulfillment" class="group" style="display:none">
+        <div class="col-xxs-12 col-xs-6 col-md-3">
+            <a title="ParcelNinja Integration" href="/parcel-ninja/">
+                <div class="image-container">
+                    <img alt="ParcelNinja Integration" src="/wp-content/uploads/2019/01/parcelninja_logo.jpg">
+                </div>
+                <section class="boxContent">
+                    <h3>ParcelNinja</h3></a>
+            <p>Run your e-commerce business from anywhere with ParcelNinja’s scalable, outsourced warehousing and fulfillment solution.</p>
+            </section>
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function openGroup(groupName) {
+        var i;
+        var x = document.getElementsByClassName("group");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(groupName).style.display = "block";
+    }
+</script>
+
+<style>
+    .group img {
+        width: 100%;
+        max-height: 281px;
+        max-width: 281px;
+    }
+    .image-container {
+        border: 1px solid #ededed;
+        max-height: 285px;
+        text-align: center;
+        /*box-shadow: 3px 3px 5px 0px #c8c7c7;*/
+    }
+    .image-container:hover {
+        box-shadow: 2px 2px 2px #c8c7c7;
+        transform: scale(1.005);
+        transition: transform 0.1s;
+    }
+    .col-md-2 {
+        margin-bottom: 40px;
+    }
+    .group p {
+        /*text-align: center;*/
+        color:#777;
+    }
+    /*.group h3:hover{*/
+    /*color: red;*/
+    /*}*/
+    #navigation {
+        margin-bottom:30px;
+        margin-top:30px;
+        text-align: center;
+        color: #c3c3c3;
+    }
+    #navigation button {
+        color: #c3c3c3;
+    }
+    .group a {
+        text-decoration: none !important;
+    }
+    .group:not(#All) {
+        -webkit-animation: fadeEffect 0.2s;
+        animation: fadeEffect 0.2s;
+    }
+    .boxContent {
+        min-height: 250px;
+    }
+    #navigation button:hover {
+        color:#333;
+    }
+
+    /* Fade in tabs */
+    @-webkit-keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    @keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+</style>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- end content -->
+        </section>
+        <!-- end page -->
+        <!-- footer -->
+    <footer id="footerWrapper" class="footer4">
+        <section id="mainFooter">
+            <div class="container">
+<!--                <div class="row footerCTA">-->
+<!--                    <div id="trial-form-response"></div>-->
+<!--                    <div class="col-sm-2">-->
+<!--                        <h3>Free 30 Day Trial</h3>-->
+<!--                        No credit card required-->
+<!--                    </div>-->
+<!--                    <div class="col-sm-10">-->
+<!--                        <form class="form-inline" role="form" id="trialfrm" method="post" action="--><!--">-->
+<!--                            <input type="hidden" class="BotCheck" name="botCheck" value="">-->
+<!--                            <input type="hidden" name="subject" value="Stock2Shop Free Trial Inquiry">-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <input type="text" name="name" class="form-control input-lg" placeholder="Enter Name">-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <input type="email" name="email" class="form-control input-lg" placeholder="Enter Email">-->
+<!--                            </div>-->
+<!--                            <div class="col-sm-4">-->
+<!--                                <button type="submit" class="btn btn-info">Get Started Now</button>-->
+<!--                            </div>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-sm-12">-->
+<!--                        <hr>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-sm-12">-->
+<!--                        <h2>Manage inventory across multiple sales channels with Stock2Shop</h2>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>ERP / Accounting</h3>
+                            <ul id="menu-erp-accounting-systems" class="list-unstyled iconList borderList"><li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556 primary "><a title="Sage Accounting Integration" href="/integrations/sage-one-accounting/">Sage Business Cloud Accounting (Sage One)</a></li>
+<li id="menu-item-2247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2247 primary "><a title="Sage Business Cloud Financials Integration" href="/integrations/sage-business-cloud-financials/">Sage Business Cloud Financials (Sage Live)</a></li>
+<li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420 primary "><a title="Sage Pastel Partner Inventory" href="/integrations/pastel-partner/">Sage 50cloud Pastel Partner (Pastel Partner)</a></li>
+<li id="menu-item-3762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3762 primary "><a href="/integrations/sage-50cloud-pastel-xpress-formerly-sage-partner-xpress/">Sage 50cloud Pastel Xpress (Partner Xpress)</a></li>
+<li id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419 primary "><a title="Sage Pastel Evolution Inventory" href="/integrations/sage-pastel-evolution/">Sage 100 Evolution (Evolution Standard)</a></li>
+<li id="menu-item-3765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3765 primary "><a href="/integrations/sage-200-evolution-formerly-sage-evolution-premium/">Sage 200 Evolution (Evolution Premium)</a></li>
+<li id="menu-item-3764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3764 primary "><a href="/integrations/sage-300cloud-formerly-sage-accpac/">Sage 300cloud (formerly Sage Accpac)</a></li>
+<li id="menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150 primary "><a title="SAP Business One Integration" href="/integrations/sap/">SAP Business One</a></li>
+<li id="menu-item-2246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2246 primary "><a title="iSync Solution Integration" href="/integrations/isync/">iSync Solutions</a></li>
+<li id="menu-item-1151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1151 primary "><a title="SYSPRO Integration" href="/integrations/syspro/">SYSPRO</a></li>
+<li id="menu-item-2688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2688 primary "><a title="Omni Accounts Integration" href="/integrations/omni-accounts-integration/">Omni Accounts</a></li>
+<li id="menu-item-3219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3219 primary "><a href="/integrations/iq-retail/">iQ Retail</a></li>
+<li id="menu-item-3220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3220 primary "><a href="/integrations/ms-navision-integration/">Microsoft Dynamics NAV</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>E-Commerce</h3>
+                            <ul id="menu-sales-channels" class="list-unstyled iconList borderList"><li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403 primary "><a title="b2b trade store" href="/integrations/b2b-shopping-cart/">B2B Trade Store</a></li>
+<li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-404 primary "><a title="shopify integration" href="/integrations/shopify/">Shopify</a></li>
+<li id="menu-item-405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405 primary "><a title="magento integration" href="/integrations/magento/">Magento</a></li>
+<li id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661 primary "><a title="Woocommerce integration" href="/integrations/woo-commerce/">WooCommerce</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+                            <h3>Marketplace</h3>
+                            <ul id="menu-marketplace" class="list-unstyled iconList borderList"><li id="menu-item-2888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2888 primary "><a title="Takealot Integration" href="/integrations/takealot-marketplace-integration/">Takealot Marketplace</a></li>
+</ul>                            <h3>Order Fulfillment</h3>
+                            <ul id="menu-order-fulfillment" class="list-unstyled iconList borderList"><li id="menu-item-517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517 primary "><a title="parcel ninja ecommerce order fulfillment" href="/integrations/parcel-ninja/">Parcelninja</a></li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footerWidget">
+
+                            <h3>Keep in touch</h3>
+                            <h1 class="phone">021 813 5866</h1>
+                            <address>
+                                <p>
+                                    <a href="mailto:sales@stock2shop.com">sales@stock2shop.com</a>
+                                </p>
+                            </address>
+<!--                            <a href="/contact-us" class="btn btn-md mb15" title="Find out more">Find out more</a>-->
+
+                            <form role="form" class="form-inline newsletterForm" method="post" action="//stock2shop.us18.list-manage.com/subscribe/post?u=3185b94e8ce17eb5959652a5a&amp;id=4447c587b2">
+                                <div class="input-group">
+                                    <input type="email" name="EMAIL" placeholder="Newsletter" class="form-control input-lg" />
+                                    <div class="input-group-btn">
+                                        <input type="submit" class="btn btn-primary btn-more" value="Join" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <section id="footerRights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </footer>
+    <!-- End footer -->
+</div>
+<!-- global wrapper -->
+
+<!-- End Document 
+	================================================== -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/respond/respond.min.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery-ui/jquery-ui-1.8.23.custom.min.js"></script>
+<!-- third party plugins  -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/bootstrap/bootstrap.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/easing/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/smooth-scroll/jquery.smooth-scroll.min.js"></script>
+
+<!-- carousel -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/owl-carousel/owl.carousel.min.js"></script>
+
+<!-- isotope -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/isotope/jquery.isotope.min.js"></script>
+
+<!--    stellar-->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.stellar.min.js"></script>
+
+<!-- form -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/externals/jquery/jquery.validate.min.js"></script>
+
+<!-- Custom  -->
+<script type="text/javascript" src="https://www.stock2shop.com/wp-content/themes/stock2shop/js/custom.js?v=1"></script>
+
+<!-- Freshchat -->
+<script>
+    window.fcWidget.init({
+        token: "4396957b-7780-4078-a6bd-2b96b00f2f16",
+        host: "https://wchat.freshchat.com"
+    });
+</script>
+
+</body>
+</html>
