@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+
+<!-- TODO Only load stylesheets specific to the theme -->
+
+    {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+    {{ end }}
+</head>
+<body>
+<header id="headerWiki">
+    Wiki
+</header>
+</body>
+</html>

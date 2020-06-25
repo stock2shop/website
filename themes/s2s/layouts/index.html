@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
-{{ partial "header_bak.html" . }}
-
-<h1><a href="/post/first">Documentation</a></h1>
-    <h1>Pages</h1>
-    {{ range .Data.Pages }}
-        {{ if eq .Type "page" }}
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        {{ end }}
-    {{ end }}
+{{ partial "header.html" . }}
+{{ range .Data.Pages }}
+{{ if eq .Type "page" }}
+<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+{{ end }}
+{{ end }}
+<h2><a href="/documentation">Documentation</a></h2>
 </body>
 </html>
