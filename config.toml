@@ -4,7 +4,7 @@ title = "Stock2Shop"
 theme = ["stock2shop_website", "s2s", "s2s_wiki"]
 [params]
   site_logo = "/images/stock2shop-logo.png"
-  custom_css = ["css/custom.css","css/custom2.css"]
+  custom_css = ["css/custom.css", "css/custom2.css", "css/style.css"]
 
 [markup.goldmark.renderer]
 unsafe = true

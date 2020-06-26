@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+</head>
+<body>
+{{ partial "headerWiki.html" . }}
+<h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ partial "sidebar.html" . }}
+<!--    {{ range .Site.RegularPages }}-->
+<!--        {{ if eq .Type "documentation"}}-->
+<!--        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>-->
+<!--        {{ end }}-->
+<!--    {{ end }}-->
+{{ partial "footer.html" . }}
+</body>
+</html>
