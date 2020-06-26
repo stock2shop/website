@@ -1,3 +1,3 @@
 ---
-pageTemplate: "integrations"
+pageTemplate: "integrations-page"
 ---

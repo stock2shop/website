@@ -1,7 +1,22 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Stock2Shop"
-theme = ["s2s_2","s2s","s2s_wiki"]
+theme = ["s2s_2"]
 [params]
   site_logo = "/images/stock2shop-logo.png"
   custom_css = ["css/custom.css","css/custom2.css"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
