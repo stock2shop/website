@@ -13,12 +13,18 @@
     {{- template "_internal/pagination.html" . -}}
   </article> -->
 
+<!-- use page template is specified, else use default -->
+{{ if isset .Params.pageTemplate }}
+  {{- partial .Params.pageTemplate . -}}
+{{ else }}
+  {{- partial "integrations-page" . -}}
+{{ end }} 
 
-{{ if eq .Params.pageTemplate "integrations" }}
+<!-- {{ if eq .Params.pageTemplate "integrations" }}
     {{- partial "integrations-page" . -}}
 {{ else }}
   <h1>Listing. Invalid layout: {{ .Params.pageTemplate }}</h1>
-{{ end }}
+{{ end }} -->
 
 
 {{ end }}
