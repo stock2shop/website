@@ -10,7 +10,7 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 
 ## Key Terms
 - Draft: Drafts do not get deployed; once you finish a post, update the header of the post to say draft: false
-- Front matter: Post meta data as shown below
+- Front matter: Page meta data as shown below
 ```
 title: "What are the requirements for Stock2Shop Software (APIFACT)?"
 date: 2020-03-31T14:13:36+02:00
