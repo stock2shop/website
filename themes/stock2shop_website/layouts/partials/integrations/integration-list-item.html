@@ -1,10 +1,12 @@
-<div>
+
+<div class="col-xxs-12 col-xs-6 col-md-3">
     <a title="{{ .Title }}" href="{{ .Permalink }}">
-        <div>
+        <div class="image-container">
             <img alt="{{ .Title }}" src="{{ .Params.integrationImage }}">
         </div>
-        <section>
-            <h3>{{ .Params.name }}</h3></a>
-    <p>{{ .Params.description }}</p>
-    </section>
+        <section class="boxContent">
+            <h3>{{ .Params.name }}</h3>
+            <p>{{ .Params.description }}</p>
+        </section>
+    </a>
 </div>

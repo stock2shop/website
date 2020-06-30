@@ -47,7 +47,7 @@ There are two ways to add menus:
 - static/css are cached in the browser
 
 # Themes
-## `Stock2shop_website` theme
+## Stock2shop_website theme
 This is the theme for the main site.
 
 # Managing Content
@@ -72,7 +72,7 @@ Taxonomies need to be specified in the 'config.toml' file before being used in t
 [taxonomies]
   category = "categories"
   integration = "integrations"
-  integration-doc = "integration-docs"
+  integration doc = "integration docs"
   tag = "tags"
 ```
 

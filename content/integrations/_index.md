@@ -1,9 +1,10 @@
 ---
 pageTemplate: "empty"
 kind: "list"
+type: "integrations"
 
-listingType: "integrations"
-listingTemplate: "integrations/integration-list-item"
+#ListingType: "integrations"
+#listingTemplate: "integrations/integration-list-item"
 ---
 ## AUTOMATICALLY SYNC DATA BETWEEN YOUR APPLICATIONS
 

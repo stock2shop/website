@@ -1,5 +1,30 @@
-<h1>Integrations single</h1>
-{{ .Kind }}
-{{ .Type }}
-{{ .Content }}
-{{- partial "integrations/integration-platform-list" . -}}
+<h2>{{ .Params.headingTitle }}</h2>
+<img src="{{ .Params.leadImage }}" class="img-responsive" alt="{{ .Params.name }}" >
+<br /><br />
+
+<p class="lead">{{ .Params.leadText }}</p>
+
+<hr />
+
+<h3>ERP / Accounting systems:</h3>
+
+<!-- TODO: Populate content -->
+<h3>Find out more about {{ .Params.name | title }} integrations:</h3>
+
+<h1>{{ .Title }}</h1>
+{{ $type := "integration-docs" }}
+{{ $tags := $.Param "integrations" }}
+<ul>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+        {{ if eq $type $taxonomyname }}
+            {{ range $key, $value := $taxonomy }}
+                {{ range $value.Pages }}
+                    {{ $intersects := intersect .Params.tags $tags }}
+                    {{ if( or (eq $tags nil) (gt (len $intersects) 0) ) }}
+                        {{- partial "integrations/integration-doc-list-item" . -}}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</ul>

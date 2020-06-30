@@ -1,5 +1,53 @@
-<h1>Integrations list</h1>
-{{ .Kind }}
-{{ .Type }}
+<head>
+    <!-- Bootstrap  -->
+    <link type="text/css" rel="stylesheet" href="https://www.stock2shop.com/wp-content/themes/stock2shop/css/bootstrap.min.css">
+    <!-- Custom css -->
+    <link type="text/css" rel="stylesheet" href="https://www.stock2shop.com/wp-content/themes/stock2shop/css/layout.css">
+    <link type="text/css" id="colors" rel="stylesheet" href="https://www.stock2shop.com/wp-content/themes/stock2shop/css/blue.css">
+    <link type="text/css" rel="stylesheet" href="https://www.stock2shop.com/wp-content/themes/stock2shop/css/custom.css?v=6">
+    
+    <style>
+    .group img {
+        width: 100%;
+        max-height: 281px;
+        max-width: 281px;
+    }
+    .image-container {
+        border: 1px solid #ededed;
+        max-height: 285px;
+        text-align: center;
+        /* box-shadow: 3px 3px 5px 0px #c8c7c7; */
+    }
+    </style>
+</head>
+<body>
+<h1>{{ .Title }}</h1>
 {{ .Content }}
-{{- partial "integrations/integration-platform-list" . -}}
+
+<!-- list integrations -->
+{{ $type := "integrations" }}
+{{ $tags := .Params.integrations }}
+{{ $taxonomy := (index .Site.Taxonomies $type) }}
+
+<div class="group">
+    {{ range $key, $value := $taxonomy }}
+        {{ range $value.Pages }}
+            {{ $intersects := intersect .Params.tags $tags }}
+            {{ if( or (eq $tags nil) (gt (len $intersects) 0) ) }}
+                <div class="col-xxs-12 col-xs-6 col-md-3">
+                    <a title="{{ .Title }}" href="{{ .Permalink }}">
+                        <div class="image-container">
+                            <img alt="{{ .Title }}" src="{{ .Params.image }}">
+                        </div>
+                        <section class="boxContent">
+                            <h3>{{ .Params.name }}</h3></a>
+                            <p>{{ .Params.description }}</p>
+                    </section>
+                </div>
+
+                <!-- {{- partial "integrations/integration-list-item" . -}} -->
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</div>
+</body>

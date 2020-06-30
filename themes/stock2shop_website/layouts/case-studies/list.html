@@ -1,0 +1,29 @@
+<h1>Our Clients</h1>
+<p class="lead"><strong>You’re in good company</strong>. Many top importers, wholesalers and distributors trust us to integrate
+their online businesses into their existing ERP and accounting systems. The result? More time. Less headache. More
+revenue. Here are a few of our clients, telling their success stories. Here&#8217;s how they streamlined their workflow, simplified their ordering processes and increased their revenue by integrating with Stock2Shop.</p>
+
+
+<hr />
+
+<h2>Success Stories</h2>
+<section class="case-studies"><div class="row">
+{{ range .Pages }}
+    <article class="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <section>
+            <a href="{{ .Permalink }}">
+                <img title="{{ .Params.imageTitle }}" class="img-responsive imgBorder" title="" src="{{ .Params.image }}" alt="Omnico"/>
+            </a>
+        </section>
+        <section class="boxContent">
+            <h3>{{ .Title }}</h3>
+            <p>
+                {{ .Params.description }} <strong>{{ .Params.sucessSlug }}</strong>
+            </p>
+            <a title="{{ .Params.imageTitle }}" href="{{ .Permalink }}" onclick="gtag('event', 'click', {'event_category': 'Links','event_label': 'Read More'});">Read more</a>
+
+        </section>
+    </article>
+{{ end }}
+</div>
+</section>

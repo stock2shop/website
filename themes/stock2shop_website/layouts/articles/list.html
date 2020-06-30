@@ -1,0 +1,20 @@
+<h1>Articles</h1>
+<p class="lead">Take a look at our helpful library of e-commerce articles: giving you the information you need to work smarter, not harder. You&#8217;ll find articles on everything from B2B and B2C to product data, supply chain integration, order fulfillment and more.</p>
+
+<div class="row">
+    {{ range .Pages }}
+        <!-- article Begin-->
+        <article class="col-md-4 mb15">
+            <section class="imgWrapper noMargin">
+                <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="img-responsive" alt="{{ .Params.imageAltText }}"></a>
+            </section>
+
+            <section class="newsText color1">
+                <h3>{{ .Title }}</h3>
+                <h4 class="date">{{ .Params.date.Format "January 2 2006" }}</h4>
+                <p>{{ .Params.description }}</p>
+                <a href="{{ .Permalink }}" class="btn btn-sm btn-primary btn-more"><i class="icon-right-open-mini"></i>read more</a>
+            </section>
+        </article>
+    {{ end }}
+</div>
