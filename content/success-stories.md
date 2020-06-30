@@ -1,10 +1,7 @@
 ---
-title: "Sage Business Cloud Accounting"
-description: ""
-menu:
-  docside:
-    parent: 'Getting Started'
-    weight: 1
+title: "Success Stories"
+description: "You’re in good company. Many top importers, wholesalers and distributors trust us to integrate their online businesses into their existing ERP and accounting systems. The result? More time. Less headache. More revenue. Here are a few of our clients, telling their success stories. Here’s how they streamlined their workflow, simplified their ordering processes and increased their revenue by integrating with Stock2Shop."
+weight: 5
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis id mi eu maximus. Proin in commodo purus, quis placerat sapien. Vivamus magna dolor, tincidunt quis mollis at, venenatis aliquet magna. Mauris sit amet faucibus lacus, eget viverra justo. Phasellus dignissim ante leo, nec elementum libero tristique nec. Ut dictum est mattis ultrices condimentum. Pellentesque gravida velit nibh, nec condimentum dolor pharetra id. Proin ultrices mauris nec sapien eleifend tincidunt. Curabitur sit amet mi nec nulla lobortis maximus. Nunc vitae velit at elit ornare lacinia. Praesent sit amet rutrum magna, sed pretium metus.
 

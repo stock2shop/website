@@ -9,7 +9,6 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 - View in your browser with http://localhost:1313/
 
 ## Key Terms
-- Draft: Drafts do not get deployed; once you finish a post, update the header of the post to say draft: false
 - Front matter: Page meta data as shown below
 ```
 title: "What are the requirements for Stock2Shop Software (APIFACT)?"
@@ -19,6 +18,10 @@ menu: "main"
 ```
 - Section:
 - Type:
+- Identifier:
+- Site Variable:
+- Page Variable:
+- Draft: Drafts do not get deployed; once you finish a post, update the header of the post to say draft: false
 
 ## Images
 To add image in markdown use below syntax and save image in the static directory
@@ -37,10 +40,13 @@ There are two ways to add menus:
 
 ## General Commands
 - Start Hugo server with drafts enabled:  
-```hugo server -D```
-- Create new documentation page
+```hugo server -D```  
+```hugo``` command build / compile the site  
+```server``` command let the site run from the memory  
+```-D``` flag include draft pages
+- Create new documentation page  
 ```hugo new documentation/pagename.md```
-- Build static pages and output to ```./public/```  
+- Build static pages and compile in public  
 ```hugo -D```
 
 ## Notes

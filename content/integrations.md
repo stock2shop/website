@@ -1,10 +1,7 @@
 ---
-title: "Sage Business Cloud Accounting"
-description: ""
-menu:
-  docside:
-    parent: 'Getting Started'
-    weight: 1
+title: "Integrations"
+description: "Integrate your accounting (or ERP) system with your online sales channels using Stock2Shop. Whether you’re selling on an e-commerce website or require a trade (wholesale) store with multi-price tier functionality, we will keep your product data in sync and ensure that orders are captured automatically."
+weight: 3
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis id mi eu maximus. Proin in commodo purus, quis placerat sapien. Vivamus magna dolor, tincidunt quis mollis at, venenatis aliquet magna. Mauris sit amet faucibus lacus, eget viverra justo. Phasellus dignissim ante leo, nec elementum libero tristique nec. Ut dictum est mattis ultrices condimentum. Pellentesque gravida velit nibh, nec condimentum dolor pharetra id. Proin ultrices mauris nec sapien eleifend tincidunt. Curabitur sit amet mi nec nulla lobortis maximus. Nunc vitae velit at elit ornare lacinia. Praesent sit amet rutrum magna, sed pretium metus.
 

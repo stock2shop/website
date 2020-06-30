@@ -1,10 +1,7 @@
 ---
-title: "Sage Business Cloud Accounting"
-description: ""
-menu:
-  docside:
-    parent: 'Getting Started'
-    weight: 1
+title: "Resources"
+description: "How can we help you? We’ve put together all the helpful resources and information we think you’ll need to streamline your workflow. Still have questions? Please contact us, we’d love to answer them."
+weight: 4
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis id mi eu maximus. Proin in commodo purus, quis placerat sapien. Vivamus magna dolor, tincidunt quis mollis at, venenatis aliquet magna. Mauris sit amet faucibus lacus, eget viverra justo. Phasellus dignissim ante leo, nec elementum libero tristique nec. Ut dictum est mattis ultrices condimentum. Pellentesque gravida velit nibh, nec condimentum dolor pharetra id. Proin ultrices mauris nec sapien eleifend tincidunt. Curabitur sit amet mi nec nulla lobortis maximus. Nunc vitae velit at elit ornare lacinia. Praesent sit amet rutrum magna, sed pretium metus.
 

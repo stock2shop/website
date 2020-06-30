@@ -1,11 +1,11 @@
 <!-- sidebar start -->
-<aside>
+<aside id="docSide">
     <ul>
         {{ $currentPage := . }}
         {{ range .Site.Menus.docside }}
         {{ if .HasChildren }}
         <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-        <a href="#">
+        <a href="{{ .URL }}">
             {{ .Pre }}
             <span>{{ .Name }}</span>
         </a>

@@ -2,13 +2,21 @@
 <html>
 <head>
     <title>{{ .Title }}</title>
+    {{ partial "head.html" . }}
 </head>
 <body>
-    {{ partial "headerWiki.html" . }}
-    <h1>{{ .Title }}</h1>
-    <h2>{{ .Description }}</h2>
+{{ partial "headerWiki.html" . }}
+<h2 class="p-3">{{ .Title }}</h2>
+<!--    {{ .Description }}-->
+<div class="content-container">
     {{ partial "sidebar.html" . }}
-    {{ .Content }}
-    {{ partial "footer.html" . }}
+    <div class="pr-5">{{ .Content }}</div>
+    <!--    {{ range .Site.RegularPages }}-->
+    <!--        {{ if eq .Type "documentation"}}-->
+    <!--        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>-->
+    <!--        {{ end }}-->
+    <!--    {{ end }}-->
+</div>
+{{ partial "footer.html" . }}
 </body>
 </html>

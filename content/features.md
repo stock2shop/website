@@ -1,10 +1,7 @@
 ---
-title: "Sage Business Cloud Accounting"
-description: ""
-menu:
-  docside:
-    parent: 'Getting Started'
-    weight: 1
+title: "Features"
+description: "Stock2Shop is an efficient way to integrate your ERP or accounting system and your sales channels seamlessly. Our e-commerce integration automates your data syncing so you can spend time doing what you do best: growing your business."
+weight: 2
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis id mi eu maximus. Proin in commodo purus, quis placerat sapien. Vivamus magna dolor, tincidunt quis mollis at, venenatis aliquet magna. Mauris sit amet faucibus lacus, eget viverra justo. Phasellus dignissim ante leo, nec elementum libero tristique nec. Ut dictum est mattis ultrices condimentum. Pellentesque gravida velit nibh, nec condimentum dolor pharetra id. Proin ultrices mauris nec sapien eleifend tincidunt. Curabitur sit amet mi nec nulla lobortis maximus. Nunc vitae velit at elit ornare lacinia. Praesent sit amet rutrum magna, sed pretium metus.
 

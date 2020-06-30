@@ -6,17 +6,33 @@ body {
 
 /*HEADER*/
 
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+#header li {
+    float: left;
+}
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
 #header {
     background: #333;
     line-height: 40px;
+    padding: 10px;
     color: darkgrey;
 }
 #headerWiki {
     background: #e93e34;
     line-height: 40px;
-}
-#headerWiki a {
-    color: black;
 }
 
 /*CONTENT*/
