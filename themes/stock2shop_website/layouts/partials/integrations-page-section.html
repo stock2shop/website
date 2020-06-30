@@ -1,0 +1,51 @@
+
+
+<section id="page">
+            <section id="content" class="mt30 pb30">
+
+                <div id="post-165" class="post-165 page type-page status-publish hentry">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<div class="container">
+
+    <h2>AUTOMATICALLY SYNC DATA BETWEEN YOUR APPLICATIONS</h2>
+
+    <p class="lead">Integrate your accounting (or ERP) system with your online sales channels using Stock2Shop. Whether you&#8217;re selling on an e-commerce website or require a trade (wholesale) store with multi-price tier functionality, we will keep your product data in sync and ensure that orders are captured automatically.</p>
+
+    <div id="navigation">
+        <button class="w3-bar-item w3-button" onclick="openGroup('All')">View All&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('ERP')">&nbsp;&nbsp;ERP / Accounting&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('ECommerce')">&nbsp;&nbsp;E-commerce&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('B2B')">&nbsp;&nbsp;B2B&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('Marketplace')">&nbsp;&nbsp;Marketplace&nbsp;&nbsp;&nbsp;</button>|
+        <button class="w3-bar-item w3-button" onclick="openGroup('Fulfillment')">&nbsp;&nbsp;Fulfillment / Logistics</button>
+    </div>
+
+    <!--VIEW ALL -->
+
+    <div id="All" class="group">
+        {{ $paginator := .Paginate (where .Pages "Dir" "integrations/") }}
+        {{ template "_internal/pagination.html" . }}
+        {{ range .Paginator.Pages }}
+        <div class="relative w-100 w-30-l mb4 bg-white">
+            {{- partial "summary.html" . -}}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+    <!-- end content -->
+</section>
+        <!-- end page -->
+        <!-- footer -->
+  

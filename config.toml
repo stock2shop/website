@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Stock2Shop"
-theme = ["stock2shop_website", "s2s", "s2s_wiki"]
+theme = ["stock2shop_website", "s2s"]
 [params]
   site_logo = "/images/stock2shop-logo.png"
   custom_css = ["css/custom.css", "css/custom2.css", "css/style.css"]
@@ -20,3 +20,9 @@ unsafe = true
     noClasses = true
     style = "monokai"
     tabWidth = 4
+
+[taxonomies]
+  category = "categories"
+  integration = "integrations"
+  integration-doc = "integration-docs"
+  tag = "tags"

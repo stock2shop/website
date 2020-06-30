@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{if eq .Params.pageTemplate "integration-single" }}
+<!-- {{if eq .Params.pageTemplate "integration-single" }}
     {{- partial "integration-single" . -}}
 {{else if eq .Params.pageTemplate "integration-doc" }}
     {{- partial "integration-doc" . -}}
@@ -8,6 +8,12 @@
     {{- partial "empty" . -}}
 {{ else }}
   <h1>Single page. Invalid layout: {{ .Params.pageTemplate }}</h1>
-{{ end }}
+{{ end }} -->
+
+{{ if ne .Params.pageTemplate nil }}
+  {{- partial .Params.pageTemplate . -}}
+{{ else }}
+  {{- partial "default-template" . -}}
+{{ end }} 
 
 {{ end }}

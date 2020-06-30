@@ -1,0 +1,19 @@
+
+<section>
+    <!-- list integrations -->
+    {{ $type := .Get "type" }}
+    {{ $tag := .Get "tags" }}
+    <ul>
+        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+            {{ if eq $type $taxonomyname }}
+                {{ range $key, $value := $taxonomy }}
+                    {{ range $value.Pages }}
+                        {{ if( or (eq $tag "") (in .Params.tags $tag) ) }}
+                            <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a></li>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </ul>
+</section>

@@ -1,0 +1,52 @@
+<style>
+#layoutTable{
+    border-spacing: 0;
+}
+#layoutTable td{
+    vertical-align: top;
+    width: 50%;    
+}
+#layoutTable tr:nth-child(odd){
+    background: #F7F7F7;
+}
+</style>
+<div id="wrapper1"></div>
+<script>
+var wrapper1 = document.getElementById("wrapper1");
+
+var content = `{{ .Content }}`;
+var parser = new DOMParser();
+var doc = parser.parseFromString(content,"text/html");
+
+var groups = [];
+var curElement = document.createElement("DIV");
+wrapper1.appendChild(curElement);
+
+[...doc.body.childNodes].forEach(item => {
+    if(item.tagName != null){
+        if(item.tagName == "H2" && item.tagName.length == 2){
+            console.log(item);
+            curElement = document.createElement("DIV");
+            
+            groups.push(curElement);
+        }
+        curElement.appendChild(item);
+    }
+});
+var table = document.createElement("TABLE");
+table.id = "layoutTable";
+var tr;
+
+wrapper1.appendChild(table);
+
+groups.forEach((item, index) => {
+    if(index % 2 == 0 ){
+        tr = document.createElement("TR");
+        table.appendChild(tr);
+    }
+    td = document.createElement("TD");
+    tr.appendChild(td);
+
+    td.appendChild(item);
+});
+</script>

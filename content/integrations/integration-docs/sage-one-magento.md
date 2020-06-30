@@ -1,16 +1,40 @@
 ---
-pageTemplate: "integration-doc"
+pageTemplate: "empty"
+type: "integration-docs"
+
+#taxomimy
+categories:
+- integration-docs
+integration-docs:
+- sage-one-magento
+tags:
+- integration
+- magento
+- sage one
+- sage one magento
+title: 'Sage Business Cloud Accounting Magento Integration'
+
+
+comment: "
+Integration              <- Taxonomy
+    Magento              <- Term
+        Magento Sage     <- Value
+        etc              <- Value       
+    Shopify              <- Term
+        Shopify Sage     <- Value
+        etc              <- Value"
+
+lead: "If Sage Business Cloud Accounting (formerly Sage One) is your ERP and you’re running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. A Sage Business Cloud Accounting Magento integration ensures a seamless e-commerce experience.
+
+Here’s what you’ll be able to do:"
 ---
-{{< integration-doc-lead >}}
 # SAGE BUSINESS CLOUD ACCOUNTING MAGENTO INTEGRATION
 
 If Sage Business Cloud Accounting (formerly Sage One) is your ERP and you’re running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. A Sage Business Cloud Accounting Magento integration ensures a seamless e-commerce experience.
 
 Here’s what you’ll be able to do:
-{{< /integration-doc-lead >}}
 
-{{% integration-doc-row %}}
-{{% integration-doc-col %}}
+
 ## SYNC INVENTORY DATA
 
 You can sync your product information from Sage Business Cloud Accounting (formerly Sage One) to Magento with ease – and with no risk of human error.
@@ -26,5 +50,3 @@ If you have variations in your products (e.g. one cap that comes in multiple siz
 - If you’ve set up multiple stores, you can choose which store to sync to, and when.
 - With nine user defined fields and infinite price lists on Sage Business Cloud Accounting, as well as the option for multi-currency sales, your ERP is the brain of your business. Once we’ve integrated it with your Magento e-commerce website, you can be sure that all the necessary data is in the right place, without the risk of human error.
 
-{{% /integration-doc-col %}}
-{{% /integration-doc-row %}}
