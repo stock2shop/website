@@ -21,6 +21,7 @@ menu: "main"
 - Identifier:
 - Site Variable:
 - Page Variable:
+- Shortcode: A piece of HTML used in a markdown file
 - Draft: Drafts do not get deployed; once you finish a post, update the header of the post to say draft: false
 
 ## Images
