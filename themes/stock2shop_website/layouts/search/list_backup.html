@@ -1,0 +1,364 @@
+<!-- 
+    Search:
+    API call for results...
+    
+    1. Low level search (taxonomies)
+    2. Compiled terms (or user defined)
+        - hashmap [ term ] = url, position
+        /| <- read in js -> nav to the term
+ -->
+
+<!-- return known terms for now 
+add compiled/defined
+-->
+
+<input id="inputText" list="knownTerms" autocomplete>
+<datalist id="knownTerms">
+</datalist>
+<div id="wrapper">
+</div>
+
+ <section style="display:none">
+    <ul>
+      {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+        <li>taxonomy: <a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+          <ul>
+            {{ range $key, $value := $taxonomy }}
+            <li> term: {{ $key }} </li>
+                <ul>
+                {{ range $value.Pages }}
+                    <li>value: <a href="{{ .Permalink}}"> {{ .LinkTitle }} </a></li>
+                {{ end }}
+                </ul>
+            {{ end }}
+          </ul>
+        </li>
+      {{ end }}
+    </ul>
+</section>
+
+<script>  
+{{ $results := slice }}
+
+{{ $termLookup := newScratch }}
+// {{ $termLookup.Set "greeting" "Hello" }}
+
+var inputText = document.getElementById("inputText");
+var wrapper = document.getElementById("wrapper");
+var knownTerms = document.getElementById("knownTerms");
+
+inputText.oninput = () => {
+    //search taxonomy
+    var taxMatches = getMatches(inputText.value);
+    var terms = taxMatches.filter(item => item.type == "term" );
+    var taxonomies = taxMatches.filter(item => item.type == "taxonomy" );
+    console.log(terms);
+    listing.populateFromTerms(terms);
+    listing.populateFromTaxonimy(taxonomies);
+
+    //search content
+    var found = getTermMatches(inputText.value);
+    var tp = found.map(item => item.term );
+
+    listing.populateFromFound(found);
+    location.hash = "#" + inputText.value;
+
+};
+
+function ResultsListing(){
+    this.div = document.createElement("DIV");
+    this.divContent = document.createElement("DIV");
+    this.divTaxonomy = document.createElement("DIV");
+    this.divTerms = document.createElement("DIV");
+
+    this.h2Content = document.createElement("H3");this.h2Content.innerHTML = "In content:";
+    this.h2Taxonomy = document.createElement("H3");this.h2Taxonomy.innerHTML = "Taxonomies";
+    this.h2Terms = document.createElement("H3");this.h2Terms.innerHTML = "Terms";
+
+    this.div.appendChild(this.h2Taxonomy);
+    this.div.appendChild(this.divTaxonomy);
+    this.div.appendChild(this.h2Terms);
+    this.div.appendChild(this.divTerms);
+    this.div.appendChild(this.h2Content);
+    this.div.appendChild(this.divContent);
+
+    this.populate = (arr) => {
+        this.divContent.innerHTML = "";
+        arr.forEach(item => {
+            var elem = document.createElement("LI");
+            elem.innerHTML = item;
+            this.divContent.appendChild(elem);
+        });
+    };
+    this.populateFromFound = (found) => {
+        this.divContent.innerHTML = "";
+        //var elem = document.createElement("H3");
+        //elem.innerHTML = "In content:";
+        //this.divContent.appendChild(elem);
+        found.forEach(item => {
+            var elem = document.createElement("DIV");
+            elem.innerHTML = "<b>"+item.term+"</b>";
+            this.divContent.appendChild(elem);
+
+            item.instances.forEach(inst => {
+                var elem = document.createElement("LI");
+                var anchor = document.createElement("A");
+                anchor.innerHTML = inst.linkTitle;
+                anchor.href = inst.link;
+                elem.appendChild(anchor);
+                this.divContent.appendChild(elem);
+            });
+        });
+    };
+    this.populateFromTerms = (terms, parent) => {
+        if(parent == null) parent = this.divTerms;
+        parent.innerHTML = "";
+        //var elem = document.createElement("H3");
+        //elem.innerHTML = "Terms:";
+       // parent.appendChild(elem);
+        terms.forEach(item => {
+            var elem = document.createElement("DIV");
+            elem.innerHTML = " - <b>"+item.name+"</b>";
+            parent.appendChild(elem);
+
+            item.values.forEach(inst => {
+                var elem = document.createElement("LI");
+                var anchor = document.createElement("A");
+                anchor.innerHTML = inst.value;
+                anchor.href = inst.link;
+                elem.appendChild(anchor);
+                parent.appendChild(elem);
+            });
+        });
+    };
+    this.populateFromTaxonimy = (taxonomies) => {
+        this.divTaxonomy.innerHTML = "";
+        //var elem = document.createElement("H3");
+        //elem.innerHTML = "Taxonimies:";
+        //this.divTaxonomy.appendChild(elem);
+        taxonomies.forEach(item => {
+            var elem = document.createElement("DIV");
+            elem.innerHTML = "<b>"+item.name+"</b>";
+            this.divTaxonomy.appendChild(elem);
+
+            //item.values.forEach(inst => {
+                var elem = document.createElement("DIV");
+                this.populateFromTerms(item.terms, elem);
+                // var anchor = document.createElement("A");
+                // anchor.innerHTML = inst.value;
+                // anchor.href = inst.link;
+                // elem.appendChild(anchor);
+                this.divTaxonomy.appendChild(elem);
+            //});
+        });
+    };
+}
+
+var listing = new ResultsListing();
+wrapper.appendChild(listing.div);
+
+
+var data = [
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    {
+        //taxonomy
+        type: "taxonomy",
+        name: "{{ $taxonomyname }}",
+        link: "{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}",
+        terms: [
+            {{ range $key, $value := $taxonomy }}
+                {
+                    //term
+                    type: "term",
+                    name: "{{ $key }}",
+                    values:[
+                        {{ range $value.Pages }}
+                        {
+                            type: "value",
+                            value:"{{ .LinkTitle }}",
+                            link: "{{ .Permalink }}",
+                            //content: "{{ .Content }}",
+                            //read content
+                            {{ $cleanString := ( .Content | markdownify | plainify | lower) }}
+                            {{ $termString := replace $cleanString "\n" " "}}
+                            {{ $termString = replace $termString "." " "}}
+                            {{ $termString = replace $termString "," " "}}
+                            {{ $termString = replace $termString "(" " "}}
+                            {{ $termString = replace $termString ")" " "}}
+                            {{ $termString = replace $termString "\"" " "}}
+                            {{ $termString = replace $termString "“" " "}}
+                            {{ $termString = replace $termString "'" " "}}
+                            {{ $termString = replace $termString "  " " "}}
+                            {{ $terms := split ($termString | markdownify | plainify | lower) " "  }}
+                            {{ $terms = union $terms $terms}} 
+                            {{ $results = union $results $terms}} 
+
+                            {{ $linkTitle := .LinkTitle  }}
+                            {{ $link := .Permalink  }}
+                            {{ $seek := 0 }}
+                            {{ range $terms }}
+                                {{ $s := newScratch }}
+                                {{ $x := $s.Set "link" $link }}
+                                {{ $x := $s.Set "linkTitle" $linkTitle }}
+                                {{ if eq ($termLookup.Get .) nil }}
+                                    {{ $arrTp := slice $s }}
+                                    {{ $x := $termLookup.Set . $arrTp }}
+                                {{ else }}
+                                    {{ $arrTp := $termLookup.Get . }}
+                                    {{ $arrTp = $arrTp | append $s }}
+                                    {{ $x := $termLookup.Set . $arrTp }}
+                                {{ end }}
+                            {{ end }}
+
+                            {{ $linkTitle := .LinkTitle  }}
+
+                            terms:[
+                                {{ range $terms }}
+                                    "{{ . }}",
+                                {{ end }}
+                            ],
+                        },
+                        {{ end }}
+                    ],
+                },
+            {{ end }}
+        ],
+    },
+    {{ end }}
+];
+
+var allTerms = [
+    {{ range $results }}
+        "{{ . }}",
+    {{ end }}
+];
+
+allTerms.forEach(term =>{
+    var opt = document.createElement("OPTION");
+    opt.value = term;
+    knownTerms.appendChild(opt);
+});
+
+
+var termLookup = [
+    {{ $keys := $termLookup.Values }}
+    {{ range $results }}
+        {
+            term:"{{ . }}",
+            {{ $arr := $termLookup.Get . }}
+            {{ $temp := slice }}
+            instances: [
+                {{ range $arr }}
+                    
+                    {{ $scrTp := . }}
+                    {{ $link := $scrTp.Get "link" }}
+                    {{ if in $temp $link }}
+                        //
+                    {{ else }}
+                        {
+                            link:'{{ $link }}',
+                            linkTitle: '{{ $scrTp.Get "linkTitle" }}',
+                        },
+                        {{ $temp = $temp | append $link }}
+                    {{ end }}
+                {{ end }}
+            ],
+        },
+    {{ end }}
+];
+//sort
+termLookup.sort((a,b)=>{ return a.term.localeCompare(b.term); });
+
+function getTermMatches(text){
+    var seekText = text.toLowerCase();
+    var results = [];
+    termLookup.forEach((termItem)=>{
+        if(termItem.term.indexOf(seekText) != -1){
+            results.push(termItem);
+        }
+    });
+    return results;
+}
+
+var parser = new DOMParser();
+
+function traverseTaxonimy(readFunction){
+    data.forEach((taxonimy)=>{
+        readFunction(taxonimy.name, taxonimy);
+
+        taxonimy.terms.forEach(term => {
+            readFunction(term.name, term);
+
+            term.values.forEach(value => {
+                readFunction(value.value, value);
+                //var result = parser.parseFromString(value.content, "text/html");
+                //var tx = result.body.innerText.toLowerCase();
+                //readFunction(tx, value);
+            });
+        });
+    });
+}
+
+function traverseTaxonimyContentOnly(readFunction){
+    data.forEach((taxonimy)=>{
+        //readFunction(taxonimy.name, taxonimy);
+
+        taxonimy.terms.forEach(term => {
+            //readFunction(term.name, term);
+
+            term.values.forEach(value => {
+                //readFunction(value.value, value);
+                var result = parser.parseFromString(value.content, "text/html");
+                var tx = result.body.innerText.toLowerCase();
+                readFunction(tx, value);
+            });
+        });
+    });
+}
+
+var getMatches = (text) => {
+    var textLwr = text.toLowerCase();
+    var results = [];
+    var links = {};
+    traverseTaxonimy((tx,obj)=>{
+        var lwrTx = tx.toLowerCase(tx);
+
+        if(lwrTx.indexOf(textLwr) != -1){
+            //console.log(tx);
+            if(links[obj.link] == null){
+                results.push(obj);
+                links[obj.link] = true;
+            }
+        }
+    });
+    return results;
+};
+
+
+var getMatchesContent = (text) => {
+    var textLwr = text.toLowerCase();
+    var results = [];
+    var links = {};
+    traverseTaxonimyContentOnly((tx,obj)=>{
+        var lwrTx = tx.toLowerCase(tx);
+
+        if(lwrTx.indexOf(textLwr) != -1){
+            //console.log(obj.link);
+            if(links[obj.link] == null){
+                results.push(obj);
+                links[obj.link] = true;
+                console.log("--->", obj.link);
+            }   
+        }
+    });
+    return results;
+};
+
+var query = location.hash.substr(1);
+inputText.value = query;
+
+if(inputText.value != "")
+    inputText.oninput();
+
+</script>
+  
