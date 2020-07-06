@@ -1,0 +1,60 @@
+/* BODY */
+
+body {
+    margin:0;
+}
+h2 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+blockquote > p {
+    margin: 0;
+}
+
+/* HEADER */
+
+#header {
+    background: #333;
+    line-height: 40px;
+    color: darkgrey;
+}
+#headerWiki {
+    background: #e93e34;
+    line-height: 40px;
+}
+#headerWiki a {
+    color: black;
+}
+
+/* CONTENT */
+
+.content-container {
+    display:flex;
+}
+main {
+    padding: 3rem;
+}
+hr {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/* SIDEBAR */
+
+#docSide {
+    flex: 0 0 25%;
+}
+#TableOfContents {
+    ul > li > ul {
+        display: none;
+    }
+    li {
+        list-style: none !important;
+    }
+    ul {
+        padding-left: 15px;
+    }
+    a {
+        color:#333 !important;
+    }
+}

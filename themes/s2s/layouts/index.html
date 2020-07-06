@@ -12,6 +12,15 @@
         <!--        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>-->
         <!--    {{ end }}-->
         <!--    {{ end }}-->
+
+<!--        {{ range .Site.RegularPages }}-->
+<!--            {{ .Title }}-->
+<!--        {{ end }}-->
+
+<!--        {{ .Site.Params }}-->
+
+        {{ .Site.IsServer }}
+
     </main>
 </body>
 </html>

@@ -49,6 +49,23 @@ There are two ways to add menus:
 ```hugo new documentation/pagename.md```
 - Build static pages and compile in public  
 ```hugo -D```
+- hugo server --watch --verbose
+
+## Workarounds to be avoided
+- To allow html in md files the following can be added to the config file.
+```
+[markup.goldmark.renderer]
+unsafe= true
+```
 
 ## Notes
 - static/css are cached in the browser
+- Partial vs Shortcode:
+
+## Issues
+- Empty line: &nbsp; not ideal
+
+## Content Writer Guide
+TODO
+- Using bootstrap classes, alerts, callouts etc
+- Blockquote not working

@@ -3,15 +3,22 @@ title: "Documentation"
 type: "documentation"
 ---
 
+## Documentation
+
 We want to make it as easy as possible for you to integrate your ERP or accounting system and your e-commerce website. That’s why our team at Stock2Shop works with you to create the perfect system and workflow for your business. It’s also why we offer support on email and phone. Here is our documentation list: some general concepts and information on using the Stock2Shop system. You’ll find all the documentation you need to get started, install and configure your applications and understand some key concepts of integration. Any questions? Contact us and we’d be happy to help.
 
-If you are looking for developer documentation click here.
+---
+If you are looking for developer documentation [click here](/developers).
 
-If you cannot find what you are looking for here contact us and we can assist.
+---
+If you cannot find what you are looking for here [contact us](/contact-us) and we can assist.
 
 ## Getting Started
 
-How to get set up on Stock2Shop so that you can streamline your workflow.
+> How to get set up on Stock2Shop so that you can streamline your workflow.
+
+
+---
 
 Stock2Shop is a flexible system integration solution that can be tailored to your company’s specific needs.
 
@@ -20,6 +27,8 @@ In some cases, depending on your integration requirements, one of our trained en
 The set up and configuration of Stock2Shop is normally a once-off process – thereafter, you will require little to no involvement from our side, unless you need help. We offer initial training for our software and continuous support as you need it. We’re here to help!
 
 If you have not scheduled an appointment with us to get you set up, please do so [here](/contact-us).
+
+---
 
 In this section of the documentation, we have noted some of the set up requirements and procedures.
 
@@ -47,9 +56,11 @@ Below is an overview outlining the next steps:
 2. Initiate Sync to Stock2Shop
 3. Test channel integration (products / orders)
 
+{{< class alert alert-primary >}}
 Data Discussion (Step 1) will be scheduled by one of our technicians
+{{< /class >}}
 
-<span style="color:blue"> Any questions? [Contact us](/contact-us) – we’re happy to help.</span>
+Any questions? [Contact us](/contact-us) – we’re happy to help.
 
 ## Installing Stock2Shop for Sage Business Cloud Financials
 

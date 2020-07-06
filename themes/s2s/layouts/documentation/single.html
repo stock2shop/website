@@ -6,11 +6,10 @@
 </head>
 <body>
 {{ partial "headerWiki.html" . }}
-<h2 class="p-3">{{ .Title }}</h2>
-<!--    {{ .Description }}-->
-<div class="content-container">
+<!-- <h2 class="p-3">{{ .Title }}</h2> -->
+<div class="content-container pt-3">
     {{ partial "sidebar.html" . }}
-    <div class="pr-5">{{ .Content }}</div>
+    <div class="pr-5 pl-5">{{ .Content }}</div>
     <!--    {{ range .Site.RegularPages }}-->
     <!--        {{ if eq .Type "documentation"}}-->
     <!--        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>-->
