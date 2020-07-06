@@ -2,3 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Stock2Shop"
 theme = "s2s"
+[params]
+  custom_css = ["css/custom.css", "css/style.css"]
+[markup.goldmark.renderer]
+  unsafe= false

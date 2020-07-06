@@ -41,17 +41,18 @@ There are two ways to add menus:
 
 ## General Commands
 - Start Hugo server with drafts enabled:  
-```hugo server```  
+```hugo server -D```  
 ```hugo``` command build / compile the site  
-```server``` command let the site run from memory  
+```server``` command let the site run from the memory  
 ```-D``` flag include draft pages
 - Create new documentation page  
 ```hugo new documentation/pagename.md```
-- Watch for changes in /public
-```hugo server --watch --verbose```
+- Build static pages and compile in public  
+```hugo -D```
+- hugo server --watch --verbose
 
 ## Workarounds to be avoided
-- Add to config file to allow html in md files.
+- To allow html in md files the following can be added to the config file.
 ```
 [markup.goldmark.renderer]
 unsafe= true
@@ -59,12 +60,12 @@ unsafe= true
 
 ## Notes
 - static/css are cached in the browser
-- Partial vs Shortcode:TODO
+- Partial vs Shortcode:
 
 ## Issues
 - Empty line: &nbsp; not ideal
 
-## Content Writer Guide 
+## Content Writer Guide
 TODO
 - Using bootstrap classes, alerts, callouts etc
 - Blockquote not working
