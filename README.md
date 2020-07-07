@@ -5,7 +5,7 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 - Install GoHugo
 - Clone the project
 - Navigate to the project parent directory
-- Run ```hugo server -D```
+- Run ```hugo server```
 - View in your browser with http://localhost:1313/
 
 ## Key Terms
@@ -21,8 +21,8 @@ menu: "main"
 - Identifier:
 - Site Variable:
 - Page Variable:
+- Partial: A piece of HTML used in template file
 - Shortcode: A piece of HTML used in a markdown file
-- Draft: Drafts do not get deployed; once you finish a post, update the header of the post to say draft: false
 
 ## Images
 To add image in markdown use below syntax and save image in the static directory
@@ -30,25 +30,27 @@ To add image in markdown use below syntax and save image in the static directory
 ![Example image](/images/howto_1.png)
 ```
 
+## Table of contents
+While extremely useful, the use of the ```.TableOfContents``` page variable as severe limitations.
+
+More to follow - TODO
+
 ## Menus
-There are two ways to add menus:
+The two methods to add menus:
+
 1. Front Matter
     1. Add menu entry to Front matter
     2. Create Nav partial
-    3. Include partial in header.html or
+    3. Include partial in where needed
     
-2. Declare in config.toml. More detail to follow  
+2. Declare in config.toml. More detail to follow..
 
-## General Commands
-- Start Hugo server with drafts enabled:  
-```hugo server -D```  
-```hugo``` command build / compile the site  
-```server``` command let the site run from the memory  
-```-D``` flag include draft pages
-- Create new documentation page  
+## General Commands  
+```hugo```: build / compile the site  
+```server```: run site from memory  
+```-D```: include draft pages
+- Create new documentation page - CHANGE TO ARTICLE PAGE  
 ```hugo new documentation/pagename.md```
-- Build static pages and compile in public  
-```hugo -D```
 - hugo server --watch --verbose
 
 ## Workarounds to be avoided
@@ -60,12 +62,11 @@ unsafe= true
 
 ## Notes
 - static/css are cached in the browser
-- Partial vs Shortcode:
 
 ## Issues
-- Empty line: &nbsp; not ideal
+- Use of empty line ```&nbsp;``` in markdown not ideal
 
 ## Content Writer Guide
-TODO
+IN PROGRESS..
 - Using bootstrap classes, alerts, callouts etc
 - Blockquote not working

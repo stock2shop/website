@@ -19,6 +19,12 @@
 
 <!--        {{ .Site.Params }}-->
 
+        {{ if .Site.IsServer }}
+            This site is running from the hugo server
+        {{ else }}
+            This site is running as if published
+        {{ end }}
+
         {{ .Site.IsServer }}
 
     </main>
