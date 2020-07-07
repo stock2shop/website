@@ -9,12 +9,14 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 - View in your browser with http://localhost:1313/
 
 ## Key Terms
-- Front matter: Page meta data as shown below
+- Front matter: Page meta data as example shown below
 ```
+---
 title: "What are the requirements for Stock2Shop Software (APIFACT)?"
 date: 2020-03-31T14:13:36+02:00
 draft: true
 menu: "main"
+---
 ```
 - Section:
 - Type:
@@ -45,7 +47,7 @@ The two methods to add menus:
     
 2. Declare in config.toml. More detail to follow..
 
-## General Commands  
+## CLI  
 ```hugo```: build / compile the site  
 ```server```: run site from memory  
 ```-D```: include draft pages
@@ -66,7 +68,7 @@ unsafe= true
 ## Issues
 - Use of empty line ```&nbsp;``` in markdown not ideal
 
-## Content Writer Guide
+## Content Writer's Guide
 IN PROGRESS..
 - Using bootstrap classes, alerts, callouts etc
 - Blockquote not working
