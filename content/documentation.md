@@ -1,6 +1,7 @@
 ---
 title: "Documentation"
 type: "documentation"
+weight: 6
 ---
 
 ## Documentation

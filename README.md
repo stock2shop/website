@@ -9,7 +9,7 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 - View in your browser with http://localhost:1313/
 
 ## Key Terms
-- Front matter: Page meta data as example shown below
+- Front matter: Page meta data as shown in example below
 ```
 ---
 title: "What are the requirements for Stock2Shop Software (APIFACT)?"
@@ -34,12 +34,11 @@ To add image in markdown use below syntax and save image in the static directory
 
 ## Table of contents
 While extremely useful, the use of the ```.TableOfContents``` page variable as severe limitations.
-
-More to follow - TODO
+- Limitations in menu structure
+In Progress..
 
 ## Menus
 The two methods to add menus:
-
 1. Front Matter
     1. Add menu entry to Front matter
     2. Create Nav partial
@@ -64,11 +63,23 @@ unsafe= true
 
 ## Notes
 - static/css are cached in the browser
+- Title Case currently used for Titles
 
 ## Issues
 - Use of empty line ```&nbsp;``` in markdown not ideal
+- Blockquote not working
 
 ## Content Writer's Guide
-IN PROGRESS..
+In Progress..
 - Using bootstrap classes, alerts, callouts etc
-- Blockquote not working
+
+## Theme decisions
+To be moved converted to issue
+- Site global container width
+- Typography
+- Icons
+- Tachyons
+
+## References
+- https://gohugo.io/
+- https://kodify.net/hugo-static-site-tutorials/

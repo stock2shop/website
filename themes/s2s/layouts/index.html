@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-    {{ partial "head.html" . }}
-</head>
-<body>
+{{ define "main" }}
+    <h2>Home Page</h2>
+    {{ if .Site.IsServer }}
+        <p>The site is served by hugo server</p>
+    {{ else }}
+        <p>The site is running as published</p>
+    {{ end }}
 
-    {{ partial "header.html" . }}
+<!----- Below can be uncommented to view useful site parameters ----->
 
-    <main>
-        <h2>Home Page</h2>
-
-        {{ if .Site.IsServer }}
-            <p>The site is served by hugo server</p>
-        {{ else }}
-            <p>The site is running as published</p>
+    <!--
+    <ul>
+        {{ range .Site.Taxonomies.tags }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
         {{ end }}
+        {{ range .Site.Taxonomies.categories }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+        {{ end }}
+    </ul>
+    -->
 
-    </main>
-</body>
-</html>
+{{ end }}

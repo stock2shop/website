@@ -1,0 +1,13 @@
+{{ define "main" }}
+    {{ .Title }}
+    {{ .Content }}
+    <ul>
+    {{ range .Site.RegularPages }}
+        {{ if eq .Type "integrations"}}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    {{ end }}
+    </ul>
+{{ end }}

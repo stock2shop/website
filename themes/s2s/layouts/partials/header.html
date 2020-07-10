@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html>
-<body>
-    <header class="p-3" id="header">
-        <a class="pr-3" href="/">Home</a>
-        {{ range .Site.RegularPages }}
+<header class="p-3" id="header">
+    <a class="pr-3" href="/">Home</a>
+    {{ range .Site.RegularPages }}
         {{ if eq .Type "page" }}
+            <a class="pr-3" href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+    {{ end }}
+    {{ range .Site.Sections }}
         <a class="pr-3" href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ end }}
-        {{ end }}
-        <a href="/documentation">Documentation</a>
-    </header>
-</body>
-</html>
+    {{ end}}
+    <a href="/documentation">Documentation</a>
+</header>
