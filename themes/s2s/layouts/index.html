@@ -1,22 +1,24 @@
 {{ define "main" }}
     <h2>Home Page</h2>
     {{ if .Site.IsServer }}
-        <p>The site is served by hugo server</p>
+        <p>The site is served by hugo server</p></br>
     {{ else }}
-        <p>The site is running as published</p>
+        <p>The site is running as published</p></br>
     {{ end }}
 
 <!----- Below can be uncommented to view useful site parameters ----->
 
-    <!--
+    Tags:
     <ul>
         {{ range .Site.Taxonomies.tags }}
-        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-        {{ end }}
-        {{ range .Site.Taxonomies.categories }}
-        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+        <li>{{ .Page.Title }}</li>
         {{ end }}
     </ul>
-    -->
+    Categories:
+    <ul>
+        {{ range .Site.Taxonomies.categories }}
+        <li>{{ .Page.Title }}</li>
+        {{ end }}
+    </ul>
 
 {{ end }}

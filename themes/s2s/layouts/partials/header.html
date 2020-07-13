@@ -1,12 +1,17 @@
-<header class="p-3" id="header">
-    <a class="pr-3" href="/">Home</a>
-    {{ range .Site.RegularPages }}
-        {{ if eq .Type "page" }}
-            <a class="pr-3" href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ end }}
-    {{ end }}
-    {{ range .Site.Sections }}
-        <a class="pr-3" href="{{ .Permalink }}">{{ .Title }}</a>
-    {{ end}}
-    <a href="/documentation">Documentation</a>
+<header class="p-3 clearfix">
+    <div class="container">
+        <a class="pr-3 float-left" href="/">Stock2Shop</a>
+        <nav class="float-right">
+            {{ range .Site.RegularPages }}
+                {{ if eq .Type "page" }}
+                    <a class="pr-3" href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ end }}
+            {{ end }}
+            {{ range .Site.Sections }}
+                <a class="pr-3" href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end}}
+            <a class="pr-3" href="/documentation">Documentation</a>
+            <input type="button" onclick="location.href='/'" value="How it works" />
+        </nav>
+    </div>
 </header>

@@ -1,13 +1,9 @@
 {{ define "main" }}
-    {{ .Title }}
+    <h2>{{ .Title }}</h2>
     {{ .Content }}
     <ul>
-    {{ range .Site.RegularPages }}
-        {{ if eq .Type "integrations"}}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
+        {{ range .Site.Taxonomies.categories.platform }}
+            <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
         {{ end }}
-    {{ end }}
     </ul>
 {{ end }}

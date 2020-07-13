@@ -1,8 +1,7 @@
 /* BODY */
 
 h2 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 2rem !important;
 }
 blockquote > p {
     margin: 0;
@@ -10,22 +9,22 @@ blockquote > p {
 
 /* HEADER */
 
-#header {
+header {
     background: #333;
     line-height: 40px;
     color: darkgrey;
 }
-#headerWiki {
+#wiki header {
     background: #e93e34;
     line-height: 40px;
 }
-#headerWiki a {
+#wiki header a {
     color: black;
 }
 
 /* CONTENT */
 
-.content-container {
+#wiki main {
     display:flex;
 }
 hr {
@@ -46,7 +45,7 @@ hr {
         list-style: none !important;
     }
     ul {
-        padding-left: 15px;
+        padding-left: 0px;
     }
     a {
         color:#333 !important;
