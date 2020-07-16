@@ -4,8 +4,7 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 ## Getting Started
 - Install GoHugo
 - Clone the project
-- Navigate to the project parent directory
-- Run ```hugo server```
+- Navigate to project and run ```hugo server```
 - View in your browser with http://localhost:1313/
 
 ## Key Terms
@@ -20,9 +19,9 @@ menu: "main"
 ```
 - Section:
 - Type:
-- Identifier:
 - Site Variable:
 - Page Variable:
+- Identifier:
 - Partial: A piece of HTML used in template file
 - Shortcode: A piece of HTML used in a markdown file
 
@@ -33,7 +32,7 @@ To add image in markdown use below syntax and save image in the static directory
 ```
 
 ## Table of contents
-While extremely useful, the use of the ```.TableOfContents``` page variable as severe limitations.
+While extremely useful, the use of the ```.TableOfContents``` page variable has severe limitations.
 - Limitations in menu structure
 In Progress..
 
@@ -43,8 +42,8 @@ The two methods to add menus:
     1. Add menu entry to Front matter
     2. Create Nav partial
     3. Include partial in where needed
-    
-2. Declare in config.toml. More detail to follow..
+2. Declare in config.toml.   
+    In Progress..
 
 ## CLI  
 ```hugo```: build / compile the site  
@@ -74,8 +73,7 @@ In Progress..
 - Using bootstrap classes, alerts, callouts etc
 
 ## Theme decisions
-To be moved converted to issue
-- Site global container width
+To be converted to issue
 - Typography
 - Icons
 - Tachyons

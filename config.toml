@@ -1,4 +1,6 @@
-baseURL = "/"
+baseURL = ""
 languageCode = "en-us"
 title = "Stock2Shop"
 theme = "s2s"
+[params]
+  custom_css = ["css/bootstrap.css","css/bootstrap-grid.css","bootstrap-reboot.css"]
