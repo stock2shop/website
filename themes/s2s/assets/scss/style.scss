@@ -14,18 +14,12 @@ header {
     line-height: 40px;
     color: darkgrey;
 }
-#wiki header {
+header#wiki {
     background: #e93e34;
-}
-#wiki header a {
-    color: black;
 }
 
 /* CONTENT */
 
-#wiki main {
-    display:flex;
-}
 hr {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;

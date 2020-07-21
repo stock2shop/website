@@ -6,20 +6,20 @@
 <!--{{ $scss := resources.Get "scss/style.scss" | resources.ToCSS | resources.Fingerprint | resources.Minify }}-->
 {{ $scss := resources.Get "scss/style.scss" }}
 {{ $style := $scss | resources.ToCSS }}
-
-{{/*  {{ $featured_image := (trim $featured_image "/") | absURL }}  */}}
-
 {{ if .Site.IsServer }}
 <link rel="stylesheet" href='{{ $style.Permalink }}'>
 {{ else }}
 <link rel="stylesheet" href='{{ trim $style.Permalink "/" }}'>
 {{ end }}
-
 {{ range .Site.Params.custom_css }}
 <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
 {{ end }}
   <body>
+    {{ if or (eq .Type "wiki") (eq .Type "documentation") }}
+    {{- partial "headerWiki.html" . -}}
+    {{ else }}
     {{- partial "header.html" . -}}
+    {{ end }}
     <main class="container pt-5">
       {{ block "main" . }}{{ end }}
     </main>
