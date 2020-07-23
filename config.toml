@@ -4,3 +4,4 @@ title = "Stock2Shop"
 theme = "s2s"
 [params]
   custom_css = ["css/bootstrap.css","css/bootstrap-grid.css","bootstrap-reboot.css"]
+  bootstrap_js = ["js/bootstrap.bundle.js","js/bootstrap.js","js/custom.js"]

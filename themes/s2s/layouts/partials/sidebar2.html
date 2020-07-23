@@ -3,15 +3,15 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.wikimenu }}
         {{ if .HasChildren }}
-        <li class='nav-item {{ if $currentPage.HasMenuCurrent "wikimenu" . }}active{{ end }}'>
+        <li class='nav-item {{ if $currentPage.HasMenuCurrent "wikimenu" . }}active{{ end }}' href=".sub-menu" data-toggle="collapse" aria-expanded="false" aria-controls=".sub-menu">
             <a class="nav-link p-0">
                 {{ .Pre }}
                 <span>{{ title .Name }}</span>
             </a>
         </li>
-        <ul class="nav flex-column sub-menu">
+        <ul class="nav flex-column sub-menu collapse">
             {{ range .Children }}
-            <li class='nav-item {{ if $currentPage.IsMenuCurrent "wikimenu" . }}active{{ end }}'>
+            <li class='nav-item {{ if (eq $currentPage.URL .URL) }} active{{ end }}"'>
             <a class="nav-link p-0" href="{{ .URL }}">{{ title .Name }}</a>
             </li>
             {{ end }}
@@ -26,5 +26,4 @@
         {{ end }}
         {{ end }}
     </ul>
-    <!-- Todo: Add collapse class to close-->
 </aside>
