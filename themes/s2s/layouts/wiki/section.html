@@ -1,10 +1,38 @@
 {{ define "main" }}
+<h1>{{ title .Title }}</h1>
 <div class="row">
-    {{ partial "sidebar.html" . }}
-    <div class="col-md-9">
-        <h1>{{ title .Title }}</h1>
-        {{ .Content }}
-        Frequantly asked questions and tutorials
-    </div>
+    {{ .Content }}
+    <ul>
+    {{ if .CurrentSection.Sections }}
+    {{ range .CurrentSection.Sections }}
+    <li>
+        <a href="{{ .Permalink }}">{{ title .Title }}</a>
+        <ul>
+            {{ if .Sections }}
+            {{ range .Sections }}
+            <li>
+                <!-- Below could just be heading -->
+                <a href="{{ .Permalink }}">{{ title .Title }}</a>
+                <ul>
+                    {{ range .RegularPages }}
+                    <li>
+                        <a href="{{ .Permalink }}">{{ title .Title }}</a>
+                    </li>
+                    {{ end}}
+                </ul>
+            </li>
+            {{ end }}
+            {{ end }}
+        </ul>
+    </li>
+    {{ end}}
+    {{ else }}
+        {{ range .RegularPages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ title .Title }}</a>
+        </li>
+        {{ end}}
+    {{ end }}
+    </ul>
 </div>
 {{ end }}

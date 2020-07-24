@@ -1,4 +1,0 @@
----
-title: "woocommerce"
-menu: wikimenu
----
