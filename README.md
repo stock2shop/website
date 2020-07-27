@@ -78,6 +78,10 @@ To be converted to issue
 - Icons
 - Tachyons
 
+## Libraries
+- Boostrap 4.5
+- 
+
 ## References
 - https://gohugo.io/
 - https://kodify.net/hugo-static-site-tutorials/

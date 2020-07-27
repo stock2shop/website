@@ -1,17 +1,22 @@
-<header class="p-3 clearfix">
-    <div class="container">
-        <a class="pr-3 float-left" href="/">Stock2Shop</a>
-        <nav class="float-right">
-            {{ range .Site.RegularPages }}
-                {{ if eq .Type "page" }}
-                    <a class="pr-3" href="{{ .Permalink }}">{{ title .Title }}</a>
-                {{ end }}
-            {{ end }}
-            {{ range .Site.Sections }}
-                <a class="pr-3" href="{{ .Permalink }}">{{ title .Title }}</a>
-            {{ end}}
-            <a class="pr-3" href="/documentation">Documentation</a>
-            <input type="button" class="btn-sm" onclick="location.href='/'" value="How it works" />
-        </nav>
-    </div>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Stock2Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    {{ range .Site.Menus.main }}
+                    <li class="nav-link">
+                        <a href="{{ .URL }}">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    <input type="button" class="btn-sm" onclick="location.href='/'" value="How it works" />
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>

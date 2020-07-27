@@ -1,0 +1,12 @@
+{{ $js1 := resources.Get "js/jquery-3.5.1.slim.min.js" }}
+{{ $js2 := resources.Get "js/popper.min.js" }}
+{{ $js3 := resources.Get "js/bootstrap.bundle.js" }}
+{{ $js4 := resources.Get "js/bootstrap.js" }}
+{{ $js5 := resources.Get "js/custom.js" }}
+{{ $js := slice $js1 $js2 $js3 $js4 $js5 | resources.Concat "js/bundle.js" | resources.Fingerprint | resources.Minify }}
+
+{{ if .Site.IsServer }}
+<script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
+{{ else }}
+<script type="text/javascript" src='{{ trim $js.RelPermalink "/" }}' defer></script>
+{{ end }}

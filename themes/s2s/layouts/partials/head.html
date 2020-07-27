@@ -1,0 +1,11 @@
+{{ $css1 := resources.Get "css/bootstrap.css" }}
+{{ $css2 := resources.Get "css/bootstrap-grid.css" }}
+{{ $css3 := resources.Get "css/bootstrap-reboot.css" }}
+{{ $scss := resources.Get "scss/custom.scss" | resources.ToCSS }}
+{{ $css := slice $css1 $css2 $css3 $scss | resources.Concat "css/bundle.css" | resources.Fingerprint | resources.Minify }}
+
+{{ if .Site.IsServer }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ else }}
+<link rel="stylesheet" href='{{ trim $css.RelPermalink "/" }}'>
+{{ end }}
