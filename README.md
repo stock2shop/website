@@ -80,7 +80,8 @@ To be converted to issue
 
 ## Libraries
 - Boostrap 4.5
-- 
+- jQuery 3.5.1
+- Popper
 
 ## References
 - https://gohugo.io/

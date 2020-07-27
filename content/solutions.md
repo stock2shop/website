@@ -4,3 +4,5 @@ description: "If you’re looking for a way to seamlessly integrate your ERP or 
 menu: main
 weight: 1
 ---
+- [System-Integration](/system-integrations)
+- [B2B Trade Store](/b2b-trade-store)
