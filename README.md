@@ -17,11 +17,8 @@ draft: true
 menu: "main"
 ---
 ```
-- Section:
-- Type:
-- Site Variable:
-- Page Variable:
-- Identifier:
+- Section: A content directory
+- Content Type: Defined by section or front matter and used to identify and group layout templates
 - Partial: A piece of HTML used in template file
 - Shortcode: A piece of HTML used in a markdown file
 
@@ -45,7 +42,7 @@ The two methods to add menus:
 2. Declare in config.toml.   
     In Progress..
 
-## CLI  
+## CLI
 ```hugo```: build / compile the site  
 ```server```: run site from memory  
 ```-D```: include draft pages
@@ -68,10 +65,6 @@ unsafe= true
 - Use of empty line ```&nbsp;``` in markdown not ideal
 - Blockquote not working
 
-## Content Writer's Guide
-In Progress..
-- Using bootstrap classes, alerts, callouts etc
-
 ## Theme decisions
 To be converted to issue
 - Typography
@@ -82,6 +75,7 @@ To be converted to issue
 - Boostrap 4.5
 - jQuery 3.5.1
 - Popper
+- Goldmark
 
 ## References
 - https://gohugo.io/

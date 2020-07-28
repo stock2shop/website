@@ -1,7 +1,6 @@
 ---
 title: "Woocommerce"
-categories: platform
-tags: woocommerce
+type: platform
 weight: 3
 ---
 Page Content

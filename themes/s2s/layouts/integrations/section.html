@@ -1,9 +1,0 @@
-{{ define "main" }}
-    <h2>{{ .Title }}</h2>
-    {{ .Content }}
-    <ul>
-        {{ range .Site.Taxonomies.categories.platform }}
-            <li><a href="{{ .Page.RelPermalink }}">{{ title .Page.Title }}</a></li>
-        {{ end }}
-    </ul>
-{{ end }}

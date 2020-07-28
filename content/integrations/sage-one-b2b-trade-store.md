@@ -1,6 +1,4 @@
 ---
 title: "Sage One B2b Trade Store"
-categories: integrations
-tags: ["sage one","b2b trade store"]
+type: integration
 ---
-Page created by archetype

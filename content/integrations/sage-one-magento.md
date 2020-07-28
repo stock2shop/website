@@ -1,6 +1,4 @@
 ---
 title: "Sage One Magento"
-categories: integrations
-tags: ["sage one","magento"]
+type: integration
 ---
-Page based on archetype

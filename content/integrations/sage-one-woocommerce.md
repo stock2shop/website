@@ -1,6 +1,4 @@
 ---
 title: "Sage One Woocommerce"
-categories: integrations
-tags: ["sage one","woocommerce"]
+type: integration
 ---
-Page based on archetype

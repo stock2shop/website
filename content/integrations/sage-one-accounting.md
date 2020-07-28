@@ -1,7 +1,6 @@
 ---
 title: "sage business cloud accounting (formerly sage one)"
-categories: platform
-tags: ["sage","sage one", "sage one accounting", "accounting"]
+type: platform
 ---
 - [Sage Business Cloud Accounting Shopify Integration](/integrations/sage-one-shopify/ "Sage Business Cloud Accounting (formerly Sage One) Shopify Integration")
 - [Sage Business Cloud Accounting Magento Integration](/integrations/sage-one-magento/ "Sage Business Cloud Accounting (formerly Sage One) Magento Integration")

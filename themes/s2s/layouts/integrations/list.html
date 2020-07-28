@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h2>{{ .Title }}</h2>
+    <ul>
+        {{ range where .Site.Pages "Type" "platform" }}
+        <li>
+            <a href="{{ .Permalink }}">{{ title .Title }}</a>
+        </li>
+        {{ end}}
+    </ul>
+{{ end }}

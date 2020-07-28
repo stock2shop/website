@@ -1,11 +1,4 @@
 {{ define "main" }}
     <h1>{{ title .Title }}</h1>
     {{ .Content }}
-    <!-- <ul>
-        {{ range .Site.Taxonomies.tags.shopify }}
-            {{ if .Site.Taxonomies.categories.integrations }}
-                <li><a href="{{ .Page.RelPermalink }}">{{ title .Page.Title }}</a></li>
-            {{ end }}
-        {{ end }}
-    </ul> -->
 {{ end }}

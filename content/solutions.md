@@ -5,4 +5,4 @@ menu: main
 weight: 1
 ---
 - [System-Integration](/system-integrations)
-- [B2B Trade Store](/b2b-trade-store)
+- [B2B Trade Store](/integrations/b2b-shopping-cart)

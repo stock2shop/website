@@ -1,7 +1,6 @@
 ---
 title: "Magento"
-categories: platform
-tags: magento
+type: platform
 weight: 2
 ---
 Page Content
