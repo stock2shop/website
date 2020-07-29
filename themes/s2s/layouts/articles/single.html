@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="row">
+    <aside class="col-md-3">
+        <!-- This only works on top level section -->
+        <nav class="nav flex-column">
+        {{ range where .Site.Pages "Section" "articles" }}
+            <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
+        {{ end }}
+        </nav>
+    </aside>
+    <div class="col-md-9">
+        <h2>{{ title .Title }}</h2>
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

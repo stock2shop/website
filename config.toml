@@ -2,3 +2,5 @@ baseURL = ""
 languageCode = "en-us"
 title = "Stock2Shop"
 theme = "s2s"
+PygmentsCodeFences = true
+PygmentsStyle = "manni"

@@ -34,13 +34,9 @@ While extremely useful, the use of the ```.TableOfContents``` page variable has 
 In Progress..
 
 ## Menus
-The two methods to add menus:
-1. Front Matter
-    1. Add menu entry to Front matter
-    2. Create Nav partial
-    3. Include partial in where needed
-2. Declare in config.toml.   
-    In Progress..
+1. Add menu entry to Front matter
+2. Create Nav partial
+3. Include partial in where needed
 
 ## CLI
 ```hugo```: build / compile the site  
@@ -65,17 +61,10 @@ unsafe= true
 - Use of empty line ```&nbsp;``` in markdown not ideal
 - Blockquote not working
 
-## Theme decisions
-To be converted to issue
-- Typography
-- Icons
-- Tachyons
-
 ## Libraries
 - Boostrap 4.5
 - jQuery 3.5.1
 - Popper
-- Goldmark
 
 ## References
 - https://gohugo.io/
