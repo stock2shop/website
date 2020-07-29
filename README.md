@@ -7,6 +7,15 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 - Navigate to project and run ```hugo server```
 - View in your browser with http://localhost:1313/
 
+## How to add pages
+##### Article
+1. Run ```hugo new articles/filename.md```
+2. Open newly created file and update summary in [front-matter](#key-terms)
+##### Technical Doc, Integrations Page or Case Study
+1. Navigate to the relevant subsection and add the .md file
+2. Copy and update front-matter from another page
+   1. Integrations Only - If it's a 'single platform' page, add "type: platform" to the front-matter for it to be added to the integrations list
+
 ## Key Terms
 - Front matter: Page meta data as shown in example below
 ```
@@ -29,9 +38,7 @@ To add image in markdown use below syntax and save image in the static directory
 ```
 
 ## Table of contents
-While extremely useful, the use of the ```.TableOfContents``` page variable has severe limitations.
-- Limitations in menu structure
-In Progress..
+While extremely useful, the use of the ```.TableOfContents``` page variable has limited layout options.
 
 ## Menus
 1. Add menu entry to Front matter
