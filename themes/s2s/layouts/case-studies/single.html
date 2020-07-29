@@ -3,7 +3,8 @@
     <aside class="col-md-3">
         <!-- This only works on top level section -->
         <nav class="nav flex-column">
-        {{ range where .Site.Pages "Section" "case-studies" }}
+            <a class="nav-link" href="/case-studies">Case Studies</a>
+        {{ range where .Site.RegularPages "Section" "case-studies" }}
             <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
         {{ end }}
         </nav>
