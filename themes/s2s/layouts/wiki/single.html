@@ -1,18 +1,18 @@
 {{ define "main" }}
 <div class="row">
     <aside class="col-md-3">
+        <ul class="nav flex-column">
         {{ range where .Site.Sections "Section" "wiki" }}
-        <ul>
             {{ if .Sections }}
             {{ range .Sections }}
-            <li>
+            <li class="nav-item">
                 <!-- Below could just be heading -->
-                <a href="{{ .Permalink }}">{{ title .Title }}</a>
+                <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
                 <ul>
                     {{ if .Sections }}
                     {{ range .Sections }}
-                    <li>
-                        <a href="{{ .Permalink }}">{{ title .Title }}</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
                     </li>
                     {{ end }}
                     {{ end }}
@@ -27,7 +27,6 @@
             </li>
             {{ end }}
             {{ end }}
-        </ul>
         {{ end}}
         </ul>
     </aside>
