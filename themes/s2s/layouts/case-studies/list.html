@@ -8,7 +8,7 @@
             <img src="https://via.placeholder.com/365x200.png" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title"><a href="{{ .Page.RelPermalink }}">{{ title .Page.Title }}</a></h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">{{ .Summary }}</p>
             </div>
         </div>
         {{ end }}
