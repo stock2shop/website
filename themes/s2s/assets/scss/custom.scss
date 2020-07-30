@@ -47,3 +47,12 @@ hr {
         color:#333 !important;
     }
 }
+
+/* DOCSIDE */
+
+#docside .active > a > span {
+    color: red;
+}
+#docside .active > a {
+    color: red;
+}
