@@ -1,5 +1,5 @@
 ---
-title: Configuration
-name: source & channel configuration options
+title: "Configuration"
 menu: docside
+weight: 2
 ---

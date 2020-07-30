@@ -12,9 +12,13 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 1. Run ```hugo new articles/filename.md```
 2. Open newly created file and update summary in [front-matter](#key-terms)
 ##### Technical Doc, Integrations Page or Case Study
-1. Navigate to the relevant subsection and add the .md file
+1. Navigate to the relevant section and add the .md file
 2. Copy and update front-matter from another page
    1. Integrations Only - If it's a 'single platform' page, add "type: platform" to the front-matter for it to be added to the integrations list
+##### User Doc
+1. Navigate to documentation section and add the .md file
+2. Copy and update front-matter from another page
+3. Update menu weight (order) and parent page
 
 ## Key Terms
 - Front matter: Page meta data as shown in example below
@@ -67,6 +71,7 @@ unsafe= true
 ## Issues
 - Use of empty line ```&nbsp;``` in markdown not ideal
 - Blockquote not working
+- .IsMenuCurrent not working with custom menu item name
 
 ## Libraries
 - Boostrap 4.5
