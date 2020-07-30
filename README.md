@@ -78,6 +78,7 @@ unsafe= true
 - jQuery 3.5.1
 - Popper
 
-## References
+## References and Resources
 - https://gohugo.io/
 - https://kodify.net/hugo-static-site-tutorials/
+- [YouTube](https://www.youtube.com/watch?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&v=qtIqKaDlqXo)

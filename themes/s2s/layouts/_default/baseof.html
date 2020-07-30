@@ -4,6 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{{ .Title }}</title>
 {{- partial "head.html" . -}}
+<!--{{- template "_internal/opengraph.html" . -}}-->
+{{- template "_internal/schema.html" . -}}
   <body>
     {{ if or (eq .Type "wiki") (eq .Type "documentation") }}
     {{- partial "headerWiki.html" . -}}
