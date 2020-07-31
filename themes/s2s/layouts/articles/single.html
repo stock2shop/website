@@ -10,8 +10,20 @@
         </nav>
     </aside>
     <div class="col-md-9">
-        <h2>{{ title .Title }}</h2>
+        {{ if not .Params.hide_meta_title }}
+        <h1>{{ title .Title }}</h1>
+        {{ end }}
+        <p class="lead">{{ .Summary }}</p>
         {{ .Content }}
+        <hr>
+        <div class="row">
+            <div class="col-md-8">
+                <h6>Want to find out exactly how Stock2Shop can make your business more efficient and streamlined?</h6>
+            </div>
+            <div class="col-md-4">
+                <input type="button" class="btn-sm ml-3" onclick="location.href='/contact-us'" value="Contact Us">
+            </div>
+        </div>
     </div>
 </div>
 {{ end }}
