@@ -1,11 +1,11 @@
 {{ define "main" }}
     <h2>{{ title .Title }}</h2>
-    <p>{{ .Description }}</p>
+    <p class="lead">{{ .Params.Lead }}</p>
     {{ .Content }}
     <div class="card-deck">
         {{ range .Pages }}
         <div class="card">
-            <img src="https://via.placeholder.com/365x200.png" class="card-img-top">
+            <img src="{{ .Params.og_image }}" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title"><a href="{{ .Page.RelPermalink }}">{{ title .Page.Title }}</a></h5>
                 <p class="card-text">{{ .Summary }}</p>

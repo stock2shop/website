@@ -15,7 +15,7 @@
         {{ else }}
         <h1>{{ title .Title }}</h1>
         {{ end }}
-        <p class="lead">{{ .Summary }}</p>
+        <p class="lead">{{ .Params.lead }}</p>
         {{ .Content }}
         <hr>
         <div class="row">

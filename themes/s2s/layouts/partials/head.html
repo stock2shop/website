@@ -11,6 +11,9 @@
 {{ end }}
 <!--{{- template "_internal/opengraph.html" . -}}-->
 {{- template "_internal/schema.html" . -}}
+<!-- Confirm below on Staging Server -->
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.og_image | relURL }}"/>
+<meta property="og:image:secure_url" content="{{ .Params.og_image | absURL }}"/>
 {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
