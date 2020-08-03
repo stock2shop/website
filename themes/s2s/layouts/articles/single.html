@@ -10,7 +10,9 @@
         </nav>
     </aside>
     <div class="col-md-9">
-        {{ if not .Params.hide_meta_title }}
+        {{ if .Params.title2 }}
+        <h1>{{ title .Params.title2 }}</h1>
+        {{ else }}
         <h1>{{ title .Title }}</h1>
         {{ end }}
         <p class="lead">{{ .Summary }}</p>

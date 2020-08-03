@@ -12,7 +12,7 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 ---
 
 ## Site Structure
-The following 5 sections contain instructions to create new pages and show differences in layout and page meta data  
+The following 5 sections contain instructions to create new pages and show differences in layout and page meta data.  
 
 ### 1. Articles
 
@@ -24,6 +24,7 @@ The following 5 sections contain instructions to create new pages and show diffe
 ```
 ---
 title: "product data: what you need to know"
+title2: "what you need to know"
 description: "Understanding product data is one of the most important elements to a successful e-commerce business. Here's an explanation of what you need to know."
 summary: "Understanding product data is essential for a successful e-commerce business. Here’s an overview of the most important elements of product data you need to understand."
 date: 2019-07-05
@@ -77,7 +78,7 @@ weight: 1
 ---
 ```
 
-### Technical Doc / Wiki
+### 5. Technical Doc / Wiki
 
 ##### Create new page
 1. Navigate to the relevant section and add the .md file
@@ -85,7 +86,7 @@ weight: 1
 ##### Front matter
 ```
 ---
-title: Managing Variants 
+title: Managing Variants
 
 ---
 ```
@@ -94,4 +95,5 @@ title: Managing Variants
 
 ## Key Terms
 - description: Page Meta Description important for SEO
-- summary: Page summary displayed the articles list page
+- summary: Page summary displayed in the articles list page
+- weight: Sort order
