@@ -8,13 +8,6 @@ img {
     width: 100%;
 }
 
-.card-img-top {
-    height: 250px;
-    overflow: hidden;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-
 aside .nav-link {
     padding: 0px;
 }
@@ -38,21 +31,13 @@ hr {
     margin-bottom: 2rem !important;
 }
 
-/* SIDEBAR */
+/* ARTICLES */
 
-#TableOfContents {
-    ul > li > ul {
-        display: none;
-    }
-    li {
-        list-style: none !important;
-    }
-    ul {
-        padding-left: 0px;
-    }
-    a {
-        color:#333 !important;
-    }
+#articles .card-img-top {
+    height: 250px;
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 /* DOCSIDE */

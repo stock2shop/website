@@ -1,16 +1,25 @@
 {{ define "main" }}
-    <h2>Our Clients</h2>
-    <p>{{ .Description }}</p>
+    {{ if .Params.heading }}
+    <h1>{{ title .Params.heading }}</h1>
+    {{ else }}
+    <h1>{{ title .Title }}</h1>
+    {{ end }}
+    <p class="lead">{{ .Params.Lead }}</p>
+    <hr>
     {{ .Content }}
+    <h2>Success Stories</h2>
     <div class="card-deck">
         {{ range .Pages }}
         <div class="card">
-            <img src="https://via.placeholder.com/365x200.png" class="card-img-top">
+            <a href="{{ .Page.RelPermalink }}"><img src="{{ .Params.image }}" class="card-img-top"></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="{{ .Page.RelPermalink }}">{{ title .Page.Title }}</a></h5>
-                <p class="card-text">{{ .Description }}</p>
+                <p class="card-text">{{ .Params.Summary }}</p>
             </div>
         </div>
         {{ end }}
     </div>
+    <hr>
+    <h2>More Happy Clients</h2>
+    {{ partial "happy_clients.html" . }}
 {{ end }}

@@ -1,11 +1,15 @@
 {{ define "main" }}
-    <h2>{{ title .Title }}</h2>
+    {{ if .Params.heading }}
+    <h1>{{ title .Params.heading }}</h1>
+    {{ else }}
+    <h1>{{ title .Title }}</h1>
+    {{ end }}
     <p class="lead">{{ .Params.Lead }}</p>
     {{ .Content }}
-    <div class="card-deck">
+    <div class="card-deck" id="articles">
         {{ range .Pages }}
         <div class="card">
-            <img src="{{ .Params.og_image }}" class="card-img-top">
+            <a href="{{ .Page.RelPermalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAltText }}"></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="{{ .Page.RelPermalink }}">{{ title .Page.Title }}</a></h5>
                 <p class="card-text">{{ .Summary }}</p>

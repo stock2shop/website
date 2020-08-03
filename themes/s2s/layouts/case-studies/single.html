@@ -10,7 +10,12 @@
         </nav>
     </aside>
     <div class="col-md-9">
-        <h2>Case Study: {{ title .Title }}</h2>
+        {{ if .Params.heading }}
+        <h1>{{ title .Params.heading }}</h1>
+        {{ else }}
+        <h1>{{ title .Title }}</h1>
+        {{ end }}
+        <p class="lead">{{ .Params.Lead }}</p>
         {{ .Content }}
     </div>
 </div>

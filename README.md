@@ -24,7 +24,7 @@ The following 5 sections contain instructions to create new pages and show diffe
 ```
 ---
 title: "product data: what you need to know"
-title2: "what you need to know"
+heading: "what you need to know"
 description: "Understanding product data is one of the most important elements to a successful e-commerce business. Here's an explanation of what you need to know."
 summary: "Understanding product data is essential for a successful e-commerce business. Here’s an overview of the most important elements of product data you need to understand."
 lead: "Understanding product data is one of the most important elements to a successful e-commerce business. If you’re just starting your e-commerce website, you may think that you can just move your product data from your accounting system to your website and sell online. Right? Wrong. You need to know as much as you can about your products – and share that information with your customers – to successfully sell online."
@@ -96,9 +96,10 @@ title: Managing Variants
 
 ## Terms
 - title: Page Meta Title important for SEO
-- title2: In case the page title differ from the SEO title 
+- heading: Page title used when different from the SEO title 
 - description: Page Meta Description important for SEO
 - summary: Page summary displayed in the articles list page
 - lead: The lead paragraph with unique styling
+- og_image: Image used from social media sharing and for list page
 - date: Used for sorting, yyyy-mm-dd format should be used
 - weight: Menu item sort order
