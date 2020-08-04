@@ -3,12 +3,12 @@ title: "product data: what you need to know"
 description: "Understanding product data is one of the most important elements to a successful e-commerce business. Here's an explanation of what you need to know."
 summary: "Understanding product data is essential for a successful e-commerce business. Here’s an overview of the most important elements of product data you need to understand."
 lead: "Understanding product data is one of the most important elements to a successful e-commerce business. If you’re just starting your e-commerce website, you may think that you can just move your product data from your accounting system to your website and sell online. Right? Wrong. You need to know as much as you can about your products – and share that information with your customers – to successfully sell online."
-image: "/uploads/article_1_notebook_med.jpg"
+image: "/uploads/article-1-notebook.jpg"
 imageAlt: "product data"
 date: 2019-07-05
 ---
 
-![notebook](/uploads/article_1_notebook_med.jpg)
+![notebook](/uploads/article-1-notebook.jpg)
 ## Meaningful product information
 
 #### Structuring your product information and capturing meaningful data about each product is essential when marketing and selling products online. But what is meaningful product information? Let’s take a closer look.
@@ -28,7 +28,7 @@ For your products to be ready to sell online, you have to actually capture this 
 
 When a customer is trying to make a decision between two options, more information is always a good thing. Think about how you can give them as thorough a view as possible of your product. Perhaps that means adding extra keywords, more photos, a more detailed description or a longer title. It’s helpful to think about how you shop online: do you just look for shoes, or do you look for Falke hiking socks, in size 9, for high performance?
 
-![product data more information](/uploads/article_1_product_data_more_information.jpg)
+![product data more information](/uploads/article-1-product-data-more-information.jpg)
 
 The magic formula for apparel product descriptions is:
 **Brand + Gender + Color + Size + Specific model + Material + Category**
@@ -38,7 +38,7 @@ Not every product will include all of these elements, but you should aim to have
 
 Of course, selling socks is very different to selling toys, and one of the things to keep top of mind when compiling product data is what questions your customers will have, and how to answer them before they have to ask.
 
-![product data tailored descript](/uploads/article_1_product_data_tailored_descript.jpg)
+![product data tailored descript](/uploads/article-1-product-data-tailored-descript.jpg)
 
 So if you’re selling a child’s toy, you may need to include things like:
 
@@ -56,11 +56,11 @@ Remember: it’s important to write original descriptions so that your listing g
 
 It may sound obvious to say that different products need different data. On one level it is, as each product needs a different data set that describes it. But different kinds of products also need different data. If you’re selling a technical product to technical customers, (like RAM, for example) it’s important to give all the technical information you have available – including all the specs you can find that will give them a better idea of what exactly you’re selling.
 
-![product data different product](/uploads/article_1_product_data_different_product.jpg)
+![product data different product](/uploads/article-1-product-data-different-product.jpg)
 
 If you’re selling something ‘touchy feely’ (like a teddy bear, for example) it’s important to give the emotional benefits of buying the product – tell the story of how it will be their child’s favourite cuddly toy, and travel with them everywhere.
 
-![product data different data product](/uploads/article_1_product_data_different_data_product.jpg)
+![product data different data product](/uploads/article-1-product-data-different-data-product.jpg)
 
 The question of whether better descriptions lead to more sales (and higher prices) was answered in this study, where objects that were bought for $1 to $4 were given a meaningful story and resold on eBay. The result? The value of the objects went up by 2700%. The stories we attach to objects give them meaning. It is up to you to give your products meaning that will ring true for your customers, and make them more likely to buy.
 

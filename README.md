@@ -23,12 +23,14 @@ The following 5 sections contain instructions to create new pages and show diffe
 ##### Front Matter
 ```
 ---
-title: "product data: what you need to know"
-heading: "what you need to know"
-description: "Understanding product data is one of the most important elements to a successful e-commerce business. Here's an explanation of what you need to know."
-summary: "Understanding product data is essential for a successful e-commerce business. Here’s an overview of the most important elements of product data you need to understand."
-lead: "Understanding product data is one of the most important elements to a successful e-commerce business. If you’re just starting your e-commerce website, you may think that you can just move your product data from your accounting system to your website and sell online. Right? Wrong. You need to know as much as you can about your products – and share that information with your customers – to successfully sell online."
-date: 2019-07-05
+title: "how to categorize products: layered navigation"
+heading: "layered navigation"
+description: "Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation."
+summary: "Categorizing products correctly is a major pain point for many e-commerce websites. Layered navigation is the solution: find out how – and why – to implement it"
+lead: "Categorizing products correctly is a major pain point for many e-commerce websites. Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation. Here’s what you need to know."
+image: "/uploads/article_2_layered_navigation.jpg"
+imageAlt: "layered navigation"
+date: 2019-07-18
 ---
 ```
 
@@ -41,8 +43,13 @@ date: 2019-07-05
 ##### Front Matter
 ```
 ---
-title: "AL & CD Ashley"
-description: "Imports and distributes high quality cookware. Success Story featuring Pastel Partner, B2B and B2C stores."
+title: "omnico"
+description: "Omnico had a common challenge: how to integrate SYSPRO into multiple sales channels. Our solution? A Magento B2B and B2C e-commerce website integrated with Stock2Shop. We worked closely with Omnico to create the perfect solution to suit their needs. Read more!"
+lead: "Omnico is a major importer of lifestyle, cycle and electronic brands, including GoPro, Canondale, Giro, Stages, Ryder and Red-e."
+summary: "Imports leading lifestyle and cycle brands in South Africa. Success Story featuring B2B, SYSPRO and Magento."
+image: "/uploads/logo_omnico.png"
+imageAlt: "omnico logo"
+weight: 1
 ---
 ```
 

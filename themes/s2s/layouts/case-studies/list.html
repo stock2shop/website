@@ -11,7 +11,7 @@
     <div class="card-deck">
         {{ range .Pages }}
         <div class="card">
-            <a href="{{ .Page.RelPermalink }}"><img src="{{ .Params.image }}" class="card-img-top"></a>
+            <a href="{{ .Page.RelPermalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}"></a>
             <div class="card-body">
                 <h5 class="card-title"><a href="{{ .Page.RelPermalink }}">{{ title .Page.Title }}</a></h5>
                 <p class="card-text">{{ .Params.Summary }}</p>

@@ -1,10 +1,14 @@
 ---
 title: "omnico"
+heading: "Case Study: Omnico"
 description: "Omnico had a common challenge: how to integrate SYSPRO into multiple sales channels. Our solution? A Magento B2B and B2C e-commerce website integrated with Stock2Shop. We worked closely with Omnico to create the perfect solution to suit their needs. Read more!"
 lead: "Omnico is a major importer of lifestyle, cycle and electronic brands, including GoPro, Canondale, Giro, Stages, Ryder and Red-e."
 summary: "Imports leading lifestyle and cycle brands in South Africa. Success Story featuring B2B, SYSPRO and Magento."
-image: "/uploads/logo_omnico.png"
+image: "/uploads/logo-client-omnico.png"
+imageAlt: omnico logo
 weight: 1
+---
+
 ---
 ## THE COMPANY
 - Industry: Lifestyle / Cycling
@@ -12,9 +16,11 @@ weight: 1
 - Founded: 1987
 - Website: www.omnico.co.za
 
+---
 ## THE CHALLENGE
 Omnico needed a **full e-commerce solution**. They were using SYSPRO to manage their customer accounts, price data and product codes, but had no way to communicate this data to their other sales channels: e-commerce websites (B2B and B2C), marketplaces and drop shipping solutions. Stock2Shop integrated them with ease.
 
+---
 ## THE GOALS
 - Sync inventory
 - Sync customer data
@@ -23,6 +29,7 @@ Omnico needed a **full e-commerce solution**. They were using SYSPRO to manage t
 - Open up additional sales channels
 - Simplify drop shipping
 
+---
 ## THE SOLUTIONS
 Stock2Shop worked with Omnico to find the **perfect solutions for their various challenges**. We **integrated SYSPRO** into a **custom-built Magento website** that served as both a B2B and B2C platform.
 Essentially, we made e-commerce painless. Here’s how we did it:
@@ -67,10 +74,11 @@ Essentially, we made e-commerce painless. Here’s how we did it:
 - Individual accounts in SYSPRO, with historical order information.
 - Sales rep ordering system directly from the B2B platform.
 
+---
 ## OPEN UP ADDITIONAL SALES CHANNELS
 Opening up new sales channels is another one of our specialities. We made it significantly easier for Omnico to sell through additional sales channels – automated drop shipping through marketplaces, a B2C Magento sales channel to sell end-of-range stock, and a streamlined sales rep ordering platform through the B2B store.
 
-
+---
 ### How the B2B sales rep ordering platform works:
 - Omnico sales reps can log in as a customer to see their pricing.
 - The rep can raise an order on behalf of the client (using their mobile phone or computer).
@@ -79,6 +87,7 @@ Opening up new sales channels is another one of our specialities. We made it sig
 - If the client is in good standing, the order goes through immediately.
 - Simple, speedy, effective.
 
+---
 ## SIMPLIFY DROP SHIPPING OF OMNICO’S STOCK
 - With Stock2Shop, Omnico can now share real time inventory data with drop shippers, automatically and near real time.
 - Some retailers don’t hold all of Omnico’s stock, so it’s essential to have accurate stock and pricing information, constantly updated.
