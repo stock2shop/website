@@ -3,8 +3,8 @@ title: "product data: what you need to know"
 description: "Understanding product data is one of the most important elements to a successful e-commerce business. Here's an explanation of what you need to know."
 summary: "Understanding product data is essential for a successful e-commerce business. Here’s an overview of the most important elements of product data you need to understand."
 lead: "Understanding product data is one of the most important elements to a successful e-commerce business. If you’re just starting your e-commerce website, you may think that you can just move your product data from your accounting system to your website and sell online. Right? Wrong. You need to know as much as you can about your products – and share that information with your customers – to successfully sell online."
-image: "/uploads/article_1_Notebook_med2.jpg"
-imageAltText: "product data"
+image: "/uploads/article_1_notebook_med.jpg"
+imageAlt: "product data"
 date: 2019-07-05
 ---
 
