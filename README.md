@@ -106,12 +106,13 @@ title: Managing Variants
 
 ---
 
-## Terms
-- title: Page Meta Title important for SEO
-- heading: Page title used when different from the SEO title 
-- description: Page Meta Description important for SEO
+## Params
+- title: Page Meta Title for SEO
+- heading: Page heading when different from title 
+- description: Page Meta Description for SEO
 - summary: Page summary displayed in the articles list page
-- lead: The lead paragraph with unique styling
-- og_image: Image used from social media sharing and for list page
-- date: Used for sorting, yyyy-mm-dd format should be used
-- weight: Menu item sort order
+- lead: The lead paragraph
+- toc: Show page table of content
+- image: Image used from social media sharing and for list page
+- date: Used for sorting with yyyy-mm-dd format
+- weight: Menu item and listing sort order
