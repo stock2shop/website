@@ -1,22 +1,25 @@
 ---
 title: "Installing Stock2Shop for Sage Business Cloud Financials"
+description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
+toc: true
 menu:
   docside:
     parent: Getting Started
+    name: Sage Business Cloud Financials
 ---
-### Introduction
+## Introduction
 Sage Business Cloud Financials (formerly Sage Live) is an online accounting system. This means the application lives in the “cloud”. Enabling Stock2Shop to work with Sage Business Cloud Financials is relatively simple. In order for Stock2Shop to provide you with the full integration features and link your Sage Business Cloud Financials system to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, we need access to your Sage Business Cloud Financials account.
 
-### For accessing your data
+## For accessing your data
 In order to communicate with your Sage Business Cloud Financials, we require the following information:
 
 - Sage Business Cloud Financials Username
 - Sage Business Cloud Financials Password
 
-### For raising orders
+## For raising orders
 Raising orders into Sage Business Cloud Financials is a straightforward process. During the data discussion one of our Technicians will confirm how orders should be raised.
 
-### What’s next
+## What’s next
 Below is an overview outlining the next steps:
 
 1. Data Discussion

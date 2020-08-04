@@ -1,5 +1,10 @@
 {{ define "main" }}
-    <h2>{{ .Title }}</h2>
+    {{ if .Params.heading }}
+    <h1>{{ title .Params.heading }}</h1>
+    {{ else }}
+    <h1>{{ title .Title }}</h1>
+    {{ end }}
+    <p class="lead">{{ .Params.Lead }}</p>
     <ul>
         {{ range where .Site.Pages "Type" "platform" }}
         <li>
