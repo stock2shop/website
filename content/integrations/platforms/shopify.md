@@ -3,6 +3,7 @@ title: "Shopify"
 type: platform
 summary: "Start selling today with a purpose-built and fast growing e-commerce platform that’s quick to launch and easy to use."
 image: "/uploads/logo-platform-shopify.png"
+imageAlt: shopify logo
 weight: 1
 ---
 - [   Sage Business Cloud Accounting Shopify Integration](/integrations/sage-one-shopify/ "Sage Business Cloud Accounting (formerly Sage One) Shopify Integration")

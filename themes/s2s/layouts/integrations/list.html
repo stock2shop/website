@@ -10,7 +10,7 @@
             {{ range where .Site.Pages "Type" "platform" }}
             <div class="col mb-4">
                 <div class="card h-100">
-                    <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="..."></a>
+                    <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}"></a>
                     <div class="card-body">
                         <h5 class="card-title">
                             {{ if .Params.titleList }}

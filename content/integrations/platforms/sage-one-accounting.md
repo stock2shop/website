@@ -4,6 +4,7 @@ titleList: sage business cloud accounting
 summary: "Formerly Sage One: Simple and secure online accounting software"
 type: platform
 image: "/uploads/logo-platform-sage-business-cloud-accounting.png"
+imageAlt: sage business cloud accounting logo
 weight: 5
 ---
 - [Sage Business Cloud Accounting Shopify Integration](/integrations/sage-one-shopify/ "Sage Business Cloud Accounting (formerly Sage One) Shopify Integration")
