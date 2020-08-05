@@ -5,11 +5,26 @@
     <h1>{{ title .Title }}</h1>
     {{ end }}
     <p class="lead">{{ .Params.Lead }}</p>
-    <ul>
-        {{ range where .Site.Pages "Type" "platform" }}
-        <li>
-            <a href="{{ .Permalink }}">{{ title .Title }}</a>
-        </li>
-        {{ end}}
-    </ul>
+    <hr>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+            {{ range where .Site.Pages "Type" "platform" }}
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            {{ if .Params.titleList }}
+                            {{ title .Params.titleList }}
+                            {{ else }}
+                            {{ title .Title }}
+                            {{ end }}
+                        </h5>
+                        <p class="card-text">{{ .Summary }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
 {{ end }}
+
+

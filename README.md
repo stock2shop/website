@@ -12,7 +12,7 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 ---
 
 ## Site Structure
-The following 5 sections contain instructions to create new pages and show differences in layout and page meta data.  
+The next 5 sections contain instructions to create new pages and show differences in layout and page meta data.  
 
 ### 1. Articles
 
@@ -59,7 +59,7 @@ weight: 1
 ##### Create new page
 1. Navigate to documentation section and add the .md file
 2. Copy and update front-matter from another page
-3. Update menu weight (order) and parent page
+3. Update menu weight, parent and name
 
 ##### Front Matter
 ```
@@ -85,9 +85,12 @@ menu:
 ##### Front Matter
 ```
 ---
-title: "Shopify"
+title: "sage business cloud accounting (formerly sage one)"
+titleList: sage business cloud accounting
+summary: "Formerly Sage One: Simple and secure online accounting software"
 type: platform
-weight: 1
+image: "/uploads/logo-platform-sage-business-cloud-accounting.png"
+weight: 5
 ---
 ```
 
@@ -108,7 +111,8 @@ title: Managing Variants
 
 ## Params
 - title: Page Meta Title for SEO
-- heading: Page heading when different from title 
+- heading: Page heading when different from title
+- titleList: Displayed on list page 
 - description: Page Meta Description for SEO
 - summary: Page summary displayed in the articles list page
 - lead: The lead paragraph
