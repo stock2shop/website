@@ -33,7 +33,7 @@
             <li>
                 <a href="{{ .Permalink }}">{{ title .Title }}</a>
                 <ul>
-                    {{ range .RegularPages }}
+                    {{ range .RegularPages.Reverse }}
                     <li>
                         <a href="{{ .Permalink }}">{{ title .Title }}</a>
                     </li>
@@ -42,7 +42,7 @@
             </li>
             {{ end}}
             {{ else }}
-            {{ range .RegularPages }}
+            {{ range .RegularPages.Reverse }}
             <li>
                 <a href="{{ .Permalink }}">{{ title .Title }}</a>
             </li>

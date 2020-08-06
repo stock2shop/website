@@ -5,7 +5,7 @@ title: Understanding your queue
 
 ## Introduction
 
-One of the key concepts that Stock2Shop uses to manage data is the Queue.
+One of the [key concepts](/documentation/key-concepts/) that Stock2Shop uses to manage data is the [Queue](https://www.stock2shop.com/documentation/key-concepts/queue/).
 Any passing of data through the Stock2Shop system will pass through the queue, be it a sync from the source to Stock2Shop, updating product data on the website or syncing an order from the website, it will pass through the queue.
 
 Each type of sync that passes through the queue will have its own queue instruction and within those instructions each item will have its own queue id.
@@ -213,7 +213,7 @@ Points to remember in order to manage your queue efficiently:
 4. Provide the queue ID, queue error and the sku the error relates to for speedy assistance
 5. Take note of the errors that have occurred, if the same error is occurring over and over again there may be updates for the same sku in the queue with the old data, you will need to skip the errors that pertain to that sku until the queue has completed
 
-There are a range of errors that occur, once you are aware of how the system works it will assist you in managing the errors more efficiently, read through our documentation to gain a better understanding.
+There are a range of errors that occur, once you are aware of how the system works it will assist you in managing the errors more efficiently, [read through our documentation](/documentation/key-concepts/) to gain a better understanding.
 
 Remember the better the queue is managed the less time that will be needed to resolve issues
 
@@ -221,36 +221,36 @@ Remember the better the queue is managed the less time that will be needed to re
 
 If you looking for assistance with Queue Errors the following link may be useful - S2S Help Desk
 
-## Glossary 
+## Glossary
 
 Below is a list of terms and words that you may need for better understanding:
 
-##### Source
+###### Source
 This refers to the source of the information that we are receiving from ie: Accounting system; ERP; Flat File
 
-##### Source Code / Source Order Code
+###### Source Code / Source Order Code
 This is the code that S2S receives from the source when raising an order on said source. This normally refers to an #Invoice; #Sale Order or #Quotation 
 
-##### Channel
+###### Channel
 This is the end point for the information, sales channel ie: Magento site; Woocommerce site; Shopify site; Takealot; B2B Trade store or other marketplaces
 
-##### Channel Code
+###### Channel Code
 This is the code received by the sales channel when an order is placed on said channel and refers to the sales channel's order number
 
-##### Customer Code / Source Customer Code
+###### Customer Code / Source Customer Code
 This is the customer unique code given to S2S from either the channel or the source, both are saved on the S2S console  to populate a customer account when an order is placed
 
-##### Push
+###### Push
 This is when the S2S software will automatically push any changes from the source to the S2S console on a regular sync. Standard is every 3 min 
 
-##### Pull
+###### Pull
 This is when the S2S system fetches any information/changes from the source on a cron schedule
 
-##### Cron
+###### Cron
 A command to the operating system or server for a job that is to be executed at a specified time.
 
-##### Inventory Management
+###### Inventory Management
 Most websites have the functionality to manage stock availability depending on whether a product has qty or not, this is called inventory management. 
 
-##### Workflow
+###### Workflow
 The process for creating, enriching, removing products with particular preferences 

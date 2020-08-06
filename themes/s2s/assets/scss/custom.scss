@@ -8,6 +8,10 @@ img {
     max-width: 100%;
 }
 
+th, td {
+    border: 1px solid grey;
+}
+
 aside .nav-link {
     padding: 0px;
 }
@@ -64,4 +68,8 @@ aside .active > a {
 
 #platform img {
     width: 100px;
+}
+
+#TableOfContents ul ul {
+    display:none;
 }

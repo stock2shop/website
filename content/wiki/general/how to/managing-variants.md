@@ -20,8 +20,8 @@ Key points to remember:
 1. All grouped skus must have options, ie: if one of the variations/skus of a product has a size and colour then all the variations/skus of the product should have a size and colour
 2. Keep your values of your options uniform, ie: if you are giving one sku a size value of "XL" don't have other skus that say "Extra Large" on a product
 
-Below are some valuable resources to understanding  variable products:
-[Products and variants](/documentation/key-concepts/products-variants/)
+Below are some valuable resources to understanding  variable products:  
+[Products and variants](/documentation/key-concepts/products-variants/)  
 [Product data](/articles/product-data-what-you-need-to-know/)
 
 ## Adding and Activating Variants
