@@ -16,11 +16,11 @@ The next 5 sections contain instructions to create new pages and show difference
 
 ### 1. Articles
 
-##### Create new page
+#### Create new page
 1. Run ```hugo new articles/filename.md```
 2. Open newly created file and [description](#key-terms) and summary in Front Matter
 
-##### Front Matter
+#### Front Matter
 ```
 ---
 title: "how to categorize products: layered navigation"
@@ -36,11 +36,11 @@ date: 2019-07-18
 
 ### 2. Case Studies
 
-##### Create new page
+#### Create new page
 1. Navigate to the relevant section and add the .md file
 2. Copy and update front-matter from another page
 
-##### Front Matter
+#### Front Matter
 ```
 ---
 title: "omnico"
@@ -56,12 +56,12 @@ weight: 1
 
 ### 3. Documentation
 
-##### Create new page
+#### Create new page
 1. Navigate to documentation section and add the .md file
 2. Copy and update front-matter from another page
 3. Update menu weight, parent and name
 
-##### Front Matter
+#### Front Matter
 ```
 ---
 title: "sage pastel partner configuration"
@@ -77,12 +77,12 @@ menu:
 
 ### 4. Integrations
 
-##### Create new page
+#### Create new page
 1. Navigate to the relevant section and add the .md file
 2. Copy and update front-matter from another page
 3. If it's a 'single platform' page, add "type: platform" to the front-matter for it to be added to the integrations list
 
-##### Front Matter
+#### Front Matter
 ```
 ---
 title: "sage business cloud accounting (formerly sage one)"
@@ -97,10 +97,10 @@ weight: 5
 
 ### 5. Technical Doc / Wiki
 
-##### Create new page
+#### Create new page
 1. Navigate to the relevant section and add the .md file
 2. Copy and update front-matter from another page
-##### Front matter
+#### Front matter
 ```
 ---
 title: Managing Variants

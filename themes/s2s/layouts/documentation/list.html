@@ -2,11 +2,7 @@
 <div class="row">
     {{ partial "docside.html" . }}
     <div class="col-md-9">
-        {{ if .Params.heading }}
-        <h1>{{ title .Params.heading }}</h1>
-        {{ else }}
-        <h1>{{ title .Title }}</h1>
-        {{ end }}
+        <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
         <p class="lead">{{ .Params.Lead }}</p>
         <hr>
         {{ .Content }}

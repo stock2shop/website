@@ -1,34 +1,124 @@
 {{ define "main" }}
-    <h2>Home Page</h2>
-    {{ if .Site.IsServer }}
-        <p>The site is served by hugo server</p></br>
-    {{ else }}
-        <p>The site is running as published</p></br>
-    {{ end }}
+<section class="text-center fullwidth bg-dark py-5">
+    <div class="container" style="color:#e2e1e1">
+        <h2>It’s business as usual, just better</h2>
+        <h4>Work smarter, not harder. See your online business flourish as you run your inventory control, order management and shipping right from your existing erp or accounting system.</h4>
+    </div>
+</section>
+<section class="text-center py-5">
+    <h2>How it works</h2>
+    <h4>Watch our short video</h4><br><br>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe src="https://www.youtube.com/embed/eszMk_JArl4?" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Stock2Shop: ERP/eCommerce Integration"></iframe>
+    </div>
+</section>
+<section class="row">
+    <div class="col-sm-3">
+        <article class="">
+            <h2>Sync Products</h2>
+            <p>
+                From your existing ERP or accounting system to your online sales channels.
+                Keep stock levels and pricing in sync, and avoid over-selling.
+            </p>
+        </article>
+    </div>
+    <div class="col-sm-3">
+        <article class="">
+            <h2>Sync Orders</h2>
+            <p>
+                From your online sales channels back to your ERP or accounting system.
+                No more double entries, less admin and no mistakes.
+            </p>
+        </article>
+    </div>
+    <div class="col-sm-3">
+        <article class="">
+            <h2>Fulfill Orders</h2>
+            <p>
+                From online sales channels to order fulfilment.
+                Ensure fast and efficient distribution.
+            </p>
+        </article>
+    </div>
+    <div class="col-sm-3">
+        <article class="">
+            <h2>B2B Orders</h2>
+            <p>
+                Via our mobile-friendly business-to-business platform.
+                Perfect for sales reps on the road and existing customers.
+            </p>
+        </article>
+    </div>
+</section>
+<section id="s2s_info">
+    <div class="container">
+        <div class="row pt-3 pb-1">
+            <div class="col-md-6">
+                <img src="/uploads/home-erp-list.png" title="Sage, SAP, Syspro integration" alt="erp integration" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+                <h2>It’s business as usual, just better</h2>
+                <p>
+                    Want to open up <strong>new online</strong> sales channels without changing how you currently work? No problem. We’ll give your <strong>existing systems</strong> an extra boost. You carry on using your ERP or accounting system, we’ll do the heavy lifting.
+                </p>
+                <p>
+                    Take your existing Sage, SYSPRO, iSync or SAP system online by integrating into Shopify, Magento, WooCommerce and B2B trade stores. <strong>Simply does it</strong>.
+                </p>
+                <p class="pb-1">
+                    We’ll <strong>sync your online orders</strong> to your existing ERP or accounting system and automatically update your inventory levels, so you’ll never sell something you can’t deliver. Happy customers guaranteed.
+                </p>
 
-    <p>Quick links:</p>
-    <ul>
-        <li><a href="/wiki">Wiki</a></li>
-        <li><a href="/documentation">Docs</a></li>
-        <li><a href="/articles">Articles</a></li>
-        <li><a href="/case-studies/">Case Studies</a></li>
-    </ul>
+                <h2>Do less. Sell more</h2>
+                <p>
+                    With Stock2Shop you automate tasks so you can <strong>sell as efficiently as possible</strong>. No more manual order entries or piles of paper – just clean, reliable information about what’s where. Instantly. Online orders are automatically added to your ERP or accounting system, so there’s no need for double-capture, and less chance of human error.
+                </p>
 
-<!-- {{ printf "%#v" . }} -->
+            </div>
 
-<!----- Below can be uncommented to view useful site parameters ----->
+        </div>
+        <hr>
+        <div class="row pb-3 pt-1">
+            <div class="col-md-6">
+                <h2>Sell everywhere. Painlessly</h2>
+                <p class="pb-1">
+                    Stock2Shop keeps <strong>all your channels synchronised</strong>. The stock levels in your physical shops, online shops,
+                    B2B trade stores and marketplaces are all aligned because they’re all managed from the same single
+                    source: your ERP or accounting system.
+                </p>
+                <h2>B2B Trade store
+                </h2>
+                <p>Whether you sell to businesses, end-consumers or both, our B2B trade store <strong>makes admin easy</strong>.</p>
+                <p>
+                    Some of our clients don’t sell to the public. They use Stock2Shop to develop sophisticated customer
+                    portals (B2B trade stores). With our <strong>customisable B2B trade stores</strong>, you can sell your products to
+                    different customers at different prices.
+                </p>
+                <p>
+                    Let your customers or sales reps see up-to-date inventory and order directly into your ERP or
+                    accounting system, straight from their mobile. The perfect solution for wholesale and distribution.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="/uploads/home-connector-list.png" title="B2B, woocommerce, shopify, magento integration" alt="ecommerce integration" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="text-center">
+    <h2>You’re in good company</h2>
+    <h4>Success Stories</h4><br>
+    {{ partial "case_studies.html" . }}
+</section>
+<section class="text-center">
+    <h2>More Happy Clients</h2><br>
+    {{ partial "happy_clients.html" . }}
+</section>
 
-<!--    Tags:-->
-<!--    <ul>-->
-<!--        {{ range .Site.Taxonomies.tags }}-->
-<!--        <li>{{ .Page.Title }}</li>-->
-<!--        {{ end }}-->
-<!--    </ul>-->
-<!--    Categories:-->
-<!--    <ul>-->
-<!--        {{ range .Site.Taxonomies.categories }}-->
-<!--        <li>{{ .Page.Title }}</li>-->
-<!--        {{ end }}-->
-<!--    </ul>-->
+
+<!--{{ if .Site.IsServer }}-->
+<!--<p>The site is served by hugo server</p></br>-->
+<!--{{ else }}-->
+<!--<p>The site is running as published</p></br>-->
+<!--{{ end }}-->
 
 {{ end }}

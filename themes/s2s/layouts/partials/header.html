@@ -1,7 +1,19 @@
 <header>
-    <nav class="navbar navbar-expand-md navbar-light">
+    <div id="preHeader">
+        <nav class="container nav">
+            <a class="nav-link" style="padding:.5rem .5rem .5rem 0" href="/contact-us">Contact Us</a>
+            <a class="nav-link" href="/developers">Developers</a>
+            <a class="nav-link" href="/glossary">Glossary</a>
+            <a class="nav-link" href="/about-us">About Us</a>
+            <div class="ml-auto row">
+                <a class="nav-link" style="color:#b0b0b0">+27 (0)21 813 5866</a>
+                <a style="height: 27px; padding: 2px 8px;margin: 6px 16px 0 0;" href="https://console.stock2shop.com/console/" class="btn btn-sm btn-secondary nav-link">LOGIN</a>
+            </div>
+        </nav>
+    </div>
+    <nav class="navbar navbar-expand-md border-bottom">
         <div class="container">
-            <a class="navbar-brand" href="/">Stock2Shop</a>
+            <a class="navbar-brand" href="/"><img src="/uploads/logo-stock2shop.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -14,7 +26,7 @@
                         </a>
                     </li>
                     {{ end }}
-                    <input type="button" class="btn-sm ml-3" onclick="location.href='/'" value="How it works" />
+                    <a href="/" class="btn btn-danger ml-2">How it works</a>
                 </ul>
             </div>
         </div>

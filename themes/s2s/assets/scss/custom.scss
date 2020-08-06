@@ -11,14 +11,25 @@ img {
 aside .nav-link {
     padding: 0px;
 }
+.fullwidth {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
 
 /* HEADER */
 
-header {
+#preHeader {
     background: #333;
 }
 .navbar-brand {
     color: #007bff !important;
+}
+.navbar-expand-md {
+    background: #f3f1f1;
 }
 header#wiki {
     background: #e93e34;
@@ -47,4 +58,10 @@ aside .active > a > span {
 }
 aside .active > a {
     color: red;
+}
+
+/* PLATFORM PAGES */
+
+#platform img {
+    width: 100px;
 }
