@@ -25,7 +25,8 @@ Requirements
 3.  Outgoing port 8080 must be open (this is outgoing so should pose no security violation)
 Example basic SQL that gets executed 
 
-```
+{{< highlight sql >}}
+
 SELECT * 
 FROM   (SELECT Row_number() 
                  OVER ( 
@@ -105,4 +106,5 @@ FROM   (SELECT Row_number()
                'active\publish', 'delete\unpublish' )) AS rows 
 WHERE  n > '%(audit_lower_limit)n' 
        AND n <= '%(audit_upper_limit)n'
-```
+       
+{{< /highlight >}}

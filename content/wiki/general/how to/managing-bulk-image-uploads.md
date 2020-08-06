@@ -9,7 +9,7 @@ Stock2Shop has requirements in order for images to be uploaded and used, below i
 1. Only ".jpg", ".jpeg" and ".png" images are accepted by S2S (Note that .JPG can cause issues, ensure that the file extensions are all small caps) 
 2. Images can be no larger than 2mb, recommended size is 500kb for web 
 3. Although this is not a requirement try to ensure your images are all the same resolution for a uniform display
-To read more on best image practices see here.
+To read more on best image practices [see here](/documentation/product-data/product-images/).
 
 ## Preparing images
 
@@ -30,7 +30,7 @@ Before selecting the images you want to upload there are a couple points to take
 2. Field - This is the field in S2S that relates to what you have named your images
 3. Find Replace - this directly relates to whether you have replaced characters in your image names in order to save them and if you have used method 2a in preparing your images
 
-![Bulk image uploads](/images/howto1.png)
+![Bulk image uploads](/uploads/general-managing-bulk-image-uploads.png)
 
 ## Find Replace:
 

@@ -18,9 +18,9 @@ Below are some steps to setting up a personal password on TeamViewer:
 3. Select "Set Personal Password" (See image 2)
 4. A new window will appear, populate "Password" and "Confirm Password" with a password of your choice and click "OK" (See image 3)
 
-![image 1](/images/howto2.png)
+![image 1](/uploads/general-setup-teamviewer-personal-password-1.png)
 *image 1*
-!['image 2', 'Bulk image uploads'](/images/howto3.png)
+![image 2](/uploads/general-setup-teamViewer-personal-password-2.png)
 *image 2*
-![image 3', 'Bulk image uploads'](/images/howto4.png)
+![image 3](/uploads/general-setup-teamViewer-personal-password-3.png)
 *image 3*
