@@ -2,6 +2,7 @@
 title: Understanding your queue
 
 ---
+
 ## Introduction
 
 One of the key concepts that Stock2Shop uses to manage data is the Queue.
