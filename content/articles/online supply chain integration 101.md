@@ -5,7 +5,7 @@ summary: "So you have an ERP and you have a website to display your products… 
 lead: "So you have an ERP and you have a website to display your products… But something is missing. That something is online supply chain integration: a simple way to make your business work more efficiently, with fewer errors, streamlined."
 image: "/uploads/article-3-online-supply-chain-integration.jpg"
 imageAlt: "online supply chain integration"
-date: 2019-07-26
+date: 2018-07-26
 ---
 ![online supply chain integration](/uploads/article-3-online-supply-chain-integration.jpg)
 

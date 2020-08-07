@@ -5,10 +5,10 @@ summary: "Categorizing products correctly is a major pain point for many e-comme
 lead: "Categorizing products correctly is a major pain point for many e-commerce websites. Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation. Here’s what you need to know."
 image: "/uploads/article-2-layered-navigation.jpg"
 imageAlt: "layered navigation"
-date: 2019-07-18
+date: 2018-07-18
 ---
 ![layered navigation](/uploads/article-2-layered-navigation.jpg)
-## What is layered navigation?
+## What is layered navigation?1
 
 #### Layered navigation solves the problem of how to search a lot of data. It makes it simple to find products based on various attributes: like category, size or price, for example.
 

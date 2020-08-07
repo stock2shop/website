@@ -4,7 +4,7 @@ heading: "Case Study: PJ Marketing"
 description: "PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries. Read how Stock2Shop helped with integration."
 lead: "PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries."
 summary: "PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries. They needed to be able to give their customers a way to upload a CSV file for bulk orders."
-summaryBold: "Success story featuring Sage Pastel Partner, B2B Trade Store and Bulk Ordering."
+summary2: "Success story featuring Sage Pastel Partner, B2B Trade Store and Bulk Ordering."
 image: "/uploads/logo-client-pj-marketing.png"
 imageAlt: pj marketing logo
 weight: 7

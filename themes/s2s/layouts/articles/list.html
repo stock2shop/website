@@ -2,16 +2,18 @@
     <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
     <p class="lead">{{ .Params.Lead }}</p>
     {{ .Content }}
-    <div class="card-deck" id="articles">
+    <div class="row row-cols-1 row-cols-md-3" id="articles">
         {{ range .Pages }}
-        <div class="card">
-            <a href="{{ .Page.RelPermalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}"></a>
-            <div class="card-body">
-                <h5 class="card-title"><a href="{{ .Page.RelPermalink }}">{{ title .Page.Title }}</a></h5>
-                <p class="card-text">{{ .Summary }}</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-muted">{{ dateFormat "January 2 2006" .Date }}</small>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <a href="{{ .Page.RelPermalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}"></a>
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{{ .Page.RelPermalink }}">{{ if .Page.Params.TitleList }}{{ title .Page.Params.TitleList }}{{ else }}{{ title .Page.Title }}{{ end }}</a></h5>
+                    <p class="card-text">{{ .Summary }}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{ dateFormat "January 2 2006" .Date }}</small>
+                </div>
             </div>
         </div>
         {{ end }}

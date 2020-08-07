@@ -5,7 +5,7 @@ summary: "Understanding product data is essential for a successful e-commerce bu
 lead: "Understanding product data is one of the most important elements to a successful e-commerce business. If you’re just starting your e-commerce website, you may think that you can just move your product data from your accounting system to your website and sell online. Right? Wrong. You need to know as much as you can about your products – and share that information with your customers – to successfully sell online."
 image: "/uploads/article-1-notebook.jpg"
 imageAlt: "product data"
-date: 2019-07-05
+date: 2018-07-05
 ---
 
 ![notebook](/uploads/article-1-notebook.jpg)
