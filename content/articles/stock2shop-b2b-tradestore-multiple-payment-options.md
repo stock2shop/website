@@ -23,4 +23,4 @@ When checking out, your customer will be presented with the option to either ord
 
 The next time a customer wants to get their payment done and dusted, who are you to stand in their way? Speak to us about enabling this feature and keep your debtors list short and your business firmly grounded in reality.
 
-* * Note: The B2B Cart only supports the Wirecard (formerly MyGate) payment gateway in South Africa, and the Stripe payment gateway for international clients.*
+*Note: The B2B Cart only supports the Wirecard (formerly MyGate) payment gateway in South Africa, and the Stripe payment gateway for international clients.*

@@ -73,3 +73,12 @@ aside .active > a {
 #TableOfContents ul ul {
     display:none;
 }
+
+/* Articles */
+
+figcaption {
+    text-align: center;
+    p {
+        font-size: 10px;
+    }
+}

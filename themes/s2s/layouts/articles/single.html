@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="row">
     <aside class="col-md-3">
-        <!-- This only works on top level section -->
+        <!-- Navigation by section only works on top level section -->
         <nav class="nav flex-column">
             <a class="nav-link" href="/articles">Articles</a>
         {{ range where .Site.RegularPages "Section" "articles" }}
@@ -10,7 +10,14 @@
         </nav>
     </aside>
     <div class="col-md-9">
+        {{with .NextInSection}}
+            <input type="button" onclick="location.href='{{.Permalink}}';" value="<" />
+        {{end}}
+        {{with .NextInSection}}
+            <input type="button" onclick="location.href='{{.Permalink}}';" value=">" />
+        {{end}}
         <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
+        {{ if .Params.Author }}<p>Written by {{ .Params.Author }}</p>{{ end }}
         <p class="lead">{{ .Params.lead }}</p>
         {{ .Content }}
         <hr>

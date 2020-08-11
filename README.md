@@ -25,12 +25,14 @@ The next 5 sections contain instructions to create new pages and show difference
 ---
 title: "how to categorize products: layered navigation"
 heading: "layered navigation"
+titleList: "how to categorize products"
 description: "Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation."
 summary: "Categorizing products correctly is a major pain point for many e-commerce websites. Layered navigation is the solution: find out how – and why – to implement it"
 lead: "Categorizing products correctly is a major pain point for many e-commerce websites. Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation. Here’s what you need to know."
 image: "/uploads/article_2_layered_navigation.jpg"
 imageAlt: "layered navigation"
 date: 2019-07-18
+author: "Joe Soap"
 ---
 ```
 
