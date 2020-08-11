@@ -10,16 +10,24 @@
         </nav>
     </aside>
     <div class="col-md-9">
-        {{with .NextInSection}}
+        {{with .PrevInSection }}
             <input type="button" onclick="location.href='{{.Permalink}}';" value="<" />
         {{end}}
-        {{with .NextInSection}}
+        {{with .NextInSection }}
             <input type="button" onclick="location.href='{{.Permalink}}';" value=">" />
         {{end}}
         <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
         {{ if .Params.Author }}<p>Written by {{ .Params.Author }}</p>{{ end }}
         <p class="lead">{{ .Params.lead }}</p>
         {{ .Content }}
+        <nav class="page-nav">
+            {{with .PrevInSection }}
+            <input type="button" onclick="location.href='{{.Permalink}}';" value="<" />
+            {{end}}
+            {{with .NextInSection }}
+            <input type="button" onclick="location.href='{{.Permalink}}';" value=">" />
+            {{end}}
+        </nav>
         <hr>
         <div class="row">
             <div class="col-md-8">
@@ -29,22 +37,6 @@
                 <input type="button" class="btn-sm ml-3" onclick="location.href='/contact-us'" value="Contact Us">
             </div>
         </div>
-        <nav class="page-nav">
-            {{with .PrevInSection}}
-            <strong>
-            <a class="btn btn-default" href="{{.Permalink}}">
-                Previous
-
-            </a>
-            </strong>
-            {{end}}
-            {{with .NextInSection}}
-            <strong><a class="btn btn-default" href="{{.Permalink}}">
-                Next
-            </a>
-            </strong>
-            {{end}}
-        </nav>
     </div>
 </div>
 {{ end }}
