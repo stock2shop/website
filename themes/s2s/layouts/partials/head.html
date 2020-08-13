@@ -11,8 +11,8 @@
 {{ end }}
 <!--{{- template "_internal/opengraph.html" . -}}-->
 {{- template "_internal/schema.html" . -}}
-<!-- Confirm below on Staging Server -->
-{{ if .Params.og_image }}
+<!-- todo: Confirm paths are correct on Staging Server -->
+{{ if .Params.image }}
 <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image | relURL }}"/>
 <meta property="og:image:secure_url" content="{{ .Params.image | absURL }}"/>
 {{ end }}

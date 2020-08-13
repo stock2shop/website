@@ -11,7 +11,7 @@
             </div>
         </nav>
     </div>
-    <nav class="navbar navbar-light navbar-expand-md border-bottom">
+    <nav class="navbar navbar-expand-md border-bottom">
         <div class="container">
             <a class="navbar-brand" href="/"><img src="/uploads/logo-stock2shop.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -19,14 +19,18 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    {{ range .Site.Menus.main }}
+                    <li class="nav-link"><a href="/documentation">Key Concepts</a></li>
+                    {{ range .Site.Menus.supportmenu }}
                     <li class="nav-link">
                         <a href="{{ .URL }}">
                             {{ .Name }}
                         </a>
                     </li>
                     {{ end }}
-                    <a href="/" class="btn btn-danger ml-2">How it works</a>
+                    <li class="nav-link"><a href="https://app.stock2shop.com/docs/">How to</a></li>
+                    <li class="nav-link"><a href="https://app.stock2shop.com/docs/">FAQ</a></li>
+                    <li class="nav-link"><a href="https://app.stock2shop.com/docs/">API</a></li>
+                    <a href="/" class="btn btn-danger ml-2">Video</a>
                 </ul>
             </div>
         </div>

@@ -98,7 +98,7 @@ weight: 5
 ---
 ```
 
-### 5. Technical Doc / Wiki
+### 5. Support
 
 #### Create new page
 1. Navigate to the relevant section and add the .md file

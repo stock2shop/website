@@ -5,8 +5,8 @@
 <title>{{ title .Title }}</title>
 {{- partial "head.html" . -}}
   <body>
-    {{ if or (eq .Type "wiki") (eq .Type "documentation") }}
-    {{- partial "headerWiki.html" . -}}
+    {{ if or (eq .Type "support") (eq .Type "documentation") }}
+    {{- partial "header_support.html" . -}}
     {{ else }}
     {{- partial "header.html" . -}}
     {{ end }}

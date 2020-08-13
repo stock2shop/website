@@ -3,7 +3,7 @@
     <aside class="col-md-3">
         <ul class="nav flex-column">
         {{ $currentPage := . }}
-        {{ range where .Site.Sections "Section" "wiki" }}
+        {{ range where .Site.Sections "Section" "help-centre" }}
             {{ if .Sections }}
             {{ range .Sections }}
             <li class="nav-item {{ if (eq $currentPage.URL .URL) }}active{{ end }}">

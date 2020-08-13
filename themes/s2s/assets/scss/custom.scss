@@ -1,4 +1,4 @@
-/* BODY */
+/* body */
 
 h2 {
     margin-bottom: 1.5rem !important;
@@ -15,6 +15,7 @@ th, td {
 aside .nav-link {
     padding: 0px;
 }
+
 .fullwidth {
     width: 100vw;
     position: relative;
@@ -24,7 +25,12 @@ aside .nav-link {
     margin-right: -50vw;
 }
 
-/* HEADER */
+hr {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/* Header */
 
 #preHeader {
     background: #333;
@@ -35,18 +41,11 @@ aside .nav-link {
 .navbar-expand-md {
     background: #f3f1f1;
 }
-header#wiki {
+header#solutions {
     background: #e93e34;
 }
 
-/* CONTENT */
-
-hr {
-    margin-top: 2rem !important;
-    margin-bottom: 2rem !important;
-}
-
-/* ARTICLES */
+/* Articles */
 
 #articles .card-img-top {
     height: 250px;
@@ -55,24 +54,24 @@ hr {
     object-fit: cover;
 }
 
-/* DOCSIDE */
+/* Docside */
 
-aside .active > a > span {
-    color: red;
-}
 aside .active > a {
     color: red;
+    span {
+        color: red;
+    }
 }
 
-/* PLATFORM PAGES */
+/* Platform pages */
 
 #platform img {
     width: 100px;
 }
 
-#TableOfContents ul ul {
-    display:none;
-}
+//#TableOfContents ul ul {
+//    display:none;
+//}
 
 /* Articles */
 
