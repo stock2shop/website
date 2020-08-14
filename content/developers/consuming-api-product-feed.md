@@ -1,16 +1,16 @@
 ---
-title: "api product feed from a stock2shop account"
+title: "API product feed from a stock2shop account"
 description: "A developer's guide on how to automatically pull products from a Stock2Shop client account via the Stock2Shop API."
 lead: "This document outlines steps to consume a JSON feed of product data from a Stock2Shop account."
 ---
 
-## scenario:
+### Scenario:
 A Stock2Shop account wants to share their product feed with you to consume.
 
-## solution:
+### Solution:
 Authenticate to the accounts “channel” and page through the product data.
 
-## steps
+### Steps
 
 ---
 

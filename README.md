@@ -18,7 +18,7 @@ The next 6 sections contain instructions to create new pages and show difference
 
 #### Create new page
 1. Run ```hugo new articles/filename.md```
-2. Open newly created file and add [description](#key-terms) and summary in Front Matter
+2. Open newly created file and add [description](#parameters) and summary in Front Matter
 
 #### Front Matter
 ```
@@ -68,10 +68,10 @@ weight: 1
 ---
 ```
 
-### 3. Documentation
+### 3. User docs
 
 #### Create new page
-1. Navigate to documentation section and add the .md file
+1. Navigate to the user-docs section and add the .md file
 2. Copy and update front-matter from another page
 3. Update menu weight, parent and name
 
@@ -124,14 +124,16 @@ title: Managing Variants
 
 ## Parameters
 
-- **title**: Page Meta Title for SEO
+- **title**: Page meta title for SEO
 - **heading**: Page heading when different from title
 - **titleList**: Displayed on list page 
+- **linkTitle**: Hardcoded menu item title
 - **description**: Page Meta Description for SEO
 - **summary**: Page summary displayed in the articles list page
 - **summary2**: Additional summary parameter for different styling eg. bold 
-- **lead**: The lead paragraph
+- **lead**: Lead paragraph
+- **lead2**: Second lead paragraph
 - **toc**: Show page table of content
 - **image**: Image used from social media sharing and for list page
 - **date**: Used for sorting with yyyy-mm-dd format
-- **weight**: Menu item and listing sort order
+- **weight**: The default menu item and listing sort order

@@ -5,7 +5,7 @@
 <title>{{ title .Title }}</title>
 {{- partial "head.html" . -}}
   <body>
-    {{ if or (eq .Type "documentation") (eq .Type "help-centre") }}
+    {{ if or (eq .Type "user-docs") (eq .Type "help-centre") (eq .Type "developers") }}
     {{- partial "header_doc.html" . -}}
     {{ else }}
     {{- partial "header.html" . -}}

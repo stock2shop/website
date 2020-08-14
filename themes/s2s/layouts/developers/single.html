@@ -2,9 +2,9 @@
 <div class="row">
     <aside class="col-md-3">
         <nav class="nav flex-column">
-        {{ range .RegularPages }}
+            {{ range where .Site.RegularPages "Section" "developers" }}
             <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
-        {{ end }}
+            {{ end }}
         </nav>
     </aside>
     <div class="col-md-9">
