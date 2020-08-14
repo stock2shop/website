@@ -12,13 +12,13 @@ Stock2Shop website, documentation and WIKI built with Hugo.
 ---
 
 ## Site Structure
-The next 5 sections contain instructions to create new pages and show differences in layout and page meta data.  
+The next 6 sections contain instructions to create new pages and show differences in layout and meta data. Titles get converted into Title Case so no need for capitalization. The capitalization in the Front Matter so in cases lik acronyms eg 'B2B' this should be capitalised in the Front Matter.
 
 ### 1. Articles
 
 #### Create new page
 1. Run ```hugo new articles/filename.md```
-2. Open newly created file and [description](#key-terms) and summary in Front Matter
+2. Open newly created file and add [description](#key-terms) and summary in Front Matter
 
 #### Front Matter
 ```
@@ -35,8 +35,19 @@ date: 2019-07-18
 author: "Joe Soap"
 ---
 ```
+### 2. Developers
 
-### 2. Case Studies
+#### Create new page
+
+#### Front Matter
+```
+---
+title: "authentication"
+description: "How to authenticate your server for API requests"
+---
+```
+
+### 2. Case Studies / Success Stories
 
 #### Create new page
 1. Navigate to the relevant section and add the .md file
@@ -107,21 +118,20 @@ weight: 5
 ```
 ---
 title: Managing Variants
-
 ---
 ```
-
 ---
 
-## Params
-- title: Page Meta Title for SEO
-- heading: Page heading when different from title
-- titleList: Displayed on list page 
-- description: Page Meta Description for SEO
-- summary: Page summary displayed in the articles list page
-- summary2: Additional summary parameter for different styling eg. bold 
-- lead: The lead paragraph
-- toc: Show page table of content
-- image: Image used from social media sharing and for list page
-- date: Used for sorting with yyyy-mm-dd format
-- weight: Menu item and listing sort order
+## Parameters
+
+- **title**: Page Meta Title for SEO
+- **heading**: Page heading when different from title
+- **titleList**: Displayed on list page 
+- **description**: Page Meta Description for SEO
+- **summary**: Page summary displayed in the articles list page
+- **summary2**: Additional summary parameter for different styling eg. bold 
+- **lead**: The lead paragraph
+- **toc**: Show page table of content
+- **image**: Image used from social media sharing and for list page
+- **date**: Used for sorting with yyyy-mm-dd format
+- **weight**: Menu item and listing sort order

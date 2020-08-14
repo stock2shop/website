@@ -1,5 +1,6 @@
 ---
 title: help centre
-menu: docmenu 
+menu: docmenutop
+weight: 2
 
 ---

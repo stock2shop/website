@@ -1,9 +1,9 @@
 <aside class="col-md-3" id="docside">
     <ul class="nav flex-column">
         {{ $currentPage := . }}
-        {{ range .Site.Menus.supportside }}
+        {{ range .Site.Menus.helpside }}
         {{ if .HasChildren }}
-        <li class='nav-item {{ if $currentPage.IsMenuCurrent "supportside" . }}active{{ end }}'>
+        <li class='nav-item {{ if $currentPage.IsMenuCurrent "helpside" . }}active{{ end }}'>
         <a class="nav-link" href="{{ .URL }}">
             {{ .Pre }}
             <span>{{ title .Name }}</span>
@@ -11,7 +11,7 @@
         </li>
         <ul class="sub-menu">
             {{ range .Children }}
-            <li class='nav-item {{ if $currentPage.IsMenuCurrent "supportside" . }}active{{ end }}'>
+            <li class='nav-item {{ if $currentPage.IsMenuCurrent "helpside" . }}active{{ end }}'>
             <a class="nav-link" href="{{ .URL }}">{{ title .Name }}</a>
             </li>
             {{ end }}
