@@ -2,7 +2,6 @@
     <div id="preHeader">
         <nav class="container nav">
             <a class="nav-link" style="padding:.5rem .5rem .5rem 0" href="/contact-us">Contact Us</a>
-            <a class="nav-link" href="/developers">Developers</a>
             <a class="nav-link" href="/glossary">Glossary</a>
             <a class="nav-link" href="/about-us">About Us</a>
             <div class="ml-auto row">
@@ -22,7 +21,7 @@
                     {{ range .Site.Menus.main }}
                     <li class="nav-link">
                         <a href="{{ .URL }}">
-                            {{ .Name }}
+                            {{ title .Name }}
                         </a>
                     </li>
                     {{ end }}

@@ -5,6 +5,6 @@ lead: "Stock2Shop is an efficient way to integrate your ERP or accounting system
 menu: main
 weight: 2
 ---
-- [B2B Trade Store](/b2b-trade-store)
+- [B2B Trade Store](/integrations/b2b-shopping-cart)
 - [API](https://app.stock2shop.com/docs/)
 - [Developers](/developers)

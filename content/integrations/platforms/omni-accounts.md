@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-omni.png"
 imageAlt: omni accounts logo
 weight: 15
+tags: ["erp"]
 ---

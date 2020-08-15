@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-sage-200-evolution.png"
 imageAlt: sage 200 evolution logo
 weight: 10
+tags: ["erp"]
 ---

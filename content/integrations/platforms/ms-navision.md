@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-ms-dynamics-nav.png"
 imageAlt: ms dynamics logo
 weight: 17
+tags: ["erp"]
 ---

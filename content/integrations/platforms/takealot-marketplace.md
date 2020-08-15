@@ -7,4 +7,5 @@ type: platform
 image: "/uploads/logo-platform-takealot.png"
 imageAlt: takealot logo
 weight: 20
+tags: ["marketplace"]
 ---

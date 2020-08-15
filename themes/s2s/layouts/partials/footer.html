@@ -1,0 +1,78 @@
+<footer class="page-footer border-top mt-5">
+    <div class="container text-center text-md-left mt-4">
+        <div class="row">
+            <div class="col-md-3 mx-auto">
+                <h5 class=" mt-3 mb-4">ERP / Accounting</h5>
+                <ul class="list-unstyled">
+                    {{ range .Site.Taxonomies.tags.erp }}
+                    <li><a href="{{ .Permalink }}">{{ title .Params.TitleList }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-3 mx-auto">
+                <h5 class="mt-3 mb-4">E-Commerce</h5>
+                <ul class="list-unstyled">
+                    {{ range .Site.Taxonomies.tags.channel }}
+                    <!-- todo: check for TitleList first -->
+                    <li><a href="{{ .Permalink }}">{{ title .Title }}</a></li>
+                    {{ end }}
+                </ul>
+                <h5 class=" mt-3 mb-4">Marketplace</h5>
+                <ul class="list-unstyled">
+                    {{ range .Site.Taxonomies.tags.marketplace }}
+                    <li><a href="{{ .Permalink }}">{{ title .Params.TitleList }}</a></li>
+                    {{ end }}
+                </ul>
+                <h5 class=" mt-3 mb-4">Order Fulfillment</h5>
+                <ul class="list-unstyled">
+                    {{ range .Site.Taxonomies.tags.fulfillment }}
+                    <li><a href="{{ .Permalink }}">{{ title .Params.TitleList }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-3 mx-auto">
+                <h5 class=" mt-3 mb-4">Stock2Shop</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+                    <li><a href="/careers">Careers</a></li>
+                    <li><a href="/glossary">Glossary</a></li>
+                    <li><a href="/user-docs">User Docs</a></li>
+                    <li><a href="/help-centre">Help Centre</a></li>
+                    <li><a href="/developers">Developers</a></li>
+                </ul>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-3 mx-auto">
+                <h5 class=" mt-3 mb-4">Keep in touch</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="tel:+27 21 813 5866">+27 21 813 5866</a>
+                    </li>
+                    <li>
+                        <a href="mailto:sales@stock2shop.com">sales@stock2shop.com</a>
+                    </li>
+                    <br>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Newsletter" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">JOIN</span>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container py-3 border-top">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/terms-of-service">Terms of Service</a></span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sitemap.xml">Sitemap</a></span>
+            </li>
+        </ul>
+    </div>
+</footer>

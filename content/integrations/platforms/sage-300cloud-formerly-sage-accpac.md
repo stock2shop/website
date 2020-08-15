@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-sage-300cloud.png"
 imageAlt: sage 300cloud logo
 weight: 11
+tags: ["erp"]
 ---

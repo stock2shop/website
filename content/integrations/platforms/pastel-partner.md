@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-sage-50cloud-pastel-partner.png"
 imageAlt: pastel partner logo
 weight: 8
+tags: ["erp"]
 ---

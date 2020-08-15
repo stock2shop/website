@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-sap.png"
 imageAlt: sap logo
 weight: 12
+tags: ["erp"]
 ---

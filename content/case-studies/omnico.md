@@ -11,18 +11,18 @@ weight: 1
 ---
 
 ---
-## THE COMPANY
+## The company
 - Industry: Lifestyle / Cycling
 - Supply chain: Distributor
 - Founded: 1987
 - Website: www.omnico.co.za
 
 ---
-## THE CHALLENGE
+## The challenge
 Omnico needed a **full e-commerce solution**. They were using SYSPRO to manage their customer accounts, price data and product codes, but had no way to communicate this data to their other sales channels: e-commerce websites (B2B and B2C), marketplaces and drop shipping solutions. Stock2Shop integrated them with ease.
 
 ---
-## THE GOALS
+## The goals
 - Sync inventory
 - Sync customer data
 - Streamline workflow
@@ -31,7 +31,7 @@ Omnico needed a **full e-commerce solution**. They were using SYSPRO to manage t
 - Simplify drop shipping
 
 ---
-## THE SOLUTIONS
+## The solutions
 Stock2Shop worked with Omnico to find the **perfect solutions for their various challenges**. We **integrated SYSPRO** into a **custom-built Magento website** that served as both a B2B and B2C platform.
 Essentially, we made e-commerce painless. Here’s how we did it:
 
@@ -43,7 +43,7 @@ Essentially, we made e-commerce painless. Here’s how we did it:
 - Alongside the product data was equally important customer data. We synced this into the Stock2Shop system so customers and sales reps can automatically access products and pricing linked to their account. Simple and straightforward to use.
 
 ### Streamline workflow
--Each business has a unique workflow, so we worked with Omnico to find out how to make their workflow more efficient.
+Each business has a unique workflow, so we worked with Omnico to find out how to make their workflow more efficient.
 - At Omnico, customer accounts and terms, price data and product codes are managed with SYSPRO.
 - We sync all this information, along with product pictures, descriptions and other marketing material, to Omnico’s central Stock2Shop console.
 - We send this enriched product data to multiple sales channels, including:
@@ -76,7 +76,7 @@ Essentially, we made e-commerce painless. Here’s how we did it:
 - Sales rep ordering system directly from the B2B platform.
 
 ---
-## OPEN UP ADDITIONAL SALES CHANNELS
+## Open up additional sales channels
 Opening up new sales channels is another one of our specialities. We made it significantly easier for Omnico to sell through additional sales channels – automated drop shipping through marketplaces, a B2C Magento sales channel to sell end-of-range stock, and a streamlined sales rep ordering platform through the B2B store.
 
 ---
@@ -89,7 +89,7 @@ Opening up new sales channels is another one of our specialities. We made it sig
 - Simple, speedy, effective.
 
 ---
-## SIMPLIFY DROP SHIPPING OF OMNICO’S STOCK
+## Simplify drop shipping of Omnico’s stock
 - With Stock2Shop, Omnico can now share real time inventory data with drop shippers, automatically and near real time.
 - Some retailers don’t hold all of Omnico’s stock, so it’s essential to have accurate stock and pricing information, constantly updated.
 - Because inventory levels are automatically updated, Omnico never sells something they can’t deliver. And customers are never disappointed.

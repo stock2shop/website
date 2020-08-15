@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-parcelninja.png"
 imageAlt: parcelninja logo
 weight: 19
+tags: ["fulfillment"]
 ---

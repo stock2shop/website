@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-isync.png"
 imageAlt: isync logo
 weight: 13
+tags: ["erp"]
 ---

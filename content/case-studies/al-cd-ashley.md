@@ -11,18 +11,18 @@ weight: 2
 ---
 
 ---
-## THE COMPANY
+## The Company
 - Industry: Homeware
 - Supply chain: Importer and Distributor
 - Founded: 1919
 - Website: www.alcdashley.co.za
 
 ---
-## THE CHALLENGE
+## The Challenge
 AL & CD Ashley needed to streamline their workflow, automate their customer and inventory data and make their order fulfillment more efficient. Because they have such a broad customer base, updating inventory with individual customers was time-consuming and open to errors. Order fulfillment was also open to human errors. They needed to integrate their existing ERP (Sage Pastel Partner) into a new e-commerce presence (Shopify).
 
 ---
-## THE GOALS
+## The Goals
 - Streamline workflow and sync data
 - Custom build a consumer-facing website
 - Create a B2B ordering platform
@@ -30,7 +30,7 @@ AL & CD Ashley needed to streamline their workflow, automate their customer and 
 - Simplify order fulfillment
 
 ---
-## THE SOLUTIONS
+## The Solutions
 Stock2Shop worked with AL & CD Ashley to create the most efficient solutions to their workflow and inventory challenges. After figuring out exactly how the business currently works, we proposed the following solutions:
 
 ### Streamline workflow and sync data

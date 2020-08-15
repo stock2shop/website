@@ -5,4 +5,5 @@ type: platform
 image: "/uploads/logo-platform-woocommerce.png"
 imageAlt: woocommerce logo
 weight: 3
+tags: ["channel"]
 ---

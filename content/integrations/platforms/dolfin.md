@@ -6,4 +6,5 @@ type: platform
 image: "/uploads/logo-platform-dolfin.png"
 imageAlt: dolfin logo
 weight: 18
+tags: ["erp"]
 ---

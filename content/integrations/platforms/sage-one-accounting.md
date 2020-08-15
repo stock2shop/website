@@ -6,6 +6,7 @@ type: platform
 image: "/uploads/logo-platform-sage-business-cloud-accounting.png"
 imageAlt: sage business cloud accounting logo
 weight: 5
+tags: ["erp"]
 ---
 - [Sage Business Cloud Accounting Shopify Integration](/integrations/sage-one-shopify/ "Sage Business Cloud Accounting (formerly Sage One) Shopify Integration")
 - [Sage Business Cloud Accounting Magento Integration](/integrations/sage-one-magento/ "Sage Business Cloud Accounting (formerly Sage One) Magento Integration")
