@@ -9,7 +9,7 @@
 {{ else }}
 <link rel="stylesheet" href='{{ trim $css.RelPermalink "/" }}'>
 {{ end }}
-<!--{{- template "_internal/opengraph.html" . -}}-->
+{{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/schema.html" . -}}
 <!-- todo: Confirm paths are correct on Staging Server -->
 {{ if .Params.image }}

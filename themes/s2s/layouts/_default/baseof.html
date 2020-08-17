@@ -3,10 +3,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>
-{{ block "title" . }}
+{{- block "title" . -}}
      {{ with .Params.Title }}{{ . }}{{ end }} | {{ .Site.Title }}
-{{ end }}
+{{- end -}}
 </title>
+<meta name="description" content="{{ with .Params.Description }}{{ . }}{{ end }}">
 {{- partial "head.html" . -}}
   <body>
     {{ if or (eq .Type "user-docs") (eq .Type "help-centre") (eq .Type "developers") }}
