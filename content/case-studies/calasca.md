@@ -5,7 +5,7 @@ description: "Calasca supplies a wide variety of high-quality products to the wh
 lead: "Calasca supplies a wide variety of high quality products to the wholesale and retail markets. Their range includes homeware, kitchenware, kids & toys, outdoor, pet, luggage/travel, solar, beauty and baby."
 summary: "Calasca supplies a wide variety of high quality products to the wholesale and retail markets, including homeware, kitchenware, kids & toys."
 summary2: "Success story featuring Sage Evolution and multiple resellers’ ecommerce channels, as well as Takealot and a B2B Trade Store."
-image: "/uploads/logo-client-calasca.jpg"
+image: "/uploads/logo-client-calasca.png"
 imageAlt: calasca logo
 weight: 5
 ---
