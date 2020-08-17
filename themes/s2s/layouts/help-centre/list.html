@@ -6,13 +6,13 @@
         {{ range where .Site.Sections "Section" "help-centre" }}
             {{ if .Sections }}
             {{ range .Sections }}
-            <li class="nav-item {{ if (eq $currentPage.URL .URL) }}active{{ end }}">
+            <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
                 <!-- Below could just be heading -->
                 <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
                 <ul>
                     {{ if .Sections }}
                     {{ range .Sections }}
-                    <li class="nav-item {{ if (eq $currentPage.URL .URL) }}active{{ end }}">
+                    <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
                         <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
                     </li>
                     {{ end }}

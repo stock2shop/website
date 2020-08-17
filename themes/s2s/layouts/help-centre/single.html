@@ -6,7 +6,6 @@
             {{ if .Sections }}
             {{ range .Sections }}
             <li class="nav-item">
-                <!-- Could just be plain heading -->
                 <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
                 <ul>
                     {{ if .Sections }}
@@ -31,7 +30,7 @@
         </ul>
     </aside>
     <div class="col-md-9">
-        <h1>{{ title .Title }}</h1>
+        <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
         <!-- todo: {{ .Page.Lastmod }} -->
         <h4>Contents</h4>
         {{ .TableOfContents }}
