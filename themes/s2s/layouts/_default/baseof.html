@@ -7,7 +7,7 @@
   {{ .Title }}
 {{ else }}
 {{- block "title" . -}}
-     {{ with .Params.Title }}{{ . }}{{ end }} | {{ .Site.Title }}
+     {{ with title .Params.Title }}{{ . }}{{ end }} | {{ .Site.Title }}
 {{- end -}}
 {{ end }}
 </title>

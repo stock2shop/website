@@ -1,5 +1,5 @@
 ---
-title: "about stock2shop"
+title: "About Stock2Shop"
 description: "Some background information about Stock2Shop, a robust inventory management solution that helps clients across the globe streamline their business. Who we are, what we've done and where we're going: all you need to know about Stock2Shop's core team."
 lead: "Who we are, what we’ve done and where we’re going: all you need to know about Stock2Shop’s core team."
 ---
