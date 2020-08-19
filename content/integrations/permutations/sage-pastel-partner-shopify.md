@@ -4,13 +4,6 @@ lead: "If you’re currently using Sage 50cloud Pastel Partner (formerly Sage Pa
 lead2: "Here’s what you’ll be able to do:"
 description: ""
 ---
-
-Sage 50cloud Pastel Partner Shopify Integration
-===============================================
-
-If you’re currently using Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) as your ERP and Shopify as your e-commerce website, you need them to communicate with each other efficiently. That’s where Stock2Shop comes in: let us integrate Sage 50cloud Pastel Partner and Shopify to make your business work better. Here’s what you’ll be able to do:  
-  
-
 Sync inventory data
 -------------------
 

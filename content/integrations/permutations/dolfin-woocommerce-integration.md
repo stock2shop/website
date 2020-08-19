@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Integrate Dolfin and WooCommerce to simplify your workflow, streamline your business and save you time. We'll work with you to create the ideal Dolfin WooCommerce integration for your business."
 ---
 
-Dolfin WooCommerce Integration
-==============================
-
-If you’re using Dolfin as your ERP and running an e-commerce website with WooCommerce, it’s essential that the two of them are able to communicate with each other. A Dolfin WooCommerce integration helps your business work better.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

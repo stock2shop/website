@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Integrate takealot marketplace with Sage Financials"
 ---
 
-Sage Business Cloud Financials TAKEALOT MARKETPLACE INTEGRATION
-===============================================================
-
-Update product offers on the Takealot marketplace directly from your Sage Business Cloud Financials (formerly Sage Live). Stock2Shop’s simple integration will streamline your operation by reducing duplicate data capture, and ensuring your product information on Takealot is up to date.  
-  
-Here’s what you’ll be able to do:
-
 Sync data
 ---------
 

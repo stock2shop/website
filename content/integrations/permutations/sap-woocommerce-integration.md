@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Stock2Shop integrates SAP Business One with WooCommerce. A SAP Business One WooCommerce integration streamlines your workflow, simplifies ordering and makes your business more efficient. Let us tailor the perfect solution for your needs. Find out more!"
 ---
 
-SAP Business One WooCommerce Integration
-========================================
-
-If you’ve chosen SAP Business One as your ERP and you’re running a WooCommerce website, it’s important that they can communicate with each other easily and simply. Stock2Shop integrates with SAP Business One and WooCommerce to help your business run better.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

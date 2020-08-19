@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Once you’ve integrated your Omni Accounts ERP accounting system and your WooCommerce e-commerce website, you’ll be amazed how much more efficient your business becomes. You’ll be able to streamline the ordering process, automate order fulfillment, manage and sync inventory data with ease, and more."
 ---
 
-Omni Accounts WooCommerce Integration
-=====================================
-
-If Omni Accounts is your ERP of choice, and you’ve got a WooCommerce e-commerce website, it’s important to set up communication between them. Stock2Shop can help your business work better by integrating with Omni Accounts and WooCommerce.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

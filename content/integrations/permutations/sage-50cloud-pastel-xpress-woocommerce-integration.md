@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Integrate Sage 50cloud Pastel Xpress Retail with WooCommerce to dramatically improve your workflow. Sync inventory data, automate orders, streamline workflow and more. Find out how we can tailor aSage 50cloud Pastel Xpress WooCommerce integration to suit your business."
 ---
 
-Sage 50cloud Pastel Xpress WooCommerce Integration
-==================================================
-
-If you’re working with Sage 50cloud Pastel Xpress (Formerly Sage Pastel Xpress Advantage) and you have a WooCommerce website, it’s really important that they can communicate with each other. That’s how Stock2Shop can help. We improve your workflow and efficiency by integrating with Sage 50cloud Pastel Xpress and WooCommerce.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

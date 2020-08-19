@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Stock2Shop integrates iSync with Shopify so that you can streamline your workflow. Sync inventory data, automate orders and become dramatically more efficient with an iSync Shopify integration."
 ---
 
-iSync Shopify Integration
-=========================
-
-If iSync is your ERP and you’re running a Shopify e-commerce website, it’s important that they can communicate with each other easily. That’s where Stock2Shop comes in: let us work in conjunction with iSync to tailor the ideal solution for you  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

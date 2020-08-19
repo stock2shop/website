@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: ""
 ---
 
-Sage 50cloud Pastel Xpress B2B Trade Store Integration
-======================================================
-
-If you have Sage 50cloud Pastel Xpress (Formerly Sage Pastel Xpress Advantage) as your ERP and you’re running a Stock2Shop B2B trade store, they can be integrated with ease to make your B2B sales as simple as possible.  
-  
-Here’s what you’ll be able to do:
-
 Sync data
 ---------
 

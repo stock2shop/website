@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Working with Sage Financials and running a Magento website? A Sage Financials Magento integration with Stock2Shop will streamline your workflow, simplify ordering and make your business much more efficient. Find out more!"
 ---
 
-Sage Business Cloud Financials Magento Integration
-==================================================
-
-If you’re running Sage Business Cloud Financials (formerly Sage Live) as your ERP, with a Magento e-commerce website, you’ll need them to be integrated so that your business can run as smoothly as possible and you can offer the best e-commerce experience to your customers. A Sage Business Cloud Financials Magento integration will make your business work better.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

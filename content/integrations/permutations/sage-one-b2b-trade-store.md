@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "A Sage Business Cloud Accounting B2B trade store integration means your business will run better. Let Stock2Shop work with you to create the perfect workflow to suit your needs. Automate orders, simplify fulfilment, sync data and more. This is the way to make B2B sales as seamless as possible."
 ---
 
-Sage Business Cloud Accounting B2B Trade Store Integration
-==========================================================
-
-If you’re using Sage Business Cloud Accounting (formerly Sage One) as your ERP and you’ve set up a Stock2Shop B2B trade store, it’s easy to integrate them with each other. Let Stock2Shop integrate Sage Business Cloud Accounting and your B2B trade store to make your B2B sales as seamless as possible.  
-  
-Here’s what you’ll be able to do:
-
 Sync data
 ---------
 

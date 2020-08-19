@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Integrate Xero and Shopify, and you'll be able to streamline your workflow, simplify the ordering process and save time - and money. Find out more about how a Xero, Shopify Integration can help your business."
 ---
 
-Xero Shopify Integration
-========================
-
-If you use Xero as your current ERP and Shopify as your e-commerce website, it’s important that they can communicate with each other, with ease. That’s where Stock2Shop comes in: a Xero Shopify integration will make your business run smoother.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

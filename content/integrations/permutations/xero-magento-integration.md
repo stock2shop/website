@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Find out how a Xero Magento Integration can improve your workflow, streamline your business and increase your revenue. We'll work with you to integrate Xero and Magento and provide a tailored workflow to suit your business."
 ---
 
-Xero Magento Integration
-========================
-
-If you’ve chosen Xero as your ERP and you have a Magento e-commerce website, it’s really important that they communicate with each other so that you can provide the most seamless e-commerce experience for your customers – and so that your day-to-day business can run smoothly. A Xero Magento integration can achieve both these goals.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

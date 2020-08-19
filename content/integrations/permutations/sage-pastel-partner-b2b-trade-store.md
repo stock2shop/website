@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Stock2Shop integrates Sage 50cloud Pastel Partner with our B2B Trade Store. Sync inventory data from Sage Pastel Partner to B2B Trade Store and automatically send back your orders. Let us help you set up the ideal Sage 50cloud Pastel Partner B2B trade store integration for your business."
 ---
 
-Sage 50cloud Pastel Partner B2B Trade Store Integration
-=======================================================
-
-If Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) is your ERP and you’re running a Stock2Shop B2B trade store, it’s a simple step to integrate them with each other. Once Stock2Shop has integrated Sage 50cloud Pastel Partner and your B2B trade store, you’ll be able to run your business seamlessly.  
-  
-Here’s what you’ll be able to do:
-
 Sync data
 ---------
 

@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Find out how a Sage Evolution Shopify integration can streamline your business, simplify your workflow and give you more time. We'll tailor the perfect solution to suit your needs."
 ---
 
-Sage 100 Evolution Shopify Integration
-======================================
-
-If Sage 100 Evolution (formerly Sage Evolution Standard) is your current ERP and you’re running your e-commerce website through Shopify, it’s essential that they can communicate with each other easily and efficiently. That’s where Stock2Shop comes in: a Sage 100 Evolution Shopify integration will make your day-to-day business more streamlined.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 

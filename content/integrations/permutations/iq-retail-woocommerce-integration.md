@@ -1,15 +1,9 @@
 ---
 title: "iq retail woocommerce integration"
 lead: "If you’re working with iQ Retail and you have a WooCommerce website, it’s really important that they can communicate with each other. That’s how Stock2Shop can help. We improve your workflow and efficiency by integrating with iQ Retail and WooCommerce."
-lead2: "Here’s what you’ll be able to do:" 
+lead2: "Here’s what you’ll be able to do:"
+description: "" 
 ---
-
-iQ Retail WooCommerce Integration
-=================================
-
-If you’re working with iQ Retail and you have a WooCommerce website, it’s really important that they can communicate with each other. That’s how Stock2Shop can help. We improve your workflow and efficiency by integrating with iQ Retail and WooCommerce.  
-  
-Here’s what you’ll be able to do:
 
 Sync inventory data
 -------------------

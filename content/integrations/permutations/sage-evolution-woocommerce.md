@@ -5,13 +5,6 @@ lead2: "Here’s what you’ll be able to do:"
 description: "Integrate Sage Evolution and WooCommerce to simplify your workflow, streamline your business and save you time. We'll work with you to create the ideal Sage Evolution WooCommerce integration for your business."
 ---
 
-Sage 100 Evolution WooCommerce Integration
-==========================================
-
-If you’re using Sage 100 Evolution (formerly Sage Evolution Standard) as your ERP and running an e-commerce website with WooCommerce, it’s essential that the two of them are able to communicate with each other. A Sage 100 Evolution WooCommerce integration helps your business work better.  
-  
-Here’s what you’ll be able to do:
-
 Sync inventory data
 -------------------
 
