@@ -1,5 +1,5 @@
 ---
-title: "sage 50cloud pastel xpress b2b trade store integration"
+title: "sage 50cloud pastel xpress  B2B trade store integration"
 lead: "If you have Sage 50cloud Pastel Xpress (Formerly Sage Pastel Xpress Advantage) as your ERP and you’re running a Stock2Shop B2B trade store, they can be integrated with ease to make your B2B sales as simple as possible."
 lead2: "Here’s what you’ll be able to do:"
 description: ""

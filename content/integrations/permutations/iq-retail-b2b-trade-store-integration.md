@@ -1,5 +1,5 @@
 ---
-title: "iq retail b2b trade store integration"
+title: "iq retail  B2B trade store integration"
 lead: "If you have iQ Retail as your ERP and you’re running a Stock2Shop B2B trade store, they can be integrated with ease to make your B2B sales as simple as possible."
 lead2: "Here’s what you’ll be able to do:"
 description: "A iQ Retail B2B trade store integration can streamline your business enormously. Make your B2B sales as simple as possible, sync data, automate orders and customise your workflow to suit your business. Stock2Shop can help. Find out more!"

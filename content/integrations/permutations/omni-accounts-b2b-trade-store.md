@@ -1,5 +1,5 @@
 ---
-title: "omni accounts b2b trade store integration"
+title: "omni accounts  B2B trade store integration"
 lead: "If your ERP is Omni Accounts and you have a Stock2Shop B2B trade store, we can integrate them with ease. Once we’ve done that, you’ll be able to benefit from a streamlined workflow and a more efficient business."
 lead2: "Here’s what you’ll be able to do:"
 description: "Integrating your Omni Accounts ERP accounting system and your B2B trade store will make it much simpler to run your wholesale business. From streamlining your inventory data management to simplifying the ordering process and automating order fulfillment, you’ll be surprised how efficient it can be."
@@ -91,8 +91,3 @@ An essential part of integrating Omni Accounts and your B2B trade store is the d
 
 *   With one central console, your Stock2Shop queue shows all data activity. This queue ensures you never lose precious data (updates or orders) – even if Omni Accounts goes offline. You can assign certain people to receive notifications of certain activity, such as orders or errors. You can see orders coming in, with their corresponding order code from your B2B trade store and from Omni Accounts. And you can monitor product updates. All in one place.
 *   It’s business as usual, just better.
-
-Contact us to discuss how to integrate Omni Accounts and your B2B trade store for your business – we’d love to help.
-====================================================================================================================
-
-[Contact us](/contact-us "Contact Stock2Shop")

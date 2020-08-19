@@ -1,5 +1,5 @@
 ---
-title: "isync b2b trade store integration"
+title: "isync  B2B trade store integration"
 lead: "If iSync is your ERP and you’ve set up a Stock2Shop B2B trade store, they are simple to integrate. Stock2Shop will work in conjunction with iSync to integrate iSync and your B2B trade store. The result is seamless B2B sales."
 lead2: "Here’s what you’ll be able to do:"
 description: "If iSync is your ERP and you’ve set up a Stock2Shop B2B trade store, they are simple to integrate. Stock2Shop will work in conjunction with iSync to integrate iSync and your B2B trade store. The result is seamless B2B sales. Find out more!"

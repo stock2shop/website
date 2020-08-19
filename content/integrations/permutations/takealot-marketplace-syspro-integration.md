@@ -1,5 +1,5 @@
 ---
-title: "syspro takealot marketplace integration"
+title: " SYSPRO takealot marketplace integration"
 lead: "Update product offers on the Takealot marketplace directly from SYSPRO. Stock2Shop’s simple integration will streamline your operation by reducing duplicate data capture, and ensuring your product information on Takealot is up to date."
 lead2: "Here’s what you’ll be able to do:"
 description: "Integrate takealot marketplace with SYSPRO"

@@ -1,5 +1,5 @@
 ---
-title: "sage business cloud financials b2b trade store integration"
+title: "sage business cloud financials  B2B trade store integration"
 lead: "If Sage Business Cloud Financials (formerly Sage Live) is your ERP and you’re running a Stock2Shop B2B trade store, we can integrate them with each other with ease. A Sage Business Cloud Financials B2B trade store integration will streamline your daily business and workflows significantly."
 lead2: "Here’s what you’ll be able to do:"
 description: "If Sage Financials (formerly Sage Live) is your ERP and you’re running a Stock2Shop B2B trade store, we can integrate them with each other with ease. A Sage Financials B2B trade store integration will streamline your daily business and workflows significantly."

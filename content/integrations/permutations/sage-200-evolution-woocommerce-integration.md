@@ -1,5 +1,6 @@
 ---
-title: "sage 200 evolution (formerly sage evolution premium) woocommerce integration"
+title: "sage 200 evolution woocommerce integration"
+heading: "sage 200 evolution (formerly sage evolution premium) woocommerce integration"
 lead: "If you’re working with Sage 200 Evolution and you have a WooCommerce website, it’s really important that they can communicate with each other. That’s how Stock2Shop can help. We improve your workflow and efficiency by integrating with Sage 200 Evolution and WooCommerce."
 lead2: "Here’s what you’ll be able to do:"
 description: "Integrate Sage 200 Evolution with WooCommerce to dramatically improve your workflow. Sync inventory data, automate orders, streamline workflow and more. Find out how we can tailor a Sage 200 Evolution WooCommerce integration to suit your business."

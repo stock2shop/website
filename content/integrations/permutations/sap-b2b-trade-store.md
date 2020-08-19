@@ -1,5 +1,5 @@
 ---
-title: "sap business one b2b trade store integration"
+title: " SAP business one  B2B trade store integration"
 lead: "If you’ve chosen SAP Business One as your ERP and you have a Stock2Shop B2B trade store, we can easily integrate them with each other. Once SAP Business One and your B2B trade store are integrated, you’ll be able to run a more streamlined business."
 lead2: "Here’s what you’ll be able to do:"
 description: "A SAP Business One B2B trade store integration will help your business run better. Let Stock2Shop work with you to set up the ideal workflow to suit your business. We'll integrate SAP Business One and your B2B trade store to simplify order, streamline your workflow and more."

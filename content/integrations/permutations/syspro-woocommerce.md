@@ -1,5 +1,5 @@
 ---
-title: "syspro woocommerce integration"
+title: " SYSPRO woocommerce integration"
 lead: "If you’re working with SYSPRO and you have a WooCommerce website, it’s really important that they can communicate with each other. That’s how Stock2Shop can help. We improve your workflow and efficiency by integrating with SYSPRO and WooCommerce. You won’t believe how much a SYSPRO WooCommerce integration simplifies your business."
 lead2: "Here’s what you’ll be able to do:"
 description: "Stock2Shop integrates SYSPRO with WooCommerce to dramatically improve your workflow. Sync inventory data, automate orders, streamline workflow and more. Find out how we can tailor a SYSPRO WooCommerce integration to suit your business."

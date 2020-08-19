@@ -1,5 +1,5 @@
 ---
-title: "xero b2b trade store integration"
+title: "xero  B2B trade store integration"
 lead: "If you’re running Xero as your ERP and you have a Stock2Shop B2B trade store, we can easily integrate them with each other. The result? A Xero B2B trade store integration: a streamlined workflow and more efficient business."
 lead2: "Here’s what you’ll be able to do:"
 description: "Running Xero and want to connect it to your B2B trade store? A Xero B2B trade store integration can dramatically improve your workflow, making your business run more efficiently and saving you time - and money. Find out more!"

@@ -1,5 +1,6 @@
 ---
-title: "sage 300cloud (formerly sage accpac) magento integration"
+title: "sage 300cloud magento integration"
+heading: "sage 300cloud (formerly sage accpac) magento integration"
 lead: "If you’re using Sage 300cloud as your ERP and running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. Stock2Shop works in conjunction with Sage 300cloud to create an Sage 300cloud Magento integration – for a seamless e-commerce experience."
 lead2: "Here’s what you’ll be able to do:"
 description: "Integrate Magento with Sage 300cloud and centralize data management"

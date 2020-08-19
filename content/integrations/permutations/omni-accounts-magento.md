@@ -109,8 +109,3 @@ Your workflow efficiency will improve dramatically once you’ve integrated Omni
 *   Instead of having to juggle various data sets, everything is in one place, one central console – easy to work with.
 *   With one central console, your Stock2Shop queue shows all data activity. This queue ensures you never lose precious data (updates or orders) – even if Omni Accounts or Magento go offline. You can assign certain people to receive notifications of certain activity, such as orders or errors. You can see orders coming in, with their corresponding order code from Magento and from Omni Accounts. And you can monitor product updates. All in one place.
 *   It’s business as usual, just better.
-
-Contact us to discuss how to integrate Omni Accounts and Magento for your business – we’d love to help.
-=======================================================================================================
-
-[Contact us](/contact-us "Contact Stock2Shop")

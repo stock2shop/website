@@ -1,5 +1,5 @@
 ---
-title: "syspro magento integration"
+title: " SYSPRO magento integration"
 lead: "If you’re using SYSPRO as your ERP and Magento as your e-commerce website, you’ll want them to be in sync to ensure the most effective workflow. A SYSPRO Magento integration offers the best possible e-commerce experience."
 lead2: "Here’s what you’ll be able to do:"
 description: "Stock2Shop integrates SYSPRO with Magento so you can sync inventory data, automate orders, simplify ordering and more. Find out how we can help you tailor the ideal SYSPRO Magento integration for your business."
