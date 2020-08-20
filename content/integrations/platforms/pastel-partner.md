@@ -24,7 +24,7 @@ tags: ["erp"]
 - [Sage 50cloud Pastel Partner WooCommerce Integration](/integrations/sage-pastel-partner-woocommerce/ "Sage 50cloud Pastel Partner (formerly Sage Pastel Partner)  WooCommerce Integration")
 - [Sage 50cloud Pastel Partner B2B Trade Store Integration](/integrations/sage-pastel-partner-b2b-trade-store/ "Sage 50cloud Pastel Partner (formerly Sage Pastel Partner)  B2B Trade Store Integration")
 
-## When you integrate sage 50cloud pastel partner (formerly sage pastel partner) and your e-commerce website, you’ll be able to:
+## When you integrate Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) and your e-commerce website, you’ll be able to:
 
 *   #### Sync inventory data
     

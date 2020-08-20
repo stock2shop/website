@@ -22,7 +22,7 @@ tags: ["erp"]
 - [Dolfin Shopify Integration](/integrations/Dolfin-shopify-integration/ "Dolfin Shopify Integration")
 - [Dolfin Magento Integration](/integrations/Dolfin-magento-integration/ "Dolfin Magento Integration")
 - [Dolfin WooCommerce Integration](/integrations/Dolfin-woocommerce-integration/ "Dolfin WooCommerce Integration")
-- [Dolfin B2B Trade Store Integration](https://www.stock2shop.com/integrations/Dolfin-b2b-trade-store-integration/ "Dolfin B2B Trade Store Integration")
+- [Dolfin B2B Trade Store Integration]( /integrations/Dolfin-b2b-trade-store-integration/ "Dolfin B2B Trade Store Integration")
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "sap business one integration"
+title: "SAP business one integration"
 titleList: SAP
 summary: "ERP software designed to streamline key processes and provide real-time information to give you greater strategic insights, fast."
 lead: "Here’s how SAP Business One works with your applications to streamline your workflow."
@@ -26,7 +26,7 @@ tags: ["erp"]
 
 ---
 
-## Once you’ve integrated sap business one and your e-commerce website, you’ll be able to:
+## Once you’ve integrated SAP Business One and your e-commerce website, you’ll be able to:
 
 *   #### Sync inventory data
     

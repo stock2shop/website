@@ -10,16 +10,16 @@ tags: ["channel"]
 ---
 
 ## ERP / Accounting Systems:
-![logo-platform-sage-50cloud-pastel-partner.png](/uploads/logo-platform-sage-50cloud-pastel-partner.png)
-![logo-platform-sage-50cloud-pastel-xpress.png](/uploads/logo-platform-sage-50cloud-pastel-xpress.png)
-![logo-platform-sage-100-evolution.png](/uploads/logo-platform-sage-100-evolution.png)
-![logo-platform-sage-200-evolution.png](/uploads/logo-platform-sage-200-evolution.png)
-![logo-platform-sage-300cloud.png](/uploads/logo-platform-sage-300cloud.png)
-![logo-platform-sage-business-cloud-accounting.png](/uploads/logo-platform-sage-business-cloud-accounting.png)
-![logo-platform-sage-business-cloud-financials.png](/uploads/logo-platform-sage-business-cloud-financials.png)
-![logo-platform-sap.png](/uploads/logo-platform-sap.png)
-![logo-platform-isync.png](/uploads/logo-platform-isync.png)
-![logo-platform-syspro.png](/uploads/logo-platform-syspro.png)
+{{< thumbnail src="/uploads/logo-platform-sage-50cloud-pastel-partner.png" link="/integrations/sage-one-accounting" alt="sage business cloud accounting logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-sage-50cloud-pastel-xpress.png" link="/integrations/sage-50cloud-pastel-xpress" alt="sage 50cloud pastel xpress logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-sage-100-evolution.png" link="/integrations/sage-pastel-evolution" alt="sage 100 evolution logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-sage-200-evolution.png" link="/integrations/sage-200-evolution" alt="sage 200 evolution logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-sage-300cloud.png" link="/integrations/sage-300cloud-formerly-sage-accpac" alt="sage 300cloud logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-sage-business-cloud-accounting.png" link="/integrations/sage-one-accounting" alt="sage one logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-sage-business-cloud-financials.png" link="/integrations/sage-business-cloud-financials" alt="sage business cloud financials logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-sap.png" link="/integrations/sap" alt="sap logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-isync.png" link="/integrations/isync" alt="isync logo" style="display:inline">}}
+{{< thumbnail src="/uploads/logo-platform-syspro.png" link="/integrations/syspro" alt="syspro logo" style="display:inline">}}
 
 ### Find out more about WooCommerce integrations:
 

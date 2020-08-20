@@ -24,7 +24,7 @@ tags: ["erp"]
 - [Sage 200 Evolution WooCommerce Integration](/integrations/Sage-200-Evolution-woocommerce/ "Sage 200 Evolution WooCommerce Integration")
 - [Sage 200 Evolution B2B Trade Store Integration](/integrations/Sage-200-Evolution-b2b-trade-store/ "Sage 200 Evolution B2B Trade Store Integration")
 
-## Once you’ve integrated sage 200 evolution and your e-commerce website, you’ll be able to:
+## Once you’ve integrated Sage 200 Evolution and your e-commerce website, you’ll be able to:
 
 *   #### Sync inventory data
     

@@ -26,7 +26,7 @@ tags: ["erp"]
 
 ---
 
-## Once you’ve integrated syspro and your e-commerce website, you’ll be able to:
+## Once you’ve integrated SYSPRO and your e-commerce website, you’ll be able to:
 
 *   #### Sync inventory data
     

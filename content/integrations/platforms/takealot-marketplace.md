@@ -11,12 +11,12 @@ weight: 20
 tags: ["marketplace"]
 ---
 
-## How the Takealot marketplace Integration works:
+## How the Takealot Marketplace Integration works:
 We use the Takealot offers api to automatically update your offers on the Takealot marketplace directly from your ERP/accounting system. Once your products have been created on the Takealot marketplace, there is no need to manage the selling (offer) price and other key information manually. Any changes made to these fields on your ERP/accounting system will update the products on your Takealot marketplace. It’s a simple way to automate product updates directly from your ERP.
 
 ---
 
-### What you can do with the Takealot marketplace integration:
+### What you can do with the Takealot Marketplace Integration:
 - Update your offer price
 - Update your recommended retail price
 - Set product lead times which determine how long you take to deliver your products to Takealot
@@ -31,16 +31,16 @@ All you need to do is ensure that the product information on your ERP/accounting
 
 ## Find out more about our integrations:
 
-- [Takealot Marketplace Sage Business Cloud Accounting Integration](https://www.stock2shop.com/integrations/takealot-marketplace-sage-accounting-integration-2/ "Takealot Marketplace Sage Business Cloud Accounting (formerly Sage One) Integration")
-- [Takealot Marketplace Sage Business Cloud Financials Integration](https://www.stock2shop.com/takealot-marketplace-sage-financials-integration/ "Takealot Marketplace Sage Business Cloud Financials (formerly Sage live) Integration")
-- [Takealot Marketplace Sage 50cloud Pastel Xpress Integration](https://www.stock2shop.com/sage-50cloud-pastel-xpress-takealot-marketplace-integration/ "Takealot Marketplace Sage 50cloud Pastel Xpress Integration")
-- [Takealot Marketplace Sage 50cloud Pastel Partner Integration](https://www.stock2shop.com/takealot-marketplace-sage-pastel-partner-integration/ "Takealot Marketplace Sage 50cloud Pastel Partner Integration")
-- [Takealot Marketplace Sage 100 Evolution Integration](https://www.stock2shop.com/integrations/takealot-marketplace-sage-evolution-integration/ "Takealot Marketplace Sage 100 Evolution Integration")
-- [Takealot Marketplace Sage 200 Evolution Integration](https://www.stock2shop.com/integrations/sage-200-evolution-takealot-marketplace-integration/ "Takealot Marketplace Sage 200 Evolution Integration")
-- [Takealot Marketplace Sage 300cloud Integration](https://www.stock2shop.com/integrations/sage-300cloud-takealot-marketplace-integration/ "Takealot Marketplace Sage 300 Evolution Integration")
-- [Takealot Marketplace SAP Integration](https://www.stock2shop.com/integrations/takealot-marketplace-sap-integration/ "Takealot Marketplace SAP Integration")
-- [Takealot Marketplace iSync Integration](https://www.stock2shop.com/integrations/takealot-marketplace-isync-integration/ "Takealot Marketplace iSync Integration")
-- [Takealot Marketplace SYSPRO Integration](https://www.stock2shop.com/integrations/takealot-marketplace-syspro-integration/ "Takealot Marketplace SYSPRO Integration")
-- [Takealot Marketplace Omni Accounts Integration](https://www.stock2shop.com/integrations/takealot-marketplace-omni-accounts-integration/ "Takealot Marketplace Omni Accounts Integration")
+- [Takealot Marketplace Sage Business Cloud Accounting Integration](/integrations/takealot-marketplace-sage-accounting-integration-2/ "Takealot Marketplace Sage Business Cloud Accounting (formerly Sage One) Integration")
+- [Takealot Marketplace Sage Business Cloud Financials Integration](/integrations/takealot-marketplace-sage-financials-integration/ "Takealot Marketplace Sage Business Cloud Financials (formerly Sage live) Integration")
+- [Takealot Marketplace Sage 50cloud Pastel Xpress Integration](/integrations/sage-50cloud-pastel-xpress-takealot-marketplace-integration/ "Takealot Marketplace Sage 50cloud Pastel Xpress Integration")
+- [Takealot Marketplace Sage 50cloud Pastel Partner Integration](/integrations/takealot-marketplace-sage-pastel-partner-integration/ "Takealot Marketplace Sage 50cloud Pastel Partner Integration")
+- [Takealot Marketplace Sage 100 Evolution Integration](/integrations/takealot-marketplace-sage-evolution-integration/ "Takealot Marketplace Sage 100 Evolution Integration")
+- [Takealot Marketplace Sage 200 Evolution Integration](/integrations/sage-200-evolution-takealot-marketplace-integration/ "Takealot Marketplace Sage 200 Evolution Integration")
+- [Takealot Marketplace Sage 300cloud Integration](/integrations/sage-300cloud-takealot-marketplace-integration/ "Takealot Marketplace Sage 300 Evolution Integration")
+- [Takealot Marketplace SAP Integration](/integrations/takealot-marketplace-sap-integration/ "Takealot Marketplace SAP Integration")
+- [Takealot Marketplace iSync Integration](/integrations/takealot-marketplace-isync-integration/ "Takealot Marketplace iSync Integration")
+- [Takealot Marketplace SYSPRO Integration](/integrations/takealot-marketplace-syspro-integration/ "Takealot Marketplace SYSPRO Integration")
+- [Takealot Marketplace Omni Accounts Integration](/integrations/takealot-marketplace-omni-accounts-integration/ "Takealot Marketplace Omni Accounts Integration")
 - [Takealot Marketplace iQ Retail Integration](/integrations/takealot-marketplace-iq-retail-integration/ "Takealot Marketplace iQ Retail Integration")
 - [Takealot Marketplace Microsoft Dynamics NAV Integration](/integrations/takealot-marketplace-ms-navision-integration/ "Takealot Marketplace Microsoft Dynamics NAV Integration")

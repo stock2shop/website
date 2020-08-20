@@ -5,7 +5,7 @@ title: Understanding your queue
 
 ## Introduction
 
-One of the [key concepts](/documentation/key-concepts/) that Stock2Shop uses to manage data is the [Queue](https://www.stock2shop.com/documentation/key-concepts/queue/).
+One of the [key concepts](/documentation/key-concepts/) that Stock2Shop uses to manage data is the [Queue]( /documentation/key-concepts/queue/).
 Any passing of data through the Stock2Shop system will pass through the queue, be it a sync from the source to Stock2Shop, updating product data on the website or syncing an order from the website, it will pass through the queue.
 
 Each type of sync that passes through the queue will have its own queue instruction and within those instructions each item will have its own queue id.

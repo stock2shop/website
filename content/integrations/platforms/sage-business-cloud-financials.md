@@ -26,7 +26,7 @@ tags: ["erp"]
 
 ---
 
-## ONCE YOU’VE INTEGRATED SAGE BUSINESS CLOUD FINANCIALS (FORMERLY SAGE LIVE) AND YOUR E-COMMERCE WEBSITE, YOU’LL BE ABLE TO:
+## Once you’ve integrated Sage Business Cloud Financials (formerly Sage Live) and your e-commerce website, you’ll be able to:
 
 *   #### Sync inventory data
     

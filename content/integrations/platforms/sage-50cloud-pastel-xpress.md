@@ -24,7 +24,7 @@ tags: ["erp"]
 - [Sage 50cloud Pastel Xpress WooCommerce Integration](/integrations/Sage-50cloud-Pastel-Xpress-woocommerce/ "Sage 50cloud Pastel Xpress WooCommerce Integration")
 - [Sage 50cloud Pastel Xpress B2B Trade Store Integration](/integrations/Sage-50cloud-Pastel-Xpress-b2b-trade-store/ "Sage 50cloud Pastel Xpress B2B Trade Store Integration")
 
-## Once you’ve integrated sage 50cloud pastel xpress and your e-commerce website, you’ll be able to:
+## Once you’ve integrated Sage 50cloud Pastel Xpress and your e-commerce website, you’ll be able to:
 
 *   #### Sync inventory data
     

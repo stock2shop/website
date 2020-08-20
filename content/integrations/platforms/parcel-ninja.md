@@ -25,8 +25,8 @@ Stock2Shop integrates Parcelninja and Sage Pastel products, such as Pastel Evolu
 
 ---
 
-## BBenefits
-#### Saves time & avoids errors
+## Benefits
+#### Save time & avoid errors
 By letting Stock2Shop automatically send orders from your Pastel system to Parcelninja, the order is not needed to be captured twice. This saves time and avoids data capturing errors.
 #### Keep track of your stock
 Report on stock levels in your warehouse against stock levels in Pastel. After goods have been delivered to Parcelninja’s warehouse you are able to make sure the goods received are correct as per your purchase order.

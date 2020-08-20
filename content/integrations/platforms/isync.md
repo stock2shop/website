@@ -24,7 +24,7 @@ tags: ["erp"]
 - [iSync WooCommerce Integration](/integrations/isync-woocommerce/ "iSync WooCommerce Integration")
 - [iSync B2B Trade Store Integration](/integrations/isync-b2b-trade-store/ "iSync B2B Trade Store Integration")
 
-## When you integrate isync and your e-commerce website, you can:
+## When you integrate iSync and your e-commerce website, you can:
 
 *   #### Sync inventory data
     

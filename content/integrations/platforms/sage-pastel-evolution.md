@@ -24,7 +24,7 @@ tags: ["erp"]
 - [Sage 100 Evolution WooCommerce Integration](/integrations/sage-evolution-woocommerce/ "Sage 100 Evolution (formerly Sage Evolution Standard) WooCommerce Integration")
 - [Sage 100 Evolution B2B Trade Store Integration](/integrations/sage-pastel-partner-b2b-trade-store/ "Sage 100 Evolution (formerly Sage Evolution Standard) B2B Trade Store Integration")
 
-## Once you’ve integrated sage 100 evolution (formerly sage evolution standard) and your e-commerce website, you’ll be able to:
+## Once you’ve integrated Sage 100 Evolution (formerly Sage Evolution Standard) and your e-commerce website, you’ll be able to:
 
 *   #### Sync inventory data
     

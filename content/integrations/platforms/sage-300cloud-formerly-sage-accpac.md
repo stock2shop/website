@@ -26,7 +26,7 @@ tags: ["erp"]
 
 ---
 
-## Once you’ve integrated sage 300cloud and your e-commerce website, you’ll be able to:
+## Once you’ve integrated Sage 300cloud and your e-commerce website, you’ll be able to:
 
 *   #### Sync inventory data
     
