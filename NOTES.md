@@ -1,7 +1,10 @@
 # Technical Notes 
 
-
 <!-- TOC -->autoauto- [Technical Notes](#technical-notes)auto    - [Essential Hugo Terms](#essential-hugo-terms)auto    - [Table of contents](#table-of-contents)auto    - [Menus](#menus)auto    - [CLI](#cli)auto    - [Workarounds best avoided](#workarounds-best-avoided)auto    - [URL Aliases](#url-aliases)auto    - [Issues](#issues)auto    - [Project specific libraries](#project-specific-libraries)auto    - [References and Resources](#references-and-resources)autoauto<!-- /TOC -->
+
+## Shortcodes
+- figure
+- thumbnail
 
 ## Essential Hugo Terms
 - Section: A content directory
@@ -42,6 +45,15 @@ unsafe= true
 - Boostrap 4.5
 - jQuery 3.5.1
 - Popper
+
+## Old vs New URLs & Names
+
+| Old | New |
+|---|---|
+| /sage-one-accounting* | /sage-50cloud-pastel-partner |
+| /sage-partner-xpress | /sage-50cloud-pastel-xpress* |
+
+\* Currently in use
 
 ## References and Resources
 - https://gohugo.io/

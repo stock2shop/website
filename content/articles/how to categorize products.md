@@ -3,18 +3,18 @@ title: "how to categorize products: layered navigation"
 description: "Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation."
 summary: "Categorizing products correctly is a major pain point for many e-commerce websites. Layered navigation is the solution: find out how – and why – to implement it"
 lead: "Categorizing products correctly is a major pain point for many e-commerce websites. Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation. Here’s what you need to know."
-image: "/uploads/article-2-layered-navigation.jpg"
+image: "/uploads/ article-layered-navigation.jpg"
 imageAlt: "layered navigation"
 date: 2018-07-18
 ---
-![layered navigation](/uploads/article-2-layered-navigation.jpg)
+![layered navigation](/uploads/ article-layered-navigation.jpg)
 ## What is layered navigation?1
 
 #### Layered navigation solves the problem of how to search a lot of data. It makes it simple to find products based on various attributes: like category, size or price, for example.
 
 Traditionally, websites have two different places for navigation: the main menu (top navigation) which breaks data into sections or groups of products (like departments on Amazon). And the left hand menu, which is usually layered navigation. You choose the fields that appear in the left hand menu, but they are automatically populated with the data that your customer requests. Layered navigation is the easy, efficient way to display product data.
 
-![what is layered navigation](/uploads/article-2-what-is-layered-navigation.jpg)
+![what is layered navigation](/uploads/ article-what-is-layered-navigation.jpg)
 
 ## Understanding category hierarchy
 
@@ -26,7 +26,7 @@ If you interpret your spreadsheet and say which category goes first, there’s a
 
 Navigation is essentially a user journey that you provide to your customer: the way you think they’ll want to search for a product. Think of it as a paper map. But layered navigation offers an automated search for products based on the way your customer wants to search: think of it as Google Maps. Which route your customer takes is up to them.
 
-![user journey](/uploads/article-2-user-journey.jpg)
+![user journey](/uploads/ article-user-journey.jpg)
 
 If you think of the user journey this way, it opens up a new way of looking at categories. How can you define each product so that it can stand alone and be searched for in a variety of ways? Look at a product and define:
 
@@ -48,11 +48,11 @@ A better spreadsheet would describe what the product is, through categorization.
 
 Now we take this approach to layered navigation. The main menu can be simple, with departments like Preschool, Arts & Crafts, Games. When you click on Preschool, it shows only those products in that department, with the left hand menu showing a summary of the categories you want listed. So now you have a filter, which makes it much easier to search for a specific product.
 
-![categories](/uploads/article-2-categories1.jpg)
+![categories](/uploads/ article-categories1.jpg)
 
 Layered navigation is also called faceted navigation, because it helps to filter search results by refining which attributes to include. For example: toys made by Bloomy, suitable for preschoolers, under R400. As you can see, that dramatically reduces the number of options displayed.
 
-![filter search results](/uploads/article-2-filter-search-results.jpg)
+![filter search results](/uploads/ article-filter-search-results.jpg)
 
 ## Defining category rules
 

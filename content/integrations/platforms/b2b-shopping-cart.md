@@ -7,3 +7,5 @@ imageAlt: stock2shop logo
 weight: 4
 tags: ["channel"]
 ---
+
+{{< b2bcart >}}

@@ -65,7 +65,12 @@ aside .active > a {
 
 /* Platform pages */
 
-#platform img {
+#platform > img {
+    width: 200px;
+}
+
+//Can be set in shortcode as well
+#platform .img-thumbnail {
     width: 100px;
 }
 
