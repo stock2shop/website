@@ -7,6 +7,7 @@ menu:
   docside:
     parent: Getting Started
     name: Sage 50cloud Pastel Partner
+    weight: 75
 ---
 
 ## Introduction

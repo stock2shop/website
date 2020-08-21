@@ -7,6 +7,7 @@ menu:
   docside:
     parent: Getting Started
     name: Dolfin
+    weight: 160
 ---
 
 ## Introduction

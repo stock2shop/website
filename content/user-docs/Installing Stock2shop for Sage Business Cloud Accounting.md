@@ -6,6 +6,7 @@ menu:
   docside:
      parent: Getting Started
      name: Sage Business Cloud Accounting
+     weight: 50
 ---
 
 ## Introduction

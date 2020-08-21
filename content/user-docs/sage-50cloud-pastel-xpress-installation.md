@@ -7,6 +7,7 @@ menu:
   docside:
     parent: Getting Started
     name: Sage 50cloud Pastel Xpress
+    weight: 70
 ---
 
 ## Introduction

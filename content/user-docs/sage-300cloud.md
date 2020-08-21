@@ -7,6 +7,7 @@ menu:
   docside:
     parent: Getting Started
     name: Sage 300cloud
+    weight: 100
 ---
 
 ## Introduction
