@@ -2,15 +2,15 @@
 
 Stock2Shop website and documentation built with Hugo.
 
-1. [Getting Started](#1.-getting-started)
-2. [Site Structure](#2.-site-structure)
-    1. [Articles](#2.1.-articles)
-    2. [Developers](#2.2.-developers)
-    3. [Case Studies](#2.3.-case-studies-/-success-stories)
-    4. [User docs](#2.4.-user-docs)
-    5. [Integrations](#2.5.-integrations)
-    6. [Help Centre](#2.6.-help-centre)
-3. [Appendix](#3.-appendix)
+1. [Getting Started](#1-getting-started)
+2. [Site Structure](#2-site-structure)
+    1. [Articles](#21-articles)
+    2. [Developers](#22-developers)
+    3. [Case Studies](#23-case-studies-/-success-stories)
+    4. [User docs](#24-user-docs)
+    5. [Integrations](#25-integrations)
+    6. [Help Centre](#26-help-centre)
+3. [Appendix](#3-appendix)
 
 ## 1. Getting Started
 
