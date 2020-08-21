@@ -2,15 +2,15 @@
 
 Stock2Shop website and documentation built with Hugo.
 
-1. [Getting Started](#1.-Getting-Started)
-2. [Site Structure](#2.-Site-Structure)
-    1. [Articles](#2.1.-Articles)
-    2. [Developers](#2.2.-Developers)
-    3. [Case Studies](#2.3.-Case-Studies)
-    4. [User docs](#2.4.-User-docs)
-    5. [Integrations](#2.5.-Integrations)
-    6. [Help Centre](#2.6.-Help-Centre)
-3. [Appendix](#3.-Appendix)
+1. [Getting Started](#1.-getting-started)
+2. [Site Structure](#2.-site-structure)
+    1. [Articles](#2.1.-articles)
+    2. [Developers](#2.2.-developers)
+    3. [Case Studies](#2.3.-case-studies-/-success-stories)
+    4. [User docs](#2.4.-user-docs)
+    5. [Integrations](#2.5.-integrations)
+    6. [Help Centre](#2.6.-help-centre)
+3. [Appendix](#3.-appendix)
 
 ## 1. Getting Started
 
@@ -24,11 +24,11 @@ Stock2Shop website and documentation built with Hugo.
 ## 2. Site Structure
 The next 6 sections contain instructions to create new pages and show differences in layout and meta data. Titles get converted into Title Case so no need for capitalization. The capitalization in the Front Matter so in cases lik acronyms eg 'B2B' this should be capitalised in the Front Matter.
 
-### 2.1 Articles
+### 2.1. Articles
 
 #### Create new page
 1. Run ```hugo new articles/filename.md```
-2. Open newly created file and add [description](#parameters) and summary in Front Matter
+2. Open newly created file and add [description](#front-matter-map) and summary in Front Matter
 
 #### Front Matter
 ```
@@ -78,7 +78,7 @@ weight:
 ---
 ```
 
-### 2.4. User docs
+### 2.4. User Docs
 
 #### Create new page
 1. Navigate to the user-docs section and add the .md file
