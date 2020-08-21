@@ -13,7 +13,6 @@ menu:
 ## Introduction
 SYSPRO is a client side ERP system. This means the SYSPRO application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link SYSPRO to other sales channels and fulfillments services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, we need to install software on the server or computer where your SYSPRO is set up.
 
-
 ## For accessing your database
 In order to communicate with your SYSPRO database, we require the following information:
 

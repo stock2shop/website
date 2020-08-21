@@ -10,27 +10,11 @@ menu:
     weight: 140
 ---
 
-Installing Stock2Shop For Omni Accounts
----------------------------------------
-
-### Contents
-
-1.  [Introduction](#go1)
-2.  [What we need from you](#go2)
-    *   [For accessing your database](#go2-a)
-    *   [For accessing your server](#go2-b)
-    *   [For raising orders](#go2-c)
-3.  [What’s next](#go3)
-
-* * *
-
-### Introduction
+## Introduction
 
 Omni Accounts is a client-side ERP system. This means the Omni Accounts application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link Omni Accounts to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, we need to install software on the server or computer where your Omni Accounts is set up.
 
-  
-
-### For Accessing Your Database
+## For Accessing Your Database
 
 In order to communicate with your Omni Accounts database, we require the following information:
 
@@ -48,9 +32,7 @@ Additionally, please contact your Omni Accounts support team to confirm you have
 *   A dedicated Omni Accounts User License with Admin rights for Stock2Shop
 *   Upgrade to Omni Accounts v7.13.63 3345 or later
 
-  
-
-### For Accessing Your Server
+## For Accessing Your Server
 
 In order for Stock2Shop to access the data inside of your Omni Accounts database and integrate this into other applications, our software has to be installed on the server or computer that has direct access to the Omni Accounts database. There are three ways for you to grant us access to install our software on your server:
 
@@ -64,18 +46,14 @@ The below must be taken into consideration to ensure we can manage information o
 *   The server must always be online.
 *   The user must have full admin rights.
 
-  
-
-### For Raising Orders
+## For Raising Orders
 
 If you require Stock2Shop to insert sales orders or invoices into Omni Accounts, we require the REST web service to be activated and running. Follow the steps below to set up:
 
 *   Step 1: Find the OmniWebServiceREST and open it. This is usually located in c:/Omni/System
 *   Step 2: Do not close rest service, just minimise:
 
-  
-
-### What’s next
+## What’s next
 
 Below is an overview outlining the next steps:
 

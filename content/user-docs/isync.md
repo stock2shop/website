@@ -10,41 +10,22 @@ menu:
     weight: 120
 ---
 
-Installing Stock2Shop for iSync
--------------------------------
-
-### Contents
-
-1.  [Introduction](#go1)
-2.  [What we need from you](#go2)
-    *   [For accessing your data](#go2-a)
-    *   [For raising orders](#go2-b)
-3.  [What’s next](#go3)
-
-* * *
-
-### Introduction
+## Introduction
 
 iSync is an online accounting system. This means the application lives in the “cloud”. Enabling Stock2Shop to work with iSync is relatively simple. In order for Stock2Shop to provide you with the full integration features and link your iSync system to other sales channels and fulfillments services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store and Parcelninja, we need access to your iSync account.
 
-  
-
-### For Accessing Your Data
+## For Accessing Your Data
 
 In order to communicate with your iSync, we require the following information:
 
 *   iSync Username
 *   iSync Password
 
-  
-
-### For Raising Orders
+## For Raising Orders
 
 Raising orders into iSync is a straightforward process. During the data discussion one of our Technicians will confirm how orders should be raised.
 
-  
-
-### What’s next
+## What’s next
 
 Below is an overview outlining the next steps:
 

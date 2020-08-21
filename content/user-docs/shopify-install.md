@@ -10,11 +10,11 @@ menu:
     weight: 10
 ---
 
-### Introduction
+## Introduction
 
 The steps below will guide you in creating a private application in Shopify. Stock2Shop requires all these settings to be configured prior to configuration. For technical information about the Shopify API visit [this page](https://help.shopify.com/en/api/reference).
 
-### Creating a private app
+## Creating a private app
 
 Login to your Shopify store backend and navigate to select **Apps > Manage Private Apps**. Once you have navigated to **Manage Private Apps**, click **Create a new private app**.
 
