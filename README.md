@@ -2,15 +2,15 @@
 
 Stock2Shop website and documentation built with Hugo.
 
-1. [Getting Started](#1 Getting Started)
-2. [Site Structure](#2 Site Structure)
-    1. [Articles](#2.1 Articles)
-    2. [Developers](#2.2 Developers)
-    3. [Case Studies](#2.3 Case Studies)
-    4. [User docs](#2.4 User docs)
-    5. [Integrations](#2.5 Integrations)
-    6. [Help Centre](#2.6 Help Centre)
-3. [Appendix](#3 Appendix)
+1. [Getting Started](#1.-Getting-Started)
+2. [Site Structure](#2.-Site-Structure)
+    1. [Articles](#2.1.-Articles)
+    2. [Developers](#2.2.-Developers)
+    3. [Case Studies](#2.3.-Case-Studies)
+    4. [User docs](#2.4.-User-docs)
+    5. [Integrations](#2.5.-Integrations)
+    6. [Help Centre](#2.6.-Help-Centre)
+3. [Appendix](#3.-Appendix)
 
 ## 1. Getting Started
 
@@ -45,7 +45,7 @@ date:
 author:
 ---
 ```
-### 2.2 Developers
+### 2.2. Developers
 
 #### Create new page
 
@@ -57,7 +57,7 @@ description:
 ---
 ```
 
-### 2.3 Case Studies / Success Stories
+### 2.3. Case Studies / Success Stories
 
 #### Create new page
 1. Navigate to the relevant section and add the .md file
@@ -78,7 +78,7 @@ weight:
 ---
 ```
 
-### 2.4 User docs
+### 2.4. User docs
 
 #### Create new page
 1. Navigate to the user-docs section and add the .md file
@@ -99,7 +99,7 @@ menu:
 ---
 ```
 
-### 2.5 Integrations
+### 2.5. Integrations
 
 #### Create new page
 1. Navigate to the relevant section and add the .md file
@@ -119,7 +119,7 @@ weight:
 ---
 ```
 
-### 2.6 Help Centre
+### 2.6. Help Centre
 
 #### Create new page
 1. Navigate to the relevant section and add the .md file
