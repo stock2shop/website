@@ -25,8 +25,8 @@ Stock2Shop website and documentation built with Hugo.
 
 ---
 
-## 2. Site Structure
-The next 6 sections contain instructions to create new pages and show differences in layout and meta data. Titles get converted into Title Case so no need for capitalization. The capitalization in the Front Matter so in cases lik acronyms eg 'B2B' this should be capitalised in the Front Matter.
+## 2. Sections
+The sections contain instructions to create new pages and show differences in layout and meta data. Titles get converted into Title Case so no need for capitalization. The capitalization in the Front Matter so in cases lik acronyms eg 'B2B' this should be capitalised in the Front Matter.
 
 ### 2.1. Articles
 
@@ -144,16 +144,16 @@ image:
 
 ### Front Matter Map
 
-- **title**: Page meta title for SEO
-- **heading**: Page heading when different from title
-- **titleList**: Displayed on list page 
-- **linkTitle**: Hardcoded menu item title
-- **description**: Page Meta Description for SEO
-- **summary**: Page summary displayed in the articles list page
-- **summary2**: Additional summary parameter for different styling eg. bold 
-- **lead**: Lead paragraph
-- **lead2**: Second lead paragraph
-- **toc**: Show page table of content
-- **image**: Image used from social media sharing and for list page
-- **date**: Used for sorting with yyyy-mm-dd format
-- **weight**: The default menu item and listing sort order
+**title**: Page meta title for SEO  
+**heading**: Page heading when different from title  
+**titleList**: Displayed on list page  
+**linkTitle**: Hardcoded menu item title  
+**description**: Page Meta Description for SEO  
+**summary**: Page summary displayed in the articles list page  
+**summary2**: Additional summary parameter for different styling eg. bold   
+**lead**: Lead paragraph  
+**lead2**: Second lead paragraph  
+**toc**: Show page table of content  
+**image**: Image used from social media sharing and for list page  
+**date**: Used for sorting with yyyy-mm-dd format  
+**weight**: The default menu item and listing sort order  
