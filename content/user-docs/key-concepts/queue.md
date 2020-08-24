@@ -3,6 +3,7 @@ title: "System integration using the Stock2Shop queue"
 heading: "the stock2Shop queue"
 description: "Looking for an efficient way to integrate your systems? Stock2Shop has the answer. The Stock2Shop queue ensures product data from your ERP or accounting systems (Sage, SYSPRO, iSync or SAP) is connected to your e-commerce platform (Shopify, WooCommerce, Magento or B2B trade store)."
 lead: "The queue is the backbone of Stock2Shop."
+aliases: "/documentation/key-concepts/queue/"
 toc: false
 menu:
   docside:

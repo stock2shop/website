@@ -3,6 +3,7 @@ title: "Handling products and variants: system integration"
 heading: "products and variants"
 description: "Stock2Shop integrates into various different ERP or accounting systems (Sage, SAP, iSync and SYSPRO). Here's all you need to know about set up and configuration of product and inventory data sources, for efficient system integration."
 lead: "Here’s all you need to know about the relationship between products, options and variants on Stock2Shop."
+aliases: "/documentation/key-concepts/products-variants/"
 toc: true
 menu:
   docside:

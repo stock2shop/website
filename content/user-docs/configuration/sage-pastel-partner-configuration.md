@@ -2,6 +2,7 @@
 title: "sage pastel partner configuration"
 description: "Settings for integrating Sage Pastel Partner with multiple sales channels such as Magento, Woocommerce, Shopify and Stock2Shop's B2B ordering platform. Let us work with you to create the perfect workflow for your business."
 lead: "Stock2Shop has full support for Sage Pastel Partner. This means that inventory information can be fetched and orders can be raised, simply and easily."
+aliases: "/documentation/configuration/sage-pastel-partner-configuration/"
 toc: true
 menu:
   docside:

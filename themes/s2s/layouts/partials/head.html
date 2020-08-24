@@ -11,7 +11,7 @@
 {{ end }}
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/schema.html" . -}}
-<!-- todo: Confirm paths are correct on Staging Server -->
+<!-- TODO: Confirm paths are correct on Staging Server -->
 {{ if .Params.image }}
 <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image | relURL }}"/>
 <meta property="og:image:secure_url" content="{{ .Params.image | absURL }}"/>

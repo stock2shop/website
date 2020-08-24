@@ -1,7 +1,8 @@
 ---
 title: "omni accounts - getting started"
 heading: "installing stock2shop for omni accounts"
-description: ""
+description: "Set up instructions for integrating Omni Accounts to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
+aliases: "/documentation/getting-started/omni-accounts-install/"
 toc: true
 menu:
   docside:

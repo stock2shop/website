@@ -1,16 +1,17 @@
 ---
-title: "woocommerce - getting started"
+title: "WooCommerce Integration - getting started"
 heading: "installing Stock2Shop for woocommerce"
-description: ""
+description: "How to configure your WooCommerce API and Webhook for Stock2Shop to sync product data and orders. Step-by-step instructions explaining how to grant API access to Stock2Shop so that we can integrate WooCommerce for you."
+aliases: "/documentation/getting-started/woocommerce/"
 toc: true
 menu:
   docside:
     parent: Getting Started
-    name: Woocommerce
+    name: WooCommerce
     weight: 30
 ---
 
-### Introduction
+## Introduction
 
 Here you will find all the information you will need to prepare your WooCommerce website for integration.
 
@@ -70,5 +71,6 @@ Navigate to **WooCommerce > Settings select Advanced > Webhooks > Add webhook**
 
 Add in a **Name** of “Stock2Shop” and make the **Status** “Disabled” for the time being (this will be enabled when ready to be tested) Set the **Topic** to “Order updated” from the dropdown and leave the **Delivery URL** “blank” Leave **Secret** “blank”and set the **API Version** to “Legacy API v3 (deprecated)” Click **Save webhook**
 
-![getting started woocommerce](/uploads/getting-started-woocommerce-7.png)  
-Any questions? Email [support@stock2shop.com](mailto: support@stock2shop.com) and we will happily help.
+![getting started woocommerce](/uploads/getting-started-woocommerce-7.png)
+  
+Any questions? Email [support@stock2shop.com](mailto:support@stock2shop.com) and we will happily help.

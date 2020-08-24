@@ -3,6 +3,7 @@ title: "multi-chanel sales platform"
 heading: "Stock2Shop channels"
 lead: "What do we mean when we say channels? Places to display and sell your goods. Here’s all you need to know about Stock2Shop sales channels."
 description: "Stock2Shop offers multi-channel software that links inventory data from your ERP or accounting system (SYSPRO, SAP, Sage or iSync) to various sales channels (Magento, Shopify, WooCommerce or your B2B platform). Data sent and sales orders received, simply and easily."
+aliases: "/documentation/key-concepts/channels/"
 toc: false
 menu:
   docside:

@@ -3,6 +3,7 @@ title: "Multiple warehouse concept | Stock2Shop system integration"
 heading: "multiple warehouses"
 description: "If your accounting or ERP system has multiple warehouse functionality, the Stock2Shop integration can handle the concept in a variety of ways. Let us help you tailor the perfect solution for your business. Find out more!"
 lead: "Here’s all you need to know about multiple warehouses on Stock2Shop."
+aliases: "/documentation/key-concepts/multiple-warehouses/"
 toc: false
 menu:
   docside:

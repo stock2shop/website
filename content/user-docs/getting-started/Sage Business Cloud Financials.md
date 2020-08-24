@@ -1,5 +1,6 @@
 ---
-title: "Installing Stock2Shop for Sage Business Cloud Financials"
+title: "Sage Live - getting started"
+heading: "installing Stock2Shop for sage business cloud financials (formerly sage live)"
 description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 toc: true
 menu:

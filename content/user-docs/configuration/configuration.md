@@ -2,7 +2,8 @@
 title: "Configuration"
 heading: "source & channel configuration options"
 description: "Integrating your ERP or accounting system with multiple sales channels requires flexibility. Take a look at our configuration options to see how we can tailor a solution to your e-commerce website, and your business."
-lead: "Each connector that Stock2Shop develops comes with a host of options."
+aliases: "/documentation/configuration/"
+lead: "Each connector that Stock2Shop develops come with a host of options."
 menu: docside
 weight: 2
 ---

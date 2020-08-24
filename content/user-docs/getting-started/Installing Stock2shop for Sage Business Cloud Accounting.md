@@ -1,6 +1,7 @@
 ---
 title: "Installing Stock2shop for Sage Business Cloud Accounting (formerly Sage One)"
 description: "Stock2Shop can sync products and orders between Sage One and numerous other applications like Magento, Woocommerce, Shopify and our B2B ordering platform. Find out more!"
+aliases: "/documentation/getting-started/sage-one-install/"
 toc: true
 menu:
   docside:
@@ -15,8 +16,8 @@ Sage Business Cloud Accounting (formerly Sage One) is an online accounting syste
 ## For accessing your data
 In order to communicate with your Sage Business Cloud Accounting, we require the following information:
 
-Sage Business Cloud Accounting Username
-Sage Business Cloud Accounting Password
+- Sage Business Cloud Accounting Username
+- Sage Business Cloud Accounting Password
 
 ## For raising orders
 Raising orders into Sage Business Cloud Accounting is a straightforward process. During the data discussion one of our Technicians will confirm how orders should be raised.

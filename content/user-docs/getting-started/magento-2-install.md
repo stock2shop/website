@@ -1,7 +1,9 @@
 ---
-title: "magento - getting started"
+title: "magento 2.x Integration - getting started"
 heading: "installing stock2shop for magento 2.x"
-description: ""
+description: "Do you have a Magento 2.x website? Here's how to configure your Magento 2.x website and set up the REST API for Stock2Shop to sync product data and orders."
+lead: "In order for Stock2Shop to communicate with Magento safely and effectively, we use the standard Magento API. The Magento API is a service that allows programs such as Stock2Shop to access your website and comes stock standard with Magento."
+aliases: "/documentation/getting-started/magento-2-install/"
 toc: true
 menu:
   docside:

@@ -2,6 +2,7 @@
 <div class="row">
     {{ partial "docside.html" . }}
     <div class="col-md-9">
+        <!-- TODO: Find alternative pagination to .PrevInSection .NextInSection deriving order from publish date -->
         <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
         {{ if .Params.Lead }}
         <p class="lead">{{ .Params.Lead }}</p>

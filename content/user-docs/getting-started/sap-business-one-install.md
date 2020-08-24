@@ -1,7 +1,8 @@
 ---
 title: "SAP business one - getting started"
 heading: "installing Stock2Shop for SAP business one"
-description: ""
+description: "Stock2Shop integrates SAP Business One to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
+aliases: "/documentation/getting-started/sap-business-one-install/"
 toc: true
 menu:
   docside:

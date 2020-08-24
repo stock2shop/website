@@ -3,6 +3,7 @@ title: "Linked product and inventory data sources"
 heading: "linked product and inventory data sources"
 lead: "A linked source is an additional source of product and inventory information that can sync to your sales channels (e-commerce websites)."
 description: "How to manage linked product and inventory data sources that sync to your sales channels in addition to your primary source. Stock2Shop's system integration makes this simple and straightforward. Find out more!"
+aliases: "/documentation/key-concepts/linked-sources/"
 toc: false
 menu:
   docside:

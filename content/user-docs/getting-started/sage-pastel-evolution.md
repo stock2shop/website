@@ -1,7 +1,8 @@
 ---
 title: "sage evolution - getting started"
 heading: "installing stock2shop for sage evolution"
-description: ""
+description: "Set up instructions for integrating Sage Evolution to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
+aliases: "/documentation/getting-started/sage-pastel-evolution/"
 toc: true
 menu:
   docside:
@@ -25,9 +26,9 @@ In order to communicate with your Sage Evolution database, we require the follow
 ## For accessing your server
 In order for Stock2Shop to access the data inside of your Sage Evolution database and integrate this into other applications, our software has to be installed on the server or computer that has direct access to the Sage Evolution database. There are three ways for you to grant us access to install our software on your server:
 
-- Microsoft Remote Desktop (See here)
-- AnyDesk (See here)
-- Teamviewer (See here)
+- Microsoft Remote Desktop [(See here)](https://support.microsoft.com/en-za/help/17463/windows-7-connect-to-another-computer-remote-desktop-connection))
+- AnyDesk [(See here)](https://anydesk.com/en/downloads/)
+- Teamviewer [(See here)](https://www.teamviewer.com/en/)
 
 {{< class alert alert-primary >}}
 The below must be taken into consideration to ensure we can manage information on a continual basis:
@@ -63,4 +64,4 @@ Below is an overview outlining the next steps:
 Data Discussion **(Step 1)** will be scheduled by one of our technicians
 {{< /class >}}
 
-[Any questions? Contact us – we’re happy to help.](/contact-us)
+Any questions? [Contact us](/contact-us) – we’re happy to help.

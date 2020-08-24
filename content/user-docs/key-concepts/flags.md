@@ -3,6 +3,7 @@ title: "How StockShop flags work"
 heading: "Stock2Shop flags"
 description: "Stock2Shop seamlessly integrates your ERP accounting system and your e-commerce website. Product flags allow us to manage data sent from a source (your ERP or accounting system: Sage, SYSPRO, iSync or SAP) and data sent to e-commerce channels (Magento, WooCommerce, Shopify or your B2B trade store)."
 lead: "Decide which fields to use on sources and channels: all you need to know about Stock2Shop flags."
+aliases: "/documentation/key-concepts/flags/"
 toc: false
 menu:
   docside:

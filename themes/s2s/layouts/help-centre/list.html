@@ -2,7 +2,7 @@
 <div class="row">
     <aside class="col-md-3">
         <ul class="nav flex-column">
-            <li><a href="/help-centre">Help Centre</a></li>
+        <li><a href="/help-centre">Help Centre</a></li>
         {{ $currentPage := . }}
         {{ range where .Site.Sections "Section" "help-centre" }}
             {{ if .Sections }}
@@ -22,12 +22,12 @@
             {{ end }}
             {{ end }}
         {{ end}}
-    </ul>
+        </ul>
     </aside>
     <div class="col-md-9">
         <h2>{{ title .Title }}</h2>
         {{ if eq .RelPermalink "/help-centre/" }}
-        <!-- Do custom grid layout -->
+        <!-- Custom grid layout -->
         {{ end }}
         {{ .Content }}
         <ul id="sectionTOC">

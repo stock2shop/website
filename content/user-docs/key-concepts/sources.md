@@ -3,6 +3,7 @@ title: "product and inventory data sources for system integration"
 heading: "Stock2Shop sources"
 description: "Stock2Shop integrates into various different ERP or accounting systems (Sage, SAP, iSync and SYSPRO). Here's all you need to know about set up and configuration of product and inventory data sources, for efficient system integration."
 lead: "What do we mean when we say sources? The source of information. Here’s all you need to know about Stock2Shop sources."
+aliases: "/documentation/key-concepts/sources/"
 toc: false
 menu:
   docside:

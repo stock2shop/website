@@ -1,7 +1,8 @@
 ---
 title: "dolfin - getting started"
 heading: "installing Stock2Shop for a generic database"
-description: ""
+description: "Stock2Shop integrates My SQL, MS SQL and other databases to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
+aliases: "/documentation/getting-started/database-install/"
 toc: true
 menu:
   docside:
@@ -56,4 +57,4 @@ Below is an overview outlining the next steps:
 Data Discussion **(Step 1)** will be scheduled by one of our technicians
 {{< /class >}}
 
-[Any questions? Contact us – we’re happy to help.](/contact-us)
+Any questions? [Contact us](/contact-us) – we’re happy to help.

@@ -24,9 +24,9 @@ Database PWD
 ## For accessing your server
 In order for Stock2Shop to access the data inside of your Sage 300cloud database and integrate this into other applications, our software has to be installed on the server or computer that has direct access to the Sage 300cloud database. There are two ways for you to grant us access to install our software on your server:
 
-- Microsoft Remote Desktop (See here)
-- AnyDesk (See here)
-- Teamviewer (See here)
+- Microsoft Remote Desktop [(See here)](https://support.microsoft.com/en-za/help/17463/windows-7-connect-to-another-computer-remote-desktop-connection))
+- AnyDesk [(See here)](https://anydesk.com/en/downloads/)
+- Teamviewer [(See here)](https://www.teamviewer.com/en/)
 
 {{< class alert alert-primary >}}
 The below must be taken into consideration to ensure we can manage information on a continual basis:

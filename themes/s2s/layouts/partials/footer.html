@@ -14,7 +14,7 @@
                 <h5 class="mt-3 mb-4">E-Commerce</h5>
                 <ul class="list-unstyled">
                     {{ range .Site.Taxonomies.tags.channel }}
-                    <!-- todo: check for TitleList first -->
+                    <!-- TODO: check for TitleList first -->
                     <li><a href="{{ .Permalink }}">{{ title .Title }}</a></li>
                     {{ end }}
                 </ul>
