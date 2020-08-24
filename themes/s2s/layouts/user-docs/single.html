@@ -7,7 +7,7 @@
         <p class="lead">{{ .Params.Lead }}</p>
         {{ end }}
         {{ if .Params.Toc }}
-        <h2>Contents</h2>
+        <h4 id="toc">Contents</h4>
         {{ .TableOfContents }}
         {{ end }}
         <hr>

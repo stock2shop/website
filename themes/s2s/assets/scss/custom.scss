@@ -3,37 +3,36 @@
 h2 {
     margin-bottom: 1.5rem !important;
 }
-
 img {
     max-width: 100%;
 }
-
 th, td {
     border: 1px solid grey;
 }
-
-aside .nav-link {
-    padding: 0px;
-}
-
-.fullwidth {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-}
-
 hr {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
 }
-
-ul.sub-menu {
+aside > ul.nav ul {
     list-style: none;
     padding-left: 7px;
 }
+aside .nav-link {
+    padding: 0px;
+}
+#TableOfContents > ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul#sectionTOC {
+    padding: 0px;
+    ul,li {
+        list-style: none;
+        padding-left: 7px;
+    }
+}
+
 
 /* Header */
 
@@ -48,6 +47,15 @@ ul.sub-menu {
 }
 header#solutions {
     background: #e93e34;
+}
+
+.fullwidth {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 /* Articles */

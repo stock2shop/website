@@ -2,12 +2,12 @@
 <div class="row">
     <aside class="col-md-3">
         <ul class="nav flex-column">
+            <li><a href="/help-centre">Help Centre</a></li>
         {{ $currentPage := . }}
         {{ range where .Site.Sections "Section" "help-centre" }}
             {{ if .Sections }}
             {{ range .Sections }}
             <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
-                <!-- Below could just be heading -->
                 <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
                 <ul>
                     {{ if .Sections }}
@@ -26,8 +26,11 @@
     </aside>
     <div class="col-md-9">
         <h2>{{ title .Title }}</h2>
+        {{ if eq .RelPermalink "/help-centre/" }}
+        <!-- Do custom grid layout -->
+        {{ end }}
         {{ .Content }}
-        <ul>
+        <ul id="sectionTOC">
             {{ if .CurrentSection.Sections }}
             {{ range .CurrentSection.Sections }}
             <li>

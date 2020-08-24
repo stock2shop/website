@@ -2,6 +2,7 @@
 <div class="row">
     <aside class="col-md-3">
         <ul class="nav flex-column">
+            <li><a href="/help-centre">Help Centre</a></li>
         {{ range where .Site.Sections "Section" "help-centre" }}
             {{ if .Sections }}
             {{ range .Sections }}
@@ -32,7 +33,7 @@
     <div class="col-md-9">
         <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
         <!-- todo: {{ .Page.Lastmod }} -->
-        <h4>Contents</h4>
+        <h4 id="toc">Contents</h4>
         {{ .TableOfContents }}
         {{ .Content }}
     </div>
