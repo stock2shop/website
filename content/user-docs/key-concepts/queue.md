@@ -7,7 +7,7 @@ aliases: "/documentation/key-concepts/queue/"
 toc: false
 menu:
   docside:
-    parent: Key Concepts
+    parent: key concepts
     name: Queue
 ---
 

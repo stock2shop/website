@@ -7,7 +7,7 @@ aliases: "/documentation/key-concepts/multiple-warehouses/"
 toc: false
 menu:
   docside:
-    parent: Key Concepts
+    parent: key concepts
     name: Multiple Warehouses
 ---
 

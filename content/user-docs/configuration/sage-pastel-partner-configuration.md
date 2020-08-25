@@ -6,7 +6,7 @@ aliases: "/documentation/configuration/sage-pastel-partner-configuration/"
 toc: true
 menu:
   docside:
-    parent: Configuration
+    parent: configuration
     name: Sage Pastel Partner
     weight: 10
 ---

@@ -7,7 +7,7 @@ aliases: "/documentation/key-concepts/products-variants/"
 toc: true
 menu:
   docside:
-    parent: Key Concepts
+    parent: key concepts
     name: Products and Variants
 ---
 

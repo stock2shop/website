@@ -7,6 +7,7 @@ aliases: "/documentation/workflows/"
 menu:
   docside:
     name: example workflows
+    weight: 40
 ---
 
 Every business has custom requirements when it comes to business processes and workflows, especially with regards to inventory and order management.

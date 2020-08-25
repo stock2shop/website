@@ -7,7 +7,7 @@ aliases: "/documentation/key-concepts/linked-sources/"
 toc: false
 menu:
   docside:
-    parent: Key Concepts
+    parent: key concepts
     name: Linked Sources
 ---
 

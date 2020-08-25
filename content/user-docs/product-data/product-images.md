@@ -9,6 +9,7 @@ menu:
   docside:
     parent: product data
     name: Product Images
+    weight: 10
 ---
 
 Below are some recommendations on how to capture and optimise images for use on Stock2Shop. These images will then be sent to WooCommerce, Magento, Shopify and our B2B trade store, depending on what has been configured.

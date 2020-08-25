@@ -7,7 +7,7 @@ aliases: "/documentation/key-concepts/sources/"
 toc: false
 menu:
   docside:
-    parent: Key Concepts
+    parent: key concepts
     name: Sources
 ---
 

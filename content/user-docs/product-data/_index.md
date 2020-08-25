@@ -7,6 +7,7 @@ aliases: "/documentation/product-data/"
 menu:
   docside:
     name: product data
+    weight: 50
 ---
 
 When handling large product or inventory data sets obtained from ERP or accounting systems (Sage, SYSPRO, iSync or SAP) and other sources, there are several things to consider. Here are some useful tips we have found to work well.
