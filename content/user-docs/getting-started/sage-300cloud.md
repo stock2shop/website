@@ -1,6 +1,6 @@
 ---
 title: "sage 50cloud - getting started"
-heading: "installing stock2shop for sage 300cloud (formerly sage accpac)"
+heading: "installing Stock2Shop for sage 300cloud (formerly sage accpac)"
 description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 toc: true
 menu:
@@ -13,15 +13,17 @@ menu:
 ## Introduction
 Sage 300cloud (Formerly Sage ERP Accpac) is a client-side ERP system. This means the Sage 300cloud application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link Sage 300cloud to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, we need to install software on the server or computer where your Sage 300cloud is set up.
 
-## For accessing your database
+## What we need from you
+
+### For accessing your database
 In order to communicate with your Sage 300cloud database, we require the following information:
 
-Server Name / IP Address
-Database Name
-Database UID
-Database PWD
+- Server Name / IP Address
+- Database Name
+- Database UID
+- Database PWD
 
-## For accessing your server
+### For accessing your server
 In order for Stock2Shop to access the data inside of your Sage 300cloud database and integrate this into other applications, our software has to be installed on the server or computer that has direct access to the Sage 300cloud database. There are two ways for you to grant us access to install our software on your server:
 
 - Microsoft Remote Desktop [(See here)](https://support.microsoft.com/en-za/help/17463/windows-7-connect-to-another-computer-remote-desktop-connection))
@@ -36,12 +38,10 @@ The below must be taken into consideration to ensure we can manage information o
 - The server must always be online.
 - The user must have full admin rights.
 
-## For raising orders
+### For raising orders
 If you require Stock2Shop to insert sales orders or invoices into your Sage 300cloud, you need to have Web Screens installed and setup. If you are not sure how to do this or need help, please contact your Sage 300cloud representative to guide you through the process.
 
-{{< class alert alert-primary >}}
 Below are some usefull links to get you started:
-{{< class >}}
 
 - Sage 300cloud Web Services
 - Installing the Sage 300cloud web UI’s
@@ -63,4 +63,4 @@ Below is an overview outlining the next steps:
 Data Discussion **(Step 1)** will be scheduled by one of our technicians
 {{< /class >}}
 
-[Any questions? Contact us – we’re happy to help.](/contact-us)
+Any questions? [Contact us](/contact-us) – we’re happy to help.

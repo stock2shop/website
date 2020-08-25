@@ -1,6 +1,6 @@
 ---
 title: "sage evolution - getting started"
-heading: "installing stock2shop for sage evolution"
+heading: "installing Stock2Shop for sage evolution"
 description: "Set up instructions for integrating Sage Evolution to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
 aliases: "/documentation/getting-started/sage-pastel-evolution/"
 toc: true

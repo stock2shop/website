@@ -15,7 +15,9 @@ menu:
 
 SAP Business One is a client-side ERP system. This means the SAP Business One application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link SAP Business One to sales channels such as Magento 1.x, Magento 2.x, Shopify, WooCommerce and Stock2Shops B2B Trade Store we need to install software on the server or computer where your SAP Business One is set up.
 
-## For Accessing Your Database
+## What we need from you
+
+### For Accessing Your Database
 
 In order to communicate with your SAP Business One database, we require the following information:
 
@@ -24,7 +26,7 @@ In order to communicate with your SAP Business One database, we require the foll
 *   Database Username (Read-Only)
 *   Database Password (Read-Only)
 
-## For Accessing Your Server
+### For Accessing Your Server
 
 In order for Stock2Shop to access the data inside of your SAP Business One database and integrate this into other applications, our software has to be installed on the server or computer that has direct access to the SAP Business One database. There are three ways for you to grant us access to install our software on your server:
 
@@ -38,7 +40,7 @@ The below must be taken into consideration to ensure we can manage information o
 *   The server must always be online.
 *   The user must have full admin rights.
 
-## For Raising Orders
+### For Raising Orders
 
 For processing orders from Stock2Shop back into SAP Business One, we require access to the DI-Server. Please discuss this with your SAP consultant to ensure this is setup correctly.  
 

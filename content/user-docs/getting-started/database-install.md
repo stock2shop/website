@@ -13,7 +13,9 @@ menu:
 ## Introduction
 Stock2Shop can pull inventory data from multiple databases. The only prerequisite is that the database can be accessed via ODBC. We therefore support Microsoft SQL Server, MySQL Server, Pervasive SQL, Hana and many other databases.
 
-## For accessing your database
+## What we need from you
+
+### For accessing your database
 In order to communicate with your Generic Database via ODBC, we require the following information:
 
 - Server Name / IP Address (The Windows name of the server)
@@ -21,7 +23,7 @@ In order to communicate with your Generic Database via ODBC, we require the foll
 - Database Username (read-only)
 - Database Password (read-only)
 
-## For accessing your server
+### For accessing your server
 In order to sync the information in your accounting system with your online sales channels, Stock2Shop needs to access your database. We do this by installing our software on your server which reads the relevant data. There are three ways our Devlopers carry out this installation:
 
 - Microsoft Remote Desktop (See here)
@@ -38,7 +40,7 @@ The below must be taken into consideration to ensure we can manage information o
 - The server must always be online.
 - The user must have full admin rights.
 
-FOR RAISING ORDERS
+### For raising orders
 During the data discussion one of our Developers will confirm how orders should be raised, if this is a requirment of yours.
 
 ## What’s next

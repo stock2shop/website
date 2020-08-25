@@ -1,6 +1,6 @@
 ---
 title: "product attribute templates"
-heading: "stock2shop console – product attribute templates"
+heading: "Stock2Shop console – product attribute templates"
 titleList: "introducing product attribute templates"
 description: "Create product attribute sets that can be applied to a specific group of products. This is an efficient way of enriching your data without having to clutter your ERP with additional fields."
 summary: "Create attribute sets that can be applied to a specific group of products. This is an efficient way of enriching your data without having to clutter your ERP with additional fields."

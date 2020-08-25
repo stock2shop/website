@@ -1,6 +1,6 @@
 ---
 title: "shopify - getting started"
-heading: "installing stock2shop for shopify"
+heading: "installing Stock2Shop for shopify"
 description: "Do you have a Shopify website? Here's how to configure your Shopify website and set up the REST API for Stock2Shop to sync product data and orders."
 toc: true
 aliases: "/documentation/getting-started/shopify-install/" 

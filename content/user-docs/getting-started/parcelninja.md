@@ -17,7 +17,9 @@ Parcelninja is an outsourced e-commerce warehousing and order fulfillment servic
 
 This integration allows you to automatically sync stock levels from Parcelninja into Stock2Shop and send them to multiple sales channels such as Shopify, Magento 1.x, Magento 2.x, WooCommerce and Stock2Shops B2B Trade store. Each time incoming or outgoing products affect your Parcelninja stock levels, Stock2Shop will update your sales channels accordingly to ensure that you don’t oversell.
 
-## For Fulfilling Orders
+## What we need from you
+
+### For Fulfilling Orders
 
 In order to communicate with Parcelninja, we require you to create API Keys for Stock2Shop. Below is a quick guide on how to create these keys in your Parcelninja backend dashboard:
 
