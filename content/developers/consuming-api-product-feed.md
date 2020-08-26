@@ -1,5 +1,5 @@
 ---
-title: "API product feed from a stock2shop account"
+title: "API product feed from a Stock2Shop account"
 titleList: "Example: API Product Feed"
 description: "A developer's guide on how to automatically pull products from a Stock2Shop client account via the Stock2Shop API."
 lead: "This document outlines steps to consume a JSON feed of product data from a Stock2Shop account."
