@@ -4,6 +4,7 @@ summary: "Our very own wholesale platform and shopping cart. Manage multiple pri
 type: platform
 image: "/uploads/logo-platform-s2s.png"
 imageAlt: Stock2Shop logo
+aliases: "/b2b-shopping-cart/"
 weight: 4
 tags: ["channel"]
 ---

@@ -1,9 +1,8 @@
 {{ define "main" }}
     <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
-    <p class="lead">{{ .Params.Lead }}</p>
+    <p class="lead">{{ .Params.Lead }}</p><br>
     {{ if .Params.Lead2 }}
-    <p class="lead">{{ .Params.Lead2 }}</p>
+    <p class="lead">{{ .Params.Lead2 }}</p><br>
     {{ end }}
-    <hr>
     {{ .Content }}
 {{ end }}

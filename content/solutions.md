@@ -5,5 +5,5 @@ lead: "If you’re looking for a way to seamlessly integrate your ERP or account
 menu: main
 weight: 1
 ---
-- [System-Integration](/system-integrations)
-- [B2B Trade Store](/integrations/b2b-shopping-cart)
+
+{{< solutions >}}

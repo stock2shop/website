@@ -6,7 +6,7 @@ Stock2Shop website and documentation built with Hugo.
 
 1. [Getting Started](#1-getting-started)
 2. [Create a new page](#2-create-a-new-page)
-3. [Site Structure](#3-site-structure)
+3. [Sections](#3-sections)
     1. [Articles](#31-articles)
     2. [Case Studies](#32-case-studies--success-stories)
     3. [Developers](#33-developers)
@@ -30,18 +30,18 @@ Stock2Shop website and documentation built with Hugo.
 ## 2. Create a new page
 
 1. Run ```hugo new <section>/<filename>.md```
-2. Open newly created file and update [Front Matter](#4-front-matter-glossary)
+2. Open newly created file and update [Front Matter](#41-front-matter-glossary)
  
 ## 3. Sections
 
-The site consists of [six main sections](#-contents), each with its own distinct purpose. User Docs, Help Centre and
+The site consists of [six main sections](#contents), each with its own distinct purpose. User Docs, Help Centre and
 Developers share the same page layout and top menu whereas the rest differ in layout but share the default top menu. 
 
 ### 3.1. Articles
 
 Summary to follow
 
-#### [Front Matter](#31-front-matter-glossary)
+#### [Front Matter](#41-front-matter-glossary)
 ```
 ---
 title:
@@ -61,7 +61,7 @@ author:
 
 Summary to follow
 
-#### [Front Matter](#31-front-matter-glossary)
+#### [Front Matter](#41-front-matter-glossary)
 ```
 ---
 title:
@@ -80,7 +80,7 @@ weight:
 
 Summary to follow
 
-#### [Front Matter](#31-front-matter-glossary)
+#### [Front Matter](#41-front-matter-glossary)
 ```
 ---
 title:
@@ -92,7 +92,7 @@ description:
 
 Summary to follow
 
-#### [Front Matter](#31-front-matter-glossary)
+#### [Front Matter](#41-front-matter-glossary)
 ```
 ---
 title:
@@ -106,7 +106,7 @@ image:
 
 This section gets divided into platforms and combinations. Platform pages gets listed on the ```/integrations``` page and need to be marked with ```type:platform``` in the Front Matter.  
 
-#### [Front Matter](#31-front-matter-glossary)
+#### [Front Matter](#41-front-matter-glossary)
 ```
 ---
 title:
@@ -123,7 +123,7 @@ weight:
 
 Summary to follow
 
-#### [Front Matter](#31-front-matter-glossary)
+#### [Front Matter](#41-front-matter-glossary)
 ```
 ---
 title:

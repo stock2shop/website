@@ -1,11 +1,5 @@
 {{ define "main" }}
 <div id="platform">
-    {{with .PrevInSection }}
-    <input type="button" onclick="location.href='{{.Permalink}}';" value="<" />
-    {{end}}
-    {{with .NextInSection }}
-    <input type="button" onclick="location.href='{{.Permalink}}';" value=">" />
-    {{end}}
     <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
     <img src="{{ .Params.image }}">
     <p class="lead">{{ .Params.Lead }}</p>
