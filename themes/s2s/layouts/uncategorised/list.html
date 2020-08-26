@@ -3,7 +3,7 @@
     <aside class="col-md-3">
         <ul class="nav flex-column">
         {{ $currentPage := . }}
-        {{ range where .Site.Sections "Section" "help-centre" }}
+        {{ range where .Site.Sections "Section" "uncategorised" }}
             {{ if .Sections }}
             {{ range .Sections }}
             <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
@@ -25,10 +25,29 @@
     </aside>
     <div class="col-md-9">
         <h2>{{ title .Title }}</h2>
-        {{ if eq .RelPermalink "/help-centre/" }}
-        <!-- Custom grid layout -->
-        {{ end }}
         {{ .Content }}
+        <ul id="sectionTOC">
+            {{ if .CurrentSection.Sections }}
+            {{ range .CurrentSection.Sections }}
+            <li>
+                <a href="{{ .Permalink }}">{{ title .Title }}</a>
+                <ul>
+                    {{ range .RegularPages.Reverse }}
+                    <li>
+                        <a href="{{ .Permalink }}">{{ title .Title }}</a>
+                    </li>
+                    {{ end}}
+                </ul>
+            </li>
+            {{ end}}
+            {{ else }}
+            {{ range .RegularPages.Reverse }}
+            <li>
+                <a href="{{ .Permalink }}">{{ title .Title }}</a>
+            </li>
+            {{ end}}
+            {{ end }}
+        </ul>
     </div>
 </div>
 {{ end }}
