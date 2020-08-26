@@ -2,7 +2,8 @@
 {{ $css2 := resources.Get "css/bootstrap-grid.css" }}
 {{ $css3 := resources.Get "css/bootstrap-reboot.css" }}
 {{ $scss := resources.Get "scss/custom.scss" | resources.ToCSS }}
-{{ $css := slice $css1 $css2 $css3 $scss | resources.Concat "css/bundle.css" | resources.Fingerprint | resources.Minify }}
+<!-- Add | resources.Minify | resources.Fingerprint below after done with SCSS realtime testing -->
+{{ $css := slice $css1 $css2 $css3 $scss | resources.Concat "css/bundle.css" }}
 
 {{ if .Site.IsServer }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">

@@ -23,11 +23,16 @@ aside > ul.nav ul {
 aside .nav-link {
     padding: 0px;
 }
-#TableOfContents > ul {
-    list-style: none;
-    padding: 0;
+#TableOfContents {
+    > ul {
+        list-style: none;
+        padding: 0;
+    }
+    ul ul {
+        list-style: none;
+        padding-left: 7px;
+    }
 }
-
 ul#sectionTOC {
     padding: 0px;
     ul,li {
@@ -35,7 +40,6 @@ ul#sectionTOC {
         padding-left: 7px;
     }
 }
-
 
 /* Header */
 
@@ -51,7 +55,6 @@ ul#sectionTOC {
 header#solutions {
     background: #e93e34;
 }
-
 .fullwidth {
     width: 100vw;
     position: relative;
@@ -89,10 +92,6 @@ aside .active > a {
 #platform .img-thumbnail {
     width: 100px;
 }
-
-//#TableOfContents ul ul {
-//    display:none;
-//}
 
 /* Articles */
 

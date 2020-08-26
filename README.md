@@ -5,16 +5,18 @@ Stock2Shop website and documentation built with Hugo.
 ## Contents
 
 1. [Getting Started](#1-getting-started)
-2. [Site Structure](#2-site-structure)
-    1. [Articles](#21-articles)
-    2. [Developers](#22-developers)
-    3. [Case Studies](#23-case-studies--success-stories)
-    4. [User Docs](#24-user-docs)
-    5. [Integrations](#25-integrations)
-    6. [Help Centre](#26-help-centre)
-3. [Appendix](#3-appendix)
+2. [Create a new page](#2-create-a-new-page)
+3. [Site Structure](#3-site-structure)
+    1. [Articles](#31-articles)
+    2. [Case Studies](#32-case-studies--success-stories)
+    3. [Developers](#33-developers)
+    4. [Help Centre](#34-help-centre)
+    5. [Integrations](#35-integrations)
+    6. [User Docs](#36-user-docs)
+4. [Appendix](#4-appendix)
+    1. [Front Matter Glossary]((#41-front-matter-glossary))
 
----
+* * *
 
 ## 1. Getting Started
 
@@ -23,18 +25,23 @@ Stock2Shop website and documentation built with Hugo.
 - Navigate to project and run ```hugo server```
 - View in your browser with http://localhost:1313/
 
----
+* * *
 
-## 2. Sections
-The sections contain instructions to create new pages and show differences in layout and meta data. Titles get converted into Title Case so no need for capitalization. The capitalization in the Front Matter so in cases lik acronyms eg 'B2B' this should be capitalised in the Front Matter.
+## 2. Create a new page
 
-### 2.1. Articles
+1. Run ```hugo new <section>/<filename>.md```
+2. Open newly created file and update [Front Matter](#4-front-matter-glossary)
+ 
+## 3. Sections
 
-#### Create new page
-1. Run ```hugo new articles/filename.md```
-2. Open newly created file and add [description](#front-matter-map) and summary in Front Matter
+The site consists of [six main sections](#-contents), each with its own distinct purpose. User Docs, Help Centre and
+Developers share the same page layout and top menu whereas the rest differ in layout but share the default top menu. 
 
-#### Front Matter
+### 3.1. Articles
+
+Summary to follow
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -49,25 +56,12 @@ date:
 author:
 ---
 ```
-### 2.2. Developers
 
-#### Create new page
+### 3.2. Case Studies / Success Stories
 
-#### Front Matter
-```
----
-title:
-description:
----
-```
+Summary to follow
 
-### 2.3. Case Studies / Success Stories
-
-#### Create new page
-1. Navigate to the relevant section and add the .md file
-2. Copy and update front-matter from another page
-
-#### Front Matter
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -82,35 +76,37 @@ weight:
 ---
 ```
 
-### 2.4. User Docs
+### 3.3. Developers
 
-#### Create new page
-1. Navigate to the user-docs section and add the .md file
-2. Copy and update front-matter from another page
-3. Update menu weight, parent and name
+Summary to follow
 
-#### Front Matter
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
 description:
-lead:
-toc:
-menu:
-  docside:
-    parent:
-    name:
 ---
 ```
 
-### 2.5. Integrations
+### 3.4. Help Centre
 
-#### Create new page
-1. Navigate to the relevant section and add the .md file
-2. Copy and update front-matter from another page
-3. If it's a 'single platform' page, add "type: platform" to the front-matter for it to be added to the integrations list
+Summary to follow
 
-#### Front Matter
+#### [Front Matter](#31-front-matter-glossary)
+```
+---
+title:
+heading:
+description:
+image:
+---
+```
+
+### 3.5. Integrations
+
+This section gets divided into platforms and combinations. Platform pages gets listed on the ```/integrations``` page and need to be marked with ```type:platform``` in the Front Matter.  
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -123,26 +119,28 @@ weight:
 ---
 ```
 
-### 2.6. Help Centre
+### 3.6. User Docs
 
-#### Create new page
-1. Navigate to the relevant section and add the .md file
-2. Copy and update front-matter from another page
-#### Front matter
+Summary to follow
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
-heading:
 description:
-image:
+lead:
+toc:
+menu:
+  docside:
+    parent:
+    name:
 ---
 ```
+* * *
 
----
+## 4. Appendix
 
-## 3. Appendix
-
-### Front Matter Map
+### 4.1. Front Matter Glossary
 
 **title**: Page meta title for SEO  
 **heading**: Page heading when different from title  
@@ -156,4 +154,8 @@ image:
 **toc**: Show page table of content  
 **image**: Image used from social media sharing and for list page  
 **date**: Used for sorting with yyyy-mm-dd format  
-**weight**: The default menu item and listing sort order  
+**weight**: The default menu item and listing sort order 
+
+* * *
+
+Titles get converted into Title Case so no need for capitalization. The capitalization in the Front Matter so in cases lik acronyms eg 'B2B' this should be capitalised in the Front Matter 

@@ -13,6 +13,7 @@
 </title>
 <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ end }}">
 {{- partial "head.html" . -}}
+
   <body>
     {{ if or (eq .Type "user-docs") (eq .Type "help-centre") (eq .Type "developers") }}
     {{- partial "header_doc.html" . -}}
