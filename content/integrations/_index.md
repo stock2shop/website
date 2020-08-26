@@ -5,5 +5,5 @@ description: "Seamless system integration between your ERP or accounting system 
 lead: "Integrate your accounting (or ERP) system with your online sales channels using Stock2Shop. Whether you’re selling on an e-commerce website or require a trade (wholesale) store with multi-price tier functionality, we will keep your product data in sync and ensure that orders are captured automatically."
 linkTitle: Integrations
 menu: main
-weight: 3
+weight: 30
 ---

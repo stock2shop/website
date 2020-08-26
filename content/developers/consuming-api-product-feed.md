@@ -1,32 +1,34 @@
 ---
 title: "API product feed from a stock2shop account"
+titleList: "Example: API Product Feed"
 description: "A developer's guide on how to automatically pull products from a Stock2Shop client account via the Stock2Shop API."
 lead: "This document outlines steps to consume a JSON feed of product data from a Stock2Shop account."
+weight: 30
 ---
 
-### Scenario:
+## Scenario:
 A Stock2Shop account wants to share their product feed with you to consume.
 
-### Solution:
+* * *
+
+## Solution:
 Authenticate to the accounts “channel” and page through the product data.
 
-### Steps
+* * *
 
----
-
-### Step 1: Authenticate
-The Stock2Shop account owner will provide you with user details. This user will more than likely be limited to see products for a specific channel_id.  
-https://app.stock2shop.com/docs/#!/users/authenticateUser_post_1
-The above endpoint will return a token and channels that you have access to.  
+## Step 1: Authenticate
+The Stock2Shop account owner will provide you with user details. This user will more than likely be limited to see products for a specific channel_id.    
+https://app.stock2shop.com/docs/#!/users/authenticateUser_post_1  
+The above endpoint will return a token and channels that you have access to.    
 Use the token as the “token” query parameter for all future requests.  
-You can paste the token in our interactive documentation (at the top of the page) for testing.  
+You can paste the token in our interactive documentation (at the top of the page) for testing.    
 This will automatically add in the token for each request.
 
-### Step 2: Perform Search
-To search through products use this end point:
-https://app.stock2shop.com/docs/#!/products/elasticSearchProducts_post_2
-Use the “channel_id” from the authentication response.
-The body JSON payload should look like this:
+## Step 2: Perform Search
+To search through products use this end point:  
+https://app.stock2shop.com/docs/#!/products/elasticSearchProducts_post_2  
+Use the “channel_id” from the authentication response.  
+The body JSON payload should look like this:  
 
 {{< highlight go >}}
 {
@@ -34,10 +36,10 @@ The body JSON payload should look like this:
 "from":0
 }
 {{< /highlight >}}
+
 Size being the results returned and from the starting point.
 
 **The results will have the following structure:**
-
 {{< highlight go >}}
 {
   "took": 8,

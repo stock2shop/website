@@ -1,6 +1,7 @@
 ---
 title: "API"
 description: "Find all the Stock2Shop API information here"
+weight: 10
 ---
 
 To view the full interactive API documentation [click here](https://app.stock2shop.com/docs). 

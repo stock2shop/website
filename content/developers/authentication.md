@@ -1,6 +1,7 @@
 ---
-title: "authentication"
+title: "Authentication"
 description: "How to authenticate your server for API requests"
+weight: 20
 ---
 
 In order to make a request to the Stock2Shop API, you need to obtain a token to include in each request.

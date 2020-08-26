@@ -155,7 +155,3 @@ menu:
 **image**: Image used from social media sharing and for list page  
 **date**: Used for sorting with yyyy-mm-dd format  
 **weight**: The default menu item and listing sort order 
-
-* * *
-
-Titles get converted into Title Case so no need for capitalization. The capitalization in the Front Matter so in cases lik acronyms eg 'B2B' this should be capitalised in the Front Matter 
