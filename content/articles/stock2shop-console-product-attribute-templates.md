@@ -7,6 +7,7 @@ summary: "Create attribute sets that can be applied to a specific group of produ
 lead: "You can create attribute sets on your Stock2Shop console and apply one (or more) of these preloaded templates to a particular product group whenever needed. This is extremely useful if you don’t want to overburden your accounting system with loads of data that has no bearing on financial reporting."
 image: "/uploads/article-product-attributes.jpg"
 imageAlt: "product attributes"
+aliases: "/stock2shop-console-product-attribute-templates/"
 date: 2020-03-30
 ---
 

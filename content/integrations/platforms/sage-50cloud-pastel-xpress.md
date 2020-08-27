@@ -6,6 +6,7 @@ lead: "Here’s how to integrate Sage 50cloud Pastel Xpress with your applicatio
 type: platform
 image: "/uploads/logo-platform-sage-50cloud-pastel-xpress.png"
 imageAlt: sage 50cloud pastel xpress logo
+aliases: "/integrations/sage-50cloud-pastel-xpress-formerly-sage-partner-xpress/"
 weight: 7
 tags: ["erp"]
 ---

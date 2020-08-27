@@ -3,6 +3,7 @@ title: "sage 50cloud - getting started"
 heading: "installing Stock2Shop for sage 300cloud (formerly sage accpac)"
 description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 toc: true
+aliases: "/documentation/getting-started/sage-300cloud/"
 menu:
   docside:
     parent: Getting Started

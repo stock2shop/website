@@ -7,6 +7,7 @@ summary: "Calasca supplies a wide variety of high quality products to the wholes
 summary2: "Success story featuring Sage Evolution and multiple resellers’ ecommerce channels, as well as Takealot and a B2B Trade Store."
 image: "/uploads/logo-client-calasca.png"
 imageAlt: calasca logo
+aliases: "/case-studies/case-study-calasca/"
 weight: 5
 ---
 

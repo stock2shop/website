@@ -6,6 +6,7 @@ lead: "PJ Marketing is an importer and wholesaler of quality kitchenware to the 
 summary: "PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries. They needed to be able to give their customers a way to upload a CSV file for bulk orders."
 summary2: "Success story featuring Sage Pastel Partner, B2B Trade Store and Bulk Ordering."
 image: "/uploads/logo-client-pj-marketing.png"
+aliases: "/case-studies/success-story-pj-marketing/"
 imageAlt: pj marketing logo
 weight: 7
 ---

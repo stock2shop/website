@@ -6,6 +6,7 @@ lead: "Here’s how to integrate Sage 200 Evolution with your applications for a
 type: platform
 image: "/uploads/logo-platform-sage-200-evolution.png"
 imageAlt: sage 200 evolution logo
+aliases: "/integrations/sage-200-evolution-formerly-sage-evolution-premium/"
 weight: 10
 tags: ["erp"]
 ---

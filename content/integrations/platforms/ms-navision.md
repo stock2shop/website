@@ -6,6 +6,7 @@ lead: "Here’s how Microsoft Dynamics NAV works with your applications to strea
 type: platform
 image: "/uploads/logo-platform-ms-dynamics-nav.png"
 imageAlt: ms dynamics logo
+aliases: "/integrations/ms-navision-integration/"
 weight: 17
 tags: ["erp"]
 ---

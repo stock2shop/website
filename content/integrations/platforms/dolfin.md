@@ -6,6 +6,7 @@ lead: "Here’s how Dolfin works with your applications to streamline your workf
 type: platform
 image: "/uploads/logo-platform-dolfin.png"
 imageAlt: dolfin logo
+aliases: "/integrations/dolfin-integration/"
 weight: 18
 tags: ["erp"]
 ---

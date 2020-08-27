@@ -7,6 +7,7 @@ summary: "If one of your customers wishes to order a large number of products, t
 lead: "The Stock2Shop B2B Trade Store allows users to import bulk orders via a CSV (Comma-separated values) file. This means that should one of your customers wish to order a large number of products, they can do so easily by uploading a spreadsheet."
 image: "/uploads/article-bulk-upload.jpg"
 imageAlt: bulk upload
+aliases: "/b2b-trade-store-bulk-ordering/"
 date: 2020-03-27
 ---
 
