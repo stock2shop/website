@@ -1,8 +1,8 @@
 ---
-title: help centre
+title: Help Centre
 menu: docmenutop
 weight: 2
 
 ---
 
-Find answers in the right place.
+Find answers in the right place and avoid potential issues.

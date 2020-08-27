@@ -1,6 +1,6 @@
 # Technical Notes 
 
-<!-- TOC -->autoauto- [Technical Notes](#technical-notes)auto    - [Essential Hugo Terms](#essential-hugo-terms)auto    - [Table of contents](#table-of-contents)auto    - [Menus](#menus)auto    - [CLI](#cli)auto    - [Workarounds best avoided](#workarounds-best-avoided)auto    - [URL Aliases](#url-aliases)auto    - [Issues](#issues)auto    - [Project specific libraries](#project-specific-libraries)auto    - [References and Resources](#references-and-resources)autoauto<!-- /TOC -->
+TOC
 
 ## Shortcodes
 - figure
@@ -20,6 +20,8 @@ While extremely useful, ```.TableOfContents``` page variable has noteworthy menu
 2. Create partial to range through menu entries
 3. Include partial in the applicable template file
 
+Note: Uppercase, and some special characters like hiphens are not allowed in the menu identifier.
+
 ## CLI
 ```hugo```: build / compile the site  
 ```server```: run site from memory  
@@ -34,12 +36,12 @@ While extremely useful, ```.TableOfContents``` page variable has noteworthy menu
 unsafe= true
 ```
 
-## URL Aliases
-- /documentation
-
 ## Issues
 - Use of empty line ```&nbsp;``` in markdown not ideal
 - Blockquote not working
+
+## Markdown library and conventions
+- Goldmark
 
 ## Project specific libraries
 - Boostrap 4.5
