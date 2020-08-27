@@ -1,5 +1,5 @@
 ---
-title: configuration
+title: Configuration
 heading: "source & channel configuration options"
 description: "Integrating your ERP or accounting system with multiple sales channels requires flexibility. Take a look at our configuration options to see how we can tailor a solution to your e-commerce website, and your business."
 aliases: "/documentation/configuration/"

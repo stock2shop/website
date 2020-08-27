@@ -7,7 +7,7 @@ aliases: "/documentation/workflows/sage-pastel-evolution-b2b-ordering/"
 toc: false
 menu:
   docside:
-    parent: "example workflows"
+    parent: Example Workflows
     name: Sage Evolution - B2B
 ---
 

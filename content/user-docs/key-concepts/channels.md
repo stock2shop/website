@@ -7,7 +7,7 @@ aliases: "/documentation/key-concepts/channels/"
 toc: false
 menu:
   docside:
-    parent: key concepts
+    parent: Key Concepts
     name: Channels
 ---
 

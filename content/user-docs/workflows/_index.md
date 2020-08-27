@@ -1,12 +1,12 @@
 ---
 title: Inventory Workflow Examples By Stock2Shop
-heading: "example workflows"
+heading: Example Workflows
 lead: "Wondering how it all fits together? Here are a few different ways to streamline your existing processes, depending on your ERP or accounting system and your e-commerce website."
 description: "Examples on how you can use Stock2Shop to pull inventory data from accounting systems, send it to sales channels and push back orders."
 aliases: "/documentation/workflows/"
 menu:
   docside:
-    name: example workflows
+    name: Example Workflows
     weight: 40
 ---
 

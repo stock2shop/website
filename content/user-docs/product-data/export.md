@@ -7,7 +7,7 @@ aliases: "/documentation/product-data/product-export/"
 toc: false
 menu:
   docside:
-    parent: product data
+    parent: Product Data
     name: Export
     weight: 20
 ---

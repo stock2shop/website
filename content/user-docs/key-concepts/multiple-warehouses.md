@@ -7,7 +7,7 @@ aliases: "/documentation/key-concepts/multiple-warehouses/"
 toc: false
 menu:
   docside:
-    parent: key concepts
+    parent: Key Concepts
     name: Multiple Warehouses
 ---
 
@@ -20,7 +20,7 @@ We calculate stock availability as “stock on hand” less “stock on sales or
 *   Sum of all warehouses displayed as one stock quantity available.
 *   Stock quantity available per warehouse displayed as separate stock quantities.
 *   One warehouse per sales channel. For example, your online store only displays stock available in your Joburg warehouse.
-*   If you are selling in a business to business capacity and are using the [Stock2Shop B2B trade store,](/b2b-shopping-cart/ "B2B Shopping Cart") then you can assign a specific warehouse to a customer. For example, Cape Town customers will only see stock quantity available inside the Cape Town warehouse.
+*   If you are selling in a business to business capacity and are using the [Stock2Shop B2B Trade Store,](/b2b-shopping-cart/ "B2B Shopping Cart") then you can assign a specific warehouse to a customer. For example, Cape Town customers will only see stock quantity available inside the Cape Town warehouse.
 
 When it comes to dealing with the multiple warehouse concept, it is important to keep your logistics and fulfilment cost structure in mind. If you’ve set up your shipping rules without taking warehouse geography into consideration, you may experience higher delivery costs than anticipated.  
   

@@ -3,11 +3,11 @@ title: "Managing product images on Stock2Shop"
 heading: "product images"
 lead: "A few recommendations for capturing and optimising product images."
 description: "Useful tips on how to capture and optimise product images for use on Stock2Shop, which feeds to Shopify, Magento, WooCommerce and our B2B platform."
-aliases: "/documentation/workflows/sage-pastel-evolution-b2b-ordering/"
+aliases: "/documentation/product-data/product-images/"
 toc: false
 menu:
   docside:
-    parent: product data
+    parent: Product Data
     name: Product Images
     weight: 10
 ---
