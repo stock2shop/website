@@ -5,6 +5,7 @@ lead: "Here’s how WooCommerce works with your applications to simplify your wo
 type: platform
 image: "/uploads/logo-platform-woocommerce.png"
 imageAlt: woocommerce logo
+aliases: "/integrations/woo-commerce/"
 weight: 3
 tags: ["channel"]
 ---

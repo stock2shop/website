@@ -1,11 +1,11 @@
 ---
-title: "Tax is not raised correctly in my Accounting System"
+title: "Tax is not raised correctly in my accounting system"
 heading: ""
 description: ""
 menu:
   help_centre:
     parent: Channel to S2S
-    name: Why is tax not raised correctly on the ERP
+    name: Why is tax not raised correctly in the ERP
 image: ""
 ---
 
@@ -44,3 +44,8 @@ This issue causes a mismatch of order totals in the ERP vs S2S/your Channel
 [Shopify tax documentation](https://help.shopify.com/en/manual/taxes)
 
 ### Magento 2.x
+1.
+2.
+3.
+
+### WooCommerce

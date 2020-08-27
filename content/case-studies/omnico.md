@@ -7,6 +7,7 @@ summary: "Imports leading lifestyle and cycle brands in South Africa."
 summary2: "Success Story featuring B2B, SYSPRO and Magento."
 image: "/uploads/logo-client-omnico.png"
 imageAlt: omnico logo
+aliases: "/case-studies/case-study-omnico/"
 weight: 1
 ---
 

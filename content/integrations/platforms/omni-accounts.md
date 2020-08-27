@@ -6,6 +6,7 @@ lead: "See how Omni Accounts works with your applications."
 type: platform
 image: "/uploads/logo-platform-omni.png"
 imageAlt: omni accounts logo
+aliases: "/integrations/omni-accounts-integration/"
 weight: 15
 tags: ["erp"]
 ---

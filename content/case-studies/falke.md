@@ -7,6 +7,7 @@ summary: "Develops stylish fashion for modern people: men’s and women’s fash
 summary2: "Success story featuring SYSPRO and Magento."
 image: "/uploads/logo-client-falke.png"
 imageAlt: falke logo
+aliases: "/case-studies/case-study-falke/"
 weight: 3
 ---
 

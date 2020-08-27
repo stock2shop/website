@@ -3,6 +3,7 @@ title: "sage business cloud financials shopify integration"
 lead: "If Sage Business Cloud Financials (formerly Sage Live) is your current ERP and you’re running your e-commerce website through Shopify, it’s essential that they can talk to each other. That’s where Stock2Shop comes in: let us integrate Sage Business Cloud Financials and Shopify to make your day-to-day business easier."
 lead2: "Here’s what you’ll be able to do:"
 description: "Integrating Sage Financials and Shopify will dramatically improve your workflow. Let us work with you to create the perfect solution for your business. A Sage Financials Shopify integration means you can sync data, automate orders, simplify ordering and more."
+aliases: "/integrations/sage-business-cloud-financials-shopify-integration/"
 ---
 
 Sync inventory data

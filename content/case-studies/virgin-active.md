@@ -7,6 +7,7 @@ summary: "Enriches people's lives through physical activity."
 summary2: "Success story featuring Parcelninja and Magento."
 image: "/uploads/logo-client-virgin-active.png"
 imageAlt: "virgin active logo"
+aliases: "/case-studies/case-study-virgin-active/"
 weight: 4
 ---
 

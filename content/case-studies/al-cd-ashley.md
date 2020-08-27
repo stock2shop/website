@@ -7,6 +7,7 @@ summary: "Imports and distributes high quality cookware."
 summary2: "Success Story featuring Pastel Partner, B2B and B2C stores."
 image: "/uploads/logo-client-alcd.png"
 imageAlt: alcd logo
+aliases: "/case-studies/case-study-al-cd-ashley/"
 weight: 2
 ---
 
