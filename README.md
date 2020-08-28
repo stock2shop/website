@@ -5,16 +5,15 @@ Stock2Shop website and documentation built with Hugo.
 ## Contents
 
 1. [Getting Started](#1-getting-started)
-2. [Create a new page](#2-create-a-new-page)
-3. [Sections](#3-sections)
-    1. [Articles](#31-articles)
-    2. [Case Studies](#32-case-studies--success-stories)
-    3. [Developers](#33-developers)
-    4. [Help Centre](#34-help-centre)
-    5. [Integrations](#35-integrations)
-    6. [User Docs](#36-user-docs)
-4. [Appendix](#4-appendix)
-    1. [Front Matter Glossary]((#41-front-matter-glossary))
+2. [Sections](#2-sections)
+    1. [Articles](#21-articles)
+    2. [Case Studies](#22-case-studies--success-stories)
+    3. [Developers](#23-developers)
+    4. [Help Centre](#24-help-centre)
+    5. [Integrations](#25-integrations)
+    6. [User Docs](#26-user-docs)
+3. [Appendix](#3-appendix)
+    1. [Front Matter Glossary]((#31-front-matter-glossary))
 
 * * *
 
@@ -26,22 +25,22 @@ Stock2Shop website and documentation built with Hugo.
 - View in your browser with http://localhost:1313/
 
 * * *
-
-## 2. Create a new page
-
-1. Run ```hugo new <section>/<filename>.md```
-2. Open newly created file and update [Front Matter](#41-front-matter-glossary)
  
-## 3. Sections
+## 2. Sections
 
 The site consists of [six main sections](#contents), each with its own distinct purpose. User Docs, Help Centre and
 Developers share the same page layout and top menu whereas the rest differ in layout but share the default top menu. 
 
-### 3.1. Articles
+### 2.1. Articles
 
 Summary to follow
 
-#### [Front Matter](#41-front-matter-glossary)
+#### Create a new page
+
+1. Run ```hugo new articles/<filename>.md```
+2. Open newly created file and update [Front Matter](#31-front-matter-glossary)
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -57,11 +56,16 @@ author:
 ---
 ```
 
-### 3.2. Case Studies / Success Stories
+### 2.2. Case Studies / Success Stories
 
 Summary to follow
 
-#### [Front Matter](#41-front-matter-glossary)
+#### Create a new page
+
+1. Run ```hugo new case-studies/<filename>.md```
+2. Open newly created file and update [Front Matter](#31-front-matter-glossary)
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -76,11 +80,16 @@ weight:
 ---
 ```
 
-### 3.3. Developers
+### 2.3. Developers
 
 Summary to follow
 
-#### [Front Matter](#41-front-matter-glossary)
+#### Create a new page
+
+1. Run ```hugo new developers/<filename>.md```
+2. Open newly created file and update [Front Matter](#31-front-matter-glossary)
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -88,11 +97,15 @@ description:
 ---
 ```
 
-### 3.4. Help Centre
+### 2.4. Help Centre
 
 Summary to follow
 
-#### [Front Matter](#41-front-matter-glossary)
+#### Create a new page
+
+Instructions to follow
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -102,11 +115,21 @@ image:
 ---
 ```
 
-### 3.5. Integrations
+### 2.5. Integrations
 
-This section gets divided into platforms and combinations. Platform pages gets listed on the ```/integrations``` page and need to be marked with ```type:platform``` in the Front Matter.  
+This section gets divided into platforms and combinations. Platform pages gets listed on the ```/integrations``` page and need to be marked with ```type:platform``` in the Front Matter.
 
-#### [Front Matter](#41-front-matter-glossary)
+#### Create a new plaform page
+
+1. Run ```hugo new --kind platforms integrations/platforms/<filename>.md```
+2. Open newly created file and update [Front Matter](#31-front-matter-glossary)
+
+#### Create a new combination page
+
+1. Run ```hugo new --kind combinations integrations/combinations/<filename>.md```
+2. Open newly created file and update [Front Matter](#31-front-matter-glossary)  
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -119,11 +142,22 @@ weight:
 ---
 ```
 
-### 3.6. User Docs
+### 2.6. User Docs
 
-Summary to follow
+The User Docs is divided into five subsections
 
-#### [Front Matter](#41-front-matter-glossary)
+getting-started
+configuration
+key-concepts
+workflows
+product-data
+
+#### Create a new page
+
+1. Run ```hugo new --kind subsection user-docs/subsection/<filename>.md```
+2. Open newly created file and update [Front Matter](#31-front-matter-glossary)
+
+#### [Front Matter](#31-front-matter-glossary)
 ```
 ---
 title:
@@ -138,9 +172,9 @@ menu:
 ```
 * * *
 
-## 4. Appendix
+## 3. Appendix
 
-### 4.1. Front Matter Glossary
+### 3.1. Front Matter Glossary
 
 **title**: Page meta title for SEO  
 **heading**: Page heading when different from title  
