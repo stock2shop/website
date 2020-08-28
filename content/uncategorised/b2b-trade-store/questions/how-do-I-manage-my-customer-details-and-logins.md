@@ -138,7 +138,7 @@ Note that the link does expire and can only be used once
 9. Login using your new password
 10. Should the password not work repeat the process ensuring to use the new email link
 
-## NAVIGATING THE TRADE STORE
+## Navigating the Trade Store
 
 Once signed in to the Trade Store there are some key links, see below:
 
@@ -153,3 +153,5 @@ Once signed in to the Trade Store there are some key links, see below:
 4. Layered Navigation - Search for products by category or view entire catalogue
 
 ![manage customer details and logins](/uploads/b2b-how-do-I-manage-my-customer-details-and-logins-6.png)
+
+[Download Customer Template](/attachments/Customer-Template.csv)

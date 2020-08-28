@@ -64,3 +64,5 @@ If you are unsure of how to sign in to their trade store, follow the below guide
 Please note that the tax value set on the channel is the tax that will be applied to the products on the import, should you have specific tax's applied on different products or customers S2 would suggest against using the bulk order import.
 
 If you require further assistance please email support@stock2shop.com
+
+[Download Bulk Order Template](/attachments/S2S-B2B-Bulk-Order-Template-20200120.csv)

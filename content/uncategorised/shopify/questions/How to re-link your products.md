@@ -7,7 +7,7 @@ image: ""
 
 ## What it means?
 
-S2S creates a "link" between the product in S2S and the product in the sales channel(s) (In this case Shopify) in order to update the product information such as qty, pricing, etc
+S2S creates a "link" between the product in S2S, and the product in the sales channel(s) (In this case Shopify) in order to update the product information such as qty, pricing, etc
 
 The link is the internal ID of the product from Shopify that is pulled into S2S to ensure S2S is updating the correct sku. This can be found in the channel section of the product in S2S
 
@@ -35,7 +35,7 @@ The following settings need to be investigated depending on your workflow:
 
 |Key|Value|Description|
 |---|---|---|
-|auto_sync|true|If true, S2S will lookup products based on SKU before adding them to Shopify|
+|auto_sync|true|If true, S2S will lookup products based on SKU before adding them to Shopify|    
 
 To view the settings go to > Settings > Manage Channels  > Find the channel being investigated > edit > auto_sync (If auto sync is not searchable then it is set to false)
 
