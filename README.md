@@ -134,12 +134,16 @@ This section gets divided into platforms and combinations. Platform pages gets l
 ```
 ---
 title:
+titleList:
+summary:
 lead:
-lead2:
-description:
+type: platform
+image:
+imageAlt:
+weight:
+tags:
 ---
 ```
-
 #### Create a new combination page
 
 1. Run ```hugo new --kind combinations integrations/combinations/<filename>.md```
@@ -149,14 +153,9 @@ description:
 ```
 ---
 title:
-titleList:
-summary:
 lead:
-type:
-image:
-imageAlt:
-weight:
-tags:
+lead2:
+description:
 ---
 ```
 
