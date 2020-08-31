@@ -28,8 +28,8 @@ Stock2Shop website and documentation built with Hugo.
  
 ## 2. Sections
 
-The site consists of [six main sections](#contents), each with its own distinct purpose. User Docs, Help Centre and
-Developers share the same page layout and top menu whereas the rest differ in layout but share the default top menu. 
+The site consists of six main sections. User Docs, Help Centre and
+Developers share the same page layout and top menu whereas the rest have different layouts but share the default top menu. 
 
 ### 2.1. Articles
 
@@ -93,7 +93,10 @@ Summary to follow
 ```
 ---
 title:
+titleList:
 description:
+lead:
+weight:
 ---
 ```
 
@@ -111,7 +114,10 @@ Instructions to follow
 title:
 heading:
 description:
-image:
+menu:
+  help_centre:
+    parent:
+    name:
 ---
 ```
 
@@ -124,6 +130,16 @@ This section gets divided into platforms and combinations. Platform pages gets l
 1. Run ```hugo new --kind platforms integrations/platforms/<filename>.md```
 2. Open newly created file and update [Front Matter](#31-front-matter-glossary)
 
+#### [Front Matter](#31-front-matter-glossary)
+```
+---
+title:
+lead:
+lead2:
+description:
+---
+```
+
 #### Create a new combination page
 
 1. Run ```hugo new --kind combinations integrations/combinations/<filename>.md```
@@ -135,10 +151,12 @@ This section gets divided into platforms and combinations. Platform pages gets l
 title:
 titleList:
 summary:
+lead:
 type:
 image:
 imageAlt:
 weight:
+tags:
 ---
 ```
 
@@ -146,11 +164,11 @@ weight:
 
 The User Docs is divided into five subsections
 
-getting-started
-configuration
-key-concepts
-workflows
-product-data
+getting-started  
+configuration  
+key-concepts  
+workflows  
+product-data  
 
 #### Create a new page
 
@@ -161,6 +179,7 @@ product-data
 ```
 ---
 title:
+heading:
 description:
 lead:
 toc:
@@ -176,16 +195,23 @@ menu:
 
 ### 3.1. Front Matter Glossary
 
-**title**: Page meta title for SEO  
-**heading**: Page heading when different from title  
-**titleList**: Displayed on list page  
-**linkTitle**: Hardcoded menu item title  
-**description**: Page Meta Description for SEO  
-**summary**: Page summary displayed in the articles list page  
-**summary2**: Additional summary parameter for different styling eg. bold   
-**lead**: Lead paragraph  
-**lead2**: Second lead paragraph  
-**toc**: Show page table of content  
-**image**: Image used from social media sharing and for list page  
-**date**: Used for sorting with yyyy-mm-dd format  
-**weight**: The default menu item and listing sort order 
+|Term|Description| 
+|---|---|
+|title|Page meta title for SEO|  
+|heading|Page heading when different from title|  
+|titleList|Displayed on list page|  
+|linkTitle|Hardcoded menu item title|  
+|description|Page Meta Description for SEO|  
+|summary|Page summary displayed in the articles list page|  
+|summary2|Additional summary parameter for different styling eg. bold|   
+|lead|Lead paragraph|  
+|lead2|Second lead paragraph|  
+|toc|Show page table of content|  
+|image|Image used from social media sharing and for list page|
+|imageAlt|Alt tag assigned to image  
+|date|Used for sorting with yyyy-mm-dd format|  
+|weight|The default menu item and listing sort order|
+|aliases|Old URL to redirect|
+|author|Displayed underneath the title on some article pages|
+|type|Layout type as per the theme|
+|tags|Used for listing eg. footer|
