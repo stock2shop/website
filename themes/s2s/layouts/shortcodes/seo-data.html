@@ -1,8 +1,0 @@
-<ul>
-<!-- TODO: NoIndex NoFollow-->
-{{ range .Site.RegularPages }}
-    {{ if .Description }}<li><a href="{{ .Permalink }}">{{ title .Title }}</a><br>{{ .Description }}</li>
-    {{ else }}<li style="color:red"><a style="color:red" href="{{ .Permalink }}">{{ title .Title }}</a></li>
-    {{ end }}
-{{ end }}
-</ul>

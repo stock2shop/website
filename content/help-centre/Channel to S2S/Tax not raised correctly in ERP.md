@@ -29,6 +29,8 @@ This issue causes a mismatch of order totals in the ERP vs S2S/your Channel
 8. Within "line\_items"search for "tax\_lines"
 9. If "Price" does not match what the rate should calculate to > Tax has been set incorrectly on your Channel.
 
+* * *
+
 ## How to resolve the issue on your platform:
 
 ### Shopify
