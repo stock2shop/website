@@ -57,7 +57,7 @@ author:
 
 ### 2.2. Case Studies / Success Stories
 
-As the heading suggests, this part of the website is dedicated to showcasing some of our most successful stories. Each article starts with a summary of the challenge faced by the client then stipulates the goals to overcome this challange. The bulk of the Case Study focuses on how each goal was achieved and targeted solutions. 
+As the heading suggests, this part of the website is dedicated to showcasing some of our most successful stories. Each article starts with a summary of the challenge faced by the client then stipulates the goals to overcome this challange. The bulk of the Case Study focuses on how each goal was achieved through targeted solutions. 
 
 #### Create a new page
 
@@ -81,7 +81,7 @@ weight:
 
 ### 2.3. Developers
 
-Third party developers and often require information for API authentication and protocol. The developers section seek to channel technical info in the most succinct manner possible. 
+Developers often require information for API authentication and protocol. Here we provide this and other useful technical info in a succinct and precise manner.
 
 #### Create a new page
 
