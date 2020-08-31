@@ -37,7 +37,7 @@ Trying to manage long descriptions, multiple categories and other attributes is 
 If you plan on only ever having one sales channel, then you can manage your attribute product data in the specific channel (e.g. Magento, Shopify and WooCommerce) and leave Stock2Shop to send through pricing and quantity and send orders to Pastel.
 
 ---
-## Deciding which products to pull out of sage pastel partner
+## Deciding which products to pull out of Sage Pastel Partner
 There are a number of different ways to choose which products get sent to Stock2Shop. Here are some options we have already configured:
 
 - Use a warehouse (store) and assign products to a specific store

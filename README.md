@@ -28,8 +28,7 @@ Stock2Shop website and documentation built with Hugo.
  
 ## 2. Sections
 
-The site consists of six main sections. User Docs, Help Centre and
-Developers share the same page layout and top menu whereas the rest have different layouts but share the default top menu. 
+The site consists of six main sections. User Docs, Help Centre and Developers share the same page layout and top menu. The rest have different layouts apart from the general top menu. 
 
 ### 2.1. Articles
 
@@ -123,7 +122,7 @@ menu:
 
 ### 2.5. Integrations
 
-This section gets divided into platforms and combinations. Platform pages gets listed on the ```/integrations``` page and need to be marked with ```type:platform``` in the Front Matter.
+This section gets split into platforms and combinations. Platform pages are listed on the ```/integrations``` page and need to be marked with ```type:platform``` in the Front Matter. The combination pages do not get listed in one place but rather referred to on applicable platform pages.
 
 #### Create a new plaform page
 
@@ -161,13 +160,18 @@ description:
 
 ### 2.6. User Docs
 
-The User Docs is divided into five subsections
+The User Docs consist of five subsections:
 
-getting-started  
-configuration  
-key-concepts  
-workflows  
-product-data  
+1. **getting-started**  
+  Setup requirements and procedures
+2. **configuration**  
+  Sync options specific to a source or channel 
+3. **key-concepts**  
+  An explanation and promotion of concepts and components central to the system  
+4. **workflows**  
+  Examples of improved workflows between different platforms
+5. **product-data**  
+  Useful tips and tricks for working with large product data sets 
 
 #### Create a new page
 
