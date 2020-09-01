@@ -2,11 +2,6 @@
 title: "How do Channel IDs work in Stock2Shop?"
 heading: "How do Channel IDs work in Stock2Shop?"
 description: ""
-image: ""
-menu:
-  help_centre:
-    parent: Managing Product Information
-    name: S2S Channel IDs
 ---
 
 ## Introduction
