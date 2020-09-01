@@ -8,7 +8,7 @@
         <th>Headings</th>
         <th>Description</th>
     </tr>
-    {{ range .Site.RegularPages }}
+    {{ range .Site.Pages }}
     <tr>
         {{ if .Description }}
             <td><a href="{{ .Permalink }}">{{ title .Title }}</a></td>

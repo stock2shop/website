@@ -221,9 +221,3 @@ menu:
 |menu|Name assigned to specific menu|
 |parent|Page name used in menu to nest under|
 |name|Unique name for menu item when different to title|
-
-### 3.2. Useful Concepts
-
-|---|---|
-|Archetype||
-|||

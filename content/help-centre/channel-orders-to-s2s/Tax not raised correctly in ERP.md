@@ -4,7 +4,7 @@ heading: ""
 description: ""
 menu:
   help_centre:
-    parent: Channel to S2S
+    parent: Channel Orders to S2S
     name: Why is tax not raised correctly in the ERP
 image: ""
 ---
@@ -51,3 +51,6 @@ This issue causes a mismatch of order totals in the ERP vs S2S/your Channel
 3.
 
 ### WooCommerce
+1.
+2.
+3.
