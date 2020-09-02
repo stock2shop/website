@@ -2,7 +2,7 @@
 title: "Invalid Product"
 heading: ""
 description: ""
-tags: ["shopify", "channel ids"]
+tags: ["shopify"]
 draft: true
 menu:
   help_centre:

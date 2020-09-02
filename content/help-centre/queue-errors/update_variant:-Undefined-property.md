@@ -2,7 +2,7 @@
 title: "update_variant: Undefined property"
 heading: ""
 description: ""
-tags: ["Woocommerce"]
+tags: ["Woocommerce","update_variant"]
 draft: true
 menu:
   help_centre:

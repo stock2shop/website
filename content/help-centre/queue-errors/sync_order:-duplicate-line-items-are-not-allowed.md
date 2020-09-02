@@ -84,7 +84,7 @@ In order to confirm which of the above is causing the error, follow the below st
 5. Navigate to orders > search for the above order number
 6. Check order for either duplicate SKU's on different line items or 2 line items with blank skus
 
-![queue errors duplicate line items](/uploads/queue-errors-duplicate-line-items.png)
+![queue errors duplicate line items](/uploads/queue-errors-duplicate-line-items.png?classes=border)
 
 ## How to resolve the queue error
 

@@ -2,7 +2,7 @@
 title: "update_variant: Syntax error malformed JSON"
 heading: ""
 description: ""
-tags: ["WooCommerce","update_variant","Syntax error, malformed JSON"]
+tags: ["WooCommerce","update_variant"]
 draft: true
 menu:
   help_centre:

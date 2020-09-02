@@ -1,32 +1,33 @@
 {{ define "main" }}
-<div class="row">
+<div class="row" id="helpCentre">
     <aside class="col-md-3">
         <ul class="nav flex-column">
             {{ $currentPage := . }}
-            {{ range .Site.Menus.help_centre }}
-            {{ if .HasChildren }}
-            <li class='nav-item {{ if $currentPage.IsMenuCurrent "help_centre" . }}active{{ end }}'>
-                <a class="nav-link" href="{{ .URL }}">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
-            <ul class="sub-menu">
-                {{ range .Children }}
-                <li class='nav-item {{ if $currentPage.IsMenuCurrent "help_centre" . }}active{{ end }}'>
-                    <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
-            {{ else }}
+            {{ range where .Site.Sections "Section" "help-centre" }}
+            {{ if .Sections }}
+            {{ range .Sections }}
             <li class="nav-item">
-                <a class="nav-link" href="{{ .URL }}">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
+                <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
+                <ul>
+                    {{ if .Sections }}
+                    {{ range .Sections }}
+                    <li class="nav-item {{ if in $currentPage.Permalink .Permalink }}active{{ end }}">
+                        <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+<!--                <ul>-->
+<!--                    {{ range .Pages }}-->
+<!--                    <li>-->
+<!--                        <a href="{{ .Permalink }}">{{ title .Title }}</a>-->
+<!--                    </li>-->
+<!--                    {{ end}}-->
+<!--                </ul>-->
             </li>
             {{ end }}
             {{ end }}
+            {{ end}}
         </ul>
     </aside>
     <div class="col-md-9">

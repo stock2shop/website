@@ -124,4 +124,32 @@
 <!--<p>The site is running as published</p></br>-->
 <!--{{ end }}-->
 
+<!--<section>-->
+<!--    <ul>-->
+<!--        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}-->
+<!--        <li><a href="{{ '/' | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>-->
+<!--            <ul>-->
+<!--                {{ range $key, $value := $taxonomy }}-->
+<!--                <li> {{ $key }} </li>-->
+<!--                <ul>-->
+<!--                    {{ range $value.Pages }}-->
+<!--                    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>-->
+<!--                    {{ end }}-->
+<!--                </ul>-->
+<!--                {{ end }}-->
+<!--            </ul>-->
+<!--        </li>-->
+<!--        {{ end }}-->
+<!--    </ul>-->
+<!--</section>-->
+
+<!--{{ $taxo := "tags" }}-->
+<!--<ul class="{{ $taxo }}">-->
+<!--    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}-->
+<!--    {{ range .Pages }}-->
+<!--    <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>-->
+<!--    {{ end }}-->
+<!--    {{ end }}-->
+<!--</ul>-->
+
 {{ end }}

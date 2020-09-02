@@ -1,6 +1,6 @@
 ---
 title: Queue Errors
-lead: "Search or browser through steps to resolve your stuck queue."
+lead: "Search or browser for steps to resolve your stuck queue."
 menu: help_centre
 weight: 5
 ---

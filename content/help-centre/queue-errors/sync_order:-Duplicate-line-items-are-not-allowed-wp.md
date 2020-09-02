@@ -1,13 +1,13 @@
 ---
-title: "sync_order: Duplicate line items are not allowed - WP"
+title: "sync_order: Duplicate line items are not allowed"
 heading: ""
 description: ""
-tags: ["WooCommerce"]
+tags: ["WooCommerce","sync_order"]
 draft: true
 menu:
   help_centre:
     parent: Queue Errors
-    name: "sync_order: Duplicate line items are not allowed - WP"
+    name: "sync_order: Duplicate line items are not allowed wp"
 ---
 
 ## What does the queue error mean

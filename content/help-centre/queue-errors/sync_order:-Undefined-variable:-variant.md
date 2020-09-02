@@ -2,7 +2,7 @@
 title: "sync_order: Undefined variable: variant"
 heading: ""
 description: ""
-tags: ["WooCommerce"]
+tags: ["WooCommerce","sync_order"]
 draft: true
 menu:
   help_centre:

@@ -1,6 +1,6 @@
 ---
 title: "How does Stock2Shop's channel ids work"
-heading: "HOW DOES STOCK2SHOP'S CHANNEL IDS WORK?"
+heading: "how does Stock2Shop's channel ids work?"
 description: ""
 image: ""
 ---

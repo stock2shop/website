@@ -1,38 +1,75 @@
 {{ define "main" }}
-<div class="row">
+<div class="row" id="helpCentre">
     <aside class="col-md-3">
         <ul class="nav flex-column">
             {{ $currentPage := . }}
-            {{ range .Site.Menus.help_centre }}
-            {{ if .HasChildren }}
-            <li class='nav-item {{ if $currentPage.IsMenuCurrent "help_centre" . }}active{{ end }}'>
-                <a class="nav-link" href="{{ .URL }}">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
-            </li>
-            <ul class="sub-menu">
-                {{ range .Children }}
-                <li class='nav-item {{ if $currentPage.IsMenuCurrent "help_centre" . }}active{{ end }}'>
-                    <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-                </li>
-                {{ end }}
-            </ul>
-            {{ else }}
-            <li class="nav-item">
-                <a class="nav-link" href="{{ .URL }}">
-                    {{ .Pre }}
-                    <span>{{ .Name }}</span>
-                </a>
+            {{ range where .Site.Sections "Section" "help-centre" }}
+            {{ if .Sections }}
+            {{ range .Sections }}
+            <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
+                <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
+                <ul>
+                    {{ if .Sections }}
+                    {{ range .Sections }}
+                    <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
+                        <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+                <!--                <ul>-->
+                <!--                    {{ range .Pages }}-->
+                <!--                    <li>-->
+                <!--                        <a href="{{ .Permalink }}">{{ title .Title }}</a>-->
+                <!--                    </li>-->
+                <!--                    {{ end}}-->
+                <!--                </ul>-->
             </li>
             {{ end }}
             {{ end }}
+            {{ end}}
         </ul>
     </aside>
     <div class="col-md-9">
-        <h2>{{ .Title }}</h2>
-        <p class="lead">{{ .Params.lead }}</p>
+        <h2>{{ title .Title }}</h2>
+        <p class="lead">{{ .Params.Lead }}</p>
+        <hr>
         {{ .Content }}
+        {{ if .CurrentSection.Sections }}
+            <ul id="sectionTOC">
+            {{ range .CurrentSection.Sections }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <ul>
+                    {{ range .RegularPages.Reverse }}
+                    <li>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                    {{ end}}
+                </ul>
+            </li>
+            {{ end}}
+            </ul>
+        {{ else }}
+            <table>
+                <tr>
+                    <td>Tags</td>
+                    <td>Error Message</td>
+                </tr>
+            {{ range .Pages }}
+            <tr>
+                <td>
+                    {{ range first 1 (.GetTerms "tags") }}
+                    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+                    {{ end }}
+                </td>
+                <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+            </tr>
+            {{ end}}
+            </table>
+        {{ end }}
+
+    </div>
     </div>
 </div>
 {{ end }}

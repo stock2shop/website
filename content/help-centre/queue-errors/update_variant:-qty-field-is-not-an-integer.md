@@ -1,5 +1,5 @@
 ---
-title: "update_variant:qty Field Is Not an Integer"
+title: "update_variant: qty field is not an integer"
 heading: ""
 description: ""
 tags: ["Shopify","update_variant"]
