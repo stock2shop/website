@@ -7,23 +7,23 @@
             {{ if .Sections }}
             {{ range .Sections }}
             <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
-                <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
+                <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
                 <ul>
                     {{ if .Sections }}
                     {{ range .Sections }}
                     <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
-                        <a class="nav-link" href="{{ .Permalink }}">{{ title .Title }}</a>
+                        <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
                     </li>
                     {{ end }}
                     {{ end }}
                 </ul>
-                <!--                <ul>-->
-                <!--                    {{ range .Pages }}-->
-                <!--                    <li>-->
-                <!--                        <a href="{{ .Permalink }}">{{ title .Title }}</a>-->
-                <!--                    </li>-->
-                <!--                    {{ end}}-->
-                <!--                </ul>-->
+<!--                <ul>-->
+<!--                    {{ range .Pages }}-->
+<!--                    <li>-->
+<!--                        <a href="{{ .Permalink }}">{{ title .Title }}</a>-->
+<!--                    </li>-->
+<!--                    {{ end}}-->
+<!--                </ul>-->
             </li>
             {{ end }}
             {{ end }}
@@ -31,23 +31,23 @@
         </ul>
     </aside>
     <div class="col-md-9">
-        <h2>{{ title .Title }}</h2>
+        <h2>{{ .Title }}</h2>
         <p class="lead">{{ .Params.Lead }}</p>
         <hr>
         {{ .Content }}
         {{ if .CurrentSection.Sections }}
             <ul id="sectionTOC">
             {{ range .CurrentSection.Sections }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-                <ul>
-                    {{ range .RegularPages.Reverse }}
-                    <li>
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                    </li>
-                    {{ end}}
-                </ul>
-            </li>
+                <li>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    <ul>
+                        {{ range .RegularPages.Reverse }}
+                        <li>
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </li>
+                        {{ end}}
+                    </ul>
+                </li>
             {{ end}}
             </ul>
         {{ else if eq .RelPermalink "/help-centre/queue-errors/" }}
@@ -56,25 +56,25 @@
                     <td>Tags</td>
                     <td>Error Message</td>
                 </tr>
-            {{ range .Pages }}
-            <tr>
-                <td>
-                    {{ range first 1 (.GetTerms "tags") }}
-                    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-                    {{ end }}
-                </td>
-                <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-            </tr>
-            {{ end}}
+                <!-- TODO: Sort by tag-->
+                {{ range .Pages }}
+                <tr>
+                    <td>
+                        {{ range first 1 (.GetTerms "tags") }}
+                        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+                        {{ end }}
+                    </td>
+                    <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                </tr>
+                {{ end}}
             </table>
         {{ else }}
-        <ul id="sectionTOC">
-            {{ range .Pages }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end}}
-        </ul>
+            <ul id="sectionTOC">
+                {{ range .Pages }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                {{ end}}
+            </ul>
         {{ end }}
-    </div>
     </div>
 </div>
 {{ end }}

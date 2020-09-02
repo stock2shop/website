@@ -2,7 +2,7 @@
 title: "update_variant: Undefined property"
 heading: ""
 description: ""
-tags: ["Woocommerce","update_variant"]
+tags: ["WooCommerce","update_variant"]
 draft: true
 menu:
   help_centre:
@@ -25,9 +25,9 @@ https://wordpress.org/plugins/product-options-for-woocommerce/
 Example of an incorrectly configured variable product that can cause this error:
 Sku of a variation: LOON002
 
-{{< figure src="/uploads/queue-error-update_variant-undefined-property-1.png" caption="Top level inventory has variation sku - This should either be a grouping code (Can be anything - not listed in ERP) or remain blank" >}}
+{{< figure src="/uploads/queue-errors-update_variant-undefined-property-1.png" caption="Top level inventory has variation sku - This should either be a grouping code (Can be anything - not listed in ERP) or remain blank" >}}
 
-{{< figure src="/uploads/queue-error-update_variant-undefined-property-2.png" caption="The variation sku is in fact blank, however, it adopts the top-level inventory sku because a product should always have a unique identifier, this now causes duplicate sku's." >}}
+{{< figure src="/uploads/queue-errors-update_variant-undefined-property-2.png" caption="The variation sku is in fact blank, however, it adopts the top-level inventory sku because a product should always have a unique identifier, this now causes duplicate sku's." >}}
 
 ## What issue(s) does the queue error cause
 
