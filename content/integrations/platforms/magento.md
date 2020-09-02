@@ -6,7 +6,7 @@ lead: "Streamline your workflow by integrating Magento with your applications."
 image: "/uploads/logo-platform-magento.png"
 imageAlt: magento logo
 weight: 2
-tags: ["channel"]
+categories: ["channel"]
 ---
 
 ## ERP / Accounting Systems:

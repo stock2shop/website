@@ -8,7 +8,7 @@ image: "/uploads/logo-platform-dolfin.png"
 imageAlt: dolfin logo
 aliases: "/integrations/dolfin-integration/"
 weight: 18
-tags: ["erp"]
+categories: ["erp"]
 ---
 
 ## E-commerce websites

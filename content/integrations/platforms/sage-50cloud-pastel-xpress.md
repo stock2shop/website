@@ -8,7 +8,7 @@ image: "/uploads/logo-platform-sage-50cloud-pastel-xpress.png"
 imageAlt: sage 50cloud pastel xpress logo
 aliases: "/integrations/sage-50cloud-pastel-xpress-formerly-sage-partner-xpress/"
 weight: 7
-tags: ["erp"]
+categories: ["erp"]
 ---
 
 ## E-commerce websites

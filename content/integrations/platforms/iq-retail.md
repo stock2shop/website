@@ -7,7 +7,7 @@ type: platform
 image: "/uploads/logo-platform-iq-retail.png"
 imageAlt: iq retail
 weight: 16
-tags: ["erp"]
+categories: ["erp"]
 ---
 
 ## E-commerce websites

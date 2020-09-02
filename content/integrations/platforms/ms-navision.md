@@ -8,7 +8,7 @@ image: "/uploads/logo-platform-ms-dynamics-nav.png"
 imageAlt: ms dynamics logo
 aliases: "/integrations/ms-navision-integration/"
 weight: 17
-tags: ["erp"]
+categories: ["erp"]
 ---
 
 ## E-commerce websites

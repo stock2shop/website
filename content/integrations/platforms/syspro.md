@@ -7,7 +7,7 @@ type: platform
 image: "/uploads/logo-platform-syspro.png"
 imageAlt: syspro logo
 weight: 14
-tags: ["erp"]
+categories: ["erp"]
 ---
 
 ## E-commerce websites

@@ -8,7 +8,7 @@ image: "/uploads/logo-platform-sage-200-evolution.png"
 imageAlt: sage 200 evolution logo
 aliases: "/integrations/sage-200-evolution-formerly-sage-evolution-premium/"
 weight: 10
-tags: ["erp"]
+categories: ["erp"]
 ---
 
 ## E-commerce websites

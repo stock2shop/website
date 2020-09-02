@@ -7,7 +7,7 @@ type: platform
 image: "/uploads/logo-platform-sage-business-cloud-financials.png"
 imageAlt: sage business cloud financials logo
 weight: 6
-tags: ["erp"]
+categories: ["erp"]
 ---
 
 ## E-commerce websites

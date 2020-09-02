@@ -6,7 +6,7 @@ lead: "Integrate Shopify with your applications and see how streamlined your wor
 image: "/uploads/logo-platform-shopify.png"
 imageAlt: shopify logo
 weight: 1
-tags: ["channel"]
+categories: ["channel"]
 ---
 
 ## ERP / Accounting Systems:

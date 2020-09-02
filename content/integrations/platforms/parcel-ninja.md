@@ -6,7 +6,7 @@ type: platform
 image: "/uploads/logo-fulfillment-parcelninja.png"
 imageAlt: parcelninja logo
 weight: 19
-tags: ["fulfillment"]
+categories: ["fulfillment"]
 ---
 
 ## What is ParcelNinja?
