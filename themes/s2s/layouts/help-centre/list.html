@@ -50,7 +50,7 @@
             </li>
             {{ end}}
             </ul>
-        {{ else }}
+        {{ else if eq .RelPermalink "/help-centre/queue-errors/" }}
             <table>
                 <tr>
                     <td>Tags</td>
@@ -67,8 +67,13 @@
             </tr>
             {{ end}}
             </table>
+        {{ else }}
+        <ul id="sectionTOC">
+            {{ range .Pages }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end}}
+        </ul>
         {{ end }}
-
     </div>
     </div>
 </div>
