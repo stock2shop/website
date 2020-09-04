@@ -2,7 +2,10 @@
 title: "update_variant: qty field is not an integer"
 heading: ""
 description: ""
-tags: ["Shopify","update_variant"]
+tags: 
+  - Shopify
+  - Queue Error
+  - update_variant
 draft: true
 menu:
   help_centre:

@@ -2,7 +2,10 @@
 title: "sync_order: Undefined variable: variant"
 heading: ""
 description: ""
-tags: ["WooCommerce","sync_order"]
+tags: 
+  - WooCommerce
+  - Queue Error
+  - sync_order
 draft: true
 menu:
   help_centre:

@@ -2,7 +2,10 @@
 title: "update_product: No product found with the ID equal to"
 heading: "update_product: No product found with the ID equal to [ID] 'woocommerce_api_no_product_found'"
 description: ""
-tags: ["WooCommerce","update_product"]
+tags: 
+  - WooCommerce
+  - Queue Error
+  - update_product
 draft: true
 menu:
   help_centre:

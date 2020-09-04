@@ -2,7 +2,9 @@
 title: "URL key for specified store already exists"
 heading: ""
 description: ""
-tags: ["Magento2"]
+tags: 
+  - Magento2
+  - Queue Error
 draft: true
 ---
 ## 1. How to confirm the source of the queue error

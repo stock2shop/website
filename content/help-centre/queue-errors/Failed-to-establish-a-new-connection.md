@@ -4,6 +4,7 @@ heading: "Failed to establish a new connection: [WinError 10061] No connection c
 description: ""
 tags:
   - Omni Accounts
+  - Queue Error
 draft: true
 ---
 

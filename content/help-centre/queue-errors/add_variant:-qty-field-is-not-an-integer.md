@@ -2,7 +2,10 @@
 title: "add_variant: Qty field is not an integer"
 heading: ""
 description: ""
-tags: ["Shopify","add_variant"]
+tags: 
+  - Shopify
+  - Queue Error
+  - add_variant
 draft: true
 menu:
   help_centre:

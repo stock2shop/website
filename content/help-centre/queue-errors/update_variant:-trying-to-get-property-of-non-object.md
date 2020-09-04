@@ -2,7 +2,10 @@
 title: "update_variant: Trying to get property of non-object"
 heading: ""
 description: ""
-tags: ["Shopify","update_variant"]
+tags: 
+  - Shopify
+  - Queue Error
+  - update_variant
 draft: true
 menu:
   help_centre:

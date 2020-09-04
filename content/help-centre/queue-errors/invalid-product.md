@@ -2,7 +2,9 @@
 title: "Invalid Product"
 heading: ""
 description: ""
-tags: ["shopify"]
+tags: 
+  - shopify
+  - Queue Error
 draft: true
 menu:
   help_centre:

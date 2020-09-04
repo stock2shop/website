@@ -124,6 +124,15 @@
 <!--<p>The site is running as published</p></br>-->
 <!--{{ end }}-->
 
+<!--{{ $taxo := "tags" }}-->
+<!--<ul class="{{ $taxo }}">-->
+<!--    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}-->
+<!--    {{ range .Pages }}-->
+<!--    <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>-->
+<!--    {{ end }}-->
+<!--    {{ end }}-->
+<!--</ul>-->
+
 <!--<section>-->
 <!--    <ul>-->
 <!--        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}-->
@@ -142,14 +151,5 @@
 <!--        {{ end }}-->
 <!--    </ul>-->
 <!--</section>-->
-
-<!--{{ $taxo := "tags" }}-->
-<!--<ul class="{{ $taxo }}">-->
-<!--    {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}-->
-<!--    {{ range .Pages }}-->
-<!--    <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>-->
-<!--    {{ end }}-->
-<!--    {{ end }}-->
-<!--</ul>-->
 
 {{ end }}

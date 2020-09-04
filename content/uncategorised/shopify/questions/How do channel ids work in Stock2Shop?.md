@@ -6,7 +6,7 @@ description: ""
 
 ## Introduction
 
-This article is a breakdown and explanation as to how the S2S system finds, saves and uses the channels product ids.
+This article is a breakdown and explanation as to how the S2S system finds, saves and uses the channel's product ids.
 
 Any data storage system will have an internal ID to store data against and use as reference to related sets of data.
 

@@ -14,7 +14,7 @@ The queue id is a unique number that Stock2Shop uses to identify each queue item
 
 ## Queue Instructions
 
-Queue instructions are the different requests/instructions our system uses, note the "mode" of the instruction. Blocking queue instructions means if there is an error for that instruction it will block all other instructions from that source or to that particular channel, remember if you have multiple channels and there is a blocking queue error for one channel it will not affect the others or the non-blocking queue instructions.
+Queue instructions are the different requests/instructions our system uses, note the "mode" of the instruction. Blocking queue instructions means if there is an error for that instruction it will block all other instructions from that source or to that particular channel, **remember if you have multiple channels and there is a blocking queue error for one channel it will not affect the others or the non-blocking queue instructions**.
 
 {{< highlight go >}}
 {

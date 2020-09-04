@@ -2,7 +2,10 @@
 title: "sync_order: Duplicate line items are not allowed"
 heading: ""
 description: ""
-tags: ["Shopify", "sync_order"]
+tags: 
+  - Shopify
+  - Queue Error
+  - sync_order
 draft: true
 menu:
   help_centre:

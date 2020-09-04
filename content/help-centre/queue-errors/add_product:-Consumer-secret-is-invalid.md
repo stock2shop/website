@@ -2,7 +2,10 @@
 title: "add_product: Consumer secret is invalid"
 heading: "add_product: Consumer Secret is invalid. 'woocommerce_api_authentication_error'"
 description: ""
-tags: ["WooCommerce","add_product"]
+tags: 
+  - WooCommerce
+  - Queue Error
+  - add_product
 draft: true
 menu:
   help_centre:

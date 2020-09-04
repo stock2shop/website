@@ -2,7 +2,10 @@
 title: "add_variant: Failed to create variant"
 heading: "add_variant: Failed to create variant {sku}"
 description: ""
-tags: ["WooCommerce","add_variant"]
+tags: 
+  - WooCommerce
+  - Queue Error
+  - add_variant
 draft: true
 menu:
   help_centre:

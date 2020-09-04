@@ -3,30 +3,33 @@
     <aside class="col-md-3">
         <ul class="nav flex-column">
             {{ $currentPage := . }}
+            <!-- First Level Section -->
             {{ range where .Site.Sections "Section" "help-centre" }}
-            {{ if .Sections }}
-            {{ range .Sections }}
-            <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
-                <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                <ul>
-                    {{ if .Sections }}
-                    {{ range .Sections }}
-                    <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
-                        <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                </ul>
-<!--                <ul>-->
-<!--                    {{ range .Pages }}-->
-<!--                    <li>-->
-<!--                        <a href="{{ .Permalink }}">{{ title .Title }}</a>-->
-<!--                    </li>-->
-<!--                    {{ end}}-->
-<!--                </ul>-->
-            </li>
-            {{ end }}
-            {{ end }}
+                {{ range .Sections }}
+                <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
+                    <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
+                    <ul>
+                        <!-- Second Level Section -->
+                        {{ if .Sections }}
+                            {{ range .Sections }}
+                            <li class="nav-item {{ if (eq $currentPage.Permalink .Permalink) }}active{{ end }}">
+                                <a class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
+                            </li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                    <ul>
+                        <!-- Don't list Queue Error pages -->
+                        {{ range .Pages }}
+                            {{ if not (in .Params.tags "Queue Error") }}
+                            <li>
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            </li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </li>
+                {{ end }}
             {{ end}}
         </ul>
     </aside>
@@ -35,6 +38,7 @@
         <p class="lead">{{ .Params.Lead }}</p>
         <hr>
         {{ .Content }}
+        <!-- If current section contains nested sections, list sections and pages -->
         {{ if .CurrentSection.Sections }}
             <ul id="sectionTOC">
             {{ range .CurrentSection.Sections }}
@@ -50,6 +54,7 @@
                 </li>
             {{ end}}
             </ul>
+        <!-- On queue errors page render table with titles and tags -->
         {{ else if eq .RelPermalink "/help-centre/queue-errors/" }}
             <table>
                 <tr>
@@ -69,6 +74,7 @@
                 {{ end}}
             </table>
         {{ else }}
+        <!-- If not queue error section, contains only root pages and no nested sections -->
             <ul id="sectionTOC">
                 {{ range .Pages }}
                     <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

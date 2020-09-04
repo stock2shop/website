@@ -2,7 +2,10 @@
 title: "update_variant: Undefined property"
 heading: ""
 description: ""
-tags: ["WooCommerce","update_variant"]
+tags: 
+  - WooCommerce
+  - Queue Error
+  - update_variant
 draft: true
 menu:
   help_centre:

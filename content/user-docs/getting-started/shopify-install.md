@@ -29,6 +29,6 @@ Once you have completed filling out all the details and setting permission, be s
 
 ![getting started shopify](/uploads/getting-started-shopify-3.png)
 
-Send the **API Key** and **API Password** to your Stock2Shop Sale Representative who will capture these.  
+Send the **API Key** and **API Password** to your Stock2Shop Sales Representative who will capture these.  
   
-Any questions? Email [mailto: support@stock2shop.com](support@stock2shop.com) and we will happily help.
+Any questions? [Contact us](/contact-us) – we’re happy to help.

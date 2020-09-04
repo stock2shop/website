@@ -2,7 +2,10 @@
 title: "update_product: No product found to update in channel"
 heading: ""
 description: ""
-tags: ["Shopify", "update_product"]
+tags: 
+  - Shopify
+  - Queue Error
+  - update_product
 draft: true
 menu:
   help_centre:
