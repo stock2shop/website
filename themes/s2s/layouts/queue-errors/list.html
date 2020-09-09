@@ -33,6 +33,15 @@
         <h2>{{ .Title }}</h2>
         <p class="lead">{{ .Params.Lead }}</p>
         <hr>
+        <p>Select appropriate platform to view relevant queue errors.</p>
+        {{ $taxo := "errorgroup" }}
+        <ul class="{{ $taxo }}">
+            {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+            {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+            {{ end }}
+            {{ end }}
+        </ul>
         {{ .Content }}
     </div>
 </div>

@@ -2,6 +2,7 @@
 title: "URL key for specified store already exists"
 heading: ""
 description: ""
+errorgroup: Magento2 
 tags: 
   - Magento2
   - Queue Error

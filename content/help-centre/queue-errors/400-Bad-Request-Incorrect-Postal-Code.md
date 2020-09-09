@@ -2,6 +2,7 @@
 title: "400 Bad Request - Incorrect Postal Code"
 heading: ""
 description: ""
+errorgroup: ParcelNinja
 tags:
   - ParcelNinja
   - Queue Error

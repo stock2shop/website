@@ -2,15 +2,12 @@
 title: "update_variant: Undefined property"
 heading: ""
 description: ""
+errorgroup: WooCommerce
 tags: 
   - WooCommerce
   - Queue Error
   - update_variant
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "update_variant: Undefined property"
 ---
 
 ## What does the queue error mean

@@ -2,15 +2,12 @@
 title: "update_product: No product found with the ID equal to"
 heading: "update_product: No product found with the ID equal to [ID] 'woocommerce_api_no_product_found'"
 description: ""
+errorgroup: WooCommerce
 tags: 
   - WooCommerce
   - Queue Error
   - update_product
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "update_product: No product found with the ID equal to"
 ---
 
 ## What does the queue error mean 

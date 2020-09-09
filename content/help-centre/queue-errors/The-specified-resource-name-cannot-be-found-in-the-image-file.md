@@ -2,6 +2,7 @@
 title: "The specified resource name cannot be found in the image file"
 heading: ""
 description: ""
+errorgroup: SAP Business One
 tags:
   - SAP Business One
   - Queue Error

@@ -2,6 +2,7 @@
 title: "Invalid username or password"
 heading: ""
 description: ""
+errorgroup: Omni Accounts
 tags:
   - Omni Accounts
   - Queue Error

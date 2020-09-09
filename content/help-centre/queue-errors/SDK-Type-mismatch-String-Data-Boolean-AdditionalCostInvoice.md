@@ -2,6 +2,7 @@
 title: "SDK Type mismatch (String Data, Boolean& AdditionalCostInvoice)"
 heading: ""
 description: ""
+errorgroup: Sage 50cloud Pastel Partner
 tags: 
   - Sage 50cloud Pastel Partner
   - Queue Error

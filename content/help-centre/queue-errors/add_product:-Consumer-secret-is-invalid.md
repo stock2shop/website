@@ -2,15 +2,12 @@
 title: "add_product: Consumer secret is invalid"
 heading: "add_product: Consumer Secret is invalid. 'woocommerce_api_authentication_error'"
 description: ""
+errorgroup: WooCommerce
 tags: 
   - WooCommerce
   - Queue Error
   - add_product
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "add_product: Consumer secret is invalid"
 ---
 
 ## What does the queue error mean

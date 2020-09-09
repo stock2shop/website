@@ -2,15 +2,12 @@
 title: "sync_order: Undefined variable: variant"
 heading: ""
 description: ""
+errorgroup: WooCommerce
 tags: 
   - WooCommerce
   - Queue Error
   - sync_order
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "sync_order: Undefined variable: variant"
 ---
 
 ## What does the queue error mean

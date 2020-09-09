@@ -2,15 +2,12 @@
 title: "add_variant: Failed to create variant"
 heading: "add_variant: Failed to create variant {sku}"
 description: ""
+errorgroup: WooCommerce
 tags: 
   - WooCommerce
   - Queue Error
   - add_variant
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "add_variant: Failed to create variant"
 ---
 
 ## What does the queue error mean? 

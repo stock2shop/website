@@ -2,15 +2,12 @@
 title: "sync_order: Duplicate line items are not allowed"
 heading: ""
 description: ""
+errorgroup: Shopify
 tags: 
   - Shopify
   - Queue Error
   - sync_order
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "sync_order: Duplicate line items are not allowed"
 ---
 
 ## What does the queue error mean

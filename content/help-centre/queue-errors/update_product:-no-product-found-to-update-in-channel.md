@@ -2,15 +2,12 @@
 title: "update_product: No product found to update in channel"
 heading: ""
 description: ""
+errorgroup: Shopify
 tags: 
   - Shopify
   - Queue Error
   - update_product
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "update_product: No product found to update in channel"
 ---
 
 ## 1. What does the queue error mean

@@ -2,15 +2,12 @@
 title: "update_variant: qty field is not an integer"
 heading: ""
 description: ""
+errorgroup: Shopify
 tags: 
   - Shopify
   - Queue Error
   - update_variant
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "update_variant: qty field is not an integer"
 ---
 
 ## What does the queue error mean

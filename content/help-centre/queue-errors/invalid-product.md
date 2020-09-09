@@ -2,14 +2,11 @@
 title: "Invalid Product"
 heading: ""
 description: ""
+errorgroup: Shopify
 tags: 
-  - shopify
+  - Shopify
   - Queue Error
 draft: true
-menu:
-  help_centre:
-    parent: Queue Errors
-    name: "Invalid Product"
 ---
 
 ## What does the queue error mean

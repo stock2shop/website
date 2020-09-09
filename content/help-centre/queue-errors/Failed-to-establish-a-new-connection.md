@@ -2,6 +2,7 @@
 title: "Failed to establish a new connection"
 heading: "Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"
 description: ""
+errorgroup: Omni Accounts
 tags:
   - Omni Accounts
   - Queue Error

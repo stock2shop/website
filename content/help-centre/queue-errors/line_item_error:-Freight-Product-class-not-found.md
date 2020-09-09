@@ -2,6 +2,7 @@
 title: "line_item_error: Freight Product class not found"
 heading: ""
 description: ""
+errorgroup: Syspro 
 tags: 
   - Syspro
   - Queue Error
