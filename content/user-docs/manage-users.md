@@ -62,5 +62,7 @@ The product editor role is great to use for person/s who enrich your product dat
 
 The Product Editor (Attributes Only) has the exact same functionality as a normal Product Editor user, the only difference being that this user does not have access to Images or the ability to edit attribute templates. This user would be great for person/s that should/does not have access to images or the prebuilt product attribute templates.
 
-  
-Any questions? [Contact us](https://www.stock2shop.com/contact-us/) – we’re happy to help.
+
+---
+
+{{% user-docs-generic %}}

@@ -21,4 +21,6 @@ In order for Stock2Shop to communicate with Magento safely and effectively, we u
 *   Magento Admin Password
 *   [Webhook (used for sending orders back)](https://github.com/stock2shop/magento2_module_webhook "Magento 2.x Webhook Module")
   
-Any questions? Email support@stock2shop.com and we will happily help.
+---
+
+{{% user-docs-generic %}}

@@ -29,4 +29,6 @@ In order to communicate with Parcelninja, we require you to create API Keys for 
 
 Once you have created these keys, contact Stock2shop and we will gladly assist you in getting setup.
 
-Any questions? [Contact us](https://www.stock2shop.com/contact-us/) – we’re happy to help.
+---
+
+{{% user-docs-generic %}}

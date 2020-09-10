@@ -73,4 +73,6 @@ Please send the following information to your designated Stock2Shop Technician:
 *   Admin User Password
 
   
-Any questions? Email [support@stock2shop.com](mailto: support@stock2shop.com) and we will happily help.
+---
+
+{{% user-docs-generic %}}

@@ -37,4 +37,6 @@ Below is an overview outlining the next steps:
 
 Data Discussion (**Step 1**) will be scheduled by one of our technicians
 
-Any questions? [Contact us](https://www.stock2shop.com/contact-us/) – we’re happy to help.
+---
+
+{{% user-docs-generic %}}

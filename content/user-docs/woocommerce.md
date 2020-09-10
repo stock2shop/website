@@ -68,4 +68,6 @@ Add in a **Name** of “Stock2Shop” and make the **Status** “Disabled” for
 
 ![getting started woocommerce](/uploads/getting-started-woocommerce-7.png)
   
-Any questions? Email [support@stock2shop.com](mailto:support@stock2shop.com) and we will happily help.
+---
+
+{{% user-docs-generic %}}

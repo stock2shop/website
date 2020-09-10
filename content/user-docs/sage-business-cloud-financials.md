@@ -29,4 +29,6 @@ Below is an overview outlining the next steps:
 3. Test channel integration (products / orders)
 Data Discussion (Step 1) will be scheduled by one of our technicians
 
-Any questions? [Contact us](/contact-us) – we’re happy to help.
+---
+
+{{% user-docs-generic %}}
