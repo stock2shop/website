@@ -15,13 +15,13 @@ What do we mean when we say sources? The source of information. Here’s all you
 
 * * *
 
-## What is a source?
+### What is a source?
 
 A Stock2Shop source is where we get product / inventory information from or push sales orders to. There are two different types of sources on Stock2Shop: “primary sources” and “[linked sources](/documentation/key-concepts/linked-sources/)“.
 
 * * *
 
-## What sources are available?
+### What sources are available?
 
 Stock2Shop provides connections to various different sources. Some of these sources allow sales orders to be raised, others do not.  
   
@@ -38,7 +38,7 @@ Currently, Stock2Shop supports the following sources:
 
 * * *
 
-## Set up and Configuration
+### Set up and Configuration
 
 You can have multiple different sources or just one source.  
   
@@ -48,7 +48,7 @@ If you have multiple different sources, you need unique product codes (SKUs) per
 
 * * *
 
-## What is a Linked Source?
+### What is a Linked Source?
 
 A linked source is a source that can only be used to update product information (to a primary source).  
 Sales orders cannot be sent to linked sources, only to primary sources.  

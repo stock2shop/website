@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for iSync"
 description: "Instructions for setting up iSync so it can sync product data and orders with multiple sales channels like Magento, Shopify, WooCommerce and Stock2Shop's B2B trade store. Let us help you set up iSync with ease."
 aliases: "/documentation/getting-started/isync/"
 toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: iSync
-    weight: 120
 ---
 
 ## Introduction

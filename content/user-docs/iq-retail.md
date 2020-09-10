@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for IQ retail"
 description: "Set up instructions for integrating iQ Retail to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
 aliases: "/documentation/getting-started/iq-retail/"
 toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: iQ Retail
-    weight: 150
 ---
 
 ## Introduction

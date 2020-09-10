@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for ParcelNinja"
 description: "Do you use Parcelninja to manage stock? Here's how to configure Parcelninja and Stock2Shop to display stock availability on your website using the Parcelninja API."
 aliases: "/documentation/getting-started/parcelninja/"
 toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: ParcelNinja
-    weight: 170
 ---
 
 ## Introduction

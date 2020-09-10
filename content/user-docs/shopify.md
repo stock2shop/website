@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for shopify"
 description: "Do you have a Shopify website? Here's how to configure your Shopify website and set up the REST API for Stock2Shop to sync product data and orders."
 toc: true
 aliases: "/documentation/getting-started/shopify-install/" 
-menu:
-  docside:
-    parent: Getting Started
-    name: Shopify
-    weight: 10
 ---
 
 ## Introduction
@@ -32,3 +27,7 @@ Once you have completed filling out all the details and setting permission, be s
 Send the **API Key** and **API Password** to your Stock2Shop Sales Representative who will capture these.  
   
 Any questions? [Contact us](/contact-us) – we’re happy to help.
+
+---
+
+{{% user-docs-generic %}}

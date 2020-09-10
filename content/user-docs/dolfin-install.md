@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for dolfin"
 description: "Stock2Shop can sync products and orders betweenDolfin and numerous other applications like Magento, Woocommerce, Shopify and our B2B ordering platform. Find out more!"
 aliases: "/documentation/getting-started/dolfin-install/"
 toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Dolfin
-    weight: 160
 ---
 
 ## Introduction

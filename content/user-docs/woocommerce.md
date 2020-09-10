@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for woocommerce"
 description: "How to configure your WooCommerce API and Webhook for Stock2Shop to sync product data and orders. Step-by-step instructions explaining how to grant API access to Stock2Shop so that we can integrate WooCommerce for you."
 aliases: "/documentation/getting-started/woocommerce/"
 toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: WooCommerce
-    weight: 30
 ---
 
 ## Introduction

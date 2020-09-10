@@ -3,11 +3,6 @@ title: "Installing Stock2shop for Sage Business Cloud Accounting (formerly Sage 
 description: "Stock2Shop can sync products and orders between Sage One and numerous other applications like Magento, Woocommerce, Shopify and our B2B ordering platform. Find out more!"
 aliases: "/documentation/getting-started/sage-one-install/"
 toc: true
-menu:
-  docside:
-     parent: Getting Started
-     name: Sage Business Cloud Accounting
-     weight: 50
 ---
 
 ## Introduction

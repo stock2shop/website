@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for sage 50cloud pastel partner (formerly sage p
 description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 aliases: "/documentation/getting-started/sage-pastel-partner-installation/"
 toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Sage 50cloud Pastel Partner
-    weight: 75
 ---
 
 ## Introduction

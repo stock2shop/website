@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for magento 2.x"
 description: "Do you have a Magento 2.x website? Here's how to configure your Magento 2.x website and set up the REST API for Stock2Shop to sync product data and orders."
 aliases: "/documentation/getting-started/magento-2-install/"
 toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Magento 2.x
-    weight: 21
 ---
 
 ## Introduction

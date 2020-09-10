@@ -4,11 +4,6 @@ heading: "installing Stock2Shop for sage business cloud financials (formerly sag
 description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 toc: true
 aliases: "/documentation/getting-started/sage-live-install/"
-menu:
-  docside:
-    parent: Getting Started
-    name: Sage Business Cloud Financials
-    weight: 60
 ---
 
 ## Introduction

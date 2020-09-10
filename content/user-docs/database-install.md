@@ -4,10 +4,6 @@ heading: "installing Stock2Shop for a generic database"
 description: "Stock2Shop integrates My SQL, MS SQL and other databases to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 aliases: "/documentation/getting-started/database-install/"
 toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Generic Database
 ---
 
 ## Introduction
