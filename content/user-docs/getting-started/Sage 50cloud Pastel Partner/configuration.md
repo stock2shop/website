@@ -6,9 +6,9 @@ aliases: "/documentation/configuration/sage-pastel-partner-configuration/"
 toc: true
 menu:
   docside:
-    parent: Configuration
-    name: Sage Pastel Partner
-    weight: 10
+    parent: Sage 50cloud Pastel Partner
+    name: Configuration
+    weight: 20
 ---
 
 Sage Pastel Partner is a flexible system. Over the years, Stock2Shop has added configuration options to this platform and continues to do so. These configuration options help to simplify the process of pulling inventory data out of Sage Pastel Partner and sending this to sales channels. There are also many configuration options for how sales orders get handled inside of Pastel Partner.

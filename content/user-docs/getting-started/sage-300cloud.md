@@ -6,7 +6,7 @@ toc: true
 aliases: "/documentation/getting-started/sage-300cloud/"
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Sage 300cloud
     weight: 100
 ---

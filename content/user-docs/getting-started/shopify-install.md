@@ -6,7 +6,7 @@ toc: true
 aliases: "/documentation/getting-started/shopify-install/" 
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Shopify
     weight: 10
 ---

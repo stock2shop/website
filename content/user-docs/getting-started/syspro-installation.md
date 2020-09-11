@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/syspro-installation/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: SYSPRO
     weight: 130
 ---

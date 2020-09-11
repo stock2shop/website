@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/omni-accounts-install/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Omni Accounts
     weight: 140
 ---

@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/iq-retail/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: iQ Retail
     weight: 150
 ---

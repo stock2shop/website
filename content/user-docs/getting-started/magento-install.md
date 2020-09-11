@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/magento-install/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Magento 1.x
     weight: 20
 ---

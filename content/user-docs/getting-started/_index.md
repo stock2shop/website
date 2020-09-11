@@ -1,9 +1,11 @@
 ---
-title: Getting Started
+title: Getting Started and More
 description: "Stock2Shop can help you set up and configure our software. We'll assist with getting started and help you integrate your ERP or accounting system (Sage, SYSPRO, iSync or SAP) with your e-commerce website (Magento, WooCommerce, Shopify or your B2B platform). Find out more!"
 lead: "How to get set up on Stock2Shop so that you can streamline your workflow."
 aliases: "/documentation/getting-started/"
-menu: docside
+menu: 
+  docside:
+    name: Getting Started and More
 toc: false
 weight: 10
 ---

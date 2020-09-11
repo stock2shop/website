@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/sage-50cloud-pastel-xpress-installation
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Sage 50cloud Pastel Xpress
     weight: 70
 ---

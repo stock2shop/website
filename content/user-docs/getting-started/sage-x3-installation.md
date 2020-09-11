@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/Sage-x3/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Sage X3
     weight: 150
 ---

@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/magento-2-install/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Magento 2.x
     weight: 21
 ---

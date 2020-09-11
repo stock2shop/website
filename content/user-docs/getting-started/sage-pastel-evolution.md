@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/sage-pastel-evolution/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Sage Evolution
     weight: 90
 ---

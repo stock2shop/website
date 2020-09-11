@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/isync/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: iSync
     weight: 120
 ---

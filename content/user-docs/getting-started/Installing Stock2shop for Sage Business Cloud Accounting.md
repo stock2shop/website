@@ -5,7 +5,7 @@ aliases: "/documentation/getting-started/sage-one-install/"
 toc: true
 menu:
   docside:
-     parent: Getting Started
+     parent: Getting Started and More
      name: Sage Business Cloud Accounting
      weight: 50
 ---

@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/woocommerce/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: WooCommerce
     weight: 30
 ---

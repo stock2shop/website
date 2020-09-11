@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/sap-business-one-install/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: SAP Business One
     weight: 110
 ---

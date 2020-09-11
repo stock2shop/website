@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/dolfin-install/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Dolfin
     weight: 160
 ---

@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/database-install/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Generic Database
 ---
 

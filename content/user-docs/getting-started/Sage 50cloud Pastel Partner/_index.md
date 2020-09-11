@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/sage-pastel-partner-installation/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Sage 50cloud Pastel Partner
     weight: 75
 ---

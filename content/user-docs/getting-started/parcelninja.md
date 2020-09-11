@@ -6,7 +6,7 @@ aliases: "/documentation/getting-started/parcelninja/"
 toc: true
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: ParcelNinja
     weight: 170
 ---

@@ -6,7 +6,7 @@ toc: true
 aliases: "/documentation/getting-started/sage-live-install/"
 menu:
   docside:
-    parent: Getting Started
+    parent: Getting Started and More
     name: Sage Business Cloud Financials
     weight: 60
 ---
