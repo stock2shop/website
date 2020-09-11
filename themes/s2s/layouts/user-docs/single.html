@@ -12,21 +12,26 @@
             </li>
             <ul class="sub-menu">
                 {{ range .Children }}
+                    <!-- Second Level -->
                     {{ if .HasChildren }}
                     <li class='nav-item {{ if $currentPage.IsMenuCurrent "docside" . }}active{{ end }}'>
                         <a data-toggle="collapse" href=".sub1" aria-expanded="false" aria-controls="sub1" class="nav-link" href="{{ .URL }}">
-                            <span>{{ .Name }} +</span>
+                            <span>{{ .Name }}</span>
+                            {{ if $currentPage.HasMenuCurrent "docside" . }}
+                            <i class="open"></i>
+                            {{ else }}
+                            <i class="closed"></i>
+                            {{ end }}
                         </a>
                     </li>
-                        {{ if $currentPage.HasMenuCurrent "docside" . }}
-                        <ul class="submenu">
+                        <ul class='submenu collapse sub1 {{ if $currentPage.HasMenuCurrent "docside" . }}show{{ end }}'>
+                            <!-- Third Level -->
                             {{ range .Children }}
                             <li class='nav-item {{ if $currentPage.IsMenuCurrent "docside" . }}active{{ end }}'>
                                 <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
                             </li>
                             {{ end }}
                         </ul>
-                        {{ end }}
                     {{ else }}
                     <li class='nav-item {{ if $currentPage.IsMenuCurrent "docside" . }}active{{ end }}'>
                         <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>

@@ -27,6 +27,12 @@ aside > ul.nav ul {
 aside .nav-link {
     padding: 0px;
 }
+.open::before {
+    content: ' -';
+}
+.closed::before {
+    content: ' +';
+}
 #helpCentre aside li, #sectionTOC li {
     border-bottom: 1px solid lightgrey;
 }

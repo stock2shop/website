@@ -8,6 +8,7 @@ menu:
   docside:
     parent: Getting Started and More
     name: Generic Database
+    weight: 170
 ---
 
 ## Introduction
