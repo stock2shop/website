@@ -7,7 +7,7 @@ menu:
   docside:
     parent: ParcelNinja
     name: How To Setup Parcel Ninja for integration
-    weight: 10
+    weight: 20
 ---
 
 ## Introduction

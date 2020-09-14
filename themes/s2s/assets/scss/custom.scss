@@ -29,9 +29,11 @@ aside .nav-link {
 }
 .open::before {
     content: ' -';
+    float:right;
 }
 .closed::before {
     content: ' +';
+    float:right;
 }
 #helpCentre aside li, #sectionTOC li {
     border-bottom: 1px solid lightgrey;

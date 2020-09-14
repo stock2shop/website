@@ -18,7 +18,7 @@
                     <!-- Second Level -->
                     {{ if .HasChildren }}
                     <li class='nav-item {{ if $currentPage.IsMenuCurrent "docside" . }}active{{ end }}'>
-                        <a data-toggle="collapse" href=".sub-{{ $counter }}" aria-expanded="false" aria-controls="sub-{{ $counter }}" class="nav-link" href="{{ .URL }}">
+                        <a class="nav-link" data-toggle="collapse" href=".sub-{{ $counter }}" aria-expanded="false" aria-controls="sub-{{ $counter }}" href="{{ .URL }}">
                             <span>{{ .Name }}</span><i class="closed"></i>
                         </a>
                     </li>

@@ -8,7 +8,7 @@ toc: false
 menu:
   docside:
     parent: Key Concepts
-    name: Channels Rules
+    name: Channel Rules
 ---
 
 Channel Rules can determine which items sync to your channel / web store.
@@ -19,7 +19,7 @@ Channel rules give you the ability to determine which products are displayed on 
 
 * * *
 
-### Why are channel rules importnant?
+### Why are channel rules important?
 This is extremely useful for managing which data will be available to your relevant Site.
 For example, we can use a Rule to prevent a product from syncing to the selected channel if it does not contain any images, this prevents items showing up on your Website without an image associated.
 

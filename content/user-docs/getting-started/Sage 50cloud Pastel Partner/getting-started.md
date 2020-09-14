@@ -8,6 +8,7 @@ menu:
   docside:
     parent: Sage 50cloud Pastel Partner
     name: Getting Started
+    identifier: ab
     weight: 10
 ---
 
