@@ -1,34 +1,31 @@
-{{ $headings := findRE "<h2.*?>(.|\n])+?</h2>" .Content }}
-{{ $headings_3 := findRE "<h3.*?>(.|\n])+?</h3>" .Content }}
-{{ if ge (len $headings) 2 }}
-<div id="TableOfContents">
-    <ul>
-        {{ range $headings }}
-        <li>
-            {{ $id := findRE "id=\".*\"" . }}
-            {{ $id = index $id 0 }}
-            {{ $id = strings.TrimPrefix "id=\"" $id }}
-            {{ $id = strings.TrimSuffix "\"" $id }}
-            <a href="#{{ $id }}">
-                {{ . | htmlUnescape | plainify }}
-            </a>
+{{/* ignore empty links with + */}}
+{{- $headers := findRE "<h[2-4].*?>(.|\n])+?</h[2-4]>" .Content -}}
+{{ .Scratch.Set "last_level" 1 }}
 
-            <ul>
-                {{ range $headings_3 }}
-                <li>
-                    {{ $id := findRE "id=\".*\"" . }}
-                    {{ $id = index $id 0 }}
-                    {{ $id = strings.TrimPrefix "id=\"" $id }}
-                    {{ $id = strings.TrimSuffix "\"" $id }}
-                    <a href="#{{ $id }}">
-                        {{ . | htmlUnescape | plainify }}
-                    </a>
-                </li>
-                {{ end }}
-            </ul>
+{{/* at least one header to link to */}}
+{{- $has_headers := ge (len $headers) 1 -}}
+{{- if $has_headers -}}
+<aside class="table-of-contents">
+    {{ $counter := 1 }}
+    {{- range $headers -}}
+    {{- $header := . -}}
+    {{- $base := ($.Page.File.LogicalName) -}}
+    {{- $anchorId := ($header | plainify | htmlUnescape | anchorize) -}}
+    {{- $href := delimit (slice $base $anchorId) "#" | string -}}
+    {{- range findRE "[2-4]" . 1 -}}
 
-        </li>
-        {{ end }}
-    </ul>
-</div>
-{{ end }}
+
+        {{- $next_heading := (int .) -}}
+        {{- if gt $next_heading ($.Scratch.Get "last_level") -}}
+        <ul class="{{ if gt $next_heading 2 }}collapse{{ end }} toc-h{{ . }} sub{{ $counter }}">
+            {{- else if lt $next_heading ($.Scratch.Get "last_level") -}}
+        </ul>
+        {{- end -}}
+        <li data-toggle="collapse" href='.sub{{ add $counter 1 }}' aria-expanded="false" aria-controls="sub{{ add $counter 1 }}"><a href="{{ relref $.Page $href }}">{{- $header | plainify | htmlUnescape -}}</a></li>
+        {{ $counter = add $counter 1 }}
+        {{ $.Scratch.Set "last_level" $next_heading }}
+
+    {{- end -}}
+    {{- end -}}
+</aside>
+{{- end -}}
