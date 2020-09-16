@@ -1,10 +1,9 @@
 {{ define "main" }}
 <div class="row">
-    <aside class="col-md-3" style="position: -webkit-sticky; position: sticky;top: 0; height: 100vh; overflow:scroll;">
+    <div class="col-md-3" style="position: -webkit-sticky; position: sticky;top: 20px; height: 100vh; overflow:scroll;">
         {{ partial "toc.html" . }}
-    </aside>
+    </div>
     <div class="col-md-9">
-        <!-- TODO: Find alternative pagination to .PrevInSection .NextInSection deriving order from publish date -->
         <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
         {{ if .Params.Lead }}
         <p class="lead">{{ .Params.Lead }}</p>

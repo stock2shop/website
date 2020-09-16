@@ -14,7 +14,7 @@
 <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ end }}">
 {{- partial "head.html" . -}}
 
-  <body>
+  <body {{ if eq .Type "user-docs" }} data-spy="scroll" data-target="#list-example" data-offset="20"{{ end }}>
     {{ if or (eq .Type "user-docs") (eq .Type "help-centre") (eq .Type "developers") }}
     {{- partial "header_doc.html" . -}}
     {{ else }}
