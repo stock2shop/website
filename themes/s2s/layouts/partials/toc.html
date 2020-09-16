@@ -21,7 +21,7 @@
             {{- else if lt $next_heading ($.Scratch.Get "last_level") -}}
         </ul>
         {{- end -}}
-        <a class="nav-link" href="#{{ $anchorId }}">{{- $header | plainify | htmlUnescape -}}</a>
+    <li data-toggle="collapse" href='.sub{{ add $counter 1 }}' aria-expanded="false" aria-controls="sub{{ add $counter 1 }}"><a class="nav-link" href="#{{ $anchorId }}">{{- $header | plainify | htmlUnescape -}}</a></li>
         {{ $counter = add $counter 1 }}
         {{ $.Scratch.Set "last_level" $next_heading }}
 
