@@ -5,12 +5,17 @@ aliases: "/documentation/developers/authentication/"
 weight: 20
 ---
 
-In order to make a request to the Stock2Shop API, you need to obtain a token to include in each request.
+Stock2Shop uses a token based system for accessing our API.
+Each request sent to our API needs a valid token.
+
+Authentication is the process of providing a valid username and password to Stock2Shop and receiving a token in return.
+This token is then used on subsequent requests to our API.
+
+Tokens should be treated as ephemeral. If you are developing an application you need to automate your authentication process in the case your token becomes invalid. 
+Authenticating a user means all previous tokens for the user will be invalidated. 
 
 The endpoint to authenticate is [here](https://app.stock2shop.com/docs/#!/users/authenticateUser_post_1)
 
-You must include your valid username and password in the POST request payload.
-
-You can then explore our interactive documentation by pasting the resulting token from the above request in the “api_key” text field at the top of this page:
+You can explore our interactive documentation by pasting the resulting token from the above request in the “api_key” text field at the top of this page:
 
 [Interactive API documents](https://app.stock2shop.com/docs/)
