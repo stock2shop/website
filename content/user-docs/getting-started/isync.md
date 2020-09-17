@@ -29,17 +29,18 @@ In order to communicate with your iSync, we require the following information:
 Raising orders into iSync is a straightforward process. During the data discussion one of our Technicians will confirm how orders should be raised.
 
 ## What’s next
-
 Below is an overview outlining the next steps:
 
-1.  Data Discussion
-    *   Discuss product configuration
-    *   Discuss customer configuration
-    *   Discuss order configuration
-    *   Note: This will be scheduled by one of our technicians
-2.  Initiate Sync to Stock2Shop
-3.  Test channel integration (products / orders)
+1. Data Discussion
+    - Discuss product configuration
+    - Discuss customer configuration
+    - Discuss order configuration
+    - Prerequisite for raising orders in iSync
+2. Initiate Sync to Stock2Shop
+3. Test channel integration (products / orders)
 
-Data Discussion (**Step 1**) will be scheduled by one of our technicians
+{{< class alert alert-primary >}}
+Data Discussion **(Step 1)** will be scheduled by one of our technicians
+{{< /class >}}
 
-Any questions? [Contact us](https://www.stock2shop.com/contact-us/) – we’re happy to help.
+Any questions? [Contact us](/contact-us) – we’re happy to help.

@@ -45,18 +45,19 @@ The below must be taken into consideration to ensure we can manage information o
 For us to be able to get orders into Sage X3, you will need to ensure that the IQ API installed and setup. If you are not sure how to do this or need help, please contact your Sage X3 representative for costs and advice.
 
 ## What’s next
-
 Below is an overview outlining the next steps:
 
-1.  Install Stock2Shop Software
-2.  Interactive session / Data Discussion
-    *   Discuss product configuration
-    *   Discuss customer configuration
-    *   Discuss order configuration
-    *   Prerequisite for raising orders in Sage X3
-3.  Initiate Sync to Stock2Shop
-4.  Test channel integration (products / orders)
+1. Data Discussion
+    - Discuss product configuration
+    - Discuss customer configuration
+    - Discuss order configuration
+    - Prerequisite for raising orders in Sage X3
+2. Install Stock2Shop Software
+3. Initiate Sync to Stock2Shop
+4. Test channel integration (products / orders)
 
-The Interactive session / Data Discussion (**Step 2**) will be scheduled by one of our technicians.
+{{< class alert alert-primary >}}
+Data Discussion **(Step 1)** will be scheduled by one of our technicians
+{{< /class >}}
 
-Any questions? [Contact us](https://www.stock2shop.com/contact-us/) – we’re happy to help.
+Any questions? [Contact us](/contact-us) – we’re happy to help.

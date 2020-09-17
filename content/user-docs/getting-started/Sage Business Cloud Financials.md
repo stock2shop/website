@@ -30,8 +30,13 @@ Below is an overview outlining the next steps:
     - Discuss product configuration
     - Discuss customer configuration
     - Discuss order configuration
-2. Initiate Sync to Stock2Shop
-3. Test channel integration (products / orders)
-Data Discussion (Step 1) will be scheduled by one of our technicians
+    - Prerequisite for raising orders in Sage Business Cloud Financials
+2. Install Stock2Shop Software
+3. Initiate Sync to Stock2Shop
+4. Test channel integration (products / orders)
+
+{{< class alert alert-primary >}}
+Data Discussion **(Step 1)** will be scheduled by one of our technicians
+{{< /class >}}
 
 Any questions? [Contact us](/contact-us) – we’re happy to help.

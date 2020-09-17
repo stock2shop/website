@@ -50,10 +50,9 @@ Below is an overview outlining the next steps:
     - Discuss product configuration
     - Discuss customer configuration
     - Discuss order configuration
-    - Prerequisite for raising orders in Sage Evolution
 2. Install Stock2Shop Software
 3. Initiate Sync to Stock2Shop
-4. Test channel integration (products / orders)
+4. Test channel integration (products)
 
 {{< class alert alert-primary >}}
 Data Discussion **(Step 1)** will be scheduled by one of our technicians

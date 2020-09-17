@@ -1,5 +1,5 @@
 ---
-title: "sage 50cloud - getting started"
+title: "sage 300cloud - getting started"
 heading: "installing Stock2Shop for sage 300cloud (formerly sage accpac)"
 description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 toc: true
@@ -55,7 +55,7 @@ Below is an overview outlining the next steps:
     - Discuss product configuration
     - Discuss customer configuration
     - Discuss order configuration
-    - Prerequisite for raising orders in Sage Evolution
+    - Prerequisite for raising orders in Sage 300cloud 
 2. Install Stock2Shop Software
 3. Initiate Sync to Stock2Shop
 4. Test channel integration (products / orders)

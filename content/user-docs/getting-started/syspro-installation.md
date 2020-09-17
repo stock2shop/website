@@ -52,17 +52,17 @@ There are many other settings we can change for each order. For a complete examp
 ## What’s next
 Below is an overview outlining the next steps:
 
-1. Install Stock2Shop Software
-2. Interactive session / Data Discussion
+1. Data Discussion
     - Discuss product configuration
     - Discuss customer configuration
     - Discuss order configuration
-    - Prerequisite for raising orders in SYSPRO
+    - Prerequisite for raising orders in Syspro
+2. Install Stock2Shop Software
 3. Initiate Sync to Stock2Shop
 4. Test channel integration (products / orders)
 
 {{< class alert alert-primary >}}
-Interactive session / Data Discussion (Step 2) will be scheduled by one of our technicians
+Data Discussion **(Step 1)** will be scheduled by one of our technicians
 {{< /class >}}
 
 Any questions? [Contact us](/contact-us) – we’re happy to help.

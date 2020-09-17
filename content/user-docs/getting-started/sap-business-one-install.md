@@ -45,18 +45,19 @@ The below must be taken into consideration to ensure we can manage information o
 For processing orders from Stock2Shop back into SAP Business One, we require access to the DI-Server. Please discuss this with your SAP consultant to ensure this is setup correctly.  
 
 ## What’s next
-
 Below is an overview outlining the next steps:
 
-1.  Install Stock2Shop Software
-2.  Interactive session / Data Discussion
-    *   Discuss product configuration
-    *   Discuss customer configuration
-    *   Discuss order configuration
-    *   Prerequisite for raising orders in SAP Business One
-3.  Initiate Sync to Stock2Shop
-4.  Test channel integration (products / orders)
+1. Data Discussion
+    - Discuss product configuration
+    - Discuss customer configuration
+    - Discuss order configuration
+    - Prerequisite for raising orders in SAP Business One
+2. Install Stock2Shop Software
+3. Initiate Sync to Stock2Shop
+4. Test channel integration (products / orders)
 
-Interactive session / Data Discussion (**Step 2**) will be scheduled by one of our technicians
+{{< class alert alert-primary >}}
+Data Discussion **(Step 1)** will be scheduled by one of our technicians
+{{< /class >}}
 
-Any questions? [Contact us](https://www.stock2shop.com/contact-us/) – we’re happy to help.
+Any questions? [Contact us](/contact-us) – we’re happy to help.

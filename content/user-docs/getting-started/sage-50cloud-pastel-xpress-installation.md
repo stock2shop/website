@@ -1,5 +1,5 @@
 ---
-title: "50cloud pastel xpress - getting started"
+title: " Sage 50cloud pastel xpress - getting started"
 heading: "installing Stock2Shop for sage 50cloud pastel xpress (formerly sage pastel partner xpress)"
 description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 aliases: "/documentation/getting-started/sage-50cloud-pastel-xpress-installation/"
@@ -46,7 +46,6 @@ If you require Stock2Shop to insert sales orders or invoices into Sage 50cloud P
 Once this is done you should see the module available in your Sage 50cloud Pastel Xpress by viewing “help > about”.
 
 ## What’s next
-
 Below is an overview outlining the next steps:
 
 1. Data Discussion
@@ -62,4 +61,4 @@ Below is an overview outlining the next steps:
 Data Discussion **(Step 1)** will be scheduled by one of our technicians
 {{< /class >}}
 
-Any questions? Contact us – we’re happy to help.
+Any questions? [Contact us](/contact-us) – we’re happy to help.

@@ -56,7 +56,7 @@ Below is an overview outlining the next steps:
     - Prerequisite for raising orders in Sage 50cloud Pastel Partner
 2. Install Stock2Shop Software
 3. Initiate Sync to Stock2Shop
-4. est channel integration (products / orders)
+4. Test channel integration (products / orders)
 
 {{< class alert alert-primary >}}
 Data Discussion **(Step 1)** will be scheduled by one of our technicians

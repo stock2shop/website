@@ -39,6 +39,7 @@ Below is an overview outlining the next steps:
     - Discuss product configuration
     - Discuss customer configuration
     - Discuss order configuration
+    - Prerequisite for raising orders in Dolfin
 2. Initiate Sync to Stock2Shop
 3. Test channel integration (products / orders)
 

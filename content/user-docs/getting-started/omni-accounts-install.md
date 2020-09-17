@@ -57,18 +57,19 @@ If you require Stock2Shop to insert sales orders or invoices into Omni Accounts,
 *   Step 2: Do not close rest service, just minimise:
 
 ## What’s next
-
 Below is an overview outlining the next steps:
 
-1.  Data Discussion
-    *   Discuss product configuration
-    *   Discuss customer configuration
-    *   Discuss order configuration
-    *   Prerequisite for raising orders in Omni Accounts
-2.  Install Stock2Shop Software
-3.  Initiate Sync to Stock2Shop
-4.  Test channel integration (products / orders)
+1. Data Discussion
+    - Discuss product configuration
+    - Discuss customer configuration
+    - Discuss order configuration
+    - Prerequisite for raising orders in Omni Accounts
+2. Install Stock2Shop Software
+3. Initiate Sync to Stock2Shop
+4. Test channel integration (products / orders)
 
-Data Discussion (**Step 1**) will be scheduled by one of our technicians
+{{< class alert alert-primary >}}
+Data Discussion **(Step 1)** will be scheduled by one of our technicians
+{{< /class >}}
 
-Any questions? [Contact us](https://www.stock2shop.com/contact-us/) – we’re happy to help.
+Any questions? [Contact us](/contact-us) – we’re happy to help.
