@@ -11,7 +11,6 @@ enableRobotsTXT = true
   integrations = "/integrations/:filename/"
 [taxonomies]
   tag = "tags"
-  category = "categories"
   source = "sources"
   channel = "channels"
   fulfillment = "fulfillments"
