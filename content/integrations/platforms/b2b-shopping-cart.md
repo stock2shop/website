@@ -13,4 +13,3 @@ weight: 4
 categories: ["channel"]
 ---
 
-{{< b2bcart >}}

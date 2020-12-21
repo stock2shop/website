@@ -1,33 +1,17 @@
 <header>
-    <div id="preHeader">
-        <nav class="container nav">
-            <a class="nav-link" style="padding:.5rem .5rem .5rem 0" href="/contact-us">Contact Us</a>
-            <a class="nav-link" href="/glossary">Glossary</a>
-            <a class="nav-link" href="/about-us">About Us</a>
-            <div class="ml-auto row">
-                <a href="tel:27218135866" class="nav-link" style="color:#b0b0b0">+27 21 813 5866</a>
-                <a style="height: 27px; padding: 2px 8px;margin: 6px 16px 0 0;" href="https://console.stock2shop.com/console/" class="btn btn-sm btn-secondary nav-link">LOGIN</a>
-            </div>
-        </nav>
+    <div class="container">
+        <ul class="">
+            <li><a href="/" Title="Features">Home</a></li>
+            <li><a href="/features" Title="Features">Features</a></li>
+            <li><a href="/solutions" Title="Solutions">Solutions</a></li>
+            <li><a href="/integrations" Title="Integrations">Integrations</a></li>
+            <li><a href="/b2b-shopping-cart" Title="B2B Shopping Cart">B2B Shopping Cart</a></li>
+            <li><a href="/help" Title="Help center">Help Center</a></li>
+            <li><a href="/articles" Title="Articles">Articles</a></li>
+            <li><a href="/case-studies" Title="Success Stories">Success Stories</a></li>
+            <li><a href="/contact-us" Title="Contact Us">Contact Us</a></li>
+            <li><a href="/about-us" Title="About Us">About Us</a></li>
+        </ul>
     </div>
-    <nav class="navbar navbar-light navbar-expand-md border-bottom">
-        <div class="container">
-            <a class="navbar-brand" href="/"><img src="/uploads/logo-stock2shop.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    {{ range .Site.Menus.main }}
-                    <li class="nav-link">
-                        <a href="{{ .URL }}">
-                            {{ title .Name }}
-                        </a>
-                    </li>
-                    {{ end }}
-                    <a href="/#s2s_video_anchor" class="btn btn-danger ml-2">How it works</a>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <hr>
 </header>

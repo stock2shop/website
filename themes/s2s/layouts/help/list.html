@@ -17,7 +17,7 @@
         <h3>How To's By ERP</h3>
         <ul >
             {{ with ($.Site.GetPage ("sources")) }}
-                {{ range where .Pages "type" "test"}}
+                {{ range .Pages}}
                     <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
                 {{ end }}
             {{ end }}

@@ -2,8 +2,8 @@
 title: "Order Amount Does Not Match Payment Amount"
 sources : ["sage one", "sage 200"]
 channels : ["b2b"]
-type: "test"
-date: 2020-12-18T13:57:17+02:00
+fulfillments : []
+
 ---
 
 ## Queue Error Description

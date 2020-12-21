@@ -1,7 +1,9 @@
 ---
 title: "About Stock2Shop"
 description: "Some background information about Stock2Shop, a robust inventory management solution that helps clients across the globe streamline their business. Who we are, what we've done and where we're going: all you need to know about Stock2Shop's core team."
+menu: main
 lead: "Who we are, what we’ve done and where we’re going: all you need to know about Stock2Shop’s core team."
+
 ---
 
 Stock2Shop is based in Cape Town, South Africa – the heart of Africa’s vibrant e-commerce development community.
