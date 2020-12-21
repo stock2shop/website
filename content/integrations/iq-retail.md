@@ -3,7 +3,7 @@ title: "iq retail integration"
 titleList: IQ retail
 summary: "IQ Retail gives you business accounting and management solutions designed to work in a retail, distributive and hospitality environment."
 lead: "Here’s how IQ Retail works with your applications to streamline your workflow."
-type: platform
+type: source
 image: "/uploads/logo-platform-iq-retail.png"
 imageAlt: iq retail
 weight: 16

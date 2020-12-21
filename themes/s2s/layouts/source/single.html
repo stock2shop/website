@@ -1,14 +1,47 @@
 {{ define "main" }}
-<h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
+{{$sourceTitle := .Title}}
+<h1>{{ title .Title }} Integration</h1>
 <p class="lead">{{ .Params.Lead }}</p>
-<hr>
 
-<h3>ERPs</h3>
+{{ .Content }}
+
+<h3>Available integrations for {{ .Title }}</h3>
+
 <div class="row">
-    {{ range where .Site.Pages "Type" "source" }}
+    {{ range where .Site.Pages "Type" "channel" }}
     <div class="col ">
         <div class="card" style="width: 18rem;">
-            <a href="{{ .Permalink }}" title="{{ title .Title }} integration">
+            <a href="{{ .Permalink }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
+                <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">{{ title .Title }}</h5>
+                <p class="card-text">
+                    {{ .Summary }}
+                </p>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+    {{ range where .Site.Pages "Type" "fulfillment" }}
+    <div class="col ">
+        <div class="card" style="width: 18rem;">
+            <a href="{{ .Permalink }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
+                <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title">{{ title .Title }}</h5>
+                <p class="card-text">
+                    {{ .Summary }}
+                </p>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+    {{ range where .Site.Pages "Type" "marketplace" }}
+    <div class="col ">
+        <div class="card" style="width: 18rem;">
+            <a href="{{ .Permalink }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
                 <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
             </a>
             <div class="card-body">
@@ -21,57 +54,5 @@
     </div>
     {{ end }}
 </div>
-<h3>Channels</h3>
-<div class="row">
-    {{ range where .Site.Pages "Type" "channel" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
-<h3>Fulfillment Services</h3>
-<div class="row">
-    {{ range where .Site.Pages "Type" "fulfillment" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
-<h3>Market Places</h3>
-<div class="row">
-    {{ range where .Site.Pages "Type" "marketplace" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-</div>
+
 {{ end }}
-
-

@@ -5,8 +5,7 @@ summary: "A powerful open-source e-commerce platform with B2B features scaled fo
 lead: "Streamline your workflow by integrating Magento with your applications."
 image: "/uploads/logo-platform-magento.png"
 imageAlt: magento logo
-weight: 2
-categories: ["channel"]
+type: "channel"
 ---
 
 ## ERP / Accounting Systems:

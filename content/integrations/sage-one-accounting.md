@@ -3,7 +3,7 @@ title: "sage business cloud accounting (formerly sage one)"
 titleList: sage business cloud accounting
 summary: "Formerly Sage One: Simple and secure online accounting software"
 lead: "Here’s how Sage Business Cloud Accounting (formerly Sage One) works with your applications to dramatically improve your workflow."
-type: platform
+type: source
 image: "/uploads/logo-platform-sage-business-cloud-accounting.png"
 imageAlt: sage business cloud accounting logo
 weight: 5

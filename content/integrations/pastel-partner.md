@@ -3,7 +3,7 @@ title: "sage 50cloud pastel partner (formerly sage pastel partner) integration"
 titleList: sage 50cloud pastel partner
 summary: "Formerly Sage Pastel Partner: This tried and tested accounting software includes direct bank feeds and many useful cloud features to help you boost productivity."
 lead: "Here’s how Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) works with your applications to streamline your workflow and simplify your business."
-type: platform
+type: source
 image: "/uploads/logo-platform-sage-50cloud-pastel-partner.png"
 imageAlt: pastel partner logo
 weight: 8

@@ -9,7 +9,6 @@ menu:
 image: "/uploads/logo-platform-s2s.png"
 imageAlt: Stock2Shop logo
 aliases: "/b2b-shopping-cart/"
-weight: 4
-categories: ["channel"]
+type: "channel"
 ---
 

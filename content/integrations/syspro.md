@@ -3,7 +3,7 @@ title: "syspro integration"
 titleList: syspro
 summary: "SYSPRO is an independent ERP provider, taking a simplified approach to ensuring success for manufacturers and distributors."
 lead: "Here’s how to integrate SYSPRO with your applications for a streamlined workflow."
-type: platform
+type: source
 image: "/uploads/logo-platform-syspro.png"
 imageAlt: syspro logo
 weight: 14

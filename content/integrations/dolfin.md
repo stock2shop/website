@@ -1,31 +1,16 @@
 ---
-title: "dolfin integration"
-titleList: dolfin
+title: "Dolfin"
 summary: "Dolfin Point of Sale and Merchandising presents a customisable ERP solution to meet Fashion, Apparel and General Merchandise retailer’s needs."
 lead: "Here’s how Dolfin works with your applications to streamline your workflow."
-type: platform
+type: source
 image: "/uploads/logo-platform-dolfin.png"
-imageAlt: dolfin logo
-aliases: "/integrations/dolfin-integration/"
-weight: 18
-categories: ["erp"]
+imageAlt: Dolfin logo
 ---
 
-## E-commerce websites
+## TODO description of Dolfin
+## TODO overview of integrations
+## TODO links to getting started and requirements docs
 
-{{< thumbnail src="/uploads/logo-platform-s2s.png" link="/integrations/b2b-shopping-cart" alt="stock2shop logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-shopify.png" link="/integrations/shopify" alt="shopify logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-magento.png" link="/integrations/magento" alt="magento logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-woocommerce.png" link="/integrations/woocommerce" alt="woocommerce logo" style="display:inline">}}
-
-### Find out more about Dolfin Integration:
-
-- [Dolfin Shopify Integration](/integrations/Dolfin-shopify-integration/ "Dolfin Shopify Integration")
-- [Dolfin Magento Integration](/integrations/Dolfin-magento-integration/ "Dolfin Magento Integration")
-- [Dolfin WooCommerce Integration](/integrations/Dolfin-woocommerce-integration/ "Dolfin WooCommerce Integration")
-- [Dolfin B2B Trade Store Integration]( /integrations/Dolfin-b2b-trade-store-integration/ "Dolfin B2B Trade Store Integration")
-
----
 
 ## Once you’ve integrated Dolfin and your e-commerce website, you’ll be able to:
 

@@ -5,8 +5,7 @@ summary: "Start selling today with a purpose-built and fast growing e-commerce p
 lead: "Integrate Shopify with your applications and see how streamlined your workflow becomes."
 image: "/uploads/logo-platform-shopify.png"
 imageAlt: shopify logo
-weight: 1
-categories: ["channel"]
+type: "channel"
 ---
 
 ## ERP / Accounting Systems:

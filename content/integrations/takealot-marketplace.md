@@ -8,8 +8,7 @@ type: platform
 image: "/uploads/logo-platform-takealot.png"
 imageAlt: takealot logo
 aliases: "/integrations/takealot-marketplace-integration/"
-weight: 20
-categories: ["marketplace"]
+type: "marketplace"
 ---
 
 ## How the Takealot Marketplace Integration works:

@@ -5,8 +5,7 @@ summary: "Run your e-commerce business from anywhere with ParcelNinja’s scalab
 type: platform
 image: "/uploads/logo-fulfillment-parcelninja.png"
 imageAlt: parcelninja logo
-weight: 19
-categories: ["fulfillment"]
+type: "fulfillment"
 ---
 
 ## What is ParcelNinja?

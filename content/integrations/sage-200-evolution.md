@@ -3,7 +3,7 @@ title: "sage 200 evolution (formerly sage evolution premium)"
 titleList: sage 200 evolution
 summary: "Formerly Sage Evolution Premium: Get back to basics with smart, cost-effective software for big businesses."
 lead: "Here’s how to integrate Sage 200 Evolution with your applications for a streamlined workflow."
-type: platform
+type: source
 image: "/uploads/logo-platform-sage-200-evolution.png"
 imageAlt: sage 200 evolution logo
 aliases: "/integrations/sage-200-evolution-formerly-sage-evolution-premium/"
