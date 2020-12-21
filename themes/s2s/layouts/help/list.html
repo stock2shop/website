@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="row" id="helpCentre">
+    <div class="col-md-12">
+        <h2>{{ .Title }}</h2>
+            <p class="lead">{{ .Params.Lead }}</p>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <input class="form-control form-control-lg" placeholder="Search Documentation">
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h3>How To's By ERP</h3>
+        <ul >
+            {{ with ($.Site.GetPage ("sources")) }}
+                {{ range where .Pages "type" "test"}}
+                    <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}

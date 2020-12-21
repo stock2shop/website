@@ -12,4 +12,6 @@ enableRobotsTXT = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-  errorgroup = "errorgroup"
+  source = "sources"
+  channel = "channels"
+  fulfillment = "fulfillments"
