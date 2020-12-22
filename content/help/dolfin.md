@@ -1,14 +1,15 @@
 ---
 title: "Sage Business Cloud Accounting"
 type: help
-sources: ["sage-one"]
+sources: ["dolfin"]
 ---
 
-Sage Business Cloud Accounting (formerly Sage One) is an online accounting system. 
-This means the application lives in the “cloud”. Enabling Stock2Shop to work with Sage Business Cloud Accounting is relatively simple. 
-In order for Stock2Shop to provide you with the full integration features and link your Sage Business Cloud Accounting system to other sales channels and fulfilment services such as 
-Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, we need access to your Sage Business Cloud Accounting account.
-Below is all documentation you will need regarding your Sage Business Cloud Accounting integration from start to finish.
+Dolfin is an online accounting system. This means the application lives in the “cloud”. 
+Enabling Stock2Shop to work with Dolfin is relatively simple. In order for Stock2Shop to provide you 
+with the full integration features and link your Dolfin system to other sales channels and fulfilment 
+services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, 
+we need access to your Dolfin.
+Below is all documentation you will need regarding your Dolfin integration from start to finish.
 
 ## Before We integrate
 ***
@@ -24,12 +25,15 @@ Below is an overview outlining the process of integration and on boarding:
 4. Handover and Training
 
 ### What we need from you
-In order to communicate with your Sage Business Cloud Accounting, we require the following information:
+In order to communicate with your Dolfin accounting system, we require the following information:
 
-- Sage Business Cloud Accounting Username
-- Sage Business Cloud Accounting Password
+- Product Request URL
+- Order Request URL
+- Company ID
+- Username
+- Password
 
-Raising orders into Sage Business Cloud Accounting is a straightforward process. 
+Raising orders into Dolfin is a straightforward process. 
 During the data discussion one of our Technicians will confirm how orders should be raised.
 
 ### Important concepts 
@@ -57,12 +61,12 @@ We now need to confirm that it works as expected when syncing products and raisi
 ***
 
 ### Features
-list all or link to features possible with Sage Business Cloud Accounting
+list all or link to features possible with Dolfin
 
 ### How to's
-list all or link to features possible with Sage Business Cloud Accounting
+list all or link to features possible with Dolfin
 
 ### Queue errors
-list all or link to queue errors possible with Sage Business Cloud Accounting
+list all or link to queue errors possible with Dolfin
 
 
