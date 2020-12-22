@@ -13,62 +13,47 @@
     </div>
 </div>
 <div class="row">
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Getting Started</h5>
-                <p class="card-text">
-                   some text here
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col ">
+    <div class="col">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Manage and configure</h5>
                 <p class="card-text">
-                    some text here
+                    Learn how Stock2Shop works and how it can be configured
                 </p>
             </div>
         </div>
     </div>
-    <div class="col ">
+    <div class="col">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">troubleshooting</h5>
+                <h5 class="card-title">Troubleshooting</h5>
                 <p class="card-text">
-                    some text here
+                    The place to go if you need help or are stuck
                 </p>
             </div>
         </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-md-6">
-        <h3>How To's By ERP</h3>
-        <ul >
-            {{ with ($.Site.GetPage ("sources")) }}
-                {{ range .Pages}}
-                    <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
-                {{ end }}
-            {{ end }}
-        </ul>
-    </div>
-    <div class="col-md-6">
-        <h3>Troubleshooting By ERP</h3>
-        <ul >
-            {{ with ($.Site.GetPage ("sources")) }}
-            {{ range .Pages}}
-            <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
-            {{ end }}
-            {{ end }}
-        </ul>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Developer Docs</h5>
+                <p class="card-text">
+                    Guides and documentation for developers to get started
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 <div class="row">
     <div class="col-md-12">
-        Link to dev docs
+        <hr>
+        <h4>Installation and Setup guides</h4>
+        <ul>
+            {{ range $key, $taxonomy := .Site.Taxonomies.sources }}
+            <li ><a href="/help/{{ $key| urlize }}">{{ $key }}</a></li>
+            {{ end }}
+        </ul>
     </div>
 </div>
+
 {{ end }}
