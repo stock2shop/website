@@ -5,6 +5,16 @@
 
 <h1>TODO: workflows for source-channel's</h1>
 
+<div class="row">
+    <ul>
+
+    {{ range where .Site.Pages "Type" "workflow" }}
+        <li><a href="{{.Permalink}}"> {{ title .Title }}</a></li>
+    {{ end }}
+    </ul>
+</div>
+
+
 {{ .Content }}
 
 
