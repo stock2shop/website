@@ -1,5 +1,5 @@
 ---
-title: "ParcelNinja integration"
+title: "parcelninja"
 titleList: ParcelNinja
 summary: "Run your e-commerce business from anywhere with ParcelNinja’s scalable, outsourced warehousing and fulfillment solution."
 type: platform

@@ -1,5 +1,5 @@
 ---
-title: "Dolfin"
+title: "dolfin"
 summary: "Dolfin Point of Sale and Merchandising presents a customisable ERP solution to meet Fashion, Apparel and General Merchandise retailer’s needs."
 lead: "Here’s how Dolfin works with your applications to streamline your workflow."
 type: source

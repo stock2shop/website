@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{$sourceTitle := .Title}}
+{{$channelTitle := .Title}}
 <h1>{{ title .Title }} Integration</h1>
 <p class="lead">{{ .Params.Lead }}</p>
 
@@ -8,10 +8,10 @@
 <h3>Available integrations for {{ .Title }}</h3>
 
 <div class="row">
-    {{ range where .Site.Pages "Type" "channel" }}
+    {{ range where .Site.Pages "Type" "source" }}
     <div class="col ">
         <div class="card" style="width: 18rem;">
-            <a href="/integrations/{{$sourceTitle | urlize}}-{{ .Title | urlize }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
+            <a href="/integrations/{{.Title | urlize}}-{{ $channelTitle | urlize }}" title="Integrate {{ .Title }} with {{ $channelTitle }}">
                 <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
             </a>
             <div class="card-body">
@@ -26,22 +26,7 @@
     {{ range where .Site.Pages "Type" "fulfillment" }}
     <div class="col ">
         <div class="card" style="width: 18rem;">
-            <a href="/integrations/{{$sourceTitle | urlize}}-{{ .Title | urlize }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
-                <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">{{ title .Title }}</h5>
-                <p class="card-text">
-                    {{ .Summary }}
-                </p>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-    {{ range where .Site.Pages "Type" "marketplace" }}
-    <div class="col ">
-        <div class="card" style="width: 18rem;">
-            <a href="/integrations/{{$sourceTitle | urlize}}-{{ .Title | urlize }}" title="Integrate {{ $sourceTitle }} with {{ .Title }}">
+            <a href="/integrations/{{.Title | urlize}}-{{ $channelTitle | urlize }}" title="Integrate {{ .Title }} with {{ $channelTitle }}">
                 <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Params.imageAlt }}">
             </a>
             <div class="card-body">

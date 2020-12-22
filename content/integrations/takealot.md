@@ -1,10 +1,10 @@
 ---
-title: "integrate takealot marketplace with your erp"
+title: "takealot"
 heading: takealot marketplace
 titleList: takealot marketplace
 summary: "Automatically update your important product information such as pricing, stock levels and delivery lead times on the Takealot marketplace."
 lead: "Our Takealot marketplace integration is the only automation of its kind, giving you the ability to manage your products’ price, recommended retail price, lead time and stock availability all from your ERP/accounting system. This ensures you’ll never miss out on sales opportunities or sell a product at the incorrect price."
-type: platform
+type: marketplace
 image: "/uploads/logo-platform-takealot.png"
 imageAlt: takealot logo
 aliases: "/integrations/takealot-marketplace-integration/"
