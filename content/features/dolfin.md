@@ -27,8 +27,9 @@ sync_mode
 
 
 <!-- create_order_enabled -->
-### Process Orders to Dolfin from your website via Stock2Shop
-Raise Orders into Dolfin automatically when placed on your webstore with a 'Paid' status.
+### Process Orders from your Webstore
+Raise Orders into Dolfin automatically when placed on your Webstore when the Order has a 'Paid' status applied.
+We can process ALL Orders if needed, but by default if they are 
 
 <!-- order_source_customer_code_map -->
 ### Raise Orders against Customers in Dolfin
@@ -45,4 +46,5 @@ applied to each Order when sending to Dolfin if Shipping applies.
 ### Sync specific Product data 
 All Product data sent from Dolfin can be filtered as needed.
 We might not require a certain amount of details to be sent through with the needed Product data.
-In these cases, we can synchronize only the required data into Stock2Shop to them push up to your Webstore.
+In these cases, we can synchronize only the required data into Stock2Shop to then push up to your Webstore.
+
