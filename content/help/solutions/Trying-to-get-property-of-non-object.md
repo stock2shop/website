@@ -28,9 +28,6 @@ Confirm the source of this error:
 
 
 1. Reset the product in S2S: Products >View > Search > 3 dots > Edit > CHANNELS tab > Click REMOVE ALL on channel that needs resetting > Click Save on GENERAL and VARIANTS tab 
-
 2. This will prompt S2S to scan the website database for a matching sku to establish new links to update against.
-
 3. You will need to skip the "Trying to get property of non-object and skip any further updates for this specific product if they were already in the queue (It can be multiple skus depending on the skus connected to the product).
-
 4. A new "Add" to Shopify queue item will appear at the back of the queue to re add the product to the website.
