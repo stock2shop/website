@@ -1,8 +1,7 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-    {{ range where .Site.RegularPages "Type" "solution" }}
-        <h3>{{ .Title }}</h3>
-        <i>{{ .Content }}</i>
-    {{ end }}
+{{ range $key, $taxonomy := .Site.Taxonomies.sources }}
+<li ><a href="/help/solutions/{{ $key| urlize }}">{{ $key }}</a></li>
+{{ end }}
 {{ end }}

@@ -46,7 +46,7 @@
     <div class="col">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Developer Docs</h5>
+                <h5 class="card-title"><a href="/help/api">Developer Docs</a></h5>
                 <p class="card-text">
                     Guides and documentation for developers to get started
                 </p>
@@ -55,7 +55,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <hr>
         <h4>Getting Started</h4>
         <ul>
@@ -64,21 +64,12 @@
             {{ end }}
         </ul>
     </div>
-    <div class="col-md-4">
-        <hr>
-        <h4>How It Works</h4>
-        <ul>
-            {{ range $key, $taxonomy := .Site.Taxonomies.sources }}
-            <li ><a href="/solutions/{{ $key| urlize }}">{{ $key }}</a></li>
-            {{ end }}
-        </ul>
-    </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
         <hr>
         <h4>Trouble Shooting</h4>
         <ul>
             {{ range $key, $taxonomy := .Site.Taxonomies.sources }}
-            <li ><a href="/solutions/{{ $key| urlize }}">{{ $key }}</a></li>
+            <li ><a href="/help/solutions/{{ $key| urlize }}">{{ $key }}</a></li>
             {{ end }}
         </ul>
     </div>

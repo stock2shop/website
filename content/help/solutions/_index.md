@@ -1,5 +1,5 @@
 ---
-title: All Solutions
+title: Solutions
 type: "solution"
 ---
 
