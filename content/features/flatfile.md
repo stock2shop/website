@@ -43,7 +43,6 @@ This can be set for which ever minute on the hour best suits your workflow.
 ### Process Orders from Webstore
 If you are using an FTP server to Host your Spreadsheet field, we can setup your integation to process Orders to your FTP server.
 
-
 <!-- get_images_enabled -->
 ### Title here
 Text Body here
@@ -60,7 +59,6 @@ We will be able to Integrate with the following Protocols:
 - FTP (Hosted Spreadsheet files)
 - URL (Google Sheets)
 - SFTP (SSH FTP)
-
 
 <!-- flatfile_format -->
 ### Supported File Types
