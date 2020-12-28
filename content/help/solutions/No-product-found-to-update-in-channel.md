@@ -9,43 +9,18 @@ date: 2020-12-28T15:22:59+02:00
 ---
 
 #### Error description
-paragraph on the error / issue that is currently taking place.
-
-#### Error solution
-paragraph or list on how to resolve the error
-
-
-
-
-
-
-
-## 1. What does the queue error mean
-
-**Instruction**: "update_product"   
-**Message**: No product found to update in channel   
-**The Important Bits**: No product found to update  
-
-This means the product is trying to update the website but the product is not found on the website or Stock2Shop does not have the links to the product on the website. The Product would need a channel product code and a channel variant code to be able to update the product. The product would also need to exist on the website.
+When the system is trying to update a product on the website, the product is not found.  Stock2Shop does not have the correct channel links to the product on the website. The system needs a channel product code and a channel variant code to be able to update the product. The product would also need to exist on the website.
 
 ![queue errors no product found to update in channel](/uploads/queue-errors-no-product-found-to-update-in-channel-1.png)
 ![queue errors no product found to update in channel](/uploads/queue-errors-no-product-found-to-update-in-channel-2.png)
 
 Note: This example makes use of two channels, therefore each product and its variants, will have multiple Channel product codes and channel variant codes.
 
-## 2. What issue(s) does the queue error cause
-
-This is a blocking queue error meaning, no data will update to the website until the error is resolved.
-
-## 3. How to confirm the source of the queue error
-
-Go to: S2S Console > Queue > View > Find queue error > View Item
-
-## 4. How to resolve it
+#### Error solution
 
 You will need to resend the product to the website by either creating the product again or auto-linking the product to a product that is already on the website.
 
-### 4.1 Removing the product off your website and re-adding it from Stock2Shop
+##### Removing the product off your website and re-adding it from Stock2Shop
 
 Specific channel instructions:
 
@@ -58,7 +33,7 @@ Specific channel instructions:
 5. Save on the General Tab
 6. Skip any and all updates (failed) to do with the product that was already in the queue. A new 'ADD' to Shopify queue item will be added at the back of the queue.
 
-### 4.2 You don't want to remove the product from the website but need to relink the product from Stock2Shop
+##### You don't want to remove the product from the website but need to relink the product from Stock2Shop
 
 Specific channel instructions: 
 
@@ -74,6 +49,6 @@ Specific channel instructions:
 8. Skip any and all updates (failed) to do with the product that was already in the queue. A new 'ADD' to Magento queue item will be added at the back of the queue.
 9. Login to Stock2Shop > Settings > Manage channels > <Client Name> Magento > 3 dots  > edit > Change auto_sync back to false and save
 
-## 5. Dealing with queue errors
+###### Dealing with queue errors
 
 Once updated and saved the product(s) in question, you will need to skip all the 'update' failed queue errors to do with the product that was fixed, as there could have been old updates already in the queue that will all fail. You will need to skip them if that's the case as a new 'ADD' to channel queue items will be added to the back of the queue which will re-add and link the product with your website.
