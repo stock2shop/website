@@ -17,4 +17,4 @@ This error is caused by a mismatch between the warehouse used for the Shopify ch
 
 Check that the SKU is in the warehouse assigned to the Shopify Channel
 
-{{/* Instruction: add variant, update variant */}}
+ <!-- Instruction: add variant, update variant -->
