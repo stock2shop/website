@@ -1,40 +1,33 @@
 ---
 title: "Invalid Product"
-heading: ""
-description: ""
-errorgroup: Shopify
-tags: 
-  - Shopify
-  - Queue Error
+type: "solution"
+sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
+channels: ["shopify"]
+fulfillments: []
 draft: true
+date: 2020-12-28T13:30:59+02:00
 ---
 
-## What does the queue error mean
+#### Error description
 
-This queue error occurs on any instruction ie: add_product | add_variant | add_image | update_product | update_variant
 
-What this means is that the product on Shopify is broken and cannot be saved, therefore when S2S tries to run an instruction on the product it blocks the queue with the Invalid Product error.  
+The "Invalid Prodcuct" error occurs on any instruction ie: add_product | add_variant | add_image | update_product | update_variant
 
-## What issue(s) does the queue error cause
+#### Error solution
+The product on Shopify is broken and cannot be saved, therefore when S2S tries to run an instruction on the product it blocks the queue with the Invalid Product error. 
 
-This error is a [queue blocking](/documentation/key-concepts/queue/) error, until the error is resolved then the queue will remain blocked, no products will be created or updated while the queue is blocked
-
-## How to confirm the source of the queue error
-
-To confirm if the error is in fact an invalid product error follow the below steps:
+##### How to confirm the product is fact an invalid product
 
 1. Click on the three dots of the queue error > view product
 2. Copy the sku that is blocking the queue
-3. Open your Shopify backend and search for the copied sku
-4. Make a small change to the product and click SAVE 
+3. Open your Shopify backend and search for the copied sku and confirm the SKU exists
+4. Make a small change to the product in the console and click SAVE 
 
 If the product saves then please let S2S support know that this is the case and provide them with logins to the site for them to investigate further.
 
 If the product does not save and displays an error, follow the below to resolve the error.
 
-## How to resolve the queue error
-
-Once you have confirmed that this is in fact an Invalid Product error, follow the below steps:
+##### How to resolve an Invalid product
 
 1. Delete the product from Shopify
 2. If your workflow is to first create the product on Shopify then create the product again (If S2S creates the product's for you then skip this step)
@@ -47,4 +40,5 @@ Once you have confirmed that this is in fact an Invalid Product error, follow th
 
 The product should now be in the queue to be created/updated, this will however be added to the bottom of the queue, wait until the queue has completed all items and you can then check if the product has been updated on the website.
 
-Note that if there were already updates in the queue for that product they may fail and you should skip those product updates until the new "Add" queue item is issued for the product.
+Note: If there were already updates in the queue for that product they may fail and you should skip those product updates until the new "Add" queue item is issued for the product.
+
