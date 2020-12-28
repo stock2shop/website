@@ -1,14 +1,24 @@
 ---
 title: "update_product: No product found to update in channel"
-heading: ""
-description: ""
-errorgroup: Shopify
-tags: 
-  - Shopify
-  - Queue Error
-  - update_product
+ype: "solution"
+sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
+channels: ["shopify"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
+date: 2020-12-28T15:22:59+02:00
 ---
+
+#### Error description
+paragraph on the error / issue that is currently taking place.
+
+#### Error solution
+paragraph or list on how to resolve the error
+
+
+
+
+
+
 
 ## 1. What does the queue error mean
 
