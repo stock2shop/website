@@ -1,7 +1,7 @@
 ---
 title: "Sage Business Cloud Accounting"
 type: help
-sources: ["sage-one"]
+source: "sage-one"
 ---
 
 Sage Business Cloud Accounting (formerly Sage One) is an online accounting system. 

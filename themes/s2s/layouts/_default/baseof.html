@@ -13,17 +13,13 @@
 </title>
 <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ end }}">
 {{- partial "head.html" . -}}
-
   <body>
-    {{ if or (eq .Type "user-docs") (eq .Type "help-centre") (eq .Type "developers") }}
-    {{- partial "header_doc.html" . -}}
-    {{ else }}
-    {{- partial "header.html" . -}}
-    {{ end }}
-    <main class="container pt-5 pb-5">
+    <div class="container">
+      {{- partial "header.html" . -}}
+      {{ partial "breadcrumb.html" . }}
       {{ block "main" . }}{{ end }}
-    </main>
-    {{- partial "footer.html" . -}}
-    {{- partial "foot.html" . -}}
+      {{- partial "footer.html" . -}}
+      {{- partial "foot.html" . -}}
+    </div>
   </body>
 </html>

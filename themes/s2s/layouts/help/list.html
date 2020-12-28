@@ -16,7 +16,7 @@
     <div class="col">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Manage and configure</h5>
+                <h5 class="card-title"><a href="#">Manage and configure</a></h5>
                 <p class="card-text">
                     Learn how Stock2Shop works and how it can be configured
                 </p>
@@ -26,9 +26,19 @@
     <div class="col">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Troubleshooting</h5>
+                <h5 class="card-title"><a href="/help/solutions">Troubleshooting</a></h5>
                 <p class="card-text">
                     The place to go if you need help or are stuck
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title"><a href="/help/how-to">How It Works</a></h5>
+                <p class="card-text">
+                    Learn about key concepts
                 </p>
             </div>
         </div>
@@ -45,12 +55,30 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-4">
         <hr>
-        <h4>Installation and Setup guides</h4>
+        <h4>Getting Started</h4>
         <ul>
             {{ range $key, $taxonomy := .Site.Taxonomies.sources }}
             <li ><a href="/help/{{ $key| urlize }}">{{ $key }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <hr>
+        <h4>How It Works</h4>
+        <ul>
+            {{ range $key, $taxonomy := .Site.Taxonomies.sources }}
+            <li ><a href="/solutions/{{ $key| urlize }}">{{ $key }}</a></li>
+            {{ end }}
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <hr>
+        <h4>Trouble Shooting</h4>
+        <ul>
+            {{ range $key, $taxonomy := .Site.Taxonomies.sources }}
+            <li ><a href="/solutions/{{ $key| urlize }}">{{ $key }}</a></li>
             {{ end }}
         </ul>
     </div>

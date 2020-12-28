@@ -1,7 +1,7 @@
 ---
-title: "Sage Business Cloud Accounting"
+title: "Dolfin"
 type: help
-sources: ["dolfin"]
+source: "dolfin"
 ---
 
 Dolfin is an online accounting system. This means the application lives in the “cloud”. 

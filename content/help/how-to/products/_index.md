@@ -1,5 +1,5 @@
 ---
-title: How To
+title: Products & Variants
 type: how-to
 ---
 
@@ -8,10 +8,17 @@ type: how-to
  
 ### managing products
 There are various ways to get products into..... etc etc
-If you need to [bulk import](/help/how-to/products-import/ "importing products into Stock2Shop")
+If you need to [bulk import](/help/how-to/products/import "importing products into Stock2Shop")
 
 ### enriching product
 and so on...
+ 
+
+Import
+Add
+Edit 
+etc
+
 
 
     

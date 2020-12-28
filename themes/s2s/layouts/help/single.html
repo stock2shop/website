@@ -1,4 +1,14 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
+
+<ul>
+    {{ $q1 := where .Site.Pages "Type" "solution" }}
+    {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}
+    {{ range $q1 | intersect $q2 }}
+    <li>
+        <a href="{{ .URL }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
 {{ end }}
