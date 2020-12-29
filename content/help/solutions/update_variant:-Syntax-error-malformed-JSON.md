@@ -7,7 +7,7 @@ fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
 date: 2020-12-29T09:26:00+02:00
 ---
-
+<!-- update_variant -->
 #### Error description
 Failed to update a product or varaint due to an incorrect response from the server.
 
