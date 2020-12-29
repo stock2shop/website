@@ -44,11 +44,12 @@ This can be set for which ever minute on the hour best suits your workflow.
 If you are using an FTP server to Host your Spreadsheet field, we can setup your integation to process Orders to your FTP server.
 
 <!-- get_images_enabled -->
-### Title here
-Text Body here
+### Sync Images with Product data
+If you have Image URLs they can be included in your Flat File setup to Sync once the Products are in Stock2Shop.
+The Products go be sent from Stock2Shop to your Webstore with the Images associated.
 
 <!-- product_field_map -->
-### Title here
+### Sync specific Product data 
 We can update Product data as needed from a Spreadsheet file. You can tell us which columns are relevant to sync to Stock2Shop.
 This is useful for when you have columns in place to be used for internal processes. We can map the specific data required.
 
