@@ -5,18 +5,78 @@ title: API Reference
 
 # Users
 
-Hundreds of distributors, wholesalers and retailers use Stock2Shop to manage inventory and orders from their ERP/Warehouse. 
+Different users have different permissions, for more on users, [see this]("#" "TODO link to users").
 
-You may be a developer wanting to code some customisation for your existing workflow or someone wanting to integrate a retail or wholesale channel with one of our existing merchants.
+## POST Authenticate
+
+> Example
+```shell script
+curl -X POST \
+    -H 'Content-Type: application/json' \
+    -d '{
+          "system_user_auth": {
+            "username": "barry",
+            "password": "indo2000"
+          }
+        }' \
+    https://app.stock2shop.com/v1/users/authenticate?format=json
+```
+
+> Example Response
+```json
+{
+  "system_user": {
+    "id": 1,
+    "created": "2015-03-03T07:30:06+0000",
+    "name": "Bob",
+    "surname": "Seger",
+    "email": "bob@example.com",
+    "username": "bob",
+    "modified": "2020-12-29T13:46:44+0000",
+    "client_id": 1,
+    "active": 1,
+    "admin": 0,
+    "token": "aXYZABC",
+    "client_name": "Cleitn Name",
+    "fulfillment_services": [],
+    "channels": [],
+    "sources": [],
+    "customers": [],
+    "roles": [
+      {
+        "id": 1,
+        "description": "product_meta_editor"
+      }
+    ],
+    "role_description": "product_meta_editor"
+  }
+}
+```
+
+Authenticate a user to retrieve a token.
+
+### HTTP Request
+
+`POST https://app.stock2shop.com/v1/users/authenticate`
+
+### Query Parameters
+
+Parameter | Default | Description
+--------- | ------- | -----------
+format | json | webservice data format
+
+
+
+
+
 
 ## GET Valid Token
 
-## POST Authenticate
 
 In order to access our API you need a username and password. This will be supplied to you once you have signed up with us.
 
 Different users have different permissions, for more on users, [see this]("#" "TODO link to users").
-
+    
 
 Read up on how to [authenticate here](/help/api/users/authenticate "API authentication").
 

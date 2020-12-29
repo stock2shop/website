@@ -5,80 +5,45 @@ title: API Reference
 
 # Introduction
 
-Hundreds of distributors, wholesalers and retailers use Stock2Shop to manage inventory and orders from their ERP/Warehouse. 
+Distributors, wholesalers and retailers use Stock2Shop to manage inventory and orders from their ERP/Warehouse. 
 
-You may be a developer wanting to code some customisation for your existing workflow or someone wanting to integrate a retail or wholesale channel with one of our existing merchants.
+If you are developer wanting to code some customisation into your existing workflow or someone wanting to integrate with one of our existing merchants, read on!
+
+There are many use cases for connecting to our API, see our [tutorials](?#tutorials "ERP ecommerce API tutorials") for further examples.
  
  ## Using the API
  
- ## Rate Limiting
+ Our API is a JSON based RESTful web service.
  
-     
-
-# Authentication
-
-In order to access our API you need a username and password. This will be supplied to you once you have signed up with us.
-
-Different users have different permissions, for more on users, [see this]("#" "TODO link to users").
-
-
-Read up on how to [authenticate here](/help/api/users/authenticate "API authentication").
-
-> this is a test
-```shell
-# Using curl 
-```
-```php
-// Using php 
-```
-
-> To authorize, use this code:
-
-```go
-package main
-
-import "github.com/bep/kittn/auth"
-
-func main() {
-	api := auth.Authorize("meowmeowmeow")
-
-	// Just to make it compile
-	_ = api
-}
-```
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-```
-
-```shell
-# With shell, you can just pass the correct header with each request
-curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-```
-
-> Make sure to replace `meowmeowmeow` with your API key.
-
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
-
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
-
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
+ Currently we only support json. 
+ For each request sent a query parameter `format=json` must be sent. 
+ 
+ In order to keep transactions secure requests need to be authenticated.
+ We use token based authentication. 
+ 
+ For each request you send, you must include a `token=xyz` query parameter.
+ To obtain a token, first [authenticate](?#post-authenticate "Authenticating on Stock2Shop") and then pass this token back on future requests.
+ 
+ You need to treat this token as ephemeral, meaning it could expire, in which case you should authenticate again.
+ Keep this in mind when designing your application.
+ 
+ ## Base URLs
+ 
+ Stock2Shop has 2 API's.
+ 
+ `https://app.stock2shop.com/v1/{end point}`   
+ `https://api.stock2shop.com/v2-queue/{end point}`
+ 
+ The former is our original monolith based API that performs mainly CRUD based operations.
+ The later uses our microservices architecture and is normally used for asynchronous operations that invlove queue and processing.    
+ 
+ ## Rate Limits
+ 
+ Stock2Shop may rate limit requests per client. 
+ If you receive:- 
+ 
+ `429 Too Many Requests` 
+ 
+  you have been rate limited.
+ 
+ We recommend not more than 1 request per second. 
