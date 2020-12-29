@@ -11,13 +11,13 @@ date: 2020-12-29T09:26:00+02:00
 <!-- Action: Update product -->
 
 #### Error description
-A product update sent to WooCommerce has failed as the prodcut was not found on the site by it's internal ID.
+A product update sent to WooCommerce has failed as the product was not found on the site by it's internal ID.
 
 #### Error solution
-Products are linked  from Stock2Shop to WooCommerce using the WooComemrce internal id of the product and variant.
+Products are linked  from Stock2Shop to WooCommerce using the WooCommerce internal id of the product and variant.
 When a product is not linked correctly,  no updates will happened on the website. 
 
-The link can be incorrect if any the following has occured:
+The link can be incorrect if any the following has occurred:
 
 1. When the product initially tried to sync to the website, there was a queue error and the "Add" instruction was skipped without resolving the issue.
 2. The product has been removed / changed on WooCommerce causing the ids to change after S2S created or already linked to the product.
