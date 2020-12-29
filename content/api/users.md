@@ -1,16 +1,17 @@
 ---
-weight: 10
+weight: 11
 title: API Reference
 ---
 
-# Introduction
+# Users
 
 Hundreds of distributors, wholesalers and retailers use Stock2Shop to manage inventory and orders from their ERP/Warehouse. 
 
 You may be a developer wanting to code some customisation for your existing workflow or someone wanting to integrate a retail or wholesale channel with one of our existing merchants.
- 
 
-# Authentication
+## GET Valid Token
+
+## POST Authenticate
 
 In order to access our API you need a username and password. This will be supplied to you once you have signed up with us.
 
