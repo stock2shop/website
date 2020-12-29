@@ -9,7 +9,7 @@ date: 2020-12-29T11:36:34+02:00
 ---
 
 #### Error description
- Related to attributes that contain special charters that have been added into the fields.
+ Related to attributes that contain special characters that have been added into the fields.
  
 This error has two sub messages:
 
@@ -18,4 +18,14 @@ This error has two sub messages:
 
 
 #### Error solution
-paragraph or list on how to resolve the error
+Special charters are used for computer programs and might break the program if used out of context. In general all Stock2Shop fields should only contain the letters from a-z, numbers 0-9 and basic punctuation. Avoid slashes and other characters.
+
+1. Investigate which field that could be causing the product to to break when trying to update it on Magento. This is could be in the General or Attributes tab
+2. If you not sure, cut and paste the field to notepad and then change the field text to a test value.  
+3. Retry queue error
+4. Repeat steps if failed
+
+
+Remember if you are copying text from other sources you should always add it to a text editor, to remove any styles that may have been copied.
+
+
