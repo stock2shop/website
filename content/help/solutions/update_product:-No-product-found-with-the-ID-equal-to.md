@@ -6,7 +6,7 @@ sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "paste
 channels: ["woocommerce"]
 fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
-date: {{ .Date }}
+date: 2020-12-29T09:26:00+02:00
 ---
 
 #### Error description
