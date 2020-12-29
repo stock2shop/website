@@ -8,8 +8,8 @@ draft: true
 date: {{ .Date }}
 ---
 
-## Error description
+#### Error description
 paragraph on the error / issue that is currently taking place.
 
-## Error solution
+#### Error solution
 paragraph or list on how to resolve the error
