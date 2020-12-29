@@ -1,18 +1,18 @@
 ---
-title: "update_variant: Undefined property"
-heading: ""
-description: ""
-errorgroup: WooCommerce
-tags: 
-  - WooCommerce
-  - Queue Error
-  - update_variant
+title: "Undefined property"
+type: "solution"
+sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
+channels: ["woocommerce"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
+date: 2020-12-29T09:26:00+02:00
 ---
+<!--Action: update_variant -->
+#### Error description
+The product on WooCommerce has been configured incorrectly and our system is not able to update the product.
 
-## What does the queue error mean
-
-This queue error means that the product on WooCommerce has been configured incorrectly and our system is not able to update the product. This directly relates to how a Variable Product is configured In WooCommerce.
+#### Error solution
+This directly relates to how a Variable Product is configured In WooCommerce.
 https://docs.woocommerce.com/document/variable-product/
 
 When creating a variable product on WooCommerce the variations should be the items that have the sku's as per your accounting system, the top level inventory tab should either contain a "Grouping code" or remain blank.
@@ -29,17 +29,7 @@ Sku of a variation: LOON002
 
 {{< figure src="/uploads/queue-errors-update_variant-undefined-property-2.png" caption="The variation sku is in fact blank, however, it adopts the top-level inventory sku because a product should always have a unique identifier, this now causes duplicate sku's." >}}
 
-## What issue(s) does the queue error cause
-
-This error is a [queue blocking](/documentation/key-concepts/queue/) error, until the error is resolved, the queue will remain blocked, no products will be created or updated while the queue is blocked 
-
-## How to confirm the source of the queue error
-
-Go to: S2S Console > Queue > View > Find queue error (You can use filters) > View Item
-
-Go to: Website Admin > WooCommerce > All products > search for sku as per queue error > check variations
-
-## How to resolve the queue error
+##### How to correct the SKU and relink to S2S
 
 The error can be resolved by correcting the sku's on the product in WooCommerce as per the above and then having S2S relink to the product using the following steps:
 
@@ -54,10 +44,5 @@ The error can be resolved by correcting the sku's on the product in WooCommerce 
 
 Note if there were already further updates in the queue for the product then they must be skipped until the "ADD" instructions is processed to relink the product.
 
-The below link is a more detailed example of how to relink products from S2S to WooCommerce should a product change or be deleted:
-
-[How to relink a product to WooCommerce](/#)
-
-If your investigation finds the issue to be different, please advise the support team at support@stock2shop.com
 
 

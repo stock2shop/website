@@ -2,12 +2,12 @@
 title: "Consumer secret is invalid.'woocommerce_api_authentication_error'"
 type: "solution"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
-channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
+channels: ["woocommerce"]
 fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
 date: 2020-12-29T09:26:00+02:00
 ---
-
+<!-- Action: add_product -->
 #### Error description
 S2S attempted to create a product on the website but was rejected by WooCommerce.
 
