@@ -82,3 +82,9 @@ Allow Stock2Shop to process images with Product data from Sage Business Cloud Ac
 ### Use the Saved Customer address
 We can set Orders to use the Customer address that appears in Sage Business Cloud Accounting 
 regardless of what is placed on the Order
+
+<!-- param_product_field_map -->
+### Sync specific Product data 
+All Product data sent from Sage Business Cloud Accounting can be filtered as needed.
+We might not require a certain amount of details to be sent through with the needed Product data.
+In these cases, we can synchronize only the required data into Stock2Shop to then push up to your Webstore.
