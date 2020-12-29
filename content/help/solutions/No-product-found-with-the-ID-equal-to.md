@@ -8,6 +8,7 @@ fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
 date: 2020-12-29T09:26:00+02:00
 ---
+<!-- Action: Update product -->
 
 #### Error description
 A product update sent to WooCommerce has failed as the prodcut was not found on the site by it's internal ID.
@@ -32,7 +33,7 @@ You will need to resend the product to the website either by creating the produc
 5. Save on the General Tab 
 6. Skip any and all updates (failed) to do with product that was already in the queue. A new 'ADD' to WooCommerce queue item will be added at the back of the queue.
 
-###### Relink to existing product on website
+##### Relink to existing product on website
 
 1. Log in to S2S > Queue > Failed > Click 3 dots on failed item > View product to see which product you need to fix.
 2. View the skus on the variant tab
