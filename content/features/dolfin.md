@@ -24,12 +24,15 @@ queue_fetch_images
 sync_mode
 
 -->
+<!-- cron_get_products_schedule -->
+### Update Stock2Shop hourly with Product data changes
+When changes are made to your Dolfin system, we can set an hourly time to check for Product updates.
+This can be set for which ever minute on the hour best suits your workflow.
 
-
-<!-- create_order_enabled -->
-### Process Orders from your Webstore
-Raise Orders into Dolfin automatically when placed on your Webstore when the Order has a 'Paid' status applied.
-We can process ALL Orders if needed, but by default if they are 
+<!-- create_order -->
+### Create orders on Sage Evolution
+Stock2Shop can create an order on Sage Evolution when
+it has been received from your sales channel(s).
 
 <!-- order_source_customer_code_map -->
 ### Raise Orders against Customers in Dolfin

@@ -14,8 +14,9 @@ get_product
 get_products_limit
 param_ignore_shipping_warehouse_code
 param_skip_image_hash
+param_test
 param_use_customer_address
-param_user_field_customer
+param_user_field_customer_
 queue_fetch_images
 tunnel_host
 tunnel_password
