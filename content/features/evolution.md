@@ -28,18 +28,7 @@ Evolution:
 param_complete_credit_note
 param_complete_invoice
 param_use_credit_note_discount
-param_external_order_no
-param_gl_discount_code
-param_gl_shipping_code
-param_gl_shipping_discount_code
-param_order_document_type
-param_due_date
-param_delivery_date
-param_currency_code
-param_use_channel_order_code(duplicate from Apifact)
-param_ignore_shipping
-param_user_field_order_[x]
-param_delivery_method
+param_use_channel_order_code (duplicate from Apifact)
 param_ignore_warehouse_code
 create_order
 get_order
@@ -47,7 +36,6 @@ get_product
 get_products
 get_products_limit
 param_contact_source_customer
-param_time_zone
 param_use_customer_address
 -->
 
@@ -138,22 +126,53 @@ Set the type of Document to create when sending Orders to Sage Evolution. Either
 Choose whether stock quantities can go into negative values on your Sage Evolution. 
 If set to not allow negative stock, Orders will not process into Sage Evolution if there is not stock available.
 
-<!-- meta -->
-### 
-Text
+<!-- param_external_order_no -->
+### Use Webstore Order number
+Set the Order in Sage Evolution to be the same Order number as the Webstore. 
+This is useful to cross referencing Order details between platforms
 
-<!-- meta -->
-### 
-Text
+<!--
+param_gl_discount_code
+param_gl_shipping_code
+param_gl_shipping_discount_code
+-->
+### General Ledger Account Codes
+Set the GL Account Codes for:
 
-<!-- meta -->
-### 
-Text
+- Discounts
+- Shipping Lines
+- Shipping Discounts
 
-<!-- meta -->
-### 
-Text
+<!-- param_order_document_type -->
+### Order Document Type
+Set whether Orders are raised as 'Quotations' or 'Sales Orders' in Sage Evolution.
 
-<!-- meta -->
-### 
-Text
+<!-- param_due_date -->
+### Define the Due date for Orders
+Set the Due Date for your Orders in Sage Evolution. This will apply when Stock2Shop sends Orders through. 
+
+<!-- param_delivery_date -->
+### Order Delivery Date
+Set the Order Delivery date when creating Orders. Set using  ISO 8601 formatting.
+
+<!-- param_currency_code -->
+### Currency Code for Orders
+Set the currency code to be used when raising Orders. (USD, EUR, ZAR etc)
+
+<!-- param_ignore_shipping -->
+### Ignore Shipping
+Stock2Shop can ignore the Shipping lines on an Order when sending to SAP Business One. 
+This is useful for when you have a fulfillment service not part of your integration and Shipping does not need to be processed through Stock2Shop.
+
+<!-- param_user_field_order_[x] -->
+### Set Custom fields on Orders
+Stock2Shop can set custom fields on an Order when sending to SAP Business One. This can be in the form of special instructions for example.
+
+<!-- param_delivery_method -->
+### Set delivery method for Orders
+Set which delivery method to us from your Sage Evolution settings. Orders will not process if the selected delivery method is not on Sage Evolution. 
+
+<!-- param_time_zone -->
+### Time Zone for Orders
+Set which Time Zone is applied to Orders that are raised by Stock2Shop. 
+
