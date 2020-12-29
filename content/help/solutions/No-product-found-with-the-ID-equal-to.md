@@ -1,37 +1,30 @@
 ---
-title: "update_product: No product found with the ID equal to"
+title: "No product found with the ID equal to"
 heading: "update_product: No product found with the ID equal to [ID] 'woocommerce_api_no_product_found'"
-description: ""
-errorgroup: WooCommerce
-tags: 
-  - WooCommerce
-  - Queue Error
-  - update_product
+dtype: "solution"
+sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
+channels: ["woocommerce"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
+date: 2020-12-29T09:26:00+02:00
 ---
+<!-- Action: Update product -->
 
-## What does the queue error mean 
+#### Error description
+A product update sent to WooCommerce has failed as the prodcut was not found on the site by it's internal ID.
 
-This means an update has been sent to WooCommerce for a product (product information found on general tab or attributes tab in S2S) but the product is not found. Products are linked to WooCommerce using the WooComemrce internal id
+#### Error solution
+Products are linked  from Stock2Shop to WooCommerce using the WooComemrce internal id of the product and variant.
+When a product is not linked correctly,  no updates will happened on the website. 
 
-## What issue(s) does the queue error cause
+The link can be inocrrcetthis if any the following has occured:
 
-This error is a [queue blocking](/documentation/key-concepts/queue/) error, until the error is resolved the queue will remain blocked, no products will be created or updated while the queue is blocked.
-
-The product is not linked to the website so no updates will happened on the website, this can occur if the following has happened:
-
-1. When the product initially tried to sync to the website, there was a queue error and the "Add" instruction was skipped without resolving the issue
-2. The product has been removed / changed on WooCommerce causing the ids to change after S2S created or already linked to the product
-
-## How to confirm the source of the queue error
-
-Go to: S2S Console > Queue > View > Find queue error (You can use filters) > View Item
-
-## How to resolve the queue error 
+1. When the product initially tried to sync to the website, there was a queue error and the "Add" instruction was skipped without resolving the issue.
+2. The product has been removed / changed on WooCommerce causing the ids to change after S2S created or already linked to the product.
 
 You will need to resend the product to the website either by creating the product again or auto linking to a product that is already on the website.
 
-Removing the product off your website and re adding it from S2S:
+##### Removing the product off your website and adding it from S2S:
 
 1. Log in to S2S > Queue > Failed > Click 3 dots on failed item > View product to see which product you need to fix.
 2. View the skus on the variant tab
@@ -40,7 +33,7 @@ Removing the product off your website and re adding it from S2S:
 5. Save on the General Tab 
 6. Skip any and all updates (failed) to do with product that was already in the queue. A new 'ADD' to WooCommerce queue item will be added at the back of the queue.
 
-You don't want to remove the product from the website but need to re-link (match WooCommerce ID) the product from S2S
+##### Relink to existing product on website
 
 1. Log in to S2S > Queue > Failed > Click 3 dots on failed item > View product to see which product you need to fix.
 2. View the skus on the variant tab
