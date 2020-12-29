@@ -5,10 +5,9 @@ theme = "s2s"
 PygmentsCodeFences = true
 PygmentsStyle = "manni"
 enableRobotsTXT = true
+ignoreFiles = ["content/api/*"]
 [params]
   description = "Stock2Shop integrates your ERP or accounting system (Sage, SYSPRO, iSync or SAP) with your e-commerce website (WooCommerce, Shopify, Magento or B2B trade store). Streamline your workflow, simplify ordering and free up time to build your business. Find out more!"
-[permalinks]
-  integrations = "/integrations/:filename/"
 [taxonomies]
   tag = "tags"
   source = "sources"

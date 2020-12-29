@@ -6,4 +6,3 @@ menu: main
 weight: 20
 ---
 
-{{< features >}}

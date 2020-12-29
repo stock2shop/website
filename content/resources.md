@@ -4,4 +4,3 @@ description: "All the helpful resources you need to streamline your business, in
 lead: "How can we help you? We’ve put together all the helpful resources and information we think you’ll need to streamline your workflow. Still have questions? Please contact us, we’d love to answer them."
 ---
 
-{{< resources >}}
