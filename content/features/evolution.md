@@ -25,20 +25,6 @@ tunnel_username
 ---------
 Evolution:
 
-param_warehouse_code
-param_branch_code
-param_default_tax_code
-param_default_tax_code_exempt
-param_default_tax_code_shipping
-param_new_customer_representative_code
-param_order_representative_code
-param_order_project_code
-param_new_customer_area_code
-param_new_customer_group_code
-param_new_customer_price_list_code
-param_process_invoice
-param_process_credit_note
-param_negative_stock_disabled
 param_complete_credit_note
 param_complete_invoice
 param_use_credit_note_discount
@@ -103,6 +89,71 @@ This will let Stock2Shop create Invoices using the same reference number as the 
 
 <!-- END OF APIFACT-->
 
+<!-- param_warehouse_code -->
+### Raise Orders into a specific Warehouse
+Set which Warehouse to raise Orders against. When Orders are placed, Stock2Shop will know which Warehouse to send the Order to.
+
+<!-- param_branch_code -->
+### Raise Orders against a specific Branch
+When processing Orders Stock2Shop can raise Orders against a required Branch. 
+This is useful if you have multiple Branches assigned to your Sage Evolution.
+
+<!--
+param_default_tax_code
+param_default_tax_code_exempt
+param_default_tax_code_shipping
+-->
+### Tax Codes for Orders
+Set which Tax codes to apply when Raising Orders that have:
+
+- Taxed items
+- Tax-exempt items
+- Shipping Lines (that need tax applied)
+
+<!-- 
+param_new_customer_representative_code
+param_order_representative_code
+param_order_project_code
+param_new_customer_area_code
+param_new_customer_group_code
+param_new_customer_price_list_code
+ -->
+### Sales Rep codes for new Orders and new Customers
+Set which Sales Rep Code is applied to the Orders raised in Sage Evolution or if new Customers are created.
+When raising Orders, you can set the Project Code, if creating new customers, you can set the following:
+
+- Customer Area Code
+- Customer Group Code
+- Customer Price list
+
+<!--
+param_process_invoice
+param_process_credit_note
+-->
+### Order Document Type
+Set the type of Document to create when sending Orders to Sage Evolution. Either as an Invoice or Credit Note.
+
+<!-- param_negative_stock_disabled -->
+### Stock Level Tracking
+Choose whether stock quantities can go into negative values on your Sage Evolution. 
+If set to not allow negative stock, Orders will not process into Sage Evolution if there is not stock available.
+
 <!-- meta -->
-### Title
-Paragraph
+### 
+Text
+
+<!-- meta -->
+### 
+Text
+
+<!-- meta -->
+### 
+Text
+
+<!-- meta -->
+### 
+Text
+
+<!-- meta -->
+### 
+Text
