@@ -13,7 +13,7 @@ When the quantity is adjusted in the cart of the checkout page, it adjusts the s
 This does not update the cached value of the order total.
 
 #### How to resolve Queue Error
-If your Trade Store has a rate based on cart shipping_method, you will need to notify your B2B customers that they should refresh their page before placing the order on the trade store to prevent this from occuring.
+If your Trade Store has a rate based on cart shipping_method, you will need to notify your B2B customers that they should refresh their page before placing the order on the trade store to prevent this from occurring.
 
 Alternatively, you can follow these steps:
 - Skip the queue error and recreate the order on the Trade Store ensuring to first refresh your browser before checking out

@@ -11,7 +11,7 @@ date: 2020-12-28T13:30:59+02:00
 #### Error description
 
 
-The "Invalid Prodcuct" error occurs on any instruction ie: add_product | add_variant | add_image | update_product | update_variant
+The "Invalid Product" error occurs on any instruction ie: add_product | add_variant | add_image | update_product | update_variant
 
 #### Error solution
 The product on Shopify is broken and cannot be saved, therefore when S2S tries to run an instruction on the product it blocks the queue with the Invalid Product error. 

@@ -9,7 +9,7 @@ date: 2020-12-29T09:26:00+02:00
 ---
 <!-- update_variant -->
 #### Error description
-Failed to update a product or varaint due to an incorrect response from the server.
+Failed to update a product or variant due to an incorrect response from the server.
 
 #### Error solution
 Some steps below to help investigate and resolve the server issue. Contact Stock2shop Support if this looks greek!
@@ -17,7 +17,7 @@ Some steps below to help investigate and resolve the server issue. Contact Stock
 1. Confirm that API URL is still valid.
 2. View error logs to see the error when trying to update variant and resolve
 3. Log in to WooCommerce backend and confirm that API keys are still in place
-4. If updates still dont work,  investigate if there have been any recent website updates, server changes, hosting changes, plugin updates and revert back to when it was working
+4. If updates still don't work,  investigate if there have been any recent website updates, server changes, hosting changes, plugin updates and revert back to when it was working
 5. Contact WooCommerce hosting company to get server error logs at the time of the error
 6. Ask hosting company support for assistance in resolving API issues
 7. Clear Cloudflare cache and plugins
