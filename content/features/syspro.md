@@ -25,10 +25,10 @@ tunnel_username
 ---------
 Syspro:
 
-
-
-
-
+param_company_password
+param_currency
+param_operator
+param_operator_password
 
 -->
 
@@ -70,6 +70,33 @@ This will let Stock2Shop create Invoices using the same reference number as the 
 
 <!-- END OF APIFACT-->
 
-<!-- meta -->
-### Title
-Paragraph
+<!-- param_warehouse_code -->
+### Raise Orders into a specific Warehouse
+Set which Warehouse to raise Orders against. When Orders are placed, Stock2Shop will know which Warehouse to send the Order to.
+
+<!--
+param_company_id
+param_sales_rep_id 
+-->
+### Raise Orders against a Sales Rep and Company
+Set which Sales Rep and Company Orders must get raised against in Syspro when processing your Webstore sales through Stock2Shop.
+
+<!-- param_order_type -->
+### Document type for Orders
+Set what type of document must be created when raising Orders to Syspro.
+We have the following options:
+
+- (A) Add a Sales Order
+- (C) Change an Existing Sales Order
+- (D) Cancel the Sales Order
+
+<!--
+param_default_tax_code
+param_default_tax_code_exempt
+-->
+### Tax Codes
+Set your Syspro Tax codes for Taxed and Tax-exempt Orders. Stock2Shop will process Orders to Syspro using these codes.
+
+<!-- param_currency -->
+### Set which currency to use on the Order
+Stock2Shop can allocate the required currency to be applied to the Order when sending to Syspro.
