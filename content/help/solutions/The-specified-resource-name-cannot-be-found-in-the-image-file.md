@@ -1,41 +1,29 @@
 ---
 title: "The specified resource name cannot be found in the image file"
-heading: ""
-description: ""
-errorgroup: SAP Business One
-tags:
-  - SAP Business One
-  - Queue Error
+type: "solution"
+sources: ["sap" ]
+channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
+date: 2020-12-30T16:13:00+02:00
 ---
 
-## What does the queue error mean
+#### Error description
+Failed to create order at source
 
-**Instruction**: "Create Order"  
-**Message**: The specified resource name cannot be found in the image file.  
-**The Important Bits**: Failed to create order at source
-
-This means an order failed to create in SAP One.
-
-## What issue(s) does the queue error cause
-
-This error is a non-blocking queue error which means you could still receive other orders if its only an issue with this particular order. You will still receive product and customer updates, however, this order will not be raised into the Source until you have fixed the issue.
-
-## How to confirm the source of the queue error
-
-1. Navigate to: S2S Console > Queue > View > Find queue error > View Item
-2. Confirm that the error message matches "The specified resource name cannot be found in the image file."
-
-## How to resolve the queue error
-
-The root cause of this issue is that the SAP license server cannot be reached, either due to a temporary lapse in connectivity or an issue with the SAP One server.
+#### Error solution
+The SAP license server cannot be reached, either due to a temporary lapse in connectivity or an issue with the SAP One server.
 
 To resolve this issue, simply attempt to reprocess the order in the S2S console.  S2S Console > Queue > View > Find queue error -> Retry.
 
 In the event that this does not resolve the issue, you may need to reach out to your SAP consultant in order to:
 
 1. Start the license server or verify the license server address and TCP IP port. 
-2. 1 Disable IPv6.
-2. 2 Make sure the SLD Address is correct as per Root Cause 3 above.
-2. 3 Flush the DNS with the command ipconfig / flushdns
-2. 4 Restart SAP Business One Integration Service.
+2. Disable IPv6.
+2. Make sure the SLD Address is correct.
+2. Flush the DNS with the command ipconfig / flushdns
+2. Restart SAP Business One Integration Service.
+2. Retry the order
+
+
+

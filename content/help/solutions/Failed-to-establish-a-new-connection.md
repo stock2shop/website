@@ -1,33 +1,20 @@
 ---
 title: "Failed to establish a new connection"
-heading: "Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"
-description: ""
-errorgroup: Omni Accounts
-tags:
-  - Omni Accounts
-  - Queue Error
+type: "solution"
+sources: [ "omni-accounts" ]
+channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
+date: 2020-12-30T16:31:00+02:00
 ---
 
-## What does the queue error mean
+#### Error description
+Failed to raise orders in Omni Accounts
 
-**Instruction**: "add_order"  
-**Message**: "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /Sales%20Order/?UserName=Guest&amp;Password=&amp;CompanyName=Client++%28PTY%29LTD (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x04658850&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)) "  
-**The Important Bits**: No connection could be made because the target machine actively refused it
+#### Error solution
 
-This means that S2S was unable to process an order to Omni Accounts.
-
-This issue is a result of the OmniWebServiceREST service not running on the Omni Accounts server at the time of the order.
-
-## What issue(s) does the queue error cause
-
-This error is a non-blocking queue error which means you could still receive other orders if its only an issue with this particular order. You will will still receive product and customer updates, however, this order will not be raised into the Source until you have fixed the issue.
-
-## How to confirm the source of the queue error
-
-Go to: S2S Console > Queue > View > Find queue error > View Item 
-
-## How to resolve the queue error
+The OmniWebServiceREST service not running on the Omni Accounts server at the time of the order.
+No connection could be made because the target machine actively refused it.
 
 1. Find the OmniWebServiceREST and open it. This is usually located in C:/Omni/System
 2. Do not close rest service, just minimize.
@@ -36,3 +23,6 @@ Go to: S2S Console > Queue > View > Find queue error > View Item
 
 ![queue errors failed to establish a new connection](/uploads/queue-errors-Failed-to-establish-a-new-connection-1.png)
 ![queue errors failed to establish a new connection](/uploads/queue-errors-Failed-to-establish-a-new-connection-2.png)
+
+
+

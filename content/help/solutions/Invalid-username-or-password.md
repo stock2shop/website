@@ -1,33 +1,18 @@
 ---
 title: "Invalid username or password"
-heading: ""
-description: ""
-errorgroup: Omni Accounts
-tags:
-  - Omni Accounts
-  - Queue Error
+type: "solution"
+sources: [ "omni-accounts" ]
+channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
+date: 2020-12-30T16:31:00+02:00
 ---
 
-## What does the queue error mean
+#### Error description
+Failed to raise orders in Omni Accounts
 
-**Instruction**: "add_order"  
-**Message**: "Invalid username or password"  
-**The Important Bits**: Failed to add order at source.
-
-This means that S2S was unable to process an order to Omni Accounts. 
-
-This error is a result of S2S's Apifact software no longer being able to contact the Omni Accounts database, or the user credentials used are no longer valid.
-
-## What issue(s) does the queue error cause
-
-This error is a non-blocking queue error which means you could still receive other orders if its only an issue with this particular order. You will will still receive product and customer updates, however, this order will not be raised into the Source until you have fixed the issue.
-
-## How to confirm the source of the queue error
-
-Go to: S2S Console > Queue > View > Find queue error > View Item 
-
-## How to resolve the queue error
+#### Error solution
+S2S's Apifact software can no longer being able to contact the Omni Accounts database, or the user credentials used are no longer valid.
 
 To resolve this issue:
 
@@ -36,3 +21,4 @@ To resolve this issue:
 3. Ensure all necessary services are running on the server.
 
 Contact support@stock2shop.com if your details have changed or need further assistance
+
