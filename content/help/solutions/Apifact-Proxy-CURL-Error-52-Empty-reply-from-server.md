@@ -5,7 +5,7 @@ sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "paste
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
 fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
-date: {{ .Date }}
+date: 2020-12-30T12:41:00+02:00
 ---
 <!-- Action: create_order -->
 
