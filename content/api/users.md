@@ -16,7 +16,7 @@ curl -X POST \
     -d '{
           "system_user_auth": {
             "username": "barry",
-            "password": "indo2000"
+            "password": "*****"
           }
         }' \
     https://app.stock2shop.com/v1/users/authenticate?format=json
