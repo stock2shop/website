@@ -47,4 +47,4 @@ be sent to the fulfillment service associated with your Magento integration.
 ### Ordered product confirmation
 When Orders are sent from your Webstore, we can have Stock2Shop check that the items contained in your Order also appear 
 in the Stock2Shop system before sending it to your ERP. This can be used as a measure to confirm stock is tracked.
-An Email will be sent to the relevant people from Stock2Shop if this occurs.
+An Email will be sent from Stock2Shop to the relevant people if this occurs.
