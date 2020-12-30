@@ -1,5 +1,5 @@
 ---
-title: "update_product: No product found to update in channel"
+title: "No product found to update in channel"
 ype: "solution"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["shopify", "magento_1"]
