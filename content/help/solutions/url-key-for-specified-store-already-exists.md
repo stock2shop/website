@@ -7,7 +7,7 @@ fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
 date: 2020-12-30T09:41:49+02:00
 ---
-
+<!-- Action: add_product -->
 #### Error description
 A product is trying to use the same url of an existing product.
 
