@@ -1,5 +1,6 @@
 ---
 title: SEO grid
+type: seo-grid
 sitemap_exclude: true
 ---
 
