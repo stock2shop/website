@@ -5,7 +5,9 @@ title: API Reference
 
 # Users
 
-Different users have different permissions, for more on users, [see this]("#" "TODO link to users").
+Different users have different roles, for more on users, [see this]("#" "TODO link to users").
+
+
 
 ## POST Authenticate
 
@@ -61,32 +63,40 @@ Authenticate a user to retrieve a token.
 
 ### Query Parameters
 
-Parameter | Default | Description
---------- | ------- | -----------
-format | json | webservice data format
-
-
-
-
-
+Parameter | type | Description
+--------- | ---- | -----------
+format | query parameter  | webservice data format
 
 ## GET Valid Token
 
-
-In order to access our API you need a username and password. This will be supplied to you once you have signed up with us.
-
-Different users have different permissions, for more on users, [see this]("#" "TODO link to users").
-    
-
-Read up on how to [authenticate here](/help/api/users/authenticate "API authentication").
-
-> this is a test
-```shell
-# Using curl 
+> Example
+```shell script
+curl -X GET \
+    -H 'Content-Type: application/json' \
+    https://app.stock2shop.com/v1/users/authenticate?format=json&token=***
 ```
-```php
-// Using php 
+
+> Example Response
+```json
+{
+  
+}
 ```
+
+Authenticate a user to retrieve a token.
+
+### HTTP Request
+
+`GET https://app.stock2shop.com/v1/users/valid_token/{token}`
+
+### Query Parameters
+
+Parameter | type | Description
+--------- | ---- | -----------
+format | query parameter  | webservice data format
+token | url path | token for authentication
+
+
 
 > To authorize, use this code:
 
