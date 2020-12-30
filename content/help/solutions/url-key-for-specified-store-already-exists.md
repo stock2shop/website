@@ -1,28 +1,17 @@
 ---
 title: "URL key for specified store already exists"
-heading: ""
-description: ""
-errorgroup: Magento2 
-tags: 
-  - Magento2
-  - Queue Error
+type: "solution"
+sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
+channels: ["magento_2"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
+date: 2020-12-30T09:41:49+02:00
 ---
-## 1. How to confirm the source of the queue error
-The steps below are to confirm that you are dealing with this exact queue error. It may be more detrimental to the integration to try and resolve this queue error using the steps for a separate queue error.
 
-1. On the console click Queue > View  
-2. Under Search Results locate the queue error 
-3. Click on the 3 vertical dots > View Item
+#### Error description
+A product is trying to use the same url of an existing product.
 
-## 2. What does the queue error mean
-**Instruction**: "sync_channel_products " 
-**Message**: message":"URL key for specified store already exists." 
+#### Error solution
+Magento does not allow duplicate product names, as it uses them to create url keys.
 
-The title of the product needs to be checked and updated/ corrected to resolve the error message.
-
-## 3. What issue(s) does the queue error cause
-This is a blocking queue error meaning it affects all the other updates to Magento. All other queue errors will not be processed.
-
-## 4. How to resolve it
-Update any duplicate product titles (Magento does not allow duplicate product names, as it uses them to create url keys) then retry any errors in the queue with a similar message.
+Update any duplicate product titles then retry any errors in the queue with a similar message.

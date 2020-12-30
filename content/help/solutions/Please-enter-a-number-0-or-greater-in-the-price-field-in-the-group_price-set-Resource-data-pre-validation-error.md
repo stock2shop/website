@@ -9,7 +9,7 @@ date: 2020-12-30T09:41:49+02:00
 ---
 
 #### Error description
-A product requests a price list that is not assigned to it or not set to sync.  This occurs when S2S is syncing many price lists to customer groups in Magento. 
+A product requests a price list that is not assigned to it or not set to sync.  This occurs when S2S is syncing price lists to customer groups in Magento. 
 
 #### Error solution
 All products are available to all customer groups. This means that every product should have every price list set for every price group. If that's not the case on the site, then it is because of a specific module. The API still requires S2S to send a price for every customer group.
