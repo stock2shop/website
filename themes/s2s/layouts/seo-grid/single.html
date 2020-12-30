@@ -5,23 +5,14 @@
 <table class="table">
     <tr>
         <th>Title</th>
-        <th>List Title</th>
-        <th>Headings</th>
-        <th>Description</th>
+        <th>seoTitle</th>
+        <th>seoDescription</th>
     </tr>
     {{ range .Site.RegularPages }}
     <tr>
-        {{ if .Description }}
         <td><a href="{{ .Permalink }}">{{ title .Title }}</a></td>
-        <td>{{ .Params.TitleList }}</td>
-        <td>{{ .Params.Heading }}</td>
-        <td>{{ .Description }}</td>
-        {{ else }}
-        <td><a style="color:red" href="{{ .Permalink }}">{{ title .Title }}</a></td>
-        <td>{{ .Params.TitleList }}</td>
-        <td>{{ .Params.Heading }}</td>
-        <td></td>
-        {{ end }}
+        <td>{{ .Params.seoTitle }}</td>
+        <td>{{ .Params.seoDescription }}</td>
     </tr>
     {{ end }}
 </table>

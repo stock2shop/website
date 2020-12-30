@@ -41,19 +41,21 @@ When using Stock2Shop to create Products on your Shopify store, we have the opti
 This can be useful if you need to add additional Product data to your Products on Shopify, or as a final measure to make sure the product is ready before going live.
 
 <!-- ignore_category_enabled -->
-### 
-Text
+### Sync to Categories
+Stock2Shop can connect to your existing Categories on Shopify, or create new categories from your ERP.
 
 <!-- auto_sync -->
-### 
-Text
+### Link to your existing Products
+If you have Products loaded to Shopify already, you can use Stock2Shop to link the Products from your ERP to the Products on Shopify.
+Stock2Shop will search Shopify for the SKU codes you have connected from your ERP, and will update those it finds on Shopify, 
+while creating new Products for those that are not yet on Shopify.
 
 <!--
 order_use_system_price
 order_use_system_price_tax
 -->
-### 
-Text
+### Process Orders using ERP prices
+
 
 <!-- order_remove_unlinked_items -->
 ### 
