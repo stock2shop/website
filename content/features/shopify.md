@@ -55,22 +55,25 @@ order_use_system_price
 order_use_system_price_tax
 -->
 ### Process Orders using ERP prices
+When Orders are sent to Stock2Shop, you can have the option of using the pricing that syncs from your ERP if the pricing differs on your Shopify store.
 
 
 <!-- order_remove_unlinked_items -->
-### 
-Text
+### Process Stock2Shop linked items only
+If orders are sent to Stock2Shop with items that do not appear in Stock2Shop, you have the option of either removing the items
+and pushing the Order to your ERP, or be notified that the item was not found in Stock2Shop and the Order will not be sent to your ERP.
 
 <!--
 order_fixed_shipping_price
 order_fixed_shipping_tax
 -->
-### 
-Text
+### Set fixed shipping costs
+If you have a simple Shopify store and only offer one shipping option, it is possible to set a fixed amount to be sent to your ERP.
+This will ignore any shipping details sent from Shopify with the Orders.
 
 <!-- default_fulfillmentservice_id -->
-### 
-Text
+### Fulfill Orders automatically
+Orders placed on Shopify with Shipping options selected can be sent to supported fulfillment services once the Order has a 'Paid' status.
 
 <!-- group_duplicate_order_items -->
 ### 
