@@ -1,34 +1,20 @@
 ---
 title: "SDK Type mismatch (String Data, Boolean& AdditionalCostInvoice)"
-heading: ""
-description: ""
-errorgroup: Sage 50cloud Pastel Partner
-tags: 
-  - Sage 50cloud Pastel Partner
-  - Queue Error
-  - SDK Type mismatch
+type: "solution"
+sources: ["pastel-partner", "sage-50cloud-pastel-xpress" ]
+channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
+date: 2020-12-30T14:29:00+02:00
 ---
 
-## What does the queue error mean
+#### Error description
+Orders fail to be raised at the source after a long running task. W
 
-When trying to raise an order at source Apifact is trying to send values with a " , " in it instead of a " . ". This causes a long-running task which inevitably fails. 
+#### Error solution
+hen trying to raise an order at source Apifact is trying to send values with a " , " in it instead of a " . ". This causes a long-running task which inevitably fails. 
 
-## What issue(s) does the queue error cause
-
-This error is a non-blocking queue error which means you could still receive other orders if it's only an issue with this particular order. You will still receive product and customer updates, however, this order will not be raised into the Source until you have fixed the issue.
-
-## How to confirm the source of the queue error
-
-To confirm if the error is, in fact, a type mismatch follow the below steps:
-
-1. Navigate to Queue > View on your console
-2. Click on the three dots of the queue error > view item
-3. View the line item error which will read: SDK Type mismatch (String Data, Boolean& AdditionalCostInvoice)
-
-## How to resolve the queue error
-
-This change will need to be made on the server Sage 50cloud Pastel Partner is installed on. Follow the steps below to resolve the queue error:
+A change will need to be made on the server Sage 50cloud Pastel Partner is installed on. Follow the steps below to resolve the queue error:
 
 1. Go to Windows search and click "Run..." 
 2. In the search box or Run window, type the following "regedit" and press enter
@@ -45,3 +31,4 @@ Depending on your version of Windows, and how it's configured, you may see a Use
 10. Confirm that the services are both running
 
 Once the Apifact services have been restarted, you will need to retry any queue errors that have accumulated.
+
