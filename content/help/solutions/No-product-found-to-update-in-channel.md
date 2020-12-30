@@ -47,7 +47,7 @@ Specific channel instructions:
 8. Skip any and all updates (failed) to do with the product that was already in the queue. A new 'ADD' to Magento queue item will be added at the back of the queue.
 9. Login to Stock2Shop > Settings > Manage channels > <Client Name> Magento > 3 dots  > edit > Change auto_sync back to false and save
 
-##### Magento 1
+###### Magento 1
 
 1. Log in to S2S > Queue > Failed > Click 3 dots on failed item > View product to see which product you need to fix.
 2. Copy the source product code from general tab and the SKUs from the variants tab
