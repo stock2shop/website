@@ -1,6 +1,6 @@
 ---
-title: "installing Stock2Shop for sage 50cloud pastel partner"
-heading: "installing Stock2Shop for sage 50cloud pastel partner (formerly sage pastel partner)"
+title: "Installing Stock2Shop for Sage 50cloud Pastel Partner"
+heading: "Installing Stock2Shop for sage 50cloud pastel partner (formerly sage pastel partner)"
 description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
 aliases: "/documentation/getting-started/sage-pastel-partner-installation/"
 toc: true
@@ -12,7 +12,7 @@ menu:
 ---
 
 ## Introduction
-Sage 50cloud Pastel Partner is a client-side accounting system. This means the Sage 50cloud Pastel Partner application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link your Sage 50cloud Pastel Partner system to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store and Parcelninja, we need to install software on the server or computer where your Sage 50cloud Pastel Partner is set up.
+Sage 50cloud Pastel Partner is a client-side accounting system. This means the Sage 50cloud Pastel Partner application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link your Sage 50cloud Pastel Partner system to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store and Parcel Ninja, we need to install software on the server or computer where your Sage 50cloud Pastel Partner is set up.
 
 ## For accessing your database
 

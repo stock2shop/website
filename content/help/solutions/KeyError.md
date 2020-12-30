@@ -9,9 +9,9 @@ date: 2020-12-30T14:53:12+02:00
 ---
 
 #### Error description
-Oder are not syncing to Pastel Partner
+Orders are not syncing to Pastel Partner
 
 #### Error solution
-The SDK for Pastle partner is not setup.
+The SDK for Pastel Partner is not setup.
 
-You need to contact Sage for the SDK. More information can be found [About]({{< ref "user-docs/getting-started/sage-pastel-partner-installation.md" >}} "Sage Pastel Partner Installation")
+You need to contact Sage for the SDK. More information on the [Sage Pastel Partner Installation]({{< ref "help/getting-started/sage-pastel-partner-installation.md" >}} "Sage Pastel Partner Installation")
