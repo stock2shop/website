@@ -1,31 +1,18 @@
 ---
 title: "400 Bad Request - Incorrect Postal Code"
-heading: ""
-description: ""
-errorgroup: ParcelNinja
-tags:
-  - ParcelNinja
-  - Queue Error
-  - fulfill-order  
+type: "solution"
+sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
+channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
+fulfillments: ["parcel-ninja"]
 draft: true
+date: 2020-12-30T11:57:00+02:00
 ---
+<!-- Action: fulfill_order -->
+#### Error description
+A postal code field included in the order from the channel has incorrect information.
 
-## How to confirm the source of the queue error
-
-Go to: S2S Console > Queue > View > Find queue error > View Item
-
-**Instruction**: "fulfill_order" 
-**Message**: ParcelNinja Order failed: Incorrect Postal Code - must have an exact length of 4
-
-## What does the queue error mean
-
-This means a postal code field included in the order from the channel has been filled in incorrectly such as the postal code being 5 digits instead of 4. ParcelNinja cannot process this order as it does not recognize that postal code.
-
-## What issue(s) does the queue error cause
-
-This error is a [non-blocking queue](/documentation/key-concepts/queue/) error which means you could still receive other orders if its only an issue with this particular order. You will will still receive product and customer updates, however, this order will not be raised into the Source until you have fixed the issue.
-
-## How to resolve it
+#### Error solution
+ParcelNinja cannot process this order as it does not recognize that postal code. Check for extra digits or characters.
 
 Update the postal code in the fulfillment tab of the order on S2S
 
