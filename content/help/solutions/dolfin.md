@@ -1,5 +1,5 @@
 ---
-title: "example solution"
+title: "Dolfin"
 type: "solution"
 source: "dolfin"
 sources: []
