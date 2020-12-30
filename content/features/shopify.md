@@ -18,24 +18,27 @@ order_use_system_price_tier
 -->
 
 <!-- inventory_management -->
-### 
-Text
+### Track Stock Levels
+Stock2Shop can track stock quantities on Shopify and prevent Overselling of Products. 
+Product quantity values will be sent from your ERP to Shopify and deductions will process from your ERP after Orders are raised. 
 
 <!-- queue_fulfill_odder -->
-### 
-Text
+### Fixed Fulfillment Orders
+When Orders come from Shopify to Stock2Shop, we can fulfill all orders sent, or certain Orders based on Shipping options selected on Shopify.
 
 <!-- qty_limit_upper -->
-### 
-Text
+### Limit Sellable Quantity
+You have the option of limiting the amount of stock that gets sent to your Shopify store which in turn limits the amount that can be Ordered.
 
 <!-- send_customer_email -->
-### 
-Text
+### Send Emails to Customers
+When Orders process through our system, we can have your Customers notified of the Order status. 
+This is useful if your Shopify Notifications being sent before the Order is raised into your ERP.
 
 <!-- hide_product_enabled -->
-### 
-Text
+### Create unpublished Products
+When using Stock2Shop to create Products on your Shopify store, we have the option of making the Products live as they are created by Stock2Shop.
+This can be useful if you need to add additional Product data to your Products on Shopify, or as a final measure to make sure the product is ready before going live.
 
 <!-- ignore_category_enabled -->
 ### 
