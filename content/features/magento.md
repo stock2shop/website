@@ -11,10 +11,8 @@ qty_limit_upper
 soap_password
 soap_url
 soap_username
-default_fulfillmentservice_id
 hmac_shared_secret
 group_duplicate_order_items
-check_order_items_linked
 
 -->
 
@@ -37,17 +35,16 @@ Assign the relevant store view for you integration. Store views are most commonl
 (See [Store Views](https://docs.magento.com/user-guide/stores/websites-stores-views.html))
 
 <!-- website_ids -->
-### 
-Text
+### Website ID association
+Select which Website ID Stock2Shop must integrate with. This can be useful if you have one data source or ERP but want to sell on multiple Webstores.
 
-<!--  -->
-### 
-Text
+<!-- default_fulfillmentservice_id -->
+### Automatically Fulfill Orders
+If you have Parcel Ninja or OTD integrated with your Stock2Shop setup, Orders that are to be delivered will automatically
+be sent to the fulfillment service associated with your Magento integration.
 
-<!--  -->
-### 
-Text
-
-<!--  -->
-### 
-Text
+<!-- check_order_items_linked -->
+### Ordered product confirmation
+When Orders are sent from your Webstore, we can have Stock2Shop check that the items contained in your Order also appear 
+in the Stock2Shop system before sending it to your ERP. This can be used as a measure to confirm stock is tracked.
+An Email will be sent to the relevant people from Stock2Shop if this occurs.
