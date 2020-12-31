@@ -1,5 +1,7 @@
 ---
 title: "iQ Retail"
+seoTitle: "iQ Retail Integration Features"
+seoDescription: ""
 type: feature
 sources: ["iqretail"]
 ---

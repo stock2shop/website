@@ -1,5 +1,7 @@
 ---
 title: "Sage 50cloud Pastel Partner"
+seoTitle: "Sage Pastel Partner Integration Features"
+seoDescription: ""
 type: feature
 sources: ["partner"]
 ---

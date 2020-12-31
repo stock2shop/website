@@ -1,10 +1,12 @@
 ---
 title: "Woocommerce"
+seoTitle: "Woocommerce Integration Features"
+seoDescription: ""
 type: feature
 channels: [woocommerce]
 ---
 
-<!-- 
+<!--
 
 consumer_key
 consumer_secret

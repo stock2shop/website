@@ -1,5 +1,7 @@
 ---
 title: "Parcel Ninja"
+seoTitle: "Parcel Ninja Integration Features"
+seoDescription: ""
 type: feature
 sources: ["parcelninja"]
 ---

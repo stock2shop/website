@@ -1,5 +1,7 @@
 ---
 title: "Efinity"
+seoTitle: "Efinity Integration Features"
+seoDescription: ""
 type: feature
 sources: ["efinity"]
 ---

@@ -1,5 +1,7 @@
 ---
 title: "SAP Business One"
+seoTitle: "SAP One Integration Features"
+seoDescription: ""
 type: feature
 sources: ["sapone"]
 ---

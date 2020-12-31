@@ -1,5 +1,7 @@
 ---
 title: "Loot"
+seoTitle: "Loot Integration Features"
+seoDescription: ""
 type: feature
 sources: ["loot"]
 ---

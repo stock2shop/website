@@ -1,5 +1,7 @@
 ---
 title: "Syspro"
+seoTitle: "Syspro Integration Features"
+seoDescription: ""
 type: feature
 sources: ["syspro"]
 ---

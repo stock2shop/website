@@ -1,5 +1,7 @@
 ---
 title: "Flat File"
+seoTitle: "Flat File Integration Features"
+seoDescription: ""
 type: feature
 sources: ["flatfile"]
 ---

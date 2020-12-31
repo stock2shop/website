@@ -1,9 +1,13 @@
 ---
 title: "Sage One"
+seoTitle: "Sage One Integration Features"
+seoDescription: ""
 type: feature
 sources: ["sage-one"]
 ---
+
 <!-- ***NOT IN USE***
+
 param_due_date_days
 param_get_products_filter
 get_products_limit
