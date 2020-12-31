@@ -13,7 +13,7 @@ block_image_enabled
 add_all_orders
 hmac_shared_secret
 set_param_[x]
-order_use_system_price_tier
+group_duplicate_order_items
 
 -->
 
@@ -52,11 +52,12 @@ while creating new Products for those that are not yet on Shopify.
 
 <!--
 order_use_system_price
+order_use_system_price_tier
 order_use_system_price_tax
 -->
 ### Process Orders using ERP prices
 When Orders are sent to Stock2Shop, you can have the option of using the pricing that syncs from your ERP if the pricing differs on your Shopify store.
-
+This can be set to a specific Price Tier if available. 
 
 <!-- order_remove_unlinked_items -->
 ### Process Stock2Shop linked items only
@@ -71,38 +72,31 @@ order_fixed_shipping_tax
 If you have a simple Shopify store and only offer one shipping option, it is possible to set a fixed amount to be sent to your ERP.
 This will ignore any shipping details sent from Shopify with the Orders.
 
-<!-- default_fulfillmentservice_id -->
+<!--
+default_fulfillmentservice_id 
+use_location_api
+fulfillment_map
+-->
 ### Fulfill Orders automatically
 Orders placed on Shopify with Shipping options selected can be sent to supported fulfillment services once the Order has a 'Paid' status.
-
-<!-- group_duplicate_order_items -->
-### 
-Text
+Using Shopify's Location API, we can also send Fulfillment statuses to your Orders in Shopify from supported Fulfillment services.
 
 <!-- delete_product_enabled -->
-### 
-Text
-
-<!-- use_location_api -->
-### 
-Text
+### Manage Products from Stock2Shop
+When you no longer need to sell a certain item, you can mark it inactive in your ERP and Stock2Shop will remove the item from it's database, and from the Shopify store
 
 <!-- check_order_items_linked -->
-### 
-Text
-
-<!-- fulfillment_map -->
-### 
-Text
+### Check Ordered Items are linked
+Stock2Shop can compare your Order line items to the inventory synced to our system and ensure that the items contained in Orders, also appear in Stock2Shop.
 
 <!-- compare_at_price -->
-### 
-Text
+### Sync a 'Compare At' price
+Using Shopify's Compare At feature, we can sync a secondary price list to Shopify and have to used for comparing prices on the store front. 
 
 <!-- order_code_prefix -->
-### 
-Text
+### Prefix Orders from each channel
+Have Orders sent to your ERP with reference to the Webstore they originate from. This is useful for when you have multiple Webstores linked to Stock2Shop.
 
 <!-- line_item_discounts -->
-### 
-Text
+### Discount allocation
+When discounts are applied to your Orders, you have a choice of either applying the discount to specific line items, or to the Order total.
