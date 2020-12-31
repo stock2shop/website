@@ -12,25 +12,19 @@ api_url
 create_image_enabled
 delete_image_enabled
 category_parent_id
-queue_fulfill_order
 authentication
-inventory_management
-order_code_field
-order_code_prefix
 hmac_shared_secret
 group_duplicate_order_items
 order_shipping_method_name
-order_link_items_on_sku
 order_from_date
 bundles
-delete_product_enabled
 
 -->
 
 <!-- add_order_status -->
 ### Choose when Orders process to your ERP
-Orders can be sent to your ERP based on the last status sent from Woocommerce. Once your Order has a status of 'Processing'
-it means the payment has completed and the Order is now complete, we use this status by default. 
+Orders can be sent to your ERP based on the last status sent from Woocommerce. Once your Order has a status of 
+'Processing' it means the payment has completed and the Order is now complete, we use this status by default. 
 
 <!-- product_map -->
 ### Sync specific Product data 
@@ -56,10 +50,12 @@ This can be set to a specific Price Tier if available.
 <!--
 create_product_enabled
 create_product_status
+delete_product_enabled
 -->
 ### Create Products on Woocommerce
 When linking to Woocommerce, we will link to any SKUs that match what SKU codes exist in Stock2Shop.
 Any SKUs that do not appear on Woocommerce can be created by Stock2Shop and set to a status of you choice.
+Stock2Shop can remove SKUs from Woocommerce if needed. 
 
 <!--
 manage_category_enabled
@@ -74,10 +70,31 @@ can be added in Stock2Shop.Based on the Parent Id of Woocommerce categories
 When Orders come from Woocommerce to Stock2Shop, we can fulfill all orders sent, or certain Orders based on Shipping 
 options selected on Woocommerce.
 
-<!--  -->
-### 
-Text
+<!-- inventory_management -->
+### Track Stock Levels
+Stock2Shop can track stock quantities on Woocommerce and prevent Overselling of Products. Product quantity values will 
+be sent from your ERP to Woocommerce and quantity deductions will process from your ERP after Orders are raised. 
 
-<!--  -->
-### 
-Text
+<!-- order_code_field -->
+### Order reference codes
+When sending Orders to your ERP, Stock2Shop can reference the Order number on Woocommerce or the Order ID. 
+We use the Order Number by default.
+
+<!-- order_code_prefix -->
+### Prefix Orders from each channel
+Have Orders sent to your ERP with reference to the Webstore they originate from. This is useful for when you have 
+multiple Webstores linked to Stock2Shop.
+
+<!-- order_link_items_on_sku -->
+### Link items from Orders
+Orders containing items that do not appear on Stock2Shop can be created and linked automatically in order to process 
+the Order sent from Woocommerce
+
+<!-- order_from_date -->
+### Order From Date
+Set the date when Orders must be processed into your ERP. THis is useful for integrations that are new and not fully live.
+
+<!-- bundles -->
+### Link to Woocommerce Bundles
+Stock2Shop supports the use of Bundles on Woocommerce. The bundle items will need to be specified before they are 
+buyable on Woocommerce.

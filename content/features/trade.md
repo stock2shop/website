@@ -60,26 +60,29 @@ show_availability_units
 tax_description
 tax_rate
 tax_rate_shipping
-terms
-welcome_html
 
 -->
 
+<!-- welcome_html -->
+### Custom HTML Welcome Page
+Create your own Custom HTML Welcome page for your Trade store or use the available Templates provided by Stock2Shop.
+
+<!-- terms -->
+### State the Terms of your Store in the checkout
+The checkout field can contain custom Terms that need to be agreed upon by the customer to proceed with the Order.
+
 <!--  -->
 ###
 Text
+
 <!--  -->
 ###
 Text
+
 <!--  -->
 ###
 Text
-<!--  -->
-###
-Text
-<!--  -->
-###
-Text
+
 <!--  -->
 ###
 Text
