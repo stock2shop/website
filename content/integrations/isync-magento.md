@@ -1,8 +1,9 @@
 ---
 title: "isync magento integration"
+seoTitle: "Integrate iSync with Magento E-commerce"
+seoDescription: "An iSync Magento Integration lets you streamline your workflow and simplify your ordering process. Sync inventory data, automate orders, run a B2B store and more by integrating iSync and Magento. Find out more about how we can help you improve your daily workflow."
 lead: "If you’re using iSync as your ERP and running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. Stock2Shop works in conjunction with iSync to create an iSync Magento integration – for a seamless e-commerce experience."
 lead2: "Here’s what you’ll be able to do:"
-seoDescription: "An iSync Magento Integration lets you streamline your workflow and simplify your ordering process. Sync inventory data, automate orders, run a B2B store and more by integrating iSync and Magento. Find out more about how we can help you improve your daily workflow."
 ---
 
 Sync inventory data

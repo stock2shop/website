@@ -1,6 +1,6 @@
 ---
 title: "Testing with Postman"
-seoTitle: "Test you Stock2Shop WooCommerce integration with Postman"
+seoTitle: "Test your Stock2Shop WooCommerce integration with Postman"
 seoDescription: "How To: Test your WooCommerce integration using Postman"
 type: "how-to"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]

@@ -1,8 +1,9 @@
 ---
 title: "isync woocommerce integration"
+seoTitle: "Integrate iSync with WooCommerce"
+seoDescription: "If you’re working with iSync and running your e-commerce website on WooCommerce, you need them to communicate with each other with ease. That’s where Stock2Shop comes in. We work in conjunction with iSync to integrate iSync and WooCommerce. The result? An iSync WooCommerce integration that offers a dramatically more efficient workflow."
 lead: "If you’re working with iSync and running your e-commerce website on WooCommerce, you need them to communicate with each other with ease. That’s where Stock2Shop comes in. We work in conjunction with iSync to integrate iSync and WooCommerce. The result? An iSync WooCommerce integration that offers a dramatically more efficient workflow."
 lead2: "Here’s what you’ll be able to do:"
-seoDescription: "If you’re working with iSync and running your e-commerce website on WooCommerce, you need them to communicate with each other with ease. That’s where Stock2Shop comes in. We work in conjunction with iSync to integrate iSync and WooCommerce. The result? An iSync WooCommerce integration that offers a dramatically more efficient workflow."
 ---
 
 Sync inventory data

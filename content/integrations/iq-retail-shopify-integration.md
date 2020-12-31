@@ -1,8 +1,9 @@
 ---
 title: "IQ retail shopify integration"
+seoTitle: "Integrate iQ Retail with Shopify"
+seoDescription: "Integrate iQ Retail with Shopify and you'll be able to streamline your workflow and simplify your ordering process. We'll work with you to create the iQ Retail Shopify integration that works best for your business. Find out more!"
 lead: "If iQ Retail is your ERP and you’re running a Shopify e-commerce website, it’s essential that they can communicate with each other. That’s how we can help: integrating iQ Retail and Shopify will make your daily business operations simple and stress-free."
 lead2: "Here’s what you’ll be able to do:"
-seoDescription: "Integrate iQ Retail with Shopify and you'll be able to streamline your workflow and simplify your ordering process. We'll work with you to create the iQ Retail Shopify integration that works best for your business. Find out more!"
 ---
 
 Sync inventory data
