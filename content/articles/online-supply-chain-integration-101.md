@@ -1,9 +1,10 @@
 ---
 title: online supply chain integration 101
+seoTitle: "Online supply chain integration 101"
 seoDescription: "Online supply chain integration is a simple way to make your business work more efficiently, with fewer errors, streamlined. Here's how to set it up."
 summary: "So you have an ERP and you have a website to display your products… But something is missing. That something is online supply chain integration. Here’s the what, who and why."
 lead: "So you have an ERP and you have a website to display your products… But something is missing. That something is online supply chain integration: a simple way to make your business work more efficiently, with fewer errors, streamlined."
-image: "/uploads/ article-online-supply-chain-integration.jpg"
+image: "/uploads/article-online-supply-chain-integration.jpg"
 imageAlt: "online supply chain integration"
 date: 2018-07-26
 ---

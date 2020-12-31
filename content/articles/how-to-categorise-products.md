@@ -1,11 +1,11 @@
 ---
-title: "how to categorize products: layered navigation"
+title: "how to categorise products: layered navigation"
 seoDescription: "Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation."
-summary: "Categorizing products correctly is a major pain point for many e-commerce websites. Layered navigation is the solution: find out how – and why – to implement it"
-lead: "Categorizing products correctly is a major pain point for many e-commerce websites. Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation. Here’s what you need to know."
-image: "/uploads/ article-layered-navigation.jpg"
+summary: "Categorising products correctly is a major pain point for many e-commerce websites. Layered navigation is the solution: find out how – and why – to implement it"
+lead: "Categorising products correctly is a major pain point for many e-commerce websites. Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation. Here’s what you need to know."
+image: "/uploads/article-layered-navigation.jpg"
 imageAlt: "layered navigation"
-aliases: "/articles/how-to-categorize-products-layered-navigation/"
+aliases: "/articles/how-to-categorise-products-layered-navigation/"
 date: 2018-07-18
 ---
 ![layered navigation](/uploads/article-layered-navigation.jpg)
