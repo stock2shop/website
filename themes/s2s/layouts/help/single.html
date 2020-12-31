@@ -1,7 +1,18 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
+<h3>How To's</h3>
+<ul>
+    {{ $q1 := where .Site.Pages "Type" "how-to" }}
+    {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}
+    {{ range $q1 | intersect $q2 }}
+    <li>
+        <a href="{{ .URL }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
 
+<h3>Queue Errors</h3>
 <ul>
     {{ $q1 := where .Site.Pages "Type" "solution" }}
     {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}
