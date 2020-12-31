@@ -1,8 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-heading:
-titleList:
-description:
+seoTitle:
+titleList: 
+# titleList used for article block titles
+seoDescription:
 summary:
 lead:
 image:

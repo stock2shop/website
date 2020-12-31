@@ -1,6 +1,7 @@
 ---
 title: "B2B trade store bulk ordering"
 seoTitle: "B2B trade store bulk ordering feature"
+titleList: "B2B trade store bulk ordering feature"
 seoDescription: "If one of your customers wishes to order a large number of products, they can now do so easily by uploading a spreadsheet to the Stock2Shop B2B Trade Store using the new B2B Bulk Ordering Feature"
 summary: "If one of your customers wishes to order a large number of products, they can now do so easily by uploading a spreadsheet to the Stock2Shop B2B Trade Store."
 lead: "The Stock2Shop B2B Trade Store allows users to import bulk orders via a CSV (Comma-separated values) file. This means that should one of your customers wish to order a large number of products, they can do so easily by uploading a spreadsheet."
