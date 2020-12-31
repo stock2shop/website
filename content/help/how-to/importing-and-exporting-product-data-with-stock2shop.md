@@ -1,6 +1,9 @@
 ---
 title: "Importing and Exporting Product Data with Stock2Shop"
-
+type: "how-to"
+seoTitle: ""
+seoDescription: ""
+draft: true
 ---
 
 ## Overview
@@ -34,7 +37,7 @@ Doing an export from S2S is a straightforward process, follow the steps below to
 |Product Type|This would be the type of your product|source_product_code + product_type required to make changes to this field|
 |Tags|This would be the tags of your product|source_product_code + tags required to make changes to this field|
 |Vendor (Brand)|This is the brand of the product|source_product_code + vendor required to make changes to this field|
-|SKU|This is the unique identifier of the variants, this field should sync from your ERP/Accounting system|source_variant_code + sku required to make changes to this field|
+|SKU|This is the unique identifier of the variants, this field should sync from your ERP/Accounting system|source_variant_code + SKU required to make changes to this field|
 |Barcode|This is the barcode of your Variant|source_variant_code + barcode required to make changes to this field|
 |Default Price|This is the price list that has been set as default|source_variant_code + price required to make changes to this field|
 |QTY|This is the qty that has been set as default|source_variant_code + qty required to make changes to this field|
@@ -49,7 +52,7 @@ Doing an export from S2S is a straightforward process, follow the steps below to
 |Variant Image|This is the URL of the image assigned to the variant|Not used on an import|
 |All Images|This is the urls for all images on this product (Each image listed in own column)|source_product_code + image1, image2, etc required to make changes to these fields|
 |All product attributes|This is all the product attributes (Each listed in own column)|source_product_code + meta_[attribute] required to make changes to these attributes (meta_ tells the Stock2Shop system to create/update a specific attribute after the "meta_")|
-|All price tiers|This is all the price lists available on the variants (Each listed in own column)|source_variant_code + price_[price list name] required to make changes to price lsits ( price_ tells the Stock2Shop system to create/update a specific price list after the "price_")|
+|All price tiers|This is all the price lists available on the variants (Each listed in own column)|source_variant_code + price_[price list name] required to make changes to price lists ( price_ tells the Stock2Shop system to create/update a specific price list after the "price_")|
 |All qty availability|This is all the warehouses available on the variants (Each listed in own column)|source_variant_code + qty_[warehouse name] required to make changes to these fields (qty_ tells the Stock2Shop system to create/update a specific warehouse after the "qty_")|
 
 &nbsp;&nbsp;
@@ -99,6 +102,4 @@ Once you have populated the correct fields per the above; follow the below steps
 Any imports in the S2S console will be queued, hover over queue and click view, you will then see the instruction for "sync_products" instruction, wait for the queue to complete and open one or two products in S2S and confirm that your import has processed your changes accordingly.
 
 Should your changes not reflect or an error occurs, contact Support@stock2shop.com for assistance.
-
-If its a common queue error then please have a look at our helpdesk.
 

@@ -1,6 +1,9 @@
 ---
 title: Managing console notifications
-
+type: "how-to"
+seoTitle: ""
+seoDescription: ""
+draft: true
 ---
 ## Overview
 
@@ -10,7 +13,7 @@ In the notifications panel there is a top level recipient/s that if set will rec
 
 ![notification](/uploads/general-managing-console-notifications-1.png)
 
-The notifications tool can be customized for specific email recipients to receive specific notifications, see below for guide to understand, navigate and set different notifications we call overrides.
+The notifications tool can be customised for specific email recipients to receive specific notifications, see below for guide to understand, navigate and set different notifications we call overrides.
 
 ## Navigating to Notifications
 

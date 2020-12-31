@@ -1,6 +1,9 @@
 ---
 title: "Managing Stock2Shop Console Users"
-
+type: "how-to"
+seoTitle: ""
+seoDescription: ""
+draft: true
 ---
 
 ## Overview

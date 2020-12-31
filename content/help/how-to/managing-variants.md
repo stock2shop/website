@@ -1,6 +1,9 @@
 ---
 title: Managing Variants 
-
+type: "how-to"
+seoTitle: ""
+seoDescription: ""
+draft: true
 ---
 
 ## Understanding your integration
@@ -8,8 +11,8 @@ title: Managing Variants
 When integrating using S2S, ensure that you understand how S2S maps your data, below are points to confirm when managing your variants
 
 1. S2S Active field - This is the field that S2S will look at to confirm whether a product must sync or be deleted
-2. Grouping/Product Code field - This is the field that you would populate to tell S2S which skus should be grouped as variable products
-3. Option/s field/s - These are the fields that tells S2S/website the difference between the skus ie: Size and/or Colour
+2. Grouping/Product Code field - This is the field that you would populate to tell S2S which SKUs should be grouped as variable products
+3. Option/s field/s - These are the fields that tells S2S/website the difference between the SKUs ie: Size and/or Colour
 
 Refer to "Client Overview" on your handover doc provided during initial setup (Contact S2S if you don't have one)
 
@@ -17,8 +20,8 @@ Once you know the above it will be easier to manage and add variants to S2S and 
 
 Key points to remember:
 
-1. All grouped skus must have options, ie: if one of the variations/skus of a product has a size and colour then all the variations/skus of the product should have a size and colour
-2. Keep your values of your options uniform, ie: if you are giving one sku a size value of "XL" don't have other skus that say "Extra Large" on a product
+1. All grouped SKUs must have options, ie: if one of the variations/SKUs of a product has a size and colour then all the variations/SKUs of the product should have a size and colour
+2. Keep your values of your options uniform, ie: if you are giving one SKU a size value of "XL" don't have other SKUs that say "Extra Large" on a product
 
 Below are some valuable resources to understanding  variable products:  
 [Products and variants](/documentation/key-concepts/products-variants/)  

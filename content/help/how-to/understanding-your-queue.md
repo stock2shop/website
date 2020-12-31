@@ -1,6 +1,9 @@
 ---
 title: Understanding your queue
-
+type: "how-to"
+seoTitle: ""
+seoDescription: ""
+draft: true
 ---
 
 ## Introduction
@@ -210,8 +213,8 @@ Points to remember in order to manage your queue efficiently:
 1. Ensure the person managing the Stock2Shop console is added to notifications
 2. When you receive an error notification, sign into the console and resolve the error before the queue builds up
 3. Use the support widget (Envelope at the top right of the console) to receive assistance if you are unsure of the error 
-4. Provide the queue ID, queue error and the sku the error relates to for speedy assistance
-5. Take note of the errors that have occurred, if the same error is occurring over and over again there may be updates for the same sku in the queue with the old data, you will need to skip the errors that pertain to that sku until the queue has completed
+4. Provide the queue ID, queue error and the SKU the error relates to for speedy assistance
+5. Take note of the errors that have occurred, if the same error is occurring over and over again there may be updates for the same SKU in the queue with the old data, you will need to skip the errors that pertain to that SKU until the queue has completed
 
 There are a range of errors that occur, once you are aware of how the system works it will assist you in managing the errors more efficiently, [read through our documentation](/documentation/key-concepts/) to gain a better understanding.
 
@@ -232,7 +235,7 @@ This refers to the source of the information that we are receiving from ie: Acco
 This is the code that S2S receives from the source when raising an order on said source. This normally refers to an #Invoice; #Sale Order or #Quotation 
 
 ###### Channel
-This is the end point for the information, sales channel ie: Magento site; Woocommerce site; Shopify site; Takealot; B2B Trade store or other marketplaces
+This is the end point for the information, sales channel ie: Magento site; WooCommerce site; Shopify site; Takealot; B2B Trade store or other marketplaces
 
 ###### Channel Code
 This is the code received by the sales channel when an order is placed on said channel and refers to the sales channel's order number

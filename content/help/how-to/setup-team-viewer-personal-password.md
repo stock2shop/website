@@ -1,6 +1,9 @@
 ---
 title: "Setup TeamViewer personal password"
-
+type: "how-to"
+seoTitle: ""
+seoDescription: ""
+draft: true
 ---
 
 ## Requirements
