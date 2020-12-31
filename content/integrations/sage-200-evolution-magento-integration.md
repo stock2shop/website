@@ -2,7 +2,7 @@
 title: "sage 200 evolution magento integration"
 lead: "If you’re using Sage 200 Evolution (Formerly Sage Evolution Premium) as your ERP and running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. Stock2Shop works in conjunction with Sage 200 Evolution to create an Sage 200 Evolution Magento integration – for a seamless e-commerce experience."
 lead2: "Here’s what you’ll be able to do:"
-description: "Integrate Magento with Sage 200 Evolution and centralize data management"
+seoDescription: "Integrate Magento with Sage 200 Evolution and centralize data management"
 ---
 
 Sync inventory data

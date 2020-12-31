@@ -2,7 +2,7 @@
 title: "MS navision takealot marketplace integration"
 lead: "Update product offers on the Takealot marketplace directly from your MS Navision accounting system. Stock2Shop’s simple integration will streamline your operation by reducing duplicate data capture, and ensuring your product information on Takealot is up to date."
 lead2: "Here’s what you’ll be able to do:"
-description: "Integrate takealot marketplace with MS Navision"
+seoDescription: "Integrate takealot marketplace with MS Navision"
 ---
 
 Sync data

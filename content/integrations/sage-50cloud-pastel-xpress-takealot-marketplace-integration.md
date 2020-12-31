@@ -2,7 +2,7 @@
 title: "sage 50cloud pastel xpress takealot marketplace integration"
 lead: "Update product offers on the Takealot marketplace directly from your Sage 50cloud Pastel Xpress. Stock2Shop’s simple integration will streamline your operation by reducing duplicate data capture, and ensuring your product information on Takealot is up to date."
 lead2: "Here’s what you’ll be able to do:"
-description: ""
+seoDescription: ""
 aliases: "/sage-50cloud-pastel-xpress-takealot-marketplace-integration/"
 ---
 

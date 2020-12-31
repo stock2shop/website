@@ -2,7 +2,7 @@
 title: "iQ Retail takealot marketplace integration"
 lead: "Update product offers on the Takealot marketplace directly from your IQ Retail accounting system. Stock2Shop’s simple integration will streamline your operation by reducing duplicate data capture, and ensuring your product information on Takealot is up to date."
 lead2: "Here’s what you’ll be able to do:"
-description: "Integrate takealot marketplace with IQ Retail"
+seoDescription: "Integrate takealot marketplace with IQ Retail"
 ---
 
 Sync data

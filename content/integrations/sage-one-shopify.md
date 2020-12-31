@@ -2,7 +2,7 @@
 title: "sage business cloud accounting shopify integration"
 lead: "If you’re currently using Sage Business Cloud Accounting (formerly Sage One) as your ERP and Shopify as your e-commerce website, you’ll want them to talk to each other. That’s where Stock2Shop comes in: let us integrate Sage Business Cloud Accounting and Shopify to make your day-to-day business easier."
 lead2: "Here’s what you’ll be able to do:"
-description: "Let Stock2Shop integrate Sage Business Cloud Accounting (formerly Sage One) with Shopify and you'll be amazed how much more efficient your business becomes. Sync inventory data, simplify ordering, automate order fulfilment and more. Stock2Shop will work with you to create the perfect solution for your business."
+seoDescription: "Let Stock2Shop integrate Sage Business Cloud Accounting (formerly Sage One) with Shopify and you'll be amazed how much more efficient your business becomes. Sync inventory data, simplify ordering, automate order fulfilment and more. Stock2Shop will work with you to create the perfect solution for your business."
 ---
 
 Sync inventory data

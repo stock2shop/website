@@ -2,7 +2,7 @@
 title: "sage business cloud accounting magento integration"
 lead: "If Sage Business Cloud Accounting (formerly Sage One) is your ERP and you’re running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. A Sage Business Cloud Accounting Magento integration ensures a seamless e-commerce experience."
 lead2: "Here’s what you’ll be able to do:"
-description: "If Sage Business Cloud Accounting (formerly Sage One) is your ERP and you’re running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. A Sage Business Cloud Accounting Magento Integration ensures a seamless e-commerce experience."
+seoDescription: "If Sage Business Cloud Accounting (formerly Sage One) is your ERP and you’re running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. A Sage Business Cloud Accounting Magento Integration ensures a seamless e-commerce experience."
 ---
 
 Sync inventory data

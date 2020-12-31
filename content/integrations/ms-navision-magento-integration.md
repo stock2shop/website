@@ -2,7 +2,7 @@
 title: "microsoft dynamics nav magento integration"
 lead: "If you’re using Microsoft Dynamics NAV as your ERP and running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. Stock2Shop works in conjunction with Microsoft Dynamics NAV to create an Microsoft Dynamics NAV Magento integration – for a seamless e-commerce experience."
 lead2: "Here’s what you’ll be able to do:"
-description: "Integrate your Microsoft Dynamics NAV and your Magento e-commerce website for maximum efficiency. You’ll be able to sync inventory, enrich product data, customise a workflow to suit your needs and streamline the entire ordering process - including automatic order fulfillment. Easily."
+seoDescription: "Integrate your Microsoft Dynamics NAV and your Magento e-commerce website for maximum efficiency. You’ll be able to sync inventory, enrich product data, customise a workflow to suit your needs and streamline the entire ordering process - including automatic order fulfillment. Easily."
 ---
 
 Sync inventory data

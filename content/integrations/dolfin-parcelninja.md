@@ -1,7 +1,8 @@
 ---
-title: "dolfin parcelninja"
+title: "Dolfin Parcelninja"
+seoTitle: "Dolfin integration with Parcelninja"
+seoDescription: ""
 lead: ""
 lead2: ""
-description: ""
 tags: ["todo"]
 ---

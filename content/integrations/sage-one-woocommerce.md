@@ -2,7 +2,7 @@
 title: "sage business cloud accounting woocommerce integration"
 lead: "If you’re working with Sage Business Cloud Accounting (formerly Sage One) and running your e-commerce website on WooCommerce, it’s essential that they communicate with each other. That’s where Stock2Shop comes in. We integrate with Sage Business Cloud Accounting and WooCommerce to make your workflow dramatically more efficient."
 lead2: "Here’s what you’ll be able to do:"
-description: "If you’re working with Sage Business Cloud Accounting (formerly Sage One) and running your e-commerce website on WooCommerce, it’s essential that they communicate with each other. That’s where Stock2Shop comes in. You won't believe how much a Sage Business Cloud Accounting WooCommerce integration can improve your business workflow."
+seoDescription: "If you’re working with Sage Business Cloud Accounting (formerly Sage One) and running your e-commerce website on WooCommerce, it’s essential that they communicate with each other. That’s where Stock2Shop comes in. You won't believe how much a Sage Business Cloud Accounting WooCommerce integration can improve your business workflow."
 ---
 
 Sync inventory data

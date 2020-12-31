@@ -2,7 +2,7 @@
 title: " SAP business one magento integration"
 lead: "With SAP Business One as your ERP and Magento as your e-commerce website, you’ll want to integrate them so that they can communicate with each other seamlessly, and offer your customers a superb e-commerce experience. Stock2Shop can integrate SAP Business One and Magento to make that happen. A SAP Business One Magento integration will change the way you do business."
 lead2: "Here’s what you’ll be able to do:"
-description: "Integrate SAP Business One with Magento and you'll be amazed how much more efficient your workflow becomes. A SAP Business One Magento Integration automates the ordering process, syncs inventory and streamlines your business. Find out more!"
+seoDescription: "Integrate SAP Business One with Magento and you'll be amazed how much more efficient your workflow becomes. A SAP Business One Magento Integration automates the ordering process, syncs inventory and streamlines your business. Find out more!"
 ---
 
 Sync inventory data

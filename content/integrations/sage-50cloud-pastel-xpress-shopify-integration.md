@@ -2,7 +2,7 @@
 title: "sage 50cloud pastel xpress shopify integration"
 lead: "If Sage 50cloud Pastel Xpress (Formerly Sage Pastel Xpress Advantage) is your ERP and you’re running a Shopify e-commerce website, it’s essential that they can communicate with each other. That’s how we can help: integrating Sage 50cloud Pastel Xpress and Shopify will make your daily business operations simple and stress-free."
 lead2: "Here’s what you’ll be able to do:"
-description: ""
+seoDescription: ""
 ---
 
 Sync inventory data

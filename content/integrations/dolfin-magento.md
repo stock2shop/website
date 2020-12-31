@@ -1,8 +1,10 @@
 ---
 title: "Dolfin Magento"
+seoTitle: "Dolfin integration with Magneto"
+seoDescription: "Find out how a Dolfin Magento Integration can improve your workflow, streamline your business and increase your revenue. We'll work with you to integrate Dolfin and Magento and provide a tailored workflow to suit your business."
 lead: "If you’ve chosen Dolfin as your ERP and you have a Magento e-commerce website, it’s really important that they communicate with each other so that you can provide the most seamless e-commerce experience for your customers – and so that your day-to-day business can run smoothly. A Dolfin Magento integration can achieve both these goals."
 lead2: "Here’s what you’ll be able to do:"
-description: "Find out how a Dolfin Magento Integration can improve your workflow, streamline your business and increase your revenue. We'll work with you to integrate Dolfin and Magento and provide a tailored workflow to suit your business."
+
 ---
 
 Sync inventory data
