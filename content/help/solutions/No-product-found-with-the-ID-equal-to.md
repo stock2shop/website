@@ -1,7 +1,6 @@
 ---
-title: "No product found with the ID equal to"
-heading: "update_product: No product found with the ID equal to [ID] 'woocommerce_api_no_product_found'"
-dtype: "solution"
+title: "No product found with the ID equal to [ID] 'woocommerce_api_no_product_found"
+type: "solution"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["woocommerce"]
 fulfillments: ["parcel-ninja", "on-the-dot"]
