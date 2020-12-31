@@ -1,7 +1,6 @@
 ---
 title: "automatically mark your shopify orders as fulfilled once completed in parcelninja"
-seoTitle: ""
-titleList: "let s2s mark your shopify orders as fulfilled once completed in parcelninja"
+seoTitle: "let s2s mark your shopify orders as fulfilled once completed in parcelninja"
 seoDescription: "Stock2Shop has brought the Parcelninja integration full circle by automatically updating order statuses to “Fulfilled” in Shopify."
 summary: "Stock2Shop has brought the Parcelninja integration full circle by automatically updating order statuses to “Fulfilled” in Shopify."
 lead: "Stock2Shop has brought the Parcelninja integration full circle by automatically updating order statuses to “Fulfilled” in Shopify, and notifying customers once delivery has taken place."

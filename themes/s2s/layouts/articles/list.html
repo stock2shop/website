@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
+    <h1>{{ if .Params.seoTitle }}{{ title .Params.seoTitle }}{{ else }}{{ title .Title }}{{ end }}</h1>
     <p class="lead">{{ .Params.Lead }}</p>
     {{ .Content }}
     <div class="row row-cols-1 row-cols-md-3" id="articles">

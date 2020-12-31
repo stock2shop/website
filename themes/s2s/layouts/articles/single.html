@@ -10,7 +10,7 @@
         </nav>
     </aside>
     <div class="col-md-9">
-        <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>
+        <h1>{{ if .Params.seoTitle }}{{ title .Params.seoTitle }}{{ else }}{{ title .Title }}{{ end }}</h1>
         {{ if .Params.Author }}<p>Written by {{ .Params.Author }}</p>{{ end }}
         <p class="lead">{{ .Params.lead }}</p>
         {{ .Content }}

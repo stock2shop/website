@@ -1,7 +1,6 @@
 ---
 title: "b2b trade store promotions feature"
-seoTitle: "B2B trade store promotions feature"
-titleList: "Introducing the B2B Trade Store Promotions Feature"
+seoTitle: "Introducing the B2B Trade Store Promotions Feature"
 seoDescription: "Create promotions and generate coupons that your customers can redeem at checkout on your B2B Trade Store. Read more here."
 summary: "Create promotions and generate coupons that your customers can redeem at checkout on your B2B Trade Store."
 lead: "Create promotions and generate coupons that your customers can redeem at checkout on your B2B Trade Store."
