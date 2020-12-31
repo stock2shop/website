@@ -1,6 +1,6 @@
 ---
 title: "spreadsheets a useful tool for managing your product data"
-seoTitle: "spreadsheets: a useful tool for managing your product data"
+seoTitle: "Spreadsheets: a useful tool for managing your product data"
 titleList: "spreadsheets: a useful tool for managing your product data"
 seoDescription: "Six steps to building a spreadsheet with meaningful data for running a successful E-commerce business"
 summary: "Running a successful online store is not as simple as ‘build it and they’ll come’. View our six steps to building a spreadsheet with meaningful data."

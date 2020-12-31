@@ -1,6 +1,6 @@
 ---
 title: "names for sage accounting system"
-seoTitle: "new names for sage accounting systems"
+seoTitle: "New names for sage accounting systems"
 titleList: "Names for Sage Accounting System"
 seoDescription: "Elucidating new Sage Accounting names"
 summary: "The main purpose behind the rebranding of the various Sage accounting products is to consolidate them into suites. This will make it much easier to identify the software best suited to your needs."

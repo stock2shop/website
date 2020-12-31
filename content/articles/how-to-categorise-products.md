@@ -1,5 +1,6 @@
 ---
 title: "how to categorise products: layered navigation"
+seotitle: "how to categorise products: layered navigation"
 seoDescription: "Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation."
 summary: "Categorising products correctly is a major pain point for many e-commerce websites. Layered navigation is the solution: find out how – and why – to implement it"
 lead: "Categorising products correctly is a major pain point for many e-commerce websites. Figuring out how to structure and navigate products can seem like a difficult problem without an easy solution. But there is a solution: layered navigation. Here’s what you need to know."
