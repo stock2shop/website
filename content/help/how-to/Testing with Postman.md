@@ -1,7 +1,13 @@
 ---
 title: "Testing with Postman"
-description: ""
-image: ""
+seoTitle: "Test you Stock2Shop WooCommerce integration with Postman"
+seoDescription: "How To: Test your WooCommerce integration using Postman"
+type: "how-to"
+sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
+channels: [ "woocommerce"]
+fulfillments: ["parcel-ninja", "on-the-dot"]
+draft: true
+date: 2020-12-31T12:16:00+02:00
 ---
 
 ## Why test with Postman 
