@@ -1,5 +1,7 @@
 ---
 title: "Dolfin"
+seoTitle: "Dolfin Integration Features"
+seoDescription: ""
 type: feature
 sources: ["dolfin"]
 ---

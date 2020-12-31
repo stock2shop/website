@@ -1,5 +1,7 @@
 ---
 title: "Omni Accounts"
+seoTitle: "Omni Accounts Integration Features"
+seoDescription: ""
 type: feature
 sources: ["omniaccounts"]
 ---

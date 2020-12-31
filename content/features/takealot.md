@@ -1,5 +1,7 @@
 ---
 title: "Takealot Marketplace"
+seoTitle: "Takealot Integration Features"
+seoDescription: ""
 type: feature
 channels: [takealot]
 ---

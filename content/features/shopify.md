@@ -1,5 +1,7 @@
 ---
 title: "Shopify"
+seoTitle: "Shopify Integration Features"
+seoDescription: ""
 type: feature
 channels: [shopify]
 ---

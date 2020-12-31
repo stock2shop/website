@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Dynamics NAV"
+seoTitle: "Microsoft Dynamic NAV Integration Features"
+seoDescription: ""
 type: feature
 sources: ["ms-navision"]
 ---

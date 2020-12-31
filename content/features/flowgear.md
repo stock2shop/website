@@ -1,5 +1,7 @@
 ---
 title: "Flow Gear"
+seoTitle: "Flow Gear Integration Features"
+seoDescription: ""
 type: feature
 sources: ["flowgear"]
 ---

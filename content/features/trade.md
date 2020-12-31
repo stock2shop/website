@@ -1,5 +1,7 @@
 ---
 title: "B2B Trade Store"
+seoTitle: "Stock2Shop Trade Store Integration Features"
+seoDescription: ""
 type: feature
 channels: [trade]
 ---

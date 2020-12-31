@@ -1,5 +1,7 @@
 ---
 title: "Magento 1"
+seoTitle: "Magento 1 Integration Features"
+seoDescription: ""
 type: feature
 channels: [magento]
 ---

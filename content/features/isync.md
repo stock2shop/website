@@ -1,5 +1,7 @@
 ---
 title: "iSync"
+seoTitle: "iSync Integration Features"
+seoDescription: ""
 type: feature
 sources: ["isync"]
 ---

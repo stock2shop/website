@@ -1,5 +1,7 @@
 ---
 title: "Sage 300"
+seoTitle: "Sage 300 Integration Features"
+seoDescription: ""
 type: feature
 sources: ["sage300"]
 ---
