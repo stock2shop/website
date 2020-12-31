@@ -1,7 +1,7 @@
 ---
 title: "PJ Marketing"
-heading: "Case Study: PJ Marketing"
-description: "PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries. Read how Stock2Shop helped with integration."
+seoTitle: "Case Study: PJ Marketing"
+seoDescription: "PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries. Read how Stock2Shop helped with integration."
 lead: "PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries."
 summary: "PJ Marketing is an importer and wholesaler of quality kitchenware to the retail and hospitality industries. They needed to be able to give their customers a way to upload a CSV file for bulk orders."
 summary2: "Success story featuring Sage Pastel Partner, B2B Trade Store and Bulk Ordering."
@@ -36,7 +36,7 @@ PJ Marketing was looking for a way to present their product offering on a public
 
 A feed was set up to send product data from the PJ Marketing Pastel Partner to their Stock2Shop console. They could then enrich these products with information such as images and long descriptions.
 
-Two different B2B Trade Stores were then set up, with different product selections sent to each. Wholesale customers were then allocated to a particular B2B channel. When they log in to place an order, they are only exposed to products that are relevant to them, and at the correct price. Their orders are then raised directly into their account on Pastel Partner. In addition to the wholesale functionality, a feed of product data was also sent to the front-facing WooCommere website. This is purely for browsing purposes; ordering on this channel is disabled.
+Two different B2B Trade Stores were then set up, with different product selections sent to each. Wholesale customers were then allocated to a particular B2B channel. When they log in to place an order, they are only exposed to products that are relevant to them, and at the correct price. Their orders are then raised directly into their account on Pastel Partner. In addition to the wholesale functionality, a feed of product data was also sent to the front-facing WooCommerce website. This is purely for browsing purposes; ordering on this channel is disabled.
 
 #### Sync Data
 - PJ Marketing can manage their inventory and pricing from Pastel Partner, automatically sending updates to their B2B Trade Store in near real time.

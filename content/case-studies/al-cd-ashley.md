@@ -1,7 +1,7 @@
 ---
 title: "AL & CD Ashley"
-heading: "Case Study: AL & CD Ashley"
-description: "AL & CD Ashley needed to integrate their Sage Pastel Partner ERP with Shopify. We created a Magento e-commerce website (B2B and B2C) to do just that. Here's the full story of how Stock2Shop worked with AL & CD Ashley to tailor the perfect solution for their business."
+seoTitle: "Case Study: AL & CD Ashley"
+seoDescription: "AL & CD Ashley needed to integrate their Sage Pastel Partner ERP with Shopify. We created a Magento e-commerce website (B2B and B2C) to do just that. Here's the full story of how Stock2Shop worked with AL & CD Ashley to tailor the perfect solution for their business."
 lead: "AL & CD Ashley is a major importer and distributor of high quality homeware and kitchenware products, including Bodum, Brabantia, Scanpan and many more."
 summary: "Imports and distributes high quality cookware."
 summary2: "Success Story featuring Pastel Partner, B2B and B2C stores."

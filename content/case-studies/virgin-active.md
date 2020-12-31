@@ -1,7 +1,7 @@
 ---
 title: Virgin Active
-heading: "case study: virgin active" 
-description: "Virgin Active wanted a specific e-commerce website linked to their members portal. Stock2Shop worked with them to create a tailormade solution. What was it? A Magento website, integrated with Parcelninja for a seamless workflow. Read more!"
+seoTitle: "Case Study: Virgin Active" 
+seoDescription: "Virgin Active wanted a specific e-commerce website linked to their members portal. Stock2Shop worked with them to create a tailormade solution. What was it? A Magento website, integrated with Parcelninja for a seamless workflow. Read more!"
 lead: "Virgin Active is a global chain of health clubs and gyms, with over 270 clubs in 10 countries."
 summary: "Enriches people's lives through physical activity."
 summary2: "Success story featuring Parcelninja and Magento."
