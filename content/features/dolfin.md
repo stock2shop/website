@@ -30,8 +30,8 @@ When changes are made to your Dolfin system, we can set an hourly time to check 
 This can be set for which ever minute on the hour best suits your workflow.
 
 <!-- create_order -->
-### Create orders on Sage Evolution
-Stock2Shop can create an order on Sage Evolution when
+### Create orders on Dolfin
+Stock2Shop can create an order on Dolfin when
 it has been received from your sales channel(s).
 
 <!-- order_source_customer_code_map -->

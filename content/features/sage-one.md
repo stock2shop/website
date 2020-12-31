@@ -10,7 +10,6 @@ get_products_limit
 param_get_images_enabled
 get_images_limit
 company_id
-cron_get_products_schedule
 param_default_shipping_code
 param_invoice_body
 param_invoice_subject
@@ -25,6 +24,10 @@ sync_mode
 customer_map
 -->
 
+<!-- cron_get_products_schedule -->
+### Update Stock2Shop hourly with Product data changes
+When changes are made to your Dolfin system, we can set an hourly time to check for Product updates.
+This can be set for which ever minute on the hour best suits your workflow.
 
 <!-- company_id -->
 ### Sage Business Cloud Accounting Company ID
@@ -86,5 +89,5 @@ regardless of what is placed on the Order
 <!-- param_product_field_map -->
 ### Sync specific Product data 
 All Product data sent from Sage Business Cloud Accounting can be filtered as needed.
-We might not require a certain amount of details to be sent through with the needed Product data.
+You might not require a certain amount of details to be sent through with the Product data.
 In these cases, we can synchronize only the required data into Stock2Shop to then push up to your Webstore.
