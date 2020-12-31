@@ -1,14 +1,9 @@
 ---
 title: "SYSPRO - getting started"
-heading: "installing Stock2Shop for SYSPRO"
-description: "Using SYSPRO as your ERP and want to connect it to your e-commerce website? Here are set up instructions for integrating SYSPRO to multiple online sales channels, like Magento, Shopify, WooCommerce and your B2B trade store."
+seoTitle: "Installing Stock2Shop for SYSPRO"
+seoDescription: "Using SYSPRO as your ERP and want to connect it to your e-commerce website? Here are set up instructions for integrating SYSPRO to multiple online sales channels, like Magento, Shopify, WooCommerce and your B2B trade store."
+draft: true
 aliases: "/documentation/getting-started/syspro-installation/"
-toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: SYSPRO
-    weight: 130
 ---
 
 ## Introduction

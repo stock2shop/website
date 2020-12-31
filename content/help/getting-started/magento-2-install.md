@@ -1,14 +1,10 @@
 ---
-title: "magento 2.x Integration - getting started"
-heading: "installing Stock2Shop for magento 2.x"
-description: "Do you have a Magento 2.x website? Here's how to configure your Magento 2.x website and set up the REST API for Stock2Shop to sync product data and orders."
+title: "Magento 2.x Integration - getting started"
+seoTitle: "Installing Stock2Shop for Magento 2.x"
+seoDescription: "Do you have a Magento 2.x website? Here's how to configure your Magento 2.x website and set up the REST API for Stock2Shop to sync product data and orders."
+draft: true
 aliases: "/documentation/getting-started/magento-2-install/"
-toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Magento 2.x
-    weight: 21
+
 ---
 
 ## Introduction

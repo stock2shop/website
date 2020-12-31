@@ -1,14 +1,9 @@
 ---
 title: "Sage X3 - getting started"
-heading: "installing Stock2Shop for Sage X3"
-description: "Set up instructions for integrating Sage X3 to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
-aliases: "/documentation/getting-started/Sage-x3/"
-toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Sage X3
-    weight: 150
+seoTitle: "Installing Stock2Shop for Sage X3"
+seoDescription: "Set up instructions for integrating Sage X3 to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
+draft: true
+aliases: "/documentation/getting-started/sage-x3-install/"
 ---
 
 ## Introduction

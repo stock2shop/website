@@ -1,19 +1,14 @@
 ---
-title: "omni accounts - getting started"
-heading: "installing Stock2Shop for omni accounts"
-description: "Set up instructions for integrating Omni Accounts to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
+title: "Omni accounts - getting started"
+seoTitle: "Installing Stock2Shop for Omni Accounts"
+seoDescription: "Set up instructions for integrating Omni Accounts to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
+draft: true
 aliases: "/documentation/getting-started/omni-accounts-install/"
-toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Omni Accounts
-    weight: 140
 ---
 
 ## Introduction
 
-Omni Accounts is a client-side ERP system. This means the Omni Accounts application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link Omni Accounts to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, we need to install software on the server or computer where your Omni Accounts is set up.
+Omni Accounts is a client-side ERP system. This means the Omni Accounts application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link Omni Accounts to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcel Ninja and Takealot, we need to install software on the server or computer where your Omni Accounts is set up.
 
 ## What we need from you
 

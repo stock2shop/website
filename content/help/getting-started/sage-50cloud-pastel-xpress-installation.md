@@ -1,14 +1,9 @@
 ---
-title: " Sage 50cloud pastel xpress - getting started"
-heading: "installing Stock2Shop for sage 50cloud pastel xpress (formerly sage pastel partner xpress)"
-description: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
+title: " Sage 50cloud Pastel Xpress - getting started"
+seoTitle: "Installing Stock2Shop for Sage 50cloud Pastel Xpress (formerly Sage Pastel Partner Xpress)"
+seoDescription: "Stock2Shop integrates Sage Live to Magento, Shopify, WooCommerce and our B2B ordering platform. Find out more!"
+draft: true
 aliases: "/documentation/getting-started/sage-50cloud-pastel-xpress-installation/"
-toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Sage 50cloud Pastel Xpress
-    weight: 70
 ---
 
 ## Introduction

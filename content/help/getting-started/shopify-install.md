@@ -1,14 +1,9 @@
 ---
-title: "shopify - getting started"
-heading: "installing Stock2Shop for shopify"
-description: "Do you have a Shopify website? Here's how to configure your Shopify website and set up the REST API for Stock2Shop to sync product data and orders."
-toc: true
+title: "Shopify - getting started"
+seoTitle: "Installing Stock2Shop for Shopify"
+seoDescription: "Do you have a Shopify website? Here's how to configure your Shopify website and set up the REST API for Stock2Shop to sync product data and orders."
+draft: true
 aliases: "/documentation/getting-started/shopify-install/" 
-menu:
-  docside:
-    parent: Getting Started
-    name: Shopify
-    weight: 10
 ---
 
 ## Introduction

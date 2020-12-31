@@ -1,11 +1,10 @@
 ---
 title: Getting Started
-description: "Stock2Shop can help you set up and configure our software. We'll assist with getting started and help you integrate your ERP or accounting system (Sage, SYSPRO, iSync or SAP) with your e-commerce website (Magento, WooCommerce, Shopify or your B2B platform). Find out more!"
+seoTitle: "Getting Started with installing Stock2Shop"
+seoDescription: "Stock2Shop can help you set up and configure our software. We'll assist with getting started and help you integrate your ERP or accounting system (Sage, SYSPRO, iSync or SAP) with your e-commerce website (Magento, WooCommerce, Shopify or your B2B platform). Find out more!"
 lead: "How to get set up on Stock2Shop so that you can streamline your workflow."
+draft: true
 aliases: "/documentation/getting-started/"
-menu: docside
-toc: false
-weight: 10
 ---
 
 Stock2Shop is a flexible system integration solution that can be tailored to your company’s specific needs.

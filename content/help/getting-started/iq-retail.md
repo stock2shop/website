@@ -1,19 +1,14 @@
 ---
 title: "iQ Retail - getting started"
-heading: "installing Stock2Shop for IQ retail"
-description: "Set up instructions for integrating iQ Retail to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
+seoTitle: "Installing Stock2Shop for IQ retail"
+seoDescription: "Set up instructions for integrating iQ Retail to multiple systems, such as Magento, Shopify, WooCommerce and your B2B trade store. Step by step instructions from Stock2Shop on how to integrate your applications for maximum efficiency. Find out more!"
+draft: true
 aliases: "/documentation/getting-started/iq-retail/"
-toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: iQ Retail
-    weight: 150
 ---
 
 ## Introduction
 
-iQ Retail is a client side ERP system. This means the iQ Retail application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link iQ Retail to other sales channels and fulfillments services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store and Parcelninja, we need to install software on the server or computer where your iQ Retail is set up.
+iQ Retail is a client side ERP system. This means the iQ Retail application is installed on a server at your office, on your actual work computer or on a server in the cloud. In order for Stock2Shop to provide you with the full integration capabilities and link iQ Retail to other sales channels and fulfillments services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store and Parcel Ninja, we need to install software on the server or computer where your iQ Retail is set up.
 
 ## What we need from you
 

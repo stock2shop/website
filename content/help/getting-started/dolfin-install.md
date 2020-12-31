@@ -1,18 +1,13 @@
 ---
-title: "dolfin - getting started"
-heading: "installing Stock2Shop for dolfin"
-description: "Stock2Shop can sync products and orders betweenDolfin and numerous other applications like Magento, Woocommerce, Shopify and our B2B ordering platform. Find out more!"
+title: "Dolfin - Getting Started"
+seoTitle: "Installing Stock2Shop for Dolfin"
+seoDescription: "Stock2Shop can sync products and orders betweenDolfin and numerous other applications like Magento, Woocommerce, Shopify and our B2B ordering platform. Find out more!"
+draft: true
 aliases: "/documentation/getting-started/dolfin-install/"
-toc: true
-menu:
-  docside:
-    parent: Getting Started
-    name: Dolfin
-    weight: 160
 ---
 
 ## Introduction
-Dolfin is an online accounting system. This means the application lives in the “cloud”. Enabling Stock2Shop to work with Dolfin is relatively simple. In order for Stock2Shop to provide you with the full integration features and link your Dolfin system to other sales channels and fulfilment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, we need access to your Dolfin.
+Dolfin is an online accounting system. This means the application lives in the “cloud”. Enabling Stock2Shop to work with Dolfin is relatively simple. In order for Stock2Shop to provide you with the full integration features and link your Dolfin system to other sales channels and fulfillment services such as Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, Parcelninja and Takealot, we need access to your Dolfin.
 
 ## What we need from you
 
