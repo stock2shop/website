@@ -20,7 +20,7 @@ group_duplicate_order_items
 <!-- inventory_management -->
 ### Track Stock Levels
 Stock2Shop can track stock quantities on Shopify and prevent Overselling of Products. 
-Product quantity values will be sent from your ERP to Shopify and deductions will process from your ERP after Orders are raised. 
+Product quantity values will be sent from your ERP to Shopify and quantity deductions will process from your ERP after Orders are raised. 
 
 <!-- queue_fulfill_odder -->
 ### Fixed Fulfillment Orders
