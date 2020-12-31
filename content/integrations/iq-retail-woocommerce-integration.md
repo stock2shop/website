@@ -1,5 +1,5 @@
 ---
-title: "IQ retail woocommerce integration"
+title: "IQ retail WooCommerce integration"
 lead: "If you’re working with iQ Retail and you have a WooCommerce website, it’s really important that they can communicate with each other. That’s how Stock2Shop can help. We improve your workflow and efficiency by integrating with iQ Retail and WooCommerce."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: "" 
@@ -69,13 +69,13 @@ Customise the ordering process to suit your workflow perfectly.
 *   It’s up to you to decide whether iQ Retail creates the order code, or you use the WooCommerce order code.
 *   You can also decide whether the customer’s address comes from WooCommerce or the existing customer details in iQ Retail. This is particularly useful for B2B and trade transactions.
 
-Automate order fulfillment
+Automate order fulfilment
 --------------------------
 
-Once you’ve integrated iQ Retail and WooCommerce, you’ll find pushing orders to a fulfillment service simple.
+Once you’ve integrated iQ Retail and WooCommerce, you’ll find pushing orders to a fulfilment service simple.
 
-*   You’ll be able to set up order fulfillment to run automatically.
-*   Choose to fulfill the order depending on its status (e.g. paid).
+*   You’ll be able to set up order fulfilment to run automatically.
+*   Choose to fulfil the order depending on its status (e.g. paid).
 *   Customise order fulfillments according to your workflow requirements.
 *   Have a totally automated solution: from placing an online order to delivery.
 
