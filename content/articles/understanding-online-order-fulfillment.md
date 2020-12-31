@@ -1,8 +1,8 @@
 ---
 title: "understanding online order fulfillment"
-heading: ""
+seoTitle: ""
 titleList: "understanding online order fulfillment"
-description: "Seamless order fulfillment makes your business much easier, while a complicated fulfillment process can slow everything down. Here's what you need to know."
+seoDescription: "Seamless order fulfillment makes your business much easier, while a complicated fulfillment process can slow everything down. Here's what you need to know."
 summary: "Seamless order fulfillment will make your business – and your life – much easier. Here’s what you need to know, and how to think through order fulfillment."
 lead: "One of the most important things to understand about e-commerce is the fulfillment process. Seamless fulfillment will make your business – and your life – much easier, while a complicated fulfillment process can slow everything down."
 image: "/uploads/article-fulfillment.jpg"

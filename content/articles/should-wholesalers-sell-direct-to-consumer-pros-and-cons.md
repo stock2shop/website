@@ -1,8 +1,8 @@
 ---
 title: "should wholesalers sell direct to consumer pros and cons"
-heading: "should wholesalers sell direct-to-consumer? pros and cons"
+seoTitle: "should wholesalers sell direct-to-consumer? pros and cons"
 titleList: "Should wholesalers sell DTC?"
-description: "Should wholesalers sell direct-to-consumer? We outline the Pros and Cons: there are a number of things to consider and some important questions to ask."
+seoDescription: "Should wholesalers sell direct-to-consumer? We outline the Pros and Cons: there are a number of things to consider and some important questions to ask."
 summary: "If you’re a wholesaler, one of the most difficult decisions you’ll have to make in the future is whether to sell directly to the consumer or not. We outline the Pros and Cons."
 lead: "If you’re a wholesaler, one of the most difficult decisions you’ll have to make in the future is whether to sell directly to the consumer or not. There are a number of things to consider and some important questions to ask before you make a decision."
 image: "/uploads/article-wholesale.jpg"

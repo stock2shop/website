@@ -1,8 +1,8 @@
 ---
 title: "spreadsheets a useful tool for managing your product data"
-heading: "spreadsheets: a useful tool for managing your product data"
+seoTitle: "spreadsheets: a useful tool for managing your product data"
 titleList: "spreadsheets: a useful tool for managing your product data"
-description: "Six steps to building a spreadsheet with meaningful data for running a successful E-commerce business"
+seoDescription: "Six steps to building a spreadsheet with meaningful data for running a successful E-commerce business"
 summary: "Running a successful online store is not as simple as ‘build it and they’ll come’. View our six steps to building a spreadsheet with meaningful data."
 lead: "Contrary to popular belief, running a successful online store is not as simple as ‘build it and they’ll come’. It requires an understanding of basic business principles, a sound marketing plan and a well-considered route to market. However, it all counts for nothing if your product data is not accurate and meaningful."
 image: "/uploads/article-meaningful-data.jpg"

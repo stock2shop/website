@@ -1,8 +1,8 @@
 ---
 title: "building a b2b b2c e commerce platform for your wholesale business"
-heading: "building a B2B B2C e-commerce platform for your wholesale business"
+seoTitle: "building a B2B B2C e-commerce platform for your wholesale business"
 titleList: "Building a B2B B2C e-commerce site"
-description: "A great website is a full B2B B2C e-commerce platform, including company information, a B2B trade store and a B2C platform. Here's how to create one."
+seoDescription: "A great website is a full B2B B2C e-commerce platform, including company information, a B2B trade store and a B2C platform. Here's how to create one."
 summary: "Everyone knows that a website is as essential as a business card – if not more so. But what does your website do for you? It could be an e-commerce solution for wholesale."
 lead: "Everyone knows that a website is as essential as a business card – if not more so. But what does your website do for you? Is it just an impressive pamphlet, with information about your company and the products you sell? That’s fine. A good website will include a B2B ordering platform or trade store that lets you sell direct to retailers. A great website is a full e-commerce platform, including company information, a B2B trade store and a B2C platform."
 image: "/uploads/article-shelves.jpg"

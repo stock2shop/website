@@ -1,8 +1,8 @@
 ---
 title: "wholesalers send products to multiple online retailers with ease"
-heading: "are you a wholesaler? how would you like more time to go fishing?"
+seoTitle: "are you a wholesaler? how would you like more time to go fishing?"
 titleList: "are you a wholesaler? how would you like more time to go fishing?"
-description: "Are you a wholesaler? How would you like more time to go fishing?"
+seoDescription: "Are you a wholesaler? How would you like more time to go fishing?"
 summary: "You’ve sourced your products, you’ve developed relationships with online resellers and you’re ready to do business. Now what?"
 lead: "You’ve sourced your products, you’ve developed relationships with online resellers and you’re ready to do business. Now what?"
 image: "/uploads/article-fishing.jpg"

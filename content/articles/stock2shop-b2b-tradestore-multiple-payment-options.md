@@ -1,8 +1,8 @@
 ---
 title: "Stock2Shop b2b tradestore multiple payment options"
-heading: "Stock2Shop B2B trade store – give your resellers the option to pay upfront"
+seoTitle: "Stock2Shop B2B trade store – give your resellers the option to pay upfront"
 titleList: "Give your resellers the option to pay upfront"
-description: "Stock2Shops B2B Trade Store now supports the use of multiple payment options and gateways, such as Wirecard (Formerly MyGate) and Stripe. Get Started."
+seoDescription: "Stock2Shops B2B Trade Store now supports the use of multiple payment options and gateways, such as Wirecard (Formerly MyGate) and Stripe. Get Started."
 summary: "It’s one thing to have a long list of debtors, it’s quite another to get the money in the bank. That’s why when a customer shows a willingness to pay upfront, it’s wise to take their money."
 lead: "It’s one thing to have a long list of debtors, it’s quite another to get the money in the bank. That’s why when a customer shows a willingness to pay upfront, it’s wise to take their money."
 image: "/uploads/article-payment-methods.png"

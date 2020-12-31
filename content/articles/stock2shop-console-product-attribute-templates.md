@@ -1,8 +1,8 @@
 ---
 title: "product attribute templates"
-heading: "Stock2Shop console – product attribute templates"
+seoTitle: "Stock2Shop console – product attribute templates"
 titleList: "introducing product attribute templates"
-description: "Create product attribute sets that can be applied to a specific group of products. This is an efficient way of enriching your data without having to clutter your ERP with additional fields."
+seoDescription: "Create product attribute sets that can be applied to a specific group of products. This is an efficient way of enriching your data without having to clutter your ERP with additional fields."
 summary: "Create attribute sets that can be applied to a specific group of products. This is an efficient way of enriching your data without having to clutter your ERP with additional fields."
 lead: "You can create attribute sets on your Stock2Shop console and apply one (or more) of these preloaded templates to a particular product group whenever needed. This is extremely useful if you don’t want to overburden your accounting system with loads of data that has no bearing on financial reporting."
 image: "/uploads/article-product-attributes.jpg"

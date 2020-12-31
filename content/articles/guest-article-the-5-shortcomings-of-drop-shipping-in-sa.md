@@ -1,8 +1,8 @@
 ---
 title: "guest article the 5 shortcomings of dropshipping in SA"
-heading: "the 5 shortcomings of dropshipping in SA"
+seoTitle: "the 5 shortcomings of dropshipping in SA"
 titleList: "Shortcomings of Dropshippings in SA"
-description: "Why then are there so few successful drop shippers in South Africa. The 5 Shortcomings of Drop Shipping in SA Written by Warrick Kernes."
+seoDescription: "Why then are there so few successful drop shippers in South Africa. The 5 Shortcomings of Drop Shipping in SA Written by Warrick Kernes."
 summary: "When reading international websites it seems that the drop shipping business model is the best and easiest way to start a business these days. But why then are there so few successful drop shippers in South Africa?"
 lead: "When reading international websites it seems that the drop shipping business model is the best and easiest way to start a business these days. But why then are there so few successful drop shippers in South Africa?"
 image: "/uploads/article-dropshipping.jpg"

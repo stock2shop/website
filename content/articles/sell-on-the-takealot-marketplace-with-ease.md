@@ -1,8 +1,8 @@
 ---
 title: "sell on the takealot marketplace with ease"
-heading: ""
+seoTitle: ""
 titleList: "Sell on the Takealot Marketplace with Ease"
-description: "Automatically update your important product information on the Takealot marketplace with Stock2Shop."
+seoDescription: "Automatically update your important product information on the Takealot marketplace with Stock2Shop."
 summary: "Automatically update your important product information on the Takealot marketplace with Stock2Shop. No more sending manual csv files with with updated pricing and stock levels."
 lead: "Automatically update your important product information on the Takealot marketplace with Stock2Shop."
 image: "/uploads/article-takealot.png"

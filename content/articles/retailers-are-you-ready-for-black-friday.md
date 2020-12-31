@@ -1,8 +1,8 @@
 ---
 title: "retailers - are you ready for black friday"
-heading: "retailers – are you ready for black friday?"
+seoTitle: "retailers – are you ready for black friday?"
 titleList: ""
-description: "Have you started gearing your e-commerce store up for Black Friday? Here are some tips on how to ensure you're ready when the feeding frenzy starts."
+seoDescription: "Have you started gearing your e-commerce store up for Black Friday? Here are some tips on how to ensure you're ready when the feeding frenzy starts."
 summary: "With Black Friday nearly upon us, retailers have a great opportunity to boost revenue. Sales such as these can be used to move old stock, grow your customer base or increase brand awareness, but you have to be ready."
 lead: "With Black Friday nearly upon us, retailers have a great opportunity to boost revenue. Sales such as these can be used to move old stock, grow your customer base or increase brand awareness, but you have to be ready."
 image: "/uploads/article-black-friday.jpg"
