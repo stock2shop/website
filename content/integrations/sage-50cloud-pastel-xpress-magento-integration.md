@@ -1,8 +1,10 @@
 ---
 title: "sage 50cloud pastel xpress magento integration"
+seoTitle: "Sage 50Cloud Pastel Xpress integration with Magento"
+seoDescription: "Integrate Magento with Sage 50cloud Pastel Xpress and centralize data management"
 lead: "If you’re using Sage 50cloud Pastel Xpress (Formerly Sage Pastel Xpress Advantage) as your ERP and running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. Stock2Shop works in conjunction with Sage 50cloud Pastel Xpress to create an Sage 50cloud Pastel Xpress Magento integration – for a seamless e-commerce experience."
 lead2: "Here’s what you’ll be able to do:"
-seoDescription: "Integrate Magento with Sage 50cloud Pastel Xpress and centralize data management"
+
 ---
 
 Sync inventory data
