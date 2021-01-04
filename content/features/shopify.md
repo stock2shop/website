@@ -35,7 +35,7 @@ You have the option of limiting the amount of stock that gets sent to your Shopi
 <!-- send_customer_email -->
 ### Send Emails to Customers
 When Orders process through our system, we can have your Customers notified of the Order status. 
-This is useful if your Shopify Notifications being sent before the Order is raised into your ERP.
+This is useful if your Shopify Notifications are being sent before the Order is raised into your ERP.
 
 <!-- hide_product_enabled -->
 ### Create unpublished Products

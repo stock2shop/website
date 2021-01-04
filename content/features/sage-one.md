@@ -31,7 +31,7 @@ customer_map
 <!-- cron_get_products_schedule -->
 ### Update Stock2Shop hourly with Product data changes
 When changes are made to your Dolfin system, we can set an hourly time to check for Product updates.
-This can be set for which ever minute on the hour best suits your workflow.
+This can be set for which ever minute on the hour that best suits your workflow.
 
 <!-- company_id -->
 ### Sage Business Cloud Accounting Company ID

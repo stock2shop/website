@@ -49,6 +49,8 @@ This allows Stock2Shop to create an order on iQ Retail when
 an order has been received from your sales channel(s).
 
 <!-- FROM OLD SITE -->
+
+
 ## When you integrate iSync and your e-commerce website, you can:
 
 ### Sync inventory data

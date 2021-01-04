@@ -22,7 +22,3 @@ order_map
 get_products_once
 
 -->
-
-<!-- meta -->
-### Title
-Text

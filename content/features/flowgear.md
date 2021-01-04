@@ -19,7 +19,3 @@ site
 sync_mode
 
 -->
-
-<!-- meta -->
-### Title
-Text
