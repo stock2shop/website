@@ -1,7 +1,7 @@
 ---
 title: "Sage 300"
 seoTitle: "Sage 300 Integration Features"
-seoDescription: ""
+seoDescription: "Integrate your Sage 300 ERP with supported Sales Channels/Webstores through Stock2Shop"
 type: feature
 sources: ["sage300"]
 ---

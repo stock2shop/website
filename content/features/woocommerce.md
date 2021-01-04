@@ -1,12 +1,12 @@
 ---
 title: "Woocommerce"
 seoTitle: "Woocommerce Integration Features"
-seoDescription: ""
+seoDescription: "Integrate Woocommerce with your ERP/Accounting system through Stock2Shop"
 type: feature
 channels: [woocommerce]
 ---
 
-<!--
+<!-- ***NOT IN USE***
 
 consumer_key
 consumer_secret

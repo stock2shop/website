@@ -1,7 +1,7 @@
 ---
 title: "How do Channel IDs work in Stock2Shop?"
-heading: "How do Channel IDs work in Stock2Shop?"
-description: ""
+seoTitle: "How do Channel IDs work in Stock2Shop?"
+seoDescription: "How Channel IDs work with Stock2Shop and your integration."
 ---
 
 ## Introduction

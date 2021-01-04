@@ -1,16 +1,18 @@
 ---
 title: "B2B Trade Store"
 seoTitle: "Stock2Shop Trade Store Integration Features"
-seoDescription: ""
+seoDescription: "Integrate your ERP/Accounting software with our Stock2Shop B2B Trade store/Wholesale platform."
 type: feature
 channels: [trade]
 ---
 
-<!-- 
+<!-- ***NOT IN USE***
 
-account_display
 account_invoice
 account_statement
+address_line1
+address_line2
+address_line3
 email
 filter_text_case
 group_duplicate_order_items
@@ -145,40 +147,34 @@ The customers Billing/Shipping addresses can be displayed under the Customer/Com
 Show your Company name in the top left panel of the Trade store.
 
 <!-- default_fulfillmentservice_id -->
-### 
-Text
+### Fulfill Orders automatically
+Orders placed with Shipping options selected can be sent to supported fulfillment services once the Order has a 'Paid' 
+status or if all Orders must be fulfilled regardless of status. 
 
 <!-- customer_warehouse_override -->
-### 
-Text
+### Use Customer allocated Warehouses
+Customers can be set to see only stock available to them as per the Warehouse allocated on the Customer account.
 
 <!-- currency -->
-### 
-Text
+### Currency symbol
+Display a currency symbol before the Price values. USD, ZAR, GBP etc...
 
 <!-- checkout_fields -->
-### 
-Text
+### Custom Checkout Fields
+Customize the Store Checkout fields to display to customer. Fields can be made required to complete before checking out.
 
 <!-- 
 channel_order_code_prefix
 channel_order_code_sequence
  -->
-### 
-Text
+### Set Order number start and Prefix
+Set the starting Order number to count sequentially from for following Orders. Orders from your Trade store can have a 
+set prefix to be able to differentiate in your ERP. 
 
 <!-- aggregations -->
-### 
-Text
+### Product Filter
+Set aggregations for your Product filters. Filter products using Collection, Product type, Vendor etc...
 
-<!-- 
-address_line1
-address_line2
-address_line3 
--->
-### 
-Text
-
-<!--  -->
-### 
-Text
+<!-- account_display -->
+### Customer Account details
+Set custom fields to display on the customers account page.

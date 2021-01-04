@@ -1,7 +1,7 @@
 ---
 title: "SAP Business One"
 seoTitle: "SAP One Integration Features"
-seoDescription: ""
+seoDescription: "Integrate your SAP One with supported Sales Channels/Webstores through Stock2Shop"
 type: feature
 sources: ["sapone"]
 ---

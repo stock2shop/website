@@ -1,7 +1,7 @@
 ---
 title: "Magento 2"
 seoTitle: "Magento 2 Integration Features"
-seoDescription: ""
+seoDescription: "Integrate your Magento 2 Store with supported ERPs/Accounting Systems through Stock2Shop"
 type: feature
 channels: [magento2]
 ---

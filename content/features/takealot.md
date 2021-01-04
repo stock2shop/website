@@ -1,7 +1,7 @@
 ---
 title: "Takealot Marketplace"
 seoTitle: "Takealot Integration Features"
-seoDescription: ""
+seoDescription: "Integrate your Takealot Seller Portal with supported ERP/Accounting systems through Stock2Shop"
 type: feature
 channels: [takealot]
 ---
