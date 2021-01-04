@@ -1,5 +1,7 @@
 ---
 title: "Magento"
+seoTitle: "Magento integration with Stock2Shop"
+seoDescription: "A Magento integration with Stock2Shop streamlines your workflow"
 type: platform
 summary: "A powerful open-source e-commerce platform with B2B features scaled for complex data."
 lead: "Streamline your workflow by integrating Magento with your applications."

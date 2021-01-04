@@ -1,6 +1,8 @@
 ---
 title: "microsoft dynamics nav integration"
 titleList: "microsoft dynamics nav"
+seoTitle: "Microsoft Dynamics NAV intergration with Stock2Shop"
+seoDescription: "Integrating Microsoft Dynamics NAV with Stock2Shop streamlines your workflow"
 summary: "Microsoft Dynamics NAV helps SMEs and large international groups manage their accounting and finances, supply chain, and operations."
 lead: "Here’s how Microsoft Dynamics NAV works with your applications to streamline your workflow."
 type: platform
