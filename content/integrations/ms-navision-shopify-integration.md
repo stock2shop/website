@@ -1,8 +1,10 @@
 ---
 title: "microsoft dynamics nav shopify integration"
+seoTitle: "Microsoft Dynamic NAV integration with Shopify"
+seoDescription: "Integrate your Microsoft Dynamics NAV and your Shopify e-commerce website for maximum efficiency. You’ll be able to sync inventory, enrich product data, customise a workflow to suit your needs and streamline the entire ordering process - including automatic order fulfillment. Easily."
 lead: "If Microsoft Dynamics NAV is your ERP and you’re running a Shopify e-commerce website, it’s essential that they can communicate with each other. That’s how we can help: a Microsoft Dynamics NAV Shopify integration will make your daily business operations simple and stress-free."
 lead2: "Here’s what you’ll be able to do:"
-seoDescription: "Integrate your Microsoft Dynamics NAV and your Shopify e-commerce website for maximum efficiency. You’ll be able to sync inventory, enrich product data, customise a workflow to suit your needs and streamline the entire ordering process - including automatic order fulfillment. Easily."
+
 ---
 
 Sync inventory data

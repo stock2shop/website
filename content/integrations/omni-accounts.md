@@ -1,5 +1,7 @@
 ---
 title: "omni accounts integration"
+seoTitle: "Omni Accounts integration with Stock2Shop"
+seoDescription: "An Omni Accounts integration with Stock2Shop streamlines your workflow"
 titleList: omni accounts
 summary: "Omni Accounts is an “all-in-one” accounting system that delivers focused, effective enterprise resource planning and business solutions."
 lead: "See how Omni Accounts works with your applications."
