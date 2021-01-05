@@ -1,5 +1,7 @@
 ---
 title: "Pervasive ODBC Client Interface LNA Pervasive ODBC Engine Interface Data Record Manager"
+seoTitle: "Pervasive ODBC Client Interface LNA Pervasive ODBC Engine Interface Data Record Manager"
+seoDescription: ""
 type: "solution"
 sources: ["pastel-partner", "sage-50cloud-pastel-xpress"]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
