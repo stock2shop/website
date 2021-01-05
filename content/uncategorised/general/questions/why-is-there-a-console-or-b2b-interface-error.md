@@ -1,11 +1,14 @@
 ---
 title: "Why Is There a Console or B2b Interface Error"
-
+seoTitle: "Why Is There a Console or B2b Interface Error"
+seoDescription: "Steps to follow if you get browser errors using Stock2Shop"
 ---
 
 ## Introduction
 
-Should you as a user/customer of Stock2Shop's console or trade store run into an error during the use of the system that does not appear to be an error given by the Stock2Shop system, please provide Stock2Shop the below information to support@stock2shop.com, the team will then investigate and assist if possible in resolving the error.
+Should you as a user/customer of Stock2Shop's console or trade store run into an error during the use of the system that 
+does not appear to be an error given by the Stock2Shop system, please provide Stock2Shop the below information to 
+support@stock2shop.com, the team will then investigate and assist if possible in resolving the error.
 
 ## Replication requirements
 
