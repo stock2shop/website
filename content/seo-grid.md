@@ -4,5 +4,5 @@ type: seo-grid
 draft: true
 ---
 
-Pages without meta descriptions will show up in red. Hover the link for the URL..
+Pages with missing SEO front matter will show below. Add seoTitle and seoDescription to the front matter.
 

@@ -1,7 +1,7 @@
 ---
 title: "USN"
 seoTitle: "USN Integration Features"
-seoDescription: ""
+seoDescription: "USN Integration Features"
 type: feature
 sources: ["usn"]
 ---

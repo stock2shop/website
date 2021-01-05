@@ -1,6 +1,6 @@
 ---
-title: "Why Is There a Console or B2b Interface Error"
-seoTitle: "Why Is There a Console or B2b Interface Error"
+title: "Why Is There a Console or B2B Interface Error"
+seoTitle: "Why Is There a Console or B2B Interface Error"
 seoDescription: "Steps to follow if you get browser errors using Stock2Shop"
 ---
 
