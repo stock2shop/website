@@ -1,7 +1,8 @@
 ---
 title: "Push products to Stock2Shop via the API"
 titleList: "Example: API Push Products"
-description: "A developer's guide on how to automatically pull products from a Stock2Shop client account via the Stock2Shop API."
+seoTitle: "Push products to Stock2Shop via the API"
+seoDescription: "A developer's guide on how to automatically pull products from a Stock2Shop client account via the Stock2Shop API."
 lead: "This document outlines steps to send a JSON payload of products to Stock2Shop for processing."
 aliases: "/documentation/developers/pushing-product-data-to-the-stock2shop-api/"
 weight: 40

@@ -1,5 +1,7 @@
 ---
 title: "Invalid username or password"
+seoTitle: "Invalid username or password"
+seoDescription: "Stock2Shop has no access to Omni Account or the credentials are invalid."
 type: "solution"
 sources: [ "omni-accounts" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
@@ -17,8 +19,8 @@ S2S's Apifact software can no longer being able to contact the Omni Accounts dat
 To resolve this issue:
 
 1. Reach out to Omni Accounts specialists to confirm if any changes have been made to the server configuration.
-2. Ensure credentials issued to S2S are still valid and granted sufficient access level to the database
+2. Ensure credentials issued to S2S are still valid and granted sufficient access level to the database.
 3. Ensure all necessary services are running on the server.
 
-Contact support@stock2shop.com if your details have changed or need further assistance
+Contact support@stock2shop.com if your details have changed or if you need further assistance.
 

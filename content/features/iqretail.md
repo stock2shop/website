@@ -1,7 +1,7 @@
 ---
 title: "iQ Retail"
 seoTitle: "iQ Retail Integration Features"
-seoDescription: ""
+seoDescription: "Integrate your iQ Retail ERP with supported Sales Channels/Webstores through Stock2Shop"
 type: feature
 sources: ["iqretail"]
 ---

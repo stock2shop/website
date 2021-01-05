@@ -1,7 +1,8 @@
 ---
 title: "API product feed from a Stock2Shop account"
 titleList: "Example: API Product Feed"
-description: "A developer's guide on how to automatically pull products from a Stock2Shop client account via the Stock2Shop API."
+seoTitle: "API product feed from a Stock2Shop account"
+seoDescription: "A developer's guide on how to automatically pull products from a Stock2Shop client account via the Stock2Shop API."
 lead: "This document outlines steps to consume a JSON feed of product data from a Stock2Shop account."
 aliases: "/documentation/developers/consuming-api-product-feed/"
 weight: 30

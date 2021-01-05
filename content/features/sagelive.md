@@ -9,7 +9,6 @@ sources: ["sagelive"]
 <!-- ***NOT IN USE***
 
 get_products_limit
-create_order_enabled
 cron_get_products_schedule
 create_order_enabled
 sync_mode
@@ -28,7 +27,4 @@ order_template
 customer_template
 
 -->
-
-<!-- meta -->
-### Title
-Text
+NOT IN USE

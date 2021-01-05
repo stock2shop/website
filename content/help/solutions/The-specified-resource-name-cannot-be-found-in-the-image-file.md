@@ -1,5 +1,7 @@
 ---
 title: "The specified resource name cannot be found in the image file"
+seoTitle: "The specified resource name cannot be found in the image file"
+seoDescription: "The SAP license server cannot be reached, either due to a temporary lapse in connectivity or an issue with the SAP One server."
 type: "solution"
 sources: ["sap" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]

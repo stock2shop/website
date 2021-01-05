@@ -1,7 +1,7 @@
 ---
 title: "Xero"
 seoTitle: "Xero Integration Features"
-seoDescription: ""
+seoDescription: "Xero Integration Features"
 type: feature
 sources: ["xero"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Flat File"
 seoTitle: "Flat File Integration Features"
-seoDescription: ""
+seoDescription: "Integrate your Hosted Spreadsheet with supported Sales Channels/Webstores through Stock2Shop"
 type: feature
 sources: ["flatfile"]
 ---

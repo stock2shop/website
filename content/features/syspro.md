@@ -1,7 +1,7 @@
 ---
 title: "Syspro"
 seoTitle: "Syspro Integration Features"
-seoDescription: ""
+seoDescription: "Integrate your Syspro with supported Sales Channels/Webstores through Stock2Shop"
 type: feature
 sources: ["syspro"]
 ---

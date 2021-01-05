@@ -1,5 +1,7 @@
 ---
 title: "Sync_order Trying to Get Property of Non Object"
+seoTitle: "Sync_order Trying to Get Property of Non Object"
+seoDescription: "Failed Order error. Stock2Shop cannot find the Product on the Order in the Console"
 type: "solution"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: [b2b-trade-store"]

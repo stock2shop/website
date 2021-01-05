@@ -1,5 +1,7 @@
 ---
 title: "KeyError"
+seoTitle: "KeyError"
+seoDescription: "The SDK for Pastel Partner is not setup. Orders are not syncing to Pastel Partner"
 type: "solution"
 sources: ["pastel-partner", "sage-50cloud-pastel-xpress"]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]

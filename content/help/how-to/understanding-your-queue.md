@@ -1,8 +1,8 @@
 ---
 title: Understanding your queue
 type: "how-to"
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Understanding your queue"
+seoDescription: "How to manage the Stock2Shop Console Queue for a smooth running integration."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

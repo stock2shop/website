@@ -1,6 +1,8 @@
 ---
 title: "sage 100 evolution (formerly sage evolution standard) integration"
 titleList: sage 100 evolution
+seoTitle: "Sage 100 Evolution (formerly Sage Evolution Standard) Integration"
+seoDescription: "See how Sage 100 Evolution (formerly Sage Evolution Standard) works with your applications."
 summary: "Formerly Sage Evolution Standard: Ideal for growing companies to manage products, orders, customers, finances and operations."
 lead: "See how Sage 100 Evolution (formerly Sage Evolution Standard) works with your applications."
 type: platform
