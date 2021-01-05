@@ -1,7 +1,7 @@
 ---
 title: "Why is tax not raised correctly on the order document in ERP/Accounting System?"
-heading: ""
-description: ""
+seoTitle: "Why is tax not raised correctly on the order document in ERP/Accounting System?"
+seoDescription: "Orders are being raised into the ERP without Tax coming through correctly."
 image: ""
 ---
 
@@ -16,7 +16,7 @@ This issue causes a mismatch of order totals in the ERP vs S2S/Shopify
 ## How to confirm the source of the issue?
 
 1. Click on the three dots of an affected order > view
-2. Click on "History" tab
+2. Click on "History" tab
 3. Search for the "Sync Order" instruction > click "View Data"
 4. Search the payload for "shipping_lines"
 5. Within "shipping\_lines"search for "tax\_lines"
