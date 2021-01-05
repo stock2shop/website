@@ -1,6 +1,7 @@
 ---
 title: "B2B Trade Store Welcome Page Template"
-description: "The Stock2Shop B2B store can be assigned a customizable welcome page, configurable with HTML. Stock2Shop also offers templates to quickly and simply create a functional, aesthetically pleasing welcome page."
+seoTitle: "B2B Trade Store Welcome Page Template"
+seoDescription: "The Stock2Shop B2B store can be assigned a customizable welcome page, configurable with HTML. Stock2Shop also offers templates to quickly and simply create a functional, aesthetically pleasing welcome page."
 image: "/uploads/b2b-trade-store-welcome-page-template.png"
 ---
 

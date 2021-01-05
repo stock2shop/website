@@ -1,7 +1,8 @@
 ---
 title: "Compare at price"
+seoTitle: "Compare at price"
+seoDescription: "Compare at Pricing price lists for Shopify"
 heading: ""
-description: ""
 image: ""
 ---
 
