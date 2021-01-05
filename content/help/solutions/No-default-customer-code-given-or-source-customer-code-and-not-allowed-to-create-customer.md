@@ -1,5 +1,7 @@
 ---
 title: "No Default Customer Code Given or Source Customer Code and Not Allowed to Create Customer"
+seoTitle: "No Default Customer Code Given or Source Customer Code and Not Allowed to Create Customer"
+seoDescription: "Failed to create order on Sage One No Default Customer Code/Source Customer Code."
 type: "solution"
 sources: ["sage-one", ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]

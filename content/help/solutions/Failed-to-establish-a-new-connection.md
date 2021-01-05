@@ -1,5 +1,7 @@
 ---
 title: "Failed to establish a new connection"
+seoTitle: "Failed to establish a new connection"
+seoDescription: "No connection could be made because the target machine actively refused it."
 type: "solution"
 sources: [ "omni-accounts" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
