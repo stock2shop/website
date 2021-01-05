@@ -1,7 +1,7 @@
 ---
 title: "Invalid username or password"
 seoTitle: "Invalid username or password"
-seoDescription: ""
+seoDescription: "Stock2Shop has no access to Omni Account or the credentials are invalid."
 type: "solution"
 sources: [ "omni-accounts" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]

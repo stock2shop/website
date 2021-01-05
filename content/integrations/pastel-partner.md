@@ -1,8 +1,8 @@
 ---
 title: "sage 50cloud pastel partner (formerly sage pastel partner) integration"
 titleList: sage 50cloud pastel partner
-seoTitle: "Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) Integration"
-seoDescription: "Here’s how Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) works with your applications to streamline your workflow and simplify your business."
+seoTitle: "Sage 50cloud Pastel Partner integrations with Stock2Shop"
+seoDescription: " A Sage 50cloud Pastel Partner integration with Stock2Shop streamlines your workflow"
 summary: "Formerly Sage Pastel Partner: This tried and tested accounting software includes direct bank feeds and many useful cloud features to help you boost productivity."
 lead: "Here’s how Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) works with your applications to streamline your workflow and simplify your business."
 type: source

@@ -1,5 +1,7 @@
 ---
 title: "SDK Type mismatch (String Data, Boolean& AdditionalCostInvoice)"
+seoTitle: "SDK Type mismatch (String Data, Boolean& AdditionalCostInvoice)"
+seoDescription: "Orders fail to be raised at the source after a long running task."
 type: "solution"
 sources: ["pastel-partner", "sage-50cloud-pastel-xpress" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
@@ -9,10 +11,10 @@ date: 2020-12-30T14:29:00+02:00
 ---
 <!-- Action: add_order -->
 #### Error description
-Orders fail to be raised at the source after a long running task. W
+Orders fail to be raised at the source after a long running task.
 
 #### Error solution
-hen trying to raise an order at source Apifact is trying to send values with a " , " in it instead of a " . ". This causes a long-running task which inevitably fails. 
+When trying to raise an order at source Apifact is trying to send values with a " , " in it instead of a " . ". This causes a long-running task which inevitably fails. 
 
 A change will need to be made on the server Sage 50cloud Pastel Partner is installed on. Follow the steps below to resolve the queue error:
 

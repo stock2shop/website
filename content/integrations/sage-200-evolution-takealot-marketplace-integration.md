@@ -1,5 +1,7 @@
 ---
 title: "sage 200 evolution takealot marketplace integration"
+seoTitle: "Sage 200 Evolution integration with Takealot Market Place"
+seoDescription: "Update product offers on the Takealot marketplace directly from your Sage 200 Evolution. Stock2Shop’s simple integration will streamline your operation by reducing duplicate data capture, and ensuring your product information on Takealot is up to date. Easily"
 lead: "Update product offers on the Takealot marketplace directly from your Sage 200 Evolution. Stock2Shop’s simple integration will streamline your operation by reducing duplicate data capture, and ensuring your product information on Takealot is up to date."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: ""

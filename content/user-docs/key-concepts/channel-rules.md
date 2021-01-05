@@ -1,8 +1,7 @@
 ---
 title: "Channel Rules"
-heading: "Channel Rules"
-lead: ""
-description: ""
+seoTitle: "Channel Rules"
+seoDescription: "Stock2Shop Channel Rules explained"
 aliases: "/documentation/key-concepts/channels-rules/"
 toc: false
 menu:
