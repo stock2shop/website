@@ -1,6 +1,7 @@
 ---
 title: "API"
-description: "Find all the Stock2Shop API information here"
+seoTitle: "API"
+seoDescription: "Find all the Stock2Shop API information here"
 weight: 10
 ---
 

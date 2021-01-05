@@ -1,6 +1,7 @@
 ---
 title: "How to Manually Post an Order to Stock2Shop"
-description: "Instructions on how to send orders manually into Stock2Shop"
+seoTitle: "How to Manually Post an Order to Stock2Shop using our API"
+seoDescription: "Instructions on how to send orders manually into Stock2Shop using our API endpoint"
 weight: 20
 draft: false
 ---

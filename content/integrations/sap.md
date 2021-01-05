@@ -1,6 +1,8 @@
 ---
 title: "SAP business one integration"
 titleList: SAP
+seoTitle: "SAP Business One Integration"
+seoDescription: "Here’s how SAP Business One works with your applications to streamline your workflow."
 summary: "ERP software designed to streamline key processes and provide real-time information to give you greater strategic insights, fast."
 lead: "Here’s how SAP Business One works with your applications to streamline your workflow."
 type: source

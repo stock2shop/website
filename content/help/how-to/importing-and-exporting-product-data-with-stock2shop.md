@@ -1,7 +1,7 @@
 ---
 title: "Importing and Exporting Product Data with Stock2Shop"
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Importing and Exporting Product Data with Stock2Shop"
+seoDescription: "Instructions on how to use the Stock2Shop Import/Export features for Product data"
 type: "how-to"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]

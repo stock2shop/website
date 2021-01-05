@@ -1,6 +1,7 @@
 ---
 title: "Authentication"
-description: "How to authenticate your server for API requests"
+seoTitle: "Stock2Shop API - Authentication"
+seoDescription: "How to authenticate your server for API requests"
 aliases: "/documentation/developers/authentication/"
 weight: 20
 ---
