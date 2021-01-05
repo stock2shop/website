@@ -1,15 +1,9 @@
 ---
 title: "sage 50cloud pastel xpress (formerly sage partner xpress)"
 titleList: sage 50cloud pastel xpress
-<<<<<<< HEAD
 seoTitle: "Sage 50cloud Pastel Xpress integration with Stock2Shop"
 seoDescription: " A Sage 50cloud Pastel Xpress integration with Stock2Shop streamlines your workflow"
 summary: "Formerly Sage Partner Xpress Advantagse: Harness the power and productivity of a trusted desktop solution that integrate with Microsoft Office 365."
-=======
-seoTitle: "Sage 50cloud Pastel Xpress (formerly Sage Partner Xpress)"
-seoDescription: "Here’s how to integrate Sage 50cloud Pastel Xpress with your applications for a streamlined workflow."
-summary: "Formerly Sage Partner Xpress Advantage: Harness the power and productivity of a trusted desktop solution that integrate with Microsoft Office 365."
->>>>>>> 3255b6ca9859661050de09d9e364cf3d676f95b9
 lead: "Here’s how to integrate Sage 50cloud Pastel Xpress with your applications for a streamlined workflow."
 type: platform
 image: "/uploads/logo-platform-sage-50cloud-pastel-xpress.png"
