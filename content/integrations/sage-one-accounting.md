@@ -1,6 +1,8 @@
 ---
 title: "sage business cloud accounting (formerly sage one)"
 titleList: sage business cloud accounting
+seoTitle: "Sage Business Cloud Accounting (formerly sage one)"
+seoDescription: "Here’s how Sage Business Cloud Accounting (formerly Sage One) works with your applications to dramatically improve your workflow."
 summary: "Formerly Sage One: Simple and secure online accounting software"
 lead: "Here’s how Sage Business Cloud Accounting (formerly Sage One) works with your applications to dramatically improve your workflow."
 type: source

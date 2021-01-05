@@ -1,6 +1,8 @@
 ---
 title: "Woocommerce"
 summary: "An open-source e-commerce plug-in for WordPress that’s customisable and streamlined for retail."
+seoTitle: "Woocommerce Integration"
+seoDescription: "Here’s how WooCommerce works with your applications to simplify your workflow and streamline your business."
 lead: "Here’s how WooCommerce works with your applications to simplify your workflow and streamline your business."
 type: platform
 image: "/uploads/logo-platform-woocommerce.png"
