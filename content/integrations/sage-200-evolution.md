@@ -1,13 +1,8 @@
 ---
 title: "sage 200 evolution (formerly sage evolution premium)"
 titleList: sage 200 evolution
-<<<<<<< HEAD
 seoTitle: "Sage 2000 Evolution (formerly Sage Evolution Premium) integration with Stock2Shop"
-seoDescription: "A Sage 200 Evolution with Stock2Shop streamlines your workflow"
-=======
-seoTitle: "Sage 200 Evolution (formerly Sage Evolution Premium)"
-seoDescription: "Here’s how to integrate Sage 200 Evolution with your applications for a streamlined workflow."
->>>>>>> 3255b6ca9859661050de09d9e364cf3d676f95b9
+seoDescription: "A Sage 200 Evolution integration with Stock2Shop streamlines your workflow."
 summary: "Formerly Sage Evolution Premium: Get back to basics with smart, cost-effective software for big businesses."
 lead: "Here’s how to integrate Sage 200 Evolution with your applications for a streamlined workflow."
 type: source
