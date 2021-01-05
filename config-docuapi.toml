@@ -40,9 +40,9 @@ search = true
 [[params.language_tabs]]
 key = "shell"
 name = "Shell" 
-[[params.language_tabs]]
-key = "php"
-name = "PHP"
+#[[params.language_tabs]]
+#key = "php"
+#name = "PHP"
 #[[params.language_tabs]]
 #key = "python"
 #name = "Python"

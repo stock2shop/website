@@ -1,13 +1,11 @@
 ---
 weight: 11
-title: API Reference
+title: Users
 ---
 
 # Users
 
-Different users have different roles, for more on users, [see this]("#" "TODO link to users").
-
-
+Different users have different roles, for more on users, [*** see here (verify link)***]("#" "TODO link to users").
 
 ## POST Authenticate
 
@@ -38,7 +36,7 @@ curl -X POST \
     "client_id": 1,
     "active": 1,
     "admin": 0,
-    "token": "aXYZABC",
+    "token": "xxx",
     "client_name": "Cleitn Name",
     "fulfillment_services": [],
     "channels": [],
@@ -61,29 +59,35 @@ Authenticate a user to retrieve a token.
 
 `POST https://app.stock2shop.com/v1/users/authenticate`
 
-### Query Parameters
-
-Parameter | type | Description
---------- | ---- | -----------
-format | query parameter  | webservice data format
-
 ## GET Valid Token
 
 > Example
 ```shell script
 curl -X GET \
     -H 'Content-Type: application/json' \
-    https://app.stock2shop.com/v1/users/authenticate?format=json&token=***
+    https://app.stock2shop.com/v1/users/valid_token/xxx?format=json
 ```
 
 > Example Response
 ```json
 {
-  
+  "system_user": {
+    "id": 1,
+    "created": "2015-03-03T07:30:06+0000",
+    "name": "Bob",
+    "surname": "Seager",
+    "email": "bob@example.com",
+    "username": "bob",
+    "modified": "2021-01-05T08:07:57+0000",
+    "client_id": 1,
+    "active": 1,
+    "admin": 0,
+    "token": "xxx"
+  }
 }
 ```
 
-Authenticate a user to retrieve a token.
+Check to see if a token is valid.   
 
 ### HTTP Request
 
@@ -93,58 +97,4 @@ Authenticate a user to retrieve a token.
 
 Parameter | type | Description
 --------- | ---- | -----------
-format | query parameter  | webservice data format
 token | url path | token for authentication
-
-
-
-> To authorize, use this code:
-
-```go
-package main
-
-import "github.com/bep/kittn/auth"
-
-func main() {
-	api := auth.Authorize("meowmeowmeow")
-
-	// Just to make it compile
-	_ = api
-}
-```
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-```
-
-```shell
-# With shell, you can just pass the correct header with each request
-curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-```
-
-> Make sure to replace `meowmeowmeow` with your API key.
-
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
-
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
-
-<aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
