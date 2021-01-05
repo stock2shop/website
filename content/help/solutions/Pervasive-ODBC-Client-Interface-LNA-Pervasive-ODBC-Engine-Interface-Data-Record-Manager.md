@@ -1,7 +1,7 @@
 ---
 title: "Pervasive ODBC Client Interface LNA Pervasive ODBC Engine Interface Data Record Manager"
 seoTitle: "Pervasive ODBC Client Interface LNA Pervasive ODBC Engine Interface Data Record Manager"
-seoDescription: ""
+seoDescription: "The Pastel Partner system user licenses are all in use."
 type: "solution"
 sources: ["pastel-partner", "sage-50cloud-pastel-xpress"]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]

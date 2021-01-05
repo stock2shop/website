@@ -1,6 +1,7 @@
 ---
 title: careers
-description: 
+seoTitle: "Careers"
+seoDescription: "Careers at Stock2Shop"
 ---
 
 Software Developers
