@@ -1,13 +1,9 @@
 ---
 title: user management & roles
 heading: user management & roles
-description: "Stock2Shop console now has the ability for clients to add users and set specific user roles, namely Administrator & User roles."
+seoTitle: "Manage Users in your Stock2Shop Console"
+seoDescription: "Stock2Shop console now has the ability for clients to add users and set specific user roles, namely Administrator & User roles."
 aliases: "/documentation/getting-started/manage-users/"
-toc: true
-menu:
-  docside:
-    name: Manage Users
-    weight: 100
 ---
 
 ## Introduction

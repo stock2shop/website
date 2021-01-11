@@ -1,6 +1,7 @@
 ---
 title: "Terms"
-description: "Use our standard B2B terms and conditions or send us your terms"
+seoTitle: "Custom Terms and Conditions for B2B Stores"
+seoDescription: "Use our standard B2B terms and conditions or send us your terms"
 image: ""
 ---
 

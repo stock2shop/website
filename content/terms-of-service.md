@@ -1,5 +1,6 @@
 ---
 title: "terms of service"
-description: ""
+seoTitle: "Terms of Service" 
+seoDescription: "Stock2Shop Terms of Service"
 
 ---
