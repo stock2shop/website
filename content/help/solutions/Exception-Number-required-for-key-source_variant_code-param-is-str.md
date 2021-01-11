@@ -1,6 +1,8 @@
 ---
 title: "Exception: Number Required for Key Source_variant_code, Param Is Str"
 type: "solution"
+seoTitle: "No Quantity available for Order item"
+seoDescription: "There is no quantity available for the Ordered item in Stock2Shop"
 sources: ["sage-200-evolution", "sage-evolution", "sage-pastel-evolution" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
 fulfillments: ["parcel-ninja", "on-the-dot"]
