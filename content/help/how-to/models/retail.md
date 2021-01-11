@@ -4,6 +4,7 @@ type: how-to
 ---
 
 ## The Retail Model 
+You have a retail business that sells online to the end customer.
 
 ### Traditional Retail Model 
 

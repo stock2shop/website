@@ -4,17 +4,21 @@ type: how-to
 ---
 
 ## Models
-Models refer to the ways in which you can utilise Stock2Shop
-based on the structures within your organisation and how you sell your products
-who then in turn sell to the end consumer / customer.
+Wondering how it all fits together? Here are a few different ways to streamline your existing processes, 
+depending on your ERP / Accounting system and your e-commerce website.
  
 ### Types of models
-There are four types of models, namely:
+Every business has custom requirements when it comes to business processes and models, 
+especially with regards to inventory and order management.
+Over the years we have developed numerous models and solutions for various businesses in the supply chain. 
+Our solutions have been deployed in wholesale, manufacturing, distribution and retail businesses.
 
-1. [Retail](/help/how-to/models/retail "retail model")
-2. [Wholesale](/help/how-to/models/wholesale "wholesale model")
-3. [Retail & wholesale](/help/how-to/models/retail-and-wholesale "retail and wholesale model")
-4. [Dropshipping](/help/how-to/models/dropshipping "dropshipping")
+Here are some examples of inventory and order management models that could work for you:
+
+1. [Retail model](/help/how-to/models/retail "the retail model")
+2. [Wholesale model](/help/how-to/models/wholesale "the wholesale model")
+3. [Retail & wholesale model](/help/how-to/models/retail-and-wholesale "the retail and wholesale model")
+4. [Dropshipping model](/help/how-to/models/dropshipping "the dropshipping model")
 
 
  
