@@ -22,7 +22,7 @@ This approach is a problematic for several reasons:
 4. Product information is not stored in one central place.
 
 ### New Wholesale Model 
-Customer, inventory and product information can be synced to [Stock2Shop's B2B trade store](/integrations/b2b-shopping-cart/)
+Customer, inventory and product information can be synced to [Stock2Shop's B2B trade store](/b2b-shopping-cart/)
 from your [ERP / Accounting system](/integrations) and orders from this platform are automatically raised as sales orders and converted to invoices in ERP / Accounting system.
 
 Price lists, stock levels and product information is continually sent to the B2B trade store. 
