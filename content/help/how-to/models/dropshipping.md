@@ -34,7 +34,7 @@ ERP / Accounting system where you will then be able deliver the goods to your cu
 
 This approach is a beneficial for several reasons:
 1. Product information can be managed in one central place.
-2. Stock2shop will update all your customers on a regualr basis to ensure stock levels and pricing is up to date.
+2. Stock2shop will update all your customers e-commerce websites on a regular basis to ensure stock levels and pricing is up to date.
 3. Create rules to determine which products, quantities and price your customers (dropshipping retailers) should see.
 4. As soon as orders are placed and paid for, they are sent to your [ERP / Accounting system](/integrations).
 
