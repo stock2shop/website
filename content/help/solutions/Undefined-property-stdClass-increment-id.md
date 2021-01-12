@@ -1,6 +1,8 @@
 ---
 title: "Undefined Property StdClass Increment Id"
 type: "solution"
+seoTitle: "Magento: Undefined Property StdClass Increment Id"
+seoDescription: "S2S is trying to sync an order from Magento with an external order number that already exists in S2S."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["magento_1"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

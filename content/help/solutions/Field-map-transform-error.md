@@ -1,6 +1,8 @@
 ---
 title: "Field Map Transform Error"
 type: "solution"
+seoTitle: "Magneto - Field Map Transform Error"
+seoDescription: "Related to attributes that contain special characters that have been added into the fields."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["magento_1"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

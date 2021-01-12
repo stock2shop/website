@@ -1,6 +1,8 @@
 ---
 title: "No product found with the ID equal to [ID] 'woocommerce_api_no_product_found"
 type: "solution"
+seoTitle: "No product found with the ID equal to [ID] 'woocommerce_api_no_product_found"
+seoDescription: "A product update sent to WooCommerce has failed as the product was not found on the site by it's internal ID."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["woocommerce"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

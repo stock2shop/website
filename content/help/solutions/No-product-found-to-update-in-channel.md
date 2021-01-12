@@ -1,6 +1,8 @@
 ---
 title: "No product found to update in channel"
 type: "solution"
+seoTitle: "No product found to update in channel"
+seoDecription: "When the system is trying to update a product on the website, the product is not found."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["shopify", "magento_1"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

@@ -1,6 +1,8 @@
 ---
 title: "Please enter a number 0 or greater in the \"price\" field in the \"group_price:[#]\" set. Resource data pre-validation error"
 type: "solution"
+seoTitle: "Magento: Resource data pre-validation error"
+seoDescription: "A product requests a price list that is not assigned to it or not set to sync."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["magento_1"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

@@ -1,6 +1,8 @@
 ---
 title: "Failed to create variant"
 type: "solution"
+seoTitle: "Failed to create variant : WooCommerce"
+seoDescription: "A sku within the product is failing to be created on the website, specifically WooCommerce."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["woocommerce"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

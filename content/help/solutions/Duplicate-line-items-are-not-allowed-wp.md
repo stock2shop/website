@@ -1,6 +1,8 @@
 ---
 title: "Duplicate line items are not allowed"
 type: "solution"
+seoTitle: "Duplicate Line items are not allowed"
+seoDescription: "The sales channel that the order is syncing from has a single sku listed twice on an order"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["shopify", "woocommerce"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

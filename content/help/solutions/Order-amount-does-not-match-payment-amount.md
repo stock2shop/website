@@ -1,6 +1,8 @@
 ---
 title: "Order Amount Does Not Match Payment Amount"
 type: solution
+seoTitle: "B2B Trade Store - Order Amount Does Not Match Payment Amount"
+seoDescription: "error can occur frequently if you have a rate based on cart shipping_method."
 sources : ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels : ["b2b-trade-store"]
 fulfillments : []

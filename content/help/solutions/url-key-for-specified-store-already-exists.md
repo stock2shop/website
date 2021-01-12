@@ -1,6 +1,8 @@
 ---
 title: "URL key for specified store already exists"
 type: "solution"
+seoTitle: "`Magento: URL key for specified store already exists"
+seoDescription: "A product is trying to use the same url of an existing product."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["magento_2"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

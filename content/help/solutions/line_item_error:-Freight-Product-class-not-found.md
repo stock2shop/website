@@ -1,6 +1,8 @@
 ---
 title: "line_item_error: Freight Product class not found"
 type: "solution"
+seoTitle: "Syspro - line_item_error: Freight Product class not found"
+seoDescription: " a non existent shipping line item is being added which causes the order to fail."
 sources: ["syspro" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

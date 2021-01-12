@@ -1,6 +1,8 @@
 ---
 title: "Undefined variable: variant"
 type: "solution"
+seoTitle: "WooCommerce : Undefined variable: variant"
+seoDescription: "There is a SKU on the order that does not exist in S2S."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["woocommerce"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

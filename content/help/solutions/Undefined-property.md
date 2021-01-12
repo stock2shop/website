@@ -1,6 +1,8 @@
 ---
 title: "Undefined property"
 type: "solution"
+seoTitle: "WooCommerce: Undefined Property"
+seoDescription: "he product on WooCommerce has been configured incorrectly and our system is not able to update the product."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["woocommerce"]
 fulfillments: ["parcel-ninja", "on-the-dot"]

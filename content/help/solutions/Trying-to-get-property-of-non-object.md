@@ -1,6 +1,8 @@
 ---
 title: "Trying to get property of non-object"
 type: "solution"
+seoTitle: "Shopify: Trying to get property of non-object"
+seoDescription: "The system can not find the products on Shopify"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["shopify",]
 fulfillments: ["parcel-ninja", "on-the-dot"]

@@ -1,6 +1,8 @@
 ---
 title: "Could Not Connect to Host"
 type: "solution"
+seoTitle: "Could not connect to Host to post orders"
+seoDescription: "The tunnel or network between Stock2Shop and your ERP is down or giving errors."
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 channels: ["magento_1", "magento_2", "shopify", "woocommerce", "b2b-trade-store", "takealot"]
 fulfillments: ["parcel-ninja", "on-the-dot"]
