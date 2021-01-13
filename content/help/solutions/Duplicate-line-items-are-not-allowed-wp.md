@@ -48,7 +48,7 @@ In order to confirm which of the above is causing the error, follow the below st
 
 4. Login to the admin portal of your WooCommerce Store/website
 5. Navigate to orders > search for the above order number
-6. Check order for either duplicate SKU's on different line items or 2 line items with blank skus
+6. Check order for either duplicate SKU's on different line items or 2 line items with blank SKUs.
 
 
 If it is the discount app causing the order to duplicate the SKU, you will have to contact ***Stock2Shop Support*** to assist in adding a setting to combine the line items. Note Stock2Shop needs to combine them or the order will fail when sending it to the accounting system.
