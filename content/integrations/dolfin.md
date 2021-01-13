@@ -9,12 +9,16 @@ image: "/uploads/logo-platform-dolfin.png"
 imageAlt: Dolfin logo
 ---
 
-## TODO description of Dolfin
 Dolfin is an end-to-end merchandising management solution that focuses 'in-store' by operating and 
 supporting the technology elements required for retail. The system’s rich set of features and functionality 
 provides the centralised environment to consolidate and distribute data to and from stores.
 
-## TODO overview of integrations
+Stock2Shop will sync vital product data to your ecommerce sales channels to ensure they are all up to date, 
+and online orders can be processed directly into Dolfin as sales orders or invoices.
+
+![dolfin integration](/uploads/dolfin-integration.png)
+
+## e-commerce Integrations
 If you are looking to integrate your Dolfin system with one (or more) of the following sales channels, 
 look no further:
 - [Dolfin Shopify Integration](/integrations/dolfin-shopify)
@@ -24,12 +28,6 @@ look no further:
 - [Dolfin B2B Trade Store Integration](/integrations/dolfin-b2b-trade-store)
 - [Dolfin Takealot Integration](/integrations/dolfin-takealot)
 - [Dolfin Parcelninja Integartion](/integrations/dolfin-parcelninja)
-
-## TODO links to getting started and requirements docs
-- [Getting Started](/help/dolfin)
-- [Features](/features/dolfin)
-- [How to](/help/how-to)
-- [Models](/help/how-to/models)
 
 ## Features
 - Sync updates to your online sales channel in near-real time.
@@ -45,3 +43,15 @@ your business in the following ways:
 - Increase efficiency. Stock2Shop integration reduces the need to capture data in multiple places.
 - Reduce human error. Automating data updates means there is less chance for potentially costly errors.
 - Free up time. Stock2Shop integration will allow you to turn your attention to growing your business.
+
+## Technical Documentation
+Here are some useful links to give you a better understanding of how Stock2Shop works, 
+and to assist you throughout the integration process:
+
+- [Getting Started](/help/dolfin)
+- [Features](/features/dolfin)
+- [How to](/help/how-to)
+- [Models](/help/how-to/models)
+
+
+
