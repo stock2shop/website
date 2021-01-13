@@ -51,7 +51,7 @@ In order to confirm which of the above is causing the error, follow the below st
 6. Check order for either duplicate SKU's on different line items or 2 line items with blank skus
 
 
-If it is the discount app causing the order to duplicate the sku, you will have to contact ***Stock2Shop Support*** to assist in adding a setting to combine the line items. Note Stock2Shop needs to combine them or the order will fail when sending it to the accounting system.
+If it is the discount app causing the order to duplicate the SKU, you will have to contact ***Stock2Shop Support*** to assist in adding a setting to combine the line items. Note Stock2Shop needs to combine them or the order will fail when sending it to the accounting system.
 
 Because the order has been created incorrectly, for whichever cause, the order, unfortunately, will need to be manually captured and fulfillment manually created if you don't want Stock2Shop to automatically combine both line items.
 
