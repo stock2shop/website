@@ -11,9 +11,9 @@ A product contains information such as title, collection, description, vendor, p
 - [Simple products]()
 - [Variable products](/help/how-to/products/variable-products "variable products in Stock2Shop")
 - [Import products](/help/how-to/products/import "importing products into Stock2Shop")
-- [Managing products]()
-- [Enriching products]()
-- [Terminology]()
+- [Managing products](/help/how-to/products/managing-products "managing products in Stock2Shop")
+- [Enriching products](/help/how-to/products/enriching-products "enriching products in Stock2Shop")
+- [Terminology](/help/how-to/products/terminology "terminology of Stock2Shop")
 
  
 ### managing products

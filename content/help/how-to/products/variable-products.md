@@ -1,6 +1,7 @@
 ---
 title: Variable Products
 type: how-to
+draft: true
 ---
 
 ## Variable Products
@@ -11,14 +12,14 @@ In the above shoe example, you may hold 3 different sizes in 2 colours. The vari
 // Example table of some variable products...
 ### Example of a single product with multiple variations
 
-SKU  |  Option 1<br>(Size)  |  Option 2<br>(Colour)  |  Quantity  |  Weight
+SKU  |  Option 1<br>(Size)  |  Option 2<br>(Colour)  |  Quantity  |  Weight (g)
 ------------ | ------------- | ------------- | ------------- | -------------
-ABC-1 |  Content cell 2  |  Content cell 3  |  Content cell 2  |  Content cell 3
-ABC-2 | Content column 2 | content cell 3 | Content cell 2 | Content cell 3
-ABC-3 | Content cell 2 | Content cell 3 | Content cell 2 | Content cell 3
-ABC-4 | Content column 2 | content cell 3 | Content cell 2 | Content cell 3
-ABC-5 | Content cell 2 | Content cell 3 | Content cell 2 | Content cell 3
-ABC-6 | Content column 2 | content cell 3 | Content cell 2 | Content cell 3
+ABC-1 |  8  |  Red  |  10  |  100
+ABC-2 | 9 | Red | 14 | 105
+ABC-3 | 10 | Red | 50 | 110
+ABC-4 | 8 | Blue | 10 | 100
+ABC-5 | 9 | Blue | 0 | 105
+ABC-6 | 10 | Blue | 3 | 110
 
 
 
@@ -36,18 +37,3 @@ In order to do this, we have some field conventions, namely:
 - option2_value: The value for this variant (e.g. red)
 We can have a maximum of 3 options only.
 
-
-
-
-SKU: ABC-1	SKU: ABC-2	SKU: ABC-3
-QTY: 5	QTY: 0	QTY: 15
-Weight: 100g	Weight: 105g	Weight: 110g
-Price: 80	Price: 80	Price: 80
-Option1: size 8	Option1: size 9	Option1: size 10
-Option2: red	Option2: red	Option2: red
-SKU: ABC-4	SKU: ABC-5	SKU: ABC-6
-QTY: 2	QTY: 6	QTY: 5
-Weight: 100g	Weight: 105g	Weight: 110g
-Price: 80	Price: 80	Price: 80
-Option1: size 8	Option1: size 9	Option1: size 10
-Option2: blue	Option2: blue	Option2: blue
