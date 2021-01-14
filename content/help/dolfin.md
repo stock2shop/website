@@ -14,16 +14,6 @@ Below is all documentation you will need regarding your Dolfin integration from 
 ## Before We integrate
 ***
 
-### Next Steps
-Below is an overview outlining the process of integration and on boarding:
-
-1. Data Discussion
-    1. Discuss product configuration
-    2. Discuss order configuration
-2. Initiate Sync to Stock2Shop
-3. Test channel integration (products / orders)
-4. Handover and Training
-
 ### What we need from you
 In order to communicate with your Dolfin accounting system, we require the following information:
 
@@ -36,8 +26,15 @@ In order to communicate with your Dolfin accounting system, we require the follo
 Raising orders into Dolfin is a straightforward process. 
 During the data discussion one of our Technicians will confirm how orders should be raised.
 
+### Features specific to Dolfin
+To get the most out of your Dolfin integration with Stock2shop, head over to our [Dolfin features](/features/dolfin/ "dolfin features") documentation.
+
 ### Important concepts 
-link to key concepts section
+link to key concepts section, including:
+ - [Understanding Products](/help/how-to/products)
+ - [Understanding Channels](/help/how-to/channels)
+ - [Understanding Sources](/help/how-to/sources)
+ 
 
 ## During integration
 ***
@@ -50,7 +47,7 @@ what information you need to send to your sales channel(s) as well as the inform
 orders back into Sage Business Cloud Accounting.
 
 ### Installation
-The installation refers to the actual implementation of the integration where we connect Sage Business Cloud Accounting
+The installation refers to the actual implementation of the integration where we connect Dolfin
 to Stock2Shop and your sales channel(s), based on the previous data discussion.
 
 ### Handover and training
@@ -68,5 +65,9 @@ list all or link to features possible with Dolfin
 
 ### Queue errors
 list all or link to queue errors possible with Dolfin
+
+### Support
+For more assistance regarding our technical support, please log a ticket
+directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com
 
 
