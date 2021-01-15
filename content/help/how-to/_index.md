@@ -17,10 +17,10 @@ Using the Stock2Shop software efficiently and getting the maximum benefit
 from the platform requires an understanding of the key concepts. In this section of the documentation, 
 we outline some of these key concepts.
 
-- [Products](products "Understanding products and variants")
-- [Channels](channels "Understanding channels")
-- [Sources](sources "Understanding sources")
-- [Models](models "Understanding models")
+- [Products](/help/how-to/products "Understanding products and variants")
+- [Channels](/help/how-to/channels "Understanding channels")
+- [Sources](/help/how-to/sources "Understanding sources")
+- [Models](/help/how-to/models "Understanding models")
 
 
     
