@@ -13,8 +13,8 @@ There are two different types of sources on Stock2Shop: “primary sources” an
 
 ## In this section
 - [Primary sources]()
-- [Linked sources](/help/how-to/sources/ "...")
-- [Source flags](/help/how-to/sources/ "...")
-- [Terminology](/help/how-to/sources/ "...")
+- [Linked sources](/help/how-to/sources/linked-sources "...")
+- [Source flags](/help/how-to/sources/source-flags "...")
+- [Terminology](/help/how-to/sources/terminology "...")
 
  
