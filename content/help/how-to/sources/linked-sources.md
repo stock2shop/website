@@ -1,6 +1,6 @@
 ---
 title: Linked Sources
-seoTitle: "DLinked sources"
+seoTitle: "Linked sources"
 seoDescription: "Understanding linked sources"
 type: how-to
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro", "parcel-ninja", "on-the-dot" ]
