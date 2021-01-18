@@ -17,7 +17,7 @@ Below is a breakdown of commonly used terms related to sources in Stock2Shop
 ### Source Order Code
 - This is the code that S2S receives from the source when raising an order on said source. This normally refers to an #Invoice; #Sale Order; #Quotation.
 
-### Customer Code
+### Source Customer Code
 - This is the code given to S2S from either the channel and the source both are saved on the S2S console.
 
 ### Push
@@ -33,7 +33,7 @@ Below is a breakdown of commonly used terms related to sources in Stock2Shop
 - Most websites have a functionality to display “In Stock” or “Out of Stock” labels when a product has qty or not, this is called inventory management.
 
 ### Workflow
-- The process for creating, enriching, removing products with particular preferences.
+- The process for creating, enriching, removing products with particular preferences with in the source.
 
 ---
 Any questions? [Contact us](/contact-us/) – we’re happy to help.
