@@ -5,6 +5,5 @@ type: how-to
 
 ## Enriching Products
  
-### Step 1
 
-...
+

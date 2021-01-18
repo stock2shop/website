@@ -1,7 +1,7 @@
 ---
 title: Variable Products
-seoTitle: 
-seoDescription: 
+seoTitle: Variable Products
+seoDescription: Variable Products controlled using Stock2Shop and your Sales Channel
 type: how-to
 draft: true
 ---
@@ -9,13 +9,13 @@ draft: true
 ## Variable Products
 
 A Variant contains information about each product option such as SKU, weight, price and availability (stock levels).
-In the below shoe example, you may hold 3 different sizes in 2 colours. 
+Variants are one or more SKUs that make up a Product with options such as size and colour.
 
-The variants would look like this:
+In the below shoe example, we have 3 different sizes in 2 colours.
 
+The variants for a Shoe would look like this:
 
-### Example Shoe with variations
-
+## Shoe Product
 | SKU   |  Option 1<br>(Size)   |  Option 2<br>(Colour)   |  Quantity   |  Weight<br>(g) |
 | ------------ | :-------------: | :-------------: | :-------------: | :-------------: |
 | ABC-1  |  8  |  <span style="color:red">**Red**</span>  |  10  |  100 |
@@ -27,11 +27,14 @@ The variants would look like this:
 
 
 
-As you can see in the example, the red and blue shoes come in 3 different sizes.
+In the example, the red and blue shoes come in 3 different sizes.
 It is important that each variant has a unique combination of options, meaning, you will not be able to have 2 blue 
 shoes that are size 9 under the same Parent Product.
 
-When importing data into Stock2Shop, we need to be able to define the above “parent/child” relationship in a flat data structure (spreadsheet).
+When importing data into Stock2Shop, we need to be able to define the above “parent/child” relationship in a flat data 
+structure (spreadsheet).
+
+
 
 In order to do this, we have some field conventions, namely:
 - **source_product_code:** This is the unique identifier for each parent product.
@@ -40,5 +43,6 @@ In order to do this, we have some field conventions, namely:
 - **option1_value:** The value for this variant (e.g. size 8)
 - **option2_name:** Describing the option (e.g. colour)
 - **option2_value:** The value for this variant (e.g. red)
-We can have a maximum of 3 options only.
 
+
+We can have a maximum of 3 options per product in Stock2Shop.
