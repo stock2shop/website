@@ -15,7 +15,8 @@ Currently, Stock2Shop supports the following sales channels:
 
 ### What Channels are available
 - B2B trade store
-- Magento
+- Magento 1.x
+- Magento 2.x
 - Shopify
 - WooCommmerce
 
@@ -29,12 +30,14 @@ Each channel can be configured differently. Configuration on a channel usually r
 - Payment gateways
 - Customer accounts
 - Price tiers
+
 Each sales channel has its own set of configuration and requirements.
   
 ## In this section
-<!--TBC-->
-- [Sales Channels](/help/how-to/channels/)
-- [Market Place](/help/how-to/channels/)
-- [Trade Store](/help/how-to/channels/)
-- [Channel flags](/help/how-to/channels/)
-- [Terminology](/help/how-to/channels/terminology)
+
+- [Sales Channels](/help/how-to/channels/ "...")
+- [Market Place](/help/how-to/channels/ "...")
+- [Trade Store](/help/how-to/channels/ "...")
+- [Channel rules](/help/how-to/channels/ "...")
+- [Channel flags](/help/how-to/channels/ "...")
+- [Terminology](/help/how-to/channels/terminology "...")
