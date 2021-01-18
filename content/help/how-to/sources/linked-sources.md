@@ -29,7 +29,7 @@ For example, you use Sage Pastel Partner as your primary source of inventory inf
 
 However, your primary source (Pastel Partner) does not allow you to manage various additional product information necessary to make a sale. To solve this, you would use a linked source in the format of a Google Sheet. The Google Sheet is linked to your primary source and allows you to update and maintain the additional product information – product titles, categories, images and any other brand specific attributes – you require.
 
-###2. Using a linked source to facilitate a drop shipping e-commerce model.
+### 2. Using a linked source to facilitate a drop shipping e-commerce model.
 For example, you are the owner of an e-commerce website that sells various products from many different suppliers but you do not hold stock. You use a primary source such as Sage Pastel Partner to facilitate transactions and not to manage product and inventory information on your e-commerce website.
 
 You rely on your suppliers to provide product and inventory information. Your suppliers update stock quantities either daily, two to three times per week or weekly by updating their specific supplier Google Sheet (linked source). This Google Sheet is linked to your primary source and your sales channels are then updated with the supplied product information.
