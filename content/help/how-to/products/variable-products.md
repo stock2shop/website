@@ -16,6 +16,7 @@ In the below shoe example, we have 3 different sizes in 2 colours.
 The variants for a Shoe would look like this:
 
 ## Shoe Product
+---
 | SKU   |  Option 1<br>(Size)   |  Option 2<br>(Colour)   |  Quantity   |  Weight<br>(g) |
 | ------------ | :-------------: | :-------------: | :-------------: | :-------------: |
 | ABC-1  |  8  |  <span style="color:red">**Red**</span>  |  10  |  100 |
@@ -25,7 +26,7 @@ The variants for a Shoe would look like this:
 | ABC-5  | 9 |  <span style="color:blue">**Blue**</span>  | 0 | 105 |
 | ABC-6  | 10 |  <span style="color:blue">**Blue**</span>  | 3 | 110 |
 
-
+---
 
 In the example, the red and blue shoes come in 3 different sizes.
 It is important that each variant has a unique combination of options, meaning, you will not be able to have 2 blue 
@@ -33,8 +34,6 @@ shoes that are size 9 under the same Parent Product.
 
 When importing data into Stock2Shop, we need to be able to define the above “parent/child” relationship in a flat data 
 structure (spreadsheet).
-
-
 
 In order to do this, we have some field conventions, namely:
 - **source_product_code:** This is the unique identifier for each parent product.
@@ -45,4 +44,5 @@ In order to do this, we have some field conventions, namely:
 - **option2_value:** The value for this variant (e.g. red)
 
 
-We can have a maximum of 3 options per product in Stock2Shop.
+
+**We can have a maximum of 3 options per product in Stock2Shop.**

@@ -5,20 +5,32 @@ seoDescription: Selling products online using Stock2Shop and channels.
 type: how-to
 ---
 
-## Stock2Shop Sources
-What do we mean when we say channels? Your Webstore/s where you sell your products. These are referred to as Sales Channels.
+## What is a Sales Channel?
+A Stock2Shop sales channel is an application or platform which can display your product and inventory data. 
+Channels usually allow customers to put your products into a basket and checkout with them (order them). The information
+from the sale is then returned to Stock2Shop as a sales order.Several processes can then be started, depending on your
+integration requirements and your unique workflow.
 
-Here’s all you need to know about Stock2Shop channels.
+Currently, Stock2Shop supports the following sales channels:
 
-Sales channels are where you sell your products to customers, there are 3 types of Channels we can integrate with:
-- 3rd Party Webstores (eg: Woocommerce, Shopify, Magento...)
-- Stock2Shop's B2B Platform
-- Marketplaces (Takealot)
+### What Channels are available
+- B2B trade store
+- Magento
+- Shopify
+- WooCommmerce
 
-Stock2Shop can connect to an existing channel and update the inventory and pricing of products already loaded, or create
-the products on a new channel.
-Below is a breakdown of Channels in Stock2Shop where you can read further into Channel functionality. 
+### Set up and configuration
 
+Stock2Shop is a multi-channel platform. This means that you can push your product and inventory information to many
+different channels, and only have to maintain one source of product information.
+Each channel can be configured differently. Configuration on a channel usually refers to things like:
+
+- Shipping rules
+- Payment gateways
+- Customer accounts
+- Price tiers
+Each sales channel has its own set of configuration and requirements.
+  
 ## In this section
 <!--TBC-->
 - [Sales Channels](/help/how-to/channels/)
