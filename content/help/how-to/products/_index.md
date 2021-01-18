@@ -10,10 +10,10 @@ Each product must contain at least one or more variants.
 
 For example, if you sell shoes, your product may have the following properties:
 
-**Title:** Pegasus 2
-**Collection:** Sports Shoes
-**Vendor:** Athletics Co Ltd
-**Type:** Running Shoe
+**Title:** Pegasus 2  
+**Collection:** Sports Shoes  
+**Vendor:** Athletics Co Ltd  
+**Type:** Running Shoe  
 
 This product may be available in multiple sizes and may come in several colours.
 Each variant for the above product would have a unique size / colour combination.
