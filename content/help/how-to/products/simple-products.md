@@ -1,7 +1,7 @@
 ---
 title: Simple Products
-seoTitle:
-seoDescription:
+seoTitle: Stock2Shop Simple Products
+seoDescription: Using Simple Products with your Stock2Shop integration.
 type: how-to
 draft: true
 ---

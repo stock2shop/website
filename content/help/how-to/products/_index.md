@@ -1,5 +1,7 @@
 ---
 title: Products
+seoTitle: 
+seoDescription: 
 type: how-to
 draft: true
 ---
@@ -16,8 +18,6 @@ We have many fields available on Stock2Shop to update from your ERP and then pas
 
 Stock2Shop can control which products sync to Stock2Shop and from there which Sales Channel the Products will need to be
 associated with.
-
-
 
 ## In this section
 

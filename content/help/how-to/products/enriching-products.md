@@ -15,4 +15,3 @@ into Stock2Shop containing all the additional info you wish to add to your produ
 Import
 Add
 Edit 
-etc
