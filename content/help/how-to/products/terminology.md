@@ -59,10 +59,10 @@ Missing terms:
 
 - Auto Sync
 - Re-Link
-- 
-- 
-- 
-- 
+- Channel Id
+- Audit Log
+- Channel Rules
+- ...
 - 
 - 
 ...

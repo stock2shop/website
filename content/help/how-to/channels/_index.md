@@ -5,10 +5,10 @@ seoDescription: Selling products online using Stock2Shop and channels.
 type: how-to
 ---
 
-## What is a Sales Channel?
-A Stock2Shop sales channel is an application or platform which can display your product and inventory data. 
-Channels usually allow customers to put your products into a basket and checkout with them (order them). The information
-from the sale is then returned to Stock2Shop as a sales order.Several processes can then be started, depending on your
+## Stock2Shop Sales Channels
+A Stock2Shop sales channel is a platform which you can sell your Product to Customers. Channels usually allow customers 
+to put your products into a basket and checkout with them (order them). The information from the sale is then returned 
+to Stock2Shop as a sales order.Several processes can then be started, depending on your
 integration requirements and your unique workflow.
 
 Currently, Stock2Shop supports the following sales channels:
