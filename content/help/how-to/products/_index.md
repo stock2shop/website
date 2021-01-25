@@ -1,7 +1,7 @@
 ---
 title: Products
-seoTitle: 
-seoDescription: 
+seoTitle: Stock2Shop Products
+seoDescription: Managing Product data using Stock2Shop
 type: how-to
 draft: true
 ---
