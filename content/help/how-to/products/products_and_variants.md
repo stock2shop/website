@@ -6,12 +6,30 @@ type: how-to
 draft: true
 ---
 
-## Variable Products
+## Products and Variants
+Here’s all you need to know about the relationship between products, options and variants on Stock2Shop.
 
-A Variant contains information about each product option such as SKU, weight, price and availability (stock levels).
-Variants are one or more SKUs that make up a Product with options such as size and colour.
+### What is a Product?
+A product contains information such as title, collection, description, vendor, product type and images.
+Each product must contain at least one or more variants.
 
-In the below shoe example, we have 3 different sizes in 2 colours.
+For example, if you sell shoes, your product may have the following properties:
+
+Title: Pegasus 2
+Collection: Sports Shoes
+Vendor: Athletics Co Ltd
+Type: Running Shoe
+
+This product may be available in multiple sizes and may come in several colours.
+Each variant for the above product would have a unique size / colour combination.
+
+### What are product options? 
+A product may or may not have options, depending if it requires multiple variants or not.
+In the above shoe example, the product would have two options: size and colour.
+
+### What is a variant?
+A variant contains information about each product option such as SKU, weight, price and availability (stock levels).
+In the above shoe example, you may hold 3 different sizes in 2 colours. The variants would look like this:
 
 The variants for a Shoe would look like this:
 

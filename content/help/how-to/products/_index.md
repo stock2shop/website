@@ -21,8 +21,7 @@ associated with.
 
 ## In this section
 
-- [Simple products](/help/how-to/products/simple-products "simple products in Stock2Shop")
-- [Variable products](/help/how-to/products/variable-products "variable products in Stock2Shop")
+- [Products and Variants](/help/how-to/products/products_and_variants "Products in Stock2Shop")
 - [Import products](/help/how-to/products/import "importing products into Stock2Shop")
 - [Managing products](/help/how-to/products/managing-products "managing products in Stock2Shop")
 - [Enriching products](/help/how-to/products/enriching-products "enriching products in Stock2Shop")
