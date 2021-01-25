@@ -46,9 +46,9 @@ The variants for a Shoe would look like this:
 
 ---
 
-In the example, the red and blue shoes come in 3 different sizes.
-It is important that each variant has a unique combination of options, meaning, you will not be able to have 2 blue 
-shoes that are size 9 under the same Parent Product.
+In the example, the red and blue shoes come in 3 different sizes.  
+**It is important that each variant has a unique combination of options, meaning, you will not be able to have 2 blue 
+shoes that are size 9 under the same Parent Product.**
 
 When importing data into Stock2Shop, we need to be able to define the above “parent/child” relationship in a flat data 
 structure (spreadsheet).
