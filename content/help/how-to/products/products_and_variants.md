@@ -24,12 +24,12 @@ This product may be available in multiple sizes and may come in several colours.
 Each variant for the above product would have a unique size / colour combination.
 
 ### What are product options? 
-A product may or may not have options, depending if it requires multiple variants or not.
-In the above shoe example, the product would have two options: size and colour.
+A product may or may not have options, depending on if it has multiple variants or not.
+In the below shoe example, the product would have two options: size and colour.
 
 ### What is a variant?
 A variant contains information about each product option such as SKU, weight, price and availability (stock levels).
-In the above shoe example, you may hold 3 different sizes in 2 colours. The variants would look like this:
+In the below shoe example, you may hold 3 different sizes in 2 colours. The variants would look like this:
 
 The variants for a Shoe would look like this:
 

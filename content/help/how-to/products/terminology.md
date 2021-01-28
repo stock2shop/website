@@ -24,19 +24,11 @@ The platform you sell your Products on Online, also known as sales channel ie: M
 site; Takealot; B2B Trade store. You can have multiple Channels associated with your Stock2Shop integration and control 
 which of your Source Products sync to which Sales Channel.
 
-#### Channel Code
-This is the code received by the sales channel when an order is placed on said channel and refers to the order number.
-The Order number on your Sales Channel will appear as the Channel Code. This is useful for referencing the Order on your store.
-
-#### Customer Code
-This is the code given to Stock2Shop from either the Channel or the Source that relates to the customer. The Customer 
-details will be added to Stock2Shop when Orders are received with Customer details populated.
-
-#### Push
+#### Push Source
 Integrations that require updates to be sent to Stock2Shop when changes are detected are know as 'Push' sources. These 
 are most common with ERP's/Accounting Systems that are not cloud based and run on an Office Server.
 
-#### Pull
+#### Pull Source
 Integrations that require Product data to be fetched by Stock2Shop on a schedule are known as 'Pull' sources. 
 Product data is fetched hourly to update Stock2Shop.
 
@@ -46,23 +38,24 @@ the schedule. These fields, separated by white space, can contain any of the all
 of the allowed characters for that field. This is used by Stock2Shop to schedule a 'Pull' of product data from a source.
 
 #### Inventory Management
-Most websites have a functionality to display “In Stock” or “Out of Stock” labels when a product has qty or not, 
+Most websites have functionality to display “In Stock” or “Out of Stock” labels when a product has available qty or not, 
 this is called inventory management and is optional when integrating with Stock2Shop.
 
 #### Workflow
 The process for creating, enriching, removing products with particular preferences. Workflows can differ drastically 
-between different clients and their specific integration setup. Workflows are covered by Stock2Shop when your integration 
-is being configured.
+between different integrations and their specific setup. Workflows are covered by Stock2Shop when your integration 
+is being setup.
 
+#### Re-link
+When we talk about a product link, it refers to the connect of the product from Stock2Shop and how it links to your 
+product on your Sales Channels. When first syncing your Stock2Shop Inventory, our Connector will find existing products
+and if not, it will create them (depending on requirements) as new products. When we establish the initial link, Stock2Shop
+saves the ID your sales channel assigns to the products in order to update products faster moving forward. When a product
+is removed from your Sales Channel without being removed from Stock2Shop, it will break the link. If the product is
+re-created on your Sales Channel, it will not have the same ID Stock2Shop has saved. In this case we would need to Re-link
+your product
 
-Missing terms:
+#### Channel ID
+When linking products to your Sales Channel, we save the ID assigned by the Sales Channel for quicker reference to the 
+product. This ID we call a Channel ID, and is unique to a single product on your Store.
 
-- Auto Sync
-- Re-Link
-- Channel Id
-- Audit Log
-- Channel Rules
-- ...
-- 
-- 
-...
