@@ -28,7 +28,16 @@ website while your other sales channel only sells out of the one database.
 
 #### Price Tier
 
+In Stock2Shop, you can define what pricing group/tier a channel should use. The price lists are sent from your source 
+through Stock2Shop or they can be manually imported into the Stock2Shop console. If you have multiple sales channels you
+define a price list for each.
+
 #### Warehousing
+
+When setting up a channel to receive quantity updates from Stock2Shop we take it a step further with listing Stock 
+availability based on Warehouses. Stock2Shop can get Warehouse info from your ERP and structure it differently on 
+Stock2Shop, this means that we can combine the quantity values that sync into Stock2Shop and have them update to the 
+relevant SKUs on the website/channel and/or we can assign specific warehouses to the individual sales channels.
 
 #### API
 
@@ -51,9 +60,40 @@ this is called inventory management and is optional when integrating with Stock2
 
 #### Attribute Set
 
+#### Channel Rules
 
+Channel Rules can determine which items sync to your channel/web store.
+This is extremely useful for managing which data will be available to your relevant Site.
+For example, we can use a Rule to prevent a product from syncing to the selected channel if it does not contain any 
+images, this prevents items showing up on your Website without an image associated.
 
+To take it a step further, if you had 2 Webstores and only 1 ERP, you could filter which products go to which channel.
+If you have a Webstore selling shoes, and another selling bags, you can apply a product type to the 
+Items on the General Tab of the Products.
+In the Channel setup, you would apply a Rule to the Channel selling shoes that filters the ‘Product Type’
+This can be done to either exclude an item from syncing, or ONLY sync that specific type of item.
 
+Your channel rule for the Shoe Store would look as follows:
+Product Field “product_type” Operator “equals” Value “Shoes”
+Once you apply the Rule and re-sync the Channel, only items with the Type: ‘Shoes’ will sync through.
+This same logic can be applied to many different fields for a robust integration.
 
+#### Sync Channel
+
+The Sync Channel feature allows you to sync all products from the channel source to your existing sales channel. 
+Following the [rules](/help/how-to/channels/channel_rules "...") of the channel, existing products are updated using the product ID's already saved and
+new products are added if  product has never linked
+
+#### Copy All
+
+The Copy All feature removes all of the existing product links to your sales channel. 
+The Sales channel has unique ID’s for your products and variants. 
+When there is a mis-match with these IDs between Stock2Shop and your Sales channel, Stock2Shop can use the Copy All 
+feature to remove the old ID’s in bulk.
+
+The product can be added/linked by either using a setting to match to current skus codes that still exist on the website
+or create brand new skus with new IDs.
+
+#### Product links
 
 
