@@ -41,6 +41,12 @@ relevant SKUs on the website/channel and/or we can assign specific warehouses to
 
 #### API
 
+“API” is an acronym for “Application Programming Interface”. An API establishes a common language/interface, which 
+enables two software programs to communicate with each other. An API enables your own software program(s) you use to 
+manage your ecommerce channels to send data to and from your Seller Portal account in an automated way.
+The benefit of using an API is that it takes away the manual effort required to keep the data between your own software 
+program(s) and the Seller Portal in sync - meaning less time and effort for you, as no human intervention is needed.
+
 #### API Key
 
 #### Consumer Key
