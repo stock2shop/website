@@ -18,8 +18,9 @@ from the platform requires an understanding of the key concepts. In this section
 we outline some of these key concepts.
 
 - [Products](/help/how-to/products "Understanding products and variants")
-- [Channels](/help/how-to/channels "Understanding channels")
 - [Sources](/help/how-to/sources "Understanding sources")
+- [Channels](/help/how-to/channels "Understanding channels")
+- [Fulfillments](/help/how-to/fulfillments "Understanding fulfillments"))
 - [Models](/help/how-to/models "Understanding models")
 
 
