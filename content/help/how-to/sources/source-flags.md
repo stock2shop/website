@@ -44,6 +44,4 @@ Stock2Shop flags support the following product fields:
 - Grams
 - Inventory Management (tracking inventory)
 
-Any questions? [Contact us](/contact-us/) – we’re happy to help.
-
 ...
