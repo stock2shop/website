@@ -19,4 +19,5 @@ We use flags to control what product data is synced to Stock2Shop and from there
 - [Linked sources](/help/how-to/sources/linked-sources "...")
 - [Source flags](/help/how-to/sources/source-flags "...")
 - [Terminology](/help/how-to/sources/terminology "...")
+- [Orders](/help/how-to/sources/orders "...")
 

@@ -4,7 +4,7 @@ seoTitle: "Primary sources"
 seoDescription: "Defining a primary source"
 sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
 type: how-to
-raft: true
+draft: true
 ---
 
 ## Primary Sources
