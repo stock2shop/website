@@ -95,6 +95,6 @@ see a breakdown of the Import.
 ## Processing Queue
 Any import into your console will be added to the Queue, hover over Queue and click on "View" you will see the 
 lines containing "sync_products" wait for the queue to complete and open one or two products and confirm that your 
-import has processed successfully. Should your changes not reflect, or an error occurs check out our [Solutions](/content/help/solutions/index)
+import has processed successfully. Should your changes not reflect, or an error occurs check out our [Solutions](/help/how-to/solutions/_index)
 or contact support@stock2shop.com for assistance. 
 

@@ -33,7 +33,7 @@ In the below shoe example, you may hold 3 different sizes in 2 colours. The vari
 
 The variants for a Shoe would look like this:
 
-## Shoe Product
+#### Shoe Product
 ---
 | SKU   |  Option 1<br>(Size)   |  Option 2<br>(Colour)   |  Quantity   |  Weight<br>(g) |
 | ------------ | :-------------: | :-------------: | :-------------: | :-------------: |
