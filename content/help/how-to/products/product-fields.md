@@ -21,6 +21,7 @@ fields. Here are some fields we use and what they do.
 - **Collection/Category** - The relevant group for your product in order to filter products on your Store or in Stock2Shop. 
 - **Product Type** - This field can be used as a sub category to your Collection/Category fields.
 - **Product Tags** - You can add multiple Tags to your Products for use on your Sales Channel.
+- **Product Meta** - Any product information that you may require in order to display and sell your product. Note that meta information is only avaiable at a product level and not a variant level.
 ##### Variant Level
 - **Variant ID** - The Stock2Shop ID for your variant. This can be the same as your Sku code.
 - **Sku Code** - The unique Stock Keeping Unit of your product in your ERP/Accounting system.  
