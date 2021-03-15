@@ -35,9 +35,9 @@ Each sales channel has its own set of configuration and requirements.
   
 ## In this section
 
-- [Sales Channels](/help/how-to/channels/ "...")
-- [Market Place](/help/how-to/channels/ "...")
-- [Trade Store](/help/how-to/channels/ "...")
-- [Channel rules](/help/how-to/channels/ "...")
-- [Channel flags](/help/how-to/channels/ "...")
+- [Sales Channels](/help/how-to/channels/sales_channels "...")
+- [Market Place](/help/how-to/channels/marketplace "...")
+- [Trade Store](/help/how-to/channels/trade_store "...")
+- [Channel rules](/help/how-to/channels/channel_rules "...")
+- [Channel flags](/help/how-to/channels/channel_flags "...")
 - [Terminology](/help/how-to/channels/terminology "...")
