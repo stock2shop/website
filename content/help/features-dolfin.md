@@ -2,8 +2,7 @@
 title: "Dolfin"
 seoTitle: "Dolfin Integration Features"
 seoDescription: "Integrate your Dolfin with supported Sales Channels/Webstores through Stock2Shop"
-type: feature
-tags: ["source"]
+tags: ["feature"]
 sources: ["dolfin"]
 ---
 

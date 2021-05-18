@@ -2,7 +2,7 @@
 title: "Parcel Ninja"
 seoTitle: "Parcel Ninja Integration Features"
 seoDescription: "Integrate your Parcel Ninja Inventory with supported Sales Channels/Webstores through Stock2Shop"
-type: feature
+tags: ["feature"]
 sources: ["parcelninja"]
 ---
 

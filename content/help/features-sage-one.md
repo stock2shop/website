@@ -2,7 +2,7 @@
 title: "Sage One"
 seoTitle: "Sage One Integration Features"
 seoDescription: "Integrate your Sage Business Cloud Accounting with supported Sales Channels/Webstores through Stock2Shop"
-type: feature
+tags: ["feature"]
 sources: ["sage-one"]
 ---
 

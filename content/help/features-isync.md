@@ -2,7 +2,7 @@
 title: "iSync"
 seoTitle: "iSync Integration Features"
 seoDescription: "Integrate your iSync with supported Sales Channels/Webstores through Stock2Shop"
-type: feature
+tags: ["feature"]
 sources: ["isync"]
 ---
 

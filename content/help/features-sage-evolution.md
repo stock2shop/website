@@ -2,7 +2,7 @@
 title: "Sage Evolution"
 seoTitle: " Integration Features"
 seoDescription: "Integrate your Sage Evolution with supported Sales Channels/Webstores through Stock2Shop"
-type: feature
+tags: ["feature"]
 sources: ["evolution"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Sage Live"
 seoTitle: "Sage Live Integration Features"
 seoDescription: ""
-type: feature
+tags: ["feature"]
 sources: ["sagelive"]
 ---
 

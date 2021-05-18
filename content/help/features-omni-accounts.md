@@ -2,7 +2,7 @@
 title: "Omni Accounts"
 seoTitle: "Omni Accounts Integration Features"
 seoDescription: "Integrate your Omni Accounts with supported Sales Channels/Webstores through Stock2Shop"
-type: feature
+tags: ["feature"]
 sources: ["omniaccounts"]
 ---
 
