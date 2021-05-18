@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="row" id="helpCentre">
     <div class="col-md-12">
-        <h2>{{ .Title }}</h2>
-            <p class="lead">{{ .Params.Lead }}</p>
+        <h2>Help Search</h2>
+        <p class="lead">Search issues</p>
         <hr>
     </div>
 </div>
@@ -16,9 +16,9 @@
     <div class="col">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title"><a href="#">Manage and configure</a></h5>
+                <h5 class="card-title"><a href="/help/getting-started">Manage and configure</a></h5>
                 <p class="card-text">
-                    Learn how Stock2Shop works and how it can be configured
+                    Manage and configure your setup
                 </p>
             </div>
         </div>
@@ -26,7 +26,7 @@
     <div class="col">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title"><a href="/help/solutions">Troubleshooting</a></h5>
+                <h5 class="card-title"><a href="/help/solutions">Solutions</a></h5>
                 <p class="card-text">
                     The place to go if you need help or are stuck
                 </p>
@@ -36,7 +36,7 @@
     <div class="col">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title"><a href="/help/how-to">How It Works</a></h5>
+                <h5 class="card-title"><a href="/help/how-it-works">How It Works</a></h5>
                 <p class="card-text">
                     Learn about key concepts
                 </p>
@@ -52,26 +52,6 @@
                 </p>
             </div>
         </div>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-6">
-        <hr>
-        <h4>Getting Started</h4>
-        <ul>
-            {{ range $key, $taxonomy := .Site.Taxonomies.sources }}
-            <li ><a href="/help/{{ $key| urlize }}">{{ $key }}</a></li>
-            {{ end }}
-        </ul>
-    </div>
-    <div class="col-md-6">
-        <hr>
-        <h4>Trouble Shooting</h4>
-        <ul>
-            {{ range $key, $taxonomy := .Site.Taxonomies.sources }}
-            <li ><a href="/help/solutions/{{ $key| urlize }}">{{ $key }}</a></li>
-            {{ end }}
-        </ul>
     </div>
 </div>
 

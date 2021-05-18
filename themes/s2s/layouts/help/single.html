@@ -1,25 +1,103 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-<h3>How To's</h3>
-<ul>
-    {{ $q1 := where .Site.Pages "Type" "how-to" }}
-    {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}
-    {{ range $q1 | intersect $q2 }}
-    <li>
-        <a href="{{ .URL }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-</ul>
+<div class="row" id="helpCentre">
+    <div class="col-md-12">
+        <h2>Help Search</h2>
+        <p class="lead">Search issues</p>
+        <hr>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <input class="form-control form-control-lg" placeholder="Search Documentation">
+        <hr>
+    </div>
+</div>
 
-<h3>Queue Errors</h3>
-<ul>
-    {{ $q1 := where .Site.Pages "Type" "solution" }}
-    {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}
-    {{ range $q1 | intersect $q2 }}
-    <li>
-        <a href="{{ .URL }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+
+            <ul>
+                <li>Getting Started</li>
+                <li>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "gettingstarted") }}
+                        <li>
+                            <a href="{{ .URL }}">{{ .Title }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li>Features</li>
+                <li>
+                    <ul>
+                        {{ range where .Site.Pages "Params.tags" "intersect" (slice "feature") }}
+                        <li>
+                            <a href="{{ .URL }}">{{ .Title }} Features</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+                <li>How It Works</li>
+                <li>
+                    <ul>
+                        <li>Queue</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "queue") }}
+                                <li>
+                                    <a href="{{ .URL }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                        <li>Ordering</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "order") }}
+                                <li>
+                                    <a href="{{ .URL }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="/api">Developer API Docs</a></li>
+            </ul>
+
+
+
+
+        </div>
+        <div class="col-9">
+            <h1>{{.Title}}</h1>
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+
+
+<!--<h3>How To's</h3>-->
+
+<!--<ul>-->
+<!--    {{ $q1 := where .Site.Pages "Type" "how-to" }}-->
+<!--    {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}-->
+<!--    {{ range $q1 | intersect $q2 }}-->
+<!--    <li>-->
+<!--        <a href="{{ .URL }}">{{ .Title }}</a>-->
+<!--    </li>-->
+<!--    {{ end }}-->
+<!--</ul>-->
+
+<!--<h3>Queue Errors</h3>-->
+<!--<ul>-->
+<!--    {{ $q1 := where .Site.Pages "Type" "solution" }}-->
+<!--    {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}-->
+<!--    {{ range $q1 | intersect $q2 }}-->
+<!--    <li>-->
+<!--        <a href="{{ .URL }}">{{ .Title }}</a>-->
+<!--    </li>-->
+<!--    {{ end }}-->
+<!--</ul>-->
 {{ end }}

@@ -1,7 +1,7 @@
 ---
 title: "Source Requirements"
 type: help
-sources: ["sap", "syspro"]
+sources: ["sage-one"]
 ---
 
 ### Installing Apifact
