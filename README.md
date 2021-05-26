@@ -50,3 +50,34 @@ s
 |menu|Name assigned to specific menu|
 |parent|Page name used in menu to nest under|
 |name|Unique name for menu item when different to title|
+
+## Connector Glossary
+
+| Connector Type | Connector Name                 | Tag                            |
+| -------------- | ------------------------------ | ------------------------------ |
+| Source         | Dolfin                         | dolfin                         |
+| Source         | Efinity                        | efinity                        |
+| Source         | Flat File                      | flat-file                      |
+| Source         | iQ Retail                      | iq-retail                      |
+| Source         | iSync                          | isync                          |
+| Source         | Microsoft Dynamics NAV         | microsoft-dynamics-nav         |
+| Source         | Omni Accounts                  | omni-accounts                  |
+| Source         | Sage 50cloud Pastel Partner    | sage-50cloud-pastel-partner    |
+| Source         | Sage 50cloud Pastel Xpress     | sage-50cloud-pastel-xpress     |
+| Source         | Sage 100 Evolution             | sage-100-evolution             |
+| Source         | Sage 200 Evolution             | sage-200-evolution             |
+| Source         | Sage 300cloud                  | sage-300cloud                  |
+| Source         | Sage X3                        | sage-x3                        |
+| Source         | Sage Business Cloud Financials | sage-business-cloud-financials |
+| Source         | Sage Business Cloud Accounting | sage-business-cloud-accounting |
+| Source         | SAP Business One               | sap-business-one               |
+| Source         | Syspro                         | syspro                         |
+| Source         | Custom Database                | custom-database                |
+| Channel        | Magento 1.x                    | magento-1.x                    |
+| Channel        | Magento 2.x                    | magento-2.x                    |
+| Channel        | B2B Trade Store                | b2b-trade-store                |
+| Channel        | Shopify                        | shopify                        |
+| Channel        | Takealot                       | takealot                       |
+| Channel        | Woocommere                     | woocommere                     |
+| Fulfilment     | Parcelninja                    | parcelninja                    |
+| Fulfilment     | On The Dot                     | on-the-dot                     |

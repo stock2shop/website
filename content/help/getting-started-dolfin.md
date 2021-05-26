@@ -66,12 +66,18 @@ The order fields are standard and as such we are only able to pass back informat
 The information we require in order to do so is the following:
 
 ##### product information
- - SKU
- - Title
- - Quantity
- - Discount
- - Price
- - Tax
+
+```
+| Dolfin  | Stock2Shop           | Description                                                                  |
+| ------- | -------------------- | ---------------------------------------------------------------------------- |
+| Prod    | Description          | This defines the code for the container product                              |
+| SKU     | SKU                  | Used in the event that your products have options                            |
+| SKU     | QTY                  | The unique identifier for each variant                                       |
+| WebName | Line Item Discount   | The web friendly title of the product                                        |
+| qty     | Price                | The quantity you have in stock to sell online                                |
+| price   | Tax                  | The price at which you are wanting to sell the product (incl or excl VAT)    |
+ 
+ ```
 
  ##### Customer information
  - First Name
@@ -90,7 +96,7 @@ Note: The information passed back from each sales channel depends on the default
 If the order information does not exist on the order webhook payload, Stock2Shop will not be able to make use of it.
 ```
 
-### Features specific to Dolfin
+## Features specific to Dolfin
 To get the most out of your Dolfin integration with Stock2shop, head over to our [Dolfin features](/features/dolfin/ "dolfin features") documentation.
 
 
@@ -102,7 +108,7 @@ We have prepared documentation that describes all our concepts:
  - [Understanding Sources](/help/how-to/sources)
  - [Understanding Channels](/help/how-to/channels)
  
-### Support
+## Support
 For more assistance regarding our technical support, please log a ticket
 directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com
 
