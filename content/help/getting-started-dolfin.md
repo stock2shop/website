@@ -2,7 +2,7 @@
 title: "Dolfin"
 type: help
 source: "dolfin"
-tags: ["gettingstarted", "dolfin", "sageone"]
+tags: ["gettingstarted", "dolfin"]
 ---
 
 Dolfin is an online accounting system. This means the application lives in the “cloud”. 
