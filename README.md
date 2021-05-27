@@ -73,8 +73,8 @@ s
 | Source         | SAP Business One               | sap-business-one               |
 | Source         | Syspro                         | syspro                         |
 | Source         | Custom Database                | custom-database                |
-| Channel        | Magento 1.x                    | magento-1.x                    |
-| Channel        | Magento 2.x                    | magento-2.x                    |
+| Channel        | Magento 1.x                    | magento-1                      |
+| Channel        | Magento 2.x                    | magento-2                      |
 | Channel        | B2B Trade Store                | b2b-trade-store                |
 | Channel        | Shopify                        | shopify                        |
 | Channel        | Takealot                       | takealot                       |
