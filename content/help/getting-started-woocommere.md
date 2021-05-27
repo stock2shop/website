@@ -1,6 +1,6 @@
 ---
-title: "Woocommere"
+title: "WooCommerce"
 type: help
-source: "woocommere"
-tags: ["gettingstarted", "woocommere"]
+source: "woocommerce"
+tags: ["gettingstarted", "woocommerce"]
 ---

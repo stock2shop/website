@@ -2,8 +2,8 @@
 title: "Sage 50cloud Pastel Partner"
 seoTitle: "Sage Pastel Partner Integration Features"
 seoDescription: "Integrate your Sage 50cloud (Pastel Partner) with supported Sales Channels/Webstores through Stock2Shop"
-tags: ["feature"]
-sources: ["partner"]
+tags: ["feature", "sage-50cloud-pastel-partner"]
+sources: ["sage-50cloud-pastel-partner"]
 ---
 
 <!-- ***NOT IN USE***

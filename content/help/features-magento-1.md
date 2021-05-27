@@ -1,9 +1,9 @@
 ---
-title: "Magento 1"
-seoTitle: "Magento 1 Integration Features"
-seoDescription: "Integrate your Magento Store with supported ERPs/Accounting Systems through Stock2Shop"
-tags: ["feature"]
-channels: [magento]
+title: "Magento 1.x"
+seoTitle: "Magento 1.x Integration Features"
+seoDescription: "Integrate your Magento 1.x Store with supported ERPs/Accounting Systems through Stock2Shop"
+tags: ["feature", "magento-1"]
+channels: ["magento-1"]
 ---
 
 <!-- 

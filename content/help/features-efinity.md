@@ -2,7 +2,7 @@
 title: "Efinity"
 seoTitle: "Efinity Integration Features"
 seoDescription: "Integrate your Efinity with supported Sales Channels/Webstores through Stock2Shop"
-tags: ["feature"]
+tags: ["feature", "efinity"]
 sources: ["efinity"]
 ---
 

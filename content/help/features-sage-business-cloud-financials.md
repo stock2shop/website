@@ -1,9 +1,9 @@
 ---
-title: "Sage Live"
-seoTitle: "Sage Live Integration Features"
+title: "Sage Business Cloud Financials"
+seoTitle: "Sage Business Cloud Financials Integration Features"
 seoDescription: ""
-tags: ["feature"]
-sources: ["sagelive"]
+tags: ["feature", "sage-business-cloud-financials"]
+sources: ["sage-business-cloud-financials"]
 ---
 
 <!-- ***NOT IN USE***

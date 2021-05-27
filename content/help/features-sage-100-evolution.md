@@ -1,9 +1,9 @@
 ---
-title: "Sage Evolution"
+title: "Sage 100 Evolution"
 seoTitle: " Integration Features"
-seoDescription: "Integrate your Sage Evolution with supported Sales Channels/Webstores through Stock2Shop"
-tags: ["feature"]
-sources: ["evolution"]
+seoDescription: "Integrate your Sage 100 Evolution with supported Sales Channels/Webstores through Stock2Shop"
+tags: ["feature", "sage-100-evolution"]
+sources: ["sage-100-evolution"]
 ---
 
 <!-- ***NOT IN USE***

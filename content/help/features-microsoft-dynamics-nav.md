@@ -2,8 +2,8 @@
 title: "Microsoft Dynamics NAV"
 seoTitle: "Microsoft Dynamic NAV Integration Features"
 seoDescription: "Integrate your Microsoft Dynamics NAV with supported Sales Channels/Webstores through Stock2Shop"
-tags: ["feature"]
-sources: ["ms-navision"]
+tags: ["feature", "microsoft-dynamics-nav"]
+sources: ["microsoft-dynamics-nav"]
 ---
 
 <!-- ***NOT IN USE***

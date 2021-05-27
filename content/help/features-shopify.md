@@ -2,8 +2,8 @@
 title: "Shopify"
 seoTitle: "Shopify Integration Features"
 seoDescription: "Integrate your Shopify Store with supported ERPs/Accounting Systems through Stock2Shop"
-tags: ["feature"]
-channels: [shopify]
+tags: ["feature", "shopify"]
+channels: ["shopify"]
 ---
 
 <!-- 

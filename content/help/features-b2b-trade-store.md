@@ -2,8 +2,8 @@
 title: "B2B Trade Store"
 seoTitle: "Stock2Shop Trade Store Integration Features"
 seoDescription: "Integrate your ERP/Accounting software with our Stock2Shop B2B Trade store/Wholesale platform."
-tags: ["feature"]
-channels: [trade]
+tags: ["feature", "b2b-trade-store"]
+channels: ["b2b-trade-store"]
 ---
 
 <!-- ***NOT IN USE***

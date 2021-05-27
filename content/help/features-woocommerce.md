@@ -2,8 +2,8 @@
 title: "Woocommerce"
 seoTitle: "Woocommerce Integration Features"
 seoDescription: "Integrate Woocommerce with your ERP/Accounting system through Stock2Shop"
-tags: ["feature"]
-channels: [woocommerce]
+tags: ["feature", "woocommerce"]
+channels: ["woocommerce"]
 ---
 
 <!-- ***NOT IN USE***

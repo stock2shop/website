@@ -1,9 +1,9 @@
 ---
-title: "Sage One"
-seoTitle: "Sage One Integration Features"
+title: "Sage Business Cloud Accounting"
+seoTitle: "Sage Business Cloud Accounting Integration Features"
 seoDescription: "Integrate your Sage Business Cloud Accounting with supported Sales Channels/Webstores through Stock2Shop"
-tags: ["feature"]
-sources: ["sage-one"]
+tags: ["feature", "sage-business-cloud-accounting"]
+sources: ["sage-business-cloud-accounting"]
 ---
 
 <!-- ***NOT IN USE***
