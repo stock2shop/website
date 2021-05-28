@@ -1,5 +1,8 @@
 ---
 title: "Dolfin"
+seoTitle: "Dolfin Getting Started"
+seoDescription: "Integrate your Dolfin Store with supported B2B and B2C Systems through Stock2Shop"
+seoKeyword: ["Dolfin", "Integrations"]
 type: help
 source: "dolfin"
 tags: ["gettingstarted", "dolfin"]
@@ -22,7 +25,7 @@ In order for Stock2Shop to communicate with Dolfin accounting system, we require
 - Username
 - Password
 
-With these credientials, Stock2Shop will be able to integrate with Dolfin and perform the following:
+With these credentials, Stock2Shop will be able to integrate with Dolfin and perform the following:
 1. [Sync products](#sync-products) 
 2. [Sync customers (not available)](#sync-customers) 
 3. [Raise orders](#raise-orders) 
@@ -37,18 +40,19 @@ At this point, once products exist in their correct form on Stock2Shop, we can s
 For Stock2Shop to create a minimum viable product to be created or linked to your sales channel(s), we require the following fields:
 
 ```
-| Dolfin  | Stock2Shop           | Description                                                                  |
-| ------- | -------------------- | ---------------------------------------------------------------------------- |
-| Prod    | Source product code  | This defines the code for the container product                              |
-| SKU     | Source variant code  | Used in the event that your products have options                            |
-| SKU     | SKU                  | The unique identifier for each variant                                       |
-| WebName | Title                | The web friendly title of the product                                        |
-| qty     | Quantity             | The quantity you have in stock to sell online                                |
-| price   | Price                | The price at which you are wanting to sell the product (incl or excl VAT)    |
-| true    | Inventory Management | The instruction for Stock2shop to tell the sales channel to manage inventory |
- 
+| Dolfin         | Stock2Shop                    |  Description                                                                 |
+| -------------- | ------------------------------|----------------------------------------------------------------------------- |
+| Prod           | source_product_code           | This defines the code for the container product                              |
+| SKU            | source_variant_code           | Used in the event that your products have options                            |
+| WebName        | title                         | The unique identifier for each variant                                       |
+| product_active | product_active                | The instruction for Stock2shop to tell the sales channel to manage inventory |
+| qty            | variants.retail_price         | The quantity you have in stock to sell online                                |
+| price          | variants.qty                  | The price at which you are wanting to sell the product (incl or excl VAT)    |
+| SKU            | variants.sku                  | The web friendly title of the product                                        |
+| true           | variants.inventory_management | The instruction for Stock2shop to tell the sales channel to manage inventory |
+
  ```
- 
+  
  ```
  Note: fields to by synced from Dolfin to Stock2Shop will vary depending on your sales channel(s). 
  Syncing of products can get far more complex depending on your requirements. 
