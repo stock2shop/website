@@ -1,0 +1,59 @@
+---
+title: "connector_name"
+seoTitle: "connector_name Getting Started"
+seoDescription: "Integrate your connector_name with supported B2B and B2C Systems through Stock2Shop"
+seoKeyword: ["connector_name", "Integrations"]
+type: help
+source: "connector-name"
+tags: ["gettingstarted", "connector-name"]
+draft: true
+---
+
+{{connector_name}} is a client-side ERP / accounting system. 
+This means that the {{connector_name}} application is installed on a 
+server at your office, on your actual work computer or on a 
+server in the cloud. In order for Stock2Shop to provide you 
+with the full integration capabilities and link {{connector_name}} 
+to other sales channels and fulfilment services such as 
+Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
+Parcelninja and Takealot we need to install software on the server or computer where your {{connector_name}} is set up. 
+Below is all documentation you will need regarding your {{connector_name}} integration from start to finish.
+
+## Getting Started (Prerequisites)
+
+In order for Stock2Shop to communicate with {{connector_name}} {{ERP / accounting system}}, 
+we require the following information:
+
+- Server Name / IP Address (The Windows name of the server)
+- Database Name (The name of the database (company) we will be connecting to)
+- Database Username (read-only)
+- Database Password (read-only)
+
+With these credentials, Stock2Shop will be able to integrate with 
+{{connector_name}} and perform the following:
+
+1. [Sync products](#sync-products) 
+2. [Sync customers](#sync-customers) 
+3. [Raise orders](#raise-orders) 
+
+## Syncing Products to Stock2Shop {#sync-products}
+
+
+
+## Syncing Customers to Stock2Shop  {#sync-customers}
+
+
+
+## Syncing Orders to {{connector_name}} {#raise-orders}
+
+
+## Features specific to {{connector_name}}
+To get the most out of your {{connector_name}} integration with Stock2shop, 
+head over to our [{{connector_name}}](/help/#/ "{{connector_name}} features") documentation.
+
+
+## Important concepts 
+It is important to understand how Stock2Shop interprets data from your source 
+along with our terminology. Added to that, there are certain concepts that you 
+the client have the ability to manage in your own capacity. We have prepared 
+documentation that describes all our concepts, [here](/help/how-it-works "How it works")

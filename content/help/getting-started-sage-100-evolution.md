@@ -9,8 +9,8 @@ tags: ["gettingstarted", "sage-100-evolution"]
 draft: true
 ---
 
-Sage Evolution is a client-side accounting / ERP system. 
-This means the Sage Evolution application is installed on a 
+Sage Evolution 100 is a client-side accounting / ERP system. 
+This means that the Sage Evolution 100 application is installed on a 
 server at your office, on your actual work computer or on a 
 server in the cloud. In order for Stock2Shop to provide you 
 with the full integration capabilities and link Sage 100 Evolution 
@@ -123,12 +123,10 @@ To get the most out of your Sage 100 Evolution integration with Stock2shop, head
 
 
 ## Important concepts 
-It is important to understand how Stock2Shop interprets data from your source along with our terminology.
-Added to that, there are certain concepts that you the client have the ability to manage in your own capacity.
-We have prepared documentation that describes all our concepts:
- - [Understanding Products](/help/how-to/products)
- - [Understanding Sources](/help/how-to/sources)
- - [Understanding Channels](/help/how-to/channels)
+It is important to understand how Stock2Shop interprets data from your source 
+along with our terminology. Added to that, there are certain concepts that you 
+the client have the ability to manage in your own capacity. We have prepared 
+documentation that describes all our concepts, [here](/help/how-it-works "How it works")
  
 ## Support
 For more assistance regarding our technical support, please log a ticket
