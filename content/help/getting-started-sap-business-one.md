@@ -1,11 +1,12 @@
 ---
 title: "SAP Business One"
 seoTitle: "SAP Business One Getting Started"
-seoDescription: "Integrate your SAP Business One Store with supported B2B and B2C Systems through Stock2Shop"
+seoDescription: "Integrate your SAP Business One with supported B2B and B2C Systems through Stock2Shop"
 seoKeyword: ["SAP Business One", "Integrations"]
 type: help
 source: "sap-business-one"
 tags: ["gettingstarted", "sap-business-one"]
+draft: true
 ---
 
 SAP Business One is a client-side ERP system. This means the SAP Business One application is installed on a 

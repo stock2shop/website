@@ -1,8 +1,12 @@
 ---
 title: "iQ Retail"
+seoTitle: "iQ Retail Getting Started"
+seoDescription: "Integrate your iQ Retail with supported B2B and B2C Systems through Stock2Shop"
+seoKeyword: ["iQ Retail", "Integrations"]
 type: help
 source: "iq-retail"
 tags: ["gettingstarted", "iq-retail"]
+draft: true
 ---
 
 iQ Retail is a client side ERP system. This means the iQ Retail application is installed on a server at your office, on your actual work computer or on a server in the cloud. 

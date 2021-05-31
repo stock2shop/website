@@ -1,11 +1,12 @@
 ---
 title: "Dolfin"
 seoTitle: "Dolfin Getting Started"
-seoDescription: "Integrate your Dolfin Store with supported B2B and B2C Systems through Stock2Shop"
+seoDescription: "Integrate your Dolfin with supported B2B and B2C Systems through Stock2Shop"
 seoKeyword: ["Dolfin", "Integrations"]
 type: help
-source: "dolfin"
+source: "custom-database"
 tags: ["gettingstarted", "dolfin"]
+draft: true
 ---
 
 Dolfin is an online accounting system. This means the application lives in the “cloud”. 
@@ -101,7 +102,7 @@ If the order information does not exist on the order webhook payload, Stock2Shop
 ```
 
 ## Features specific to Dolfin
-To get the most out of your Dolfin integration with Stock2shop, head over to our [Dolfin features](/features/dolfin/ "dolfin features") documentation.
+To get the most out of your Dolfin integration with Stock2shop, head over to our [Dolfin features](/help/features-dolfin/ "Dolfin features") documentation.
 
 
 ## Important concepts 
