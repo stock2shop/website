@@ -49,7 +49,7 @@ With these credentials, Stock2Shop will be able to integrate with
 
 ## Features specific to {{connector_name}}
 To get the most out of your {{connector_name}} integration with Stock2shop, 
-head over to our [{{connector_name}}](/help/#/ "{{connector_name}} features") documentation.
+head over to our [{{connector_name}}](/help/# "{{connector_name}} features") documentation.
 
 
 ## Important concepts 
@@ -57,3 +57,7 @@ It is important to understand how Stock2Shop interprets data from your source
 along with our terminology. Added to that, there are certain concepts that you 
 the client have the ability to manage in your own capacity. We have prepared 
 documentation that describes all our concepts, [here](/help/how-it-works "How it works")
+
+## Support
+For more assistance regarding our technical support, please log a ticket
+directly from your Stock2Shop console, alternatively send an email to support@stock2shop.com

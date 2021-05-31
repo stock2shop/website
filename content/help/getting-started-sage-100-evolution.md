@@ -119,7 +119,7 @@ If the order information does not exist on the order webhook payload, Stock2Shop
 ```
 
 ## Features specific to Sage 100 Evolution
-To get the most out of your Sage 100 Evolution integration with Stock2shop, head over to our [Sage 100 Evolution features](/features/Sage 100 Evolution/ "Sage 100 Evolution features") documentation.
+To get the most out of your Sage 100 Evolution integration with Stock2shop, head over to our [Sage 100 Evolution features](/help/features-sage-100-evolution/ "Sage 100 Evolution features") documentation.
 
 
 ## Important concepts 
