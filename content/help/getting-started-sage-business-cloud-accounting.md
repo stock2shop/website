@@ -30,10 +30,10 @@ we require the following information:
 | Password                       | Product/Order | Password for Owner account                                                     |
 | Company ID                     | Product/Order | The ID for the Company where the product data is contained                     |
 | Sales Rep ID                   | Order         | The Sales rep to raise Orders against (Common for Sales Reps for Online Sales) |
-| param_tax_code               | Order         | Tax Code to used for Orders marked as Taxed                                    |
-| param_tax_exempt_code       | Order         | Tax Code to used for Orders marked as Tax Exempt                               |
-| param_default_shipping_code | Order         | Fixed code for processing Shipping Line Items against                          |
-| param_quote_enabled          | Order         | Create Quote instead of Sales Invoice                                          |
+| param_tax_code                 | Order         | Tax Code to used for Orders marked as Taxed                                    |
+| param_tax_exempt_code          | Order         | Tax Code to used for Orders marked as Tax Exempt                               |
+| param_default_shipping_code    | Order         | Fixed code for processing Shipping Line Items against                          |
+| param_quote_enabled            | Order         | Create Quote instead of Sales Invoice                                          |
 ```
 
 With these credentials, Stock2Shop will be able to integrate with 
@@ -50,14 +50,14 @@ the minimum required fields are:
 ```
 | Sage Business Cloud Accounting  | Stock2Shop                     | Description                                                                          |
 | ------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------ |
-| Code                            | source_product_code          | Product Parent Code for Stock2Shop.                                                  |
-| Code                            | source_variant_code          | Product Variant Code for Stock2Shop.                                                 |
+| Code                            | source_product_code            | Product Parent Code for Stock2Shop.                                                  |
+| Code                            | source_variant_code            | Product Variant Code for Stock2Shop.                                                 |
 | Description                     | title                          | Product Title field for Stock2Shop to be used for creating product on Sales Channels |
-| Active                          | product_active                | Active field for Stock2Shop to sync the product                                      |
-| *PriceInclusive/PriceExclusive | variant.price_tier            | Tax Inclusive/Exclusive Price                                                        |
-| *QuantityOnHand                | variants.qty                   | Quantity on Hand for the Product                                                     |
+| Active                          | product_active                 | Active field for Stock2Shop to sync the product                                      |
+| *PriceInclusive/PriceExclusive  | variant.price_tier             | Tax Inclusive/Exclusive Price                                                        |
+| *QuantityOnHand                 | variants.qty                   | Quantity on Hand for the Product                                                     |
 | Code                            | variants.sku                   | Sku code field for Stock2Shop                                                        |
-| *true                          | variants.inventory_management | Control qty syncing and updating on the Sales Channel                                | |                               |
+| *true                           | variants.inventory_management  | Control qty syncing and updating on the Sales Channel                                |
 ```
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
@@ -70,11 +70,11 @@ By default, Stock2Shop raises orders to Sage Business Cloud Accounting with the 
 ```
 | Sage Business Cloud Accounting | Stock2Shop                                   | Description                         |
 | ------------------------------ | -------------------------------------------- | ----------------------------------- |
-| Date                           | created_at                                  | Customer Name                       |
-| CustomerId                     | system_order_default_address.customer_id | Customer ID to send to SageOne      |
+| Date                           | created_at                                   | Customer Name                       |
+| CustomerId                     | system_order_default_address.customer_id     | Customer ID to send to SageOne      |
 | DueDate                        | createdDate                                  | Due Date for Tax Invoice on SageOne |
-|                                | line_item.sku                               |                                     |
-|                                | line_item.qty                               |
+|                                | line_item.sku                                |                                     |
+|                                | line_item.qty                                |
 ```
 
 ## Features specific to Sage Business Cloud Accounting
