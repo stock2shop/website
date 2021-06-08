@@ -14,6 +14,12 @@ In order to communicate with your Sage 50cloud Pastel Xpress database, we requir
 
 - Database Path (c:\Pastel18\abc)
 - Version of Sage 50cloud Pastel Xpress (Pastel 18)
+- DDF Path (DBQ) from the DDF Builder
+
+How to get DBQ name :
+1. Search on Windows for DDF Builder and click on DDF Builder
+2. Expand the arrow next to Server and the arrow next to Databases
+3. Give the full name of the item pointing to your current database (DBQ)
 
 ## For accessing your server
 In order for Stock2Shop to access the data inside of your Sage 50cloud Pastel Xpress database and integrate this into other applications, our software has to be installed on the server or computer that has direct access to the Sage 50cloud Pastel Xpress database. There are two ways for you to grant us access to install our software on your server:
