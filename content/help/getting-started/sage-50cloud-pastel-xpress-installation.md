@@ -17,7 +17,7 @@ In order to communicate with your Sage 50cloud Pastel Xpress database, we requir
 - DDF Path (DBQ) from the DDF Builder
 
 How to get DBQ name :
-1. Search on Windows for DDF Builder and click on DDF Builder
+1. Search on Windows for DDF Builder and click on DDF Builder program
 2. Expand the arrow next to Server and the arrow next to Databases
 3. Give the full name of the item pointing to your current database (DBQ)
 
