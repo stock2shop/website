@@ -18,7 +18,7 @@ In order to communicate with Dolfin, we require the following information:
 - Order Request URL
 - Company ID
 - Username
-- Password
+- Passwordx
 
 {{< class alert alert-primary >}}
 This information will be provided to Stock2Shop by your Dolfin representative.
