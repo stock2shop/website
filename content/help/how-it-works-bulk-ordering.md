@@ -8,7 +8,6 @@ fulfillments: ["parcel-ninja", "on-the-dot"]
 draft: true
 date: 2020-12-31T12:16:00+02:00
 tags: ["how-it-works", "order"]
-
 ---
 
 ## What is Bulk Ordering

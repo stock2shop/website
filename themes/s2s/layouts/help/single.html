@@ -41,16 +41,50 @@
                 <li>How It Works</li>
                 <li>
                     <ul>
-                        <li>Queue</li>
+                        <li>Sources</li>
                         <li>
                             <ul>
-                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "queue") }}
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "source") }}
                                 <li>
                                     <a href="{{ .Permalink }}">{{ .Title }} </a>
                                 </li>
                                 {{ end }}
                             </ul>
                         </li>
+
+                        <li>Channels</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "channel") }}
+                                <li>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+
+                        <li>Products</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "product") }}
+                                <li>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+
+                        <li>Customers</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "customer") }}
+                                <li>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+
                         <li>Ordering</li>
                         <li>
                             <ul>
@@ -61,13 +95,43 @@
                                 {{ end }}
                             </ul>
                         </li>
+
+                        <li>Fulfillment</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "fulfillment") }}
+                                <li>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+
+                        <li>Queue</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "queue") }}
+                                <li>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+
+                        <li>Business Models</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "model") }}
+                                <li>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li><a href="/api">Developer API Docs</a></li>
             </ul>
-
-
-
 
         </div>
         <div class="col-9">
