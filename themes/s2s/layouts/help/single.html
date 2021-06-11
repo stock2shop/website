@@ -23,7 +23,7 @@
                     <ul>
                         {{ range where .Site.Pages "Params.tags" "intersect" (slice "gettingstarted") }}
                         <li>
-                            <a href="{{ .URL }}">{{ .Title }}</a>
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
                         </li>
                         {{ end }}
                     </ul>
@@ -33,7 +33,7 @@
                     <ul>
                         {{ range where .Site.Pages "Params.tags" "intersect" (slice "feature") }}
                         <li>
-                            <a href="{{ .URL }}">{{ .Title }} Features</a>
+                            <a href="{{ .Permalink }}">{{ .Title }} Features</a>
                         </li>
                         {{ end }}
                     </ul>
@@ -46,7 +46,7 @@
                             <ul>
                                 {{ range where .Site.Pages "Params.tags" "intersect" (slice "queue") }}
                                 <li>
-                                    <a href="{{ .URL }}">{{ .Title }} </a>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
                                 </li>
                                 {{ end }}
                             </ul>
@@ -56,7 +56,7 @@
                             <ul>
                                 {{ range where .Site.Pages "Params.tags" "intersect" (slice "order") }}
                                 <li>
-                                    <a href="{{ .URL }}">{{ .Title }} </a>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
                                 </li>
                                 {{ end }}
                             </ul>
@@ -85,7 +85,7 @@
 <!--    {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}-->
 <!--    {{ range $q1 | intersect $q2 }}-->
 <!--    <li>-->
-<!--        <a href="{{ .URL }}">{{ .Title }}</a>-->
+<!--        <a href="{{ .Permalink }}">{{ .Title }}</a>-->
 <!--    </li>-->
 <!--    {{ end }}-->
 <!--</ul>-->
@@ -96,7 +96,7 @@
 <!--    {{ $q2 := where .Site.Pages ".Params.sources" "intersect" (slice .Params.source) }}-->
 <!--    {{ range $q1 | intersect $q2 }}-->
 <!--    <li>-->
-<!--        <a href="{{ .URL }}">{{ .Title }}</a>-->
+<!--        <a href="{{ .Permalink }}">{{ .Title }}</a>-->
 <!--    </li>-->
 <!--    {{ end }}-->
 <!--</ul>-->

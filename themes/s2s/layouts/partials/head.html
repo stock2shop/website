@@ -1,25 +1,39 @@
-{{ $css1 := resources.Get "bootstrap-5.0.0/css/bootstrap.css" }}
-{{ $css2 := resources.Get "bootstrap-5.0.0/css/bootstrap-grid.css" }}
-{{ $css3 := resources.Get "bootstrap-5.0.0/css/bootstrap-reboot.css" }}
-{{ $scss := resources.Get "custom.scss" | resources.ToCSS }}
-<!-- Add | resources.Minify | resources.Fingerprint below after done with SCSS realtime testing -->
-{{ $css := slice $css1 $css2 $css3 $scss | resources.Concat "bundle.css" }}
+<head>
+    {{ $css1 := resources.Get "bootstrap-5.0.0/css/bootstrap.css" }}
+    {{ $css2 := resources.Get "bootstrap-5.0.0/css/bootstrap-grid.css" }}
+    {{ $css3 := resources.Get "bootstrap-5.0.0/css/bootstrap-reboot.css" }}
+    {{ $scss := resources.Get "custom.scss" | resources.ToCSS }}
+    <!-- Add | resources.Minify | resources.Fingerprint below after done with SCSS realtime testing -->
+    {{ $css := slice $css1 $css2 $css3 $scss | resources.Concat "bundle.css" }}
 
-{{ if .Site.IsServer }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}">
-{{ else }}
-<link rel="stylesheet" href='{{ trim $css.RelPermalink "/" }}'>
-{{ end }}
-{{- template "_internal/opengraph.html" . -}}
-{{- template "_internal/schema.html" . -}}
-<!-- TODO: Confirm paths are correct on Staging Server -->
-{{ if .Params.image }}
-<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image | relURL }}"/>
-<meta property="og:image:secure_url" content="{{ .Params.image | absURL }}"/>
-{{ end }}
-{{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-{{ else }}
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-{{ end }}
+    {{ if .Site.IsServer }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    {{ else }}
+    <link rel="stylesheet" href='{{ trim $css.RelPermalink "/" }}'>
+    {{ end }}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        {{ if .Page.IsHome }}
+        {{ .Title }}
+        {{ else }}
+        {{- block "title" . -}}
+        {{ with title .Params.Title }}{{ . }}{{ end }} | {{ .Site.Title }}
+        {{- end -}}
+        {{ end }}
+    </title>
+    <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ end }}">
+
+    {{ if .Params.image }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image | relURL }}"/>
+    <meta property="og:image:secure_url" content="{{ .Params.image | absURL }}"/>
+    {{ end }}
+    {{ if eq (getenv "HUGO_ENV") "production" }}
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    {{ else }}
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    {{ end }}
+</head>

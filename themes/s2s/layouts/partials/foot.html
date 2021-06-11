@@ -1,7 +1,0 @@
-{{ $js := resources.Get "bootstrap-5.0.0/js/bootstrap.bundle.js" }}
-
-{{ if .Site.IsServer }}
-<script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
-{{ else }}
-<script type="text/javascript" src='{{ trim $js.RelPermalink "/" }}' defer></script>
-{{ end }}
