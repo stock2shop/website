@@ -51,7 +51,7 @@ s
 |parent|Page name used in menu to nest under|
 |name|Unique name for menu item when different to title|
 
-## Connector Glossary
+## Connector Naming & Tagging Conventions
 
 | Connector Type | Connector Name                 | Tag                            |
 | -------------- | ------------------------------ | ------------------------------ |
@@ -81,3 +81,17 @@ s
 | Channel        | Woocommere                     | woocommere                     |
 | Fulfilment     | Parcelninja                    | parcelninja                    |
 | Fulfilment     | On The Dot                     | on-the-dot                     |
+
+## How-it-works Naming & Tagging Conventions
+
+| Section         | tag         |
+| --------------- | ----------- |
+| Console         | console     |
+| Sources         | source      |
+| Channels        | channel     |
+| Products        | product     |
+| Customers       | customer    |
+| Ordering        | order       |
+| Fulfilment      | fulfillment |
+| Queue           | queue       |
+| Business Models | model       |
