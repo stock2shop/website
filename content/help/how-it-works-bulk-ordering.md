@@ -2,12 +2,11 @@
 title: "Bulk ordering"
 seoTitle: "Bulk ordering on the Stock2Shop B2B Trade Store"
 seoDescription: "The S2S B2B Trade Store gives you the ability to bulk import orders via CSV (Comma-separated values)."
-sources: ["dolfin", "iq-retail", "isync", "ms-navision", "omni-accounts", "pastel-partner", "sage-50cloud-pastel-xpress", "sage-200-evolution", "sage-300cloud", "sage-business-cloud-financials", "sage-evolution", "sage-one", "sage-pastel-evolution", "sap", "syspro" ]
-channels: ["b2b-trade-store"]
-fulfillments: ["parcel-ninja", "on-the-dot"]
-draft: true
-date: 2020-12-31T12:16:00+02:00
+seoKeyword: ["Bulk Ordering"]
+type: help
+source: ""
 tags: ["how-it-works", "order"]
+draft: true
 ---
 
 ## What is Bulk Ordering

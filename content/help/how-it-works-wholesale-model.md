@@ -3,6 +3,7 @@ title: "Wholesale Model"
 seoTitle: "Stock2Shop and Wholesale Business"
 seoDescription: "Understanding the role of Stock2Shop in a Wholesale business model"
 seoKeyword: ["Wholesale", "B2B"]
+type: help
 source: ""
 tags: ["how-it-works", "model"]
 draft: true

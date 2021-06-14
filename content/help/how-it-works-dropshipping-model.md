@@ -3,6 +3,7 @@ title: "Dropshipping Model"
 seoTitle: "Stock2Shop and Dropshipping Business"
 seoDescription: "Understanding the role of Stock2Shop in a Dropshipping business model"
 seoKeyword: ["Dropshipping"]
+type: help
 source: ""
 tags: ["how-it-works", "model"]
 draft: true

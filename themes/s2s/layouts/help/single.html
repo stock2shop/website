@@ -41,6 +41,18 @@
                 <li>How It Works</li>
                 <li>
                     <ul>
+
+                        <li>Console</li>
+                        <li>
+                            <ul>
+                                {{ range where .Site.Pages "Params.tags" "intersect" (slice "console") }}
+                                <li>
+                                    <a href="{{ .Permalink }}">{{ .Title }} </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </li>
+
                         <li>Sources</li>
                         <li>
                             <ul>
