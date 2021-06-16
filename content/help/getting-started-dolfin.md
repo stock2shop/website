@@ -56,7 +56,8 @@ the minimum required fields are:
 
 ## Syncing Customers to Stock2Shop  {#sync-customers}
 Stock2Shop currently does not support the syncing of customers from Dolfin to Stock2Shop.
-At this point in time there are no plans to build out this functionality.
+At this point in time there are no plans to build out this functionality. If customers are a requiremnt,
+please read up on how to import customers manually in to your client consle, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
  
 ## Syncing Orders to Dolfin {#raise-orders}
 By default, Stock2Shop raises orders to Dolfin with the following order details:
