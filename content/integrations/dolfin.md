@@ -16,42 +16,43 @@ provides the centralised environment to consolidate and distribute data to and f
 Stock2Shop will sync vital product data to your ecommerce sales channels to ensure they are all up to date, 
 and online orders can be processed directly into Dolfin as sales orders or invoices.
 
-![dolfin integration](/uploads/dolfin-integration.png)
+## Sync Product & Inventory Data
+Sync information such as pricing, stock levels and attribute data from Dolfin to your online sales channels. 
 
-## e-commerce Integrations
-If you are looking to integrate your Dolfin system with one (or more) of the following sales channels, 
-look no further:
+
+## Raise Orders
+Sync orders from your online sales channels into Dolfin.
+
+## Automate Fulfilments 
+Once an order has been successfully created in Dolfin, automatically send fulfilment notifications to your 3rd-party logistics service provider. 
+
+## See the full set of integrations
+In order to get the most out of your Dolfin integration, view a full list of features and configuration settings.
+
+### Ecommerce integrations for Dolfin: 
 - [Dolfin Shopify Integration](/integrations/dolfin-shopify)
 - [Dolfin WooCommerce Integration](/integrations/dolfin-woocommerce)
 - [Dolfin Magento 1.x Integration](/integrations/dolfin-magento)
 - [Dolfin Magento 2.x Integration](/integrations/dolfin-)
-- [Dolfin B2B Trade Store Integration](/integrations/dolfin-b2b-trade-store)
-- [Dolfin Takealot Integration](/integrations/dolfin-takealot)
+
+### Fulfilment Integrations: 
 - [Dolfin Parcelninja Integartion](/integrations/dolfin-parcelninja)
 
-## Features
-- Sync updates to your online sales channel in near-real time.
-- Automate online orders into Dolfin.
-- Enrich your product data with images, long descriptions and other marketing collateral in a central console, and sync it to multiple sales channels.
-- Get an overview of orders and their statuses on your console.
-- Customise notifications so your team is kept abreast of relevant online activity.
+### B2B Trade store for Dolfin:  
+- [Dolfin B2B Trade Store Integration](/integrations/dolfin-b2b-trade-store)
 
-## Benefits
-Integrating your Dolfin accounting software with your sales channels can impact 
-your business in the following ways:
+### Marketplace Integrations for Dolfin: 
+- [Dolfin Takealot Integration](/integrations/dolfin-takealot)
 
-- Increase efficiency. Stock2Shop integration reduces the need to capture data in multiple places.
-- Reduce human error. Automating data updates means there is less chance for potentially costly errors.
-- Free up time. Stock2Shop integration will allow you to turn your attention to growing your business.
 
-## Technical Documentation
-Here are some useful links to give you a better understanding of how Stock2Shop works, 
-and to assist you throughout the integration process:
+## See supporting documentation
 
-- [Getting Started](/help/dolfin)
-- [Features](/features/dolfin)
-- [How to](/help/how-to)
-- [Models](/help/how-to/models)
+### Features
+Stock2Shop is an efficient way to seamlessly integrate your ERP or accounting system with your sales channels. Take a look at all the features that our integrations can provide. 
+
+### Technical Documentation
+All the concepts and technical information you need to start integrating the Stock2Shop system. Our highly skilled team is available for support from sales through set-up and beyond, and we’ll happily answer any questions you may have. 
+
 
 
 
