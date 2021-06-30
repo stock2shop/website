@@ -1,0 +1,278 @@
+{{ define "main" }}
+<div class="wrapper">
+	{{- partial "header-alt.html" . -}}
+
+	<div class="hero-alt">
+		<div class="container">
+			<div class="hero__content">
+				<img src="{{ .Params.image }}" width="{{ .Params.imageWidth }}">
+
+				<h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>            
+				
+				<p>{{ .Params.Lead }}</p>
+			</div><!-- /.hero__content -->
+		</div><!-- /.container -->
+	</div><!-- /.hero-alt -->
+
+	<section class="section section--size1">
+		<div class="container">
+			<header class="section__head">
+				<h2>Sync Product & Inventory data</h2>
+
+				<p>Sync products and inventory data from SAP Business One to your sales channel</p>
+			</header><!-- /.section__head -->
+
+			<div class="section__image-alt">
+				<img src="/images/a01.png" alt="Sync Product & Inventory data" width="1006" class="hidden-mobile">
+
+				<img src="/images/a001.png" alt="Sync Product & Inventory data" class="visible-mobile">
+			</div><!-- /.section__image -->
+
+			<div class="section__actions visible-mobile">
+				<a href="#" class="btn btn--medium">Schedule a demo</a>
+			</div><!-- /.section__actions -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<section class="section section--gray section section--size1">
+		<div class="container">
+			<header class="section__head">
+				<h2>Sync Customer & Account information</h2>
+
+				<p>Sync your customer account information from SAP Business One to our B2B trade store</p>
+			</header><!-- /.section__head -->
+
+			<div class="section__image-alt">
+				<img src="/images/a02.png" alt="Sync Customer & Account information" width="849" class="hidden-mobile">
+
+				<img src="/images/a002.png" alt="Sync Customer & Account information" class="visible-mobile">
+			</div><!-- /.section__image -->
+
+			<div class="section__actions visible-mobile">
+				<a href="#" class="btn btn--medium">Schedule a demo</a>
+			</div><!-- /.section__actions -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<section class="section section section--size1">
+		<div class="container">
+			<header class="section__head">
+				<h2>Raise orders</h2>
+
+				<p>Sync orders from your ecommerce sales channel to connector_name </p>
+			</header><!-- /.section__head -->
+
+			<div class="section__image-alt">
+				<img src="/images/a03.png" alt="Raise orders" width="1007" class="hidden-mobile">
+
+				<img src="/images/a003.png" alt="Raise orders" class="visible-mobile">
+			</div><!-- /.section__image -->
+
+			<div class="section__actions visible-mobile">
+				<a href="#" class="btn btn--medium">See how it works</a>
+			</div><!-- /.section__actions -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<section class="section section--gray section section--size1">
+		<div class="container">
+			<header class="section__head">
+				<h2>Raise Fulfillments</h2>
+
+				<p>Once an order has been raised in your connector_name, fulfill your order with one of fulfillment partners, Parcelninja</p>
+			</header><!-- /.section__head -->
+
+			<div class="section__image-alt">
+				<img src="/images/a04.png" alt="Raise Fulfillments" width="1007" class="hidden-mobile">
+
+				<img src="/images/a004.png" alt="Raise Fulfillments" class="visible-mobile">
+			</div><!-- /.section__image -->
+
+			<div class="section__actions visible-mobile">
+				<a href="#" class="btn btn--medium">See how it works</a>
+			</div><!-- /.section__actions -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<section class="section section--services">
+		<div class="container">
+			<header class="section__head">
+				<h2>See full set of integrations</h2>
+
+				<p>In order to get the most out of your SAP Business One, view a full list of features and configuration settings here.</p>
+			</header><!-- /.section__head -->
+
+			<div class="services">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="service">
+							<i class="ico-card service__ico"></i>
+
+							<h4>eCommerce integrations for SAP Business One:</h4>
+
+							<p>List all connections like home page, keyword focus e.g:-</p>
+
+							<ul>
+								<li>
+									<a href="#" class="link">SAP Business One Shopify Integration <i class="ico-arrow-right"></i></a>
+								</li>
+								
+								<li>
+									<a href="#" class="link">SAP Business One Magento Integration <i class="ico-arrow-right"></i></a>
+								</li>
+								
+								<li>
+									<a href="#" class="link">SAP Business One WooCommerce Integration <i class="ico-arrow-right"></i></a>
+								</li>
+							</ul>
+						</div><!-- /.service -->
+					</div><!-- /.col-md- offset-md- -->
+
+					<div class="col-md-6">
+						<div class="service">
+							<i class="ico-mobile service__ico"></i>
+
+							<h4>B2B trade store for SAP Business One:</h4>
+
+							<p>Blurb and link to b2b</p>
+
+							<ul>
+								<li>
+									<a href="#" class="link">SAP Business One B2B Trade Store Integration <i class="ico-arrow-right"></i></a>
+								</li>
+							</ul>
+						</div><!-- /.service -->
+					</div><!-- /.col-md- offset-md- -->
+
+					<div class="col-md-6">
+						<div class="service">
+							<i class="ico-settings service__ico"></i>
+
+							<h4>Fulfilment Integrations</h4>
+
+							<p>Blurb and link to b2b</p>
+
+							<ul>
+								<li>
+									<a href="#" class="link">SAP Business One B2B Trade Store Integration <i class="ico-arrow-right"></i></a>
+								</li>
+							</ul>
+						</div><!-- /.service -->
+					</div><!-- /.col-md- offset-md- -->
+
+					<div class="col-md-6">
+						<div class="service">
+							<i class="ico-market service__ico"></i>
+
+							<h4>Marketplace integrations for SAP Business One:</h4>
+
+							<p>Blurb and link to b2b</p>
+
+							<ul>
+								<li>
+									<a href="#" class="link">Sage Business One Takealot integration <i class="ico-arrow-right"></i></a>
+								</li>
+							</ul>
+						</div><!-- /.service -->
+					</div><!-- /.col-md- offset-md- -->
+				</div><!-- /.row -->
+			</div><!-- /.services -->	
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<section class="section section--gray section--services-alt">
+		<div class="container">
+			<header class="section__head">
+				<h2>See supporting information</h2>
+			</header><!-- /.section__head -->
+
+			<div class="services">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="service service--primary">
+							<i class="ico-feature service__ico"></i>
+
+							<h2>Features</h2>
+
+							<p>
+								All the concepts and information you need to start integrating the Stock2Shop system. Our highly skilled team is available for support from sales through set-up and beyond, and we’ll happily answer any questions you have.
+							</p>
+
+							<a href="#" class="btn btn--medium-alt">View Documentation</a>
+						</div><!-- /.service -->
+					</div><!-- /.col-md- offset-md- -->
+
+					<div class="col-md-6">
+						<div class="service service--primary">
+							<i class="ico-tech service__ico"></i>
+
+							<h2>Technical Documentation</h2>
+
+							<p>
+								All the concepts and information you need to start integrating the Stock2Shop system. Our highly skilled team is available for support from sales through set-up and beyond, and we’ll happily answer any questions you have.
+							</p>
+
+							<a href="#" class="btn btn--medium-alt">View Documentation</a>
+						</div><!-- /.service -->
+					</div><!-- /.col-md- offset-md- -->
+				</div><!-- /.row -->
+			</div><!-- /.services -->	
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	<section class="section section--red">
+		<div class="container">
+			<div class="form form--primary form--primary-alt">
+				<form action="?" method="post">
+					<div class="form__head">
+						<h2>Contact Us</h2>
+
+						<p>
+							Some blurb about how the user can contact Stock2Shop in order to schedule a demo.
+						</p>
+					</div><!-- /.form__head -->
+					
+					<div class="form__body">
+						<div class="form-group">
+							<label for="f-name" class="hidden">Full Name*</label>
+
+							<input type="text" class="form-control" id="f-name" name="f-name" aria-describedby="nameHelp" placeholder="Full Name*">
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<label for="f-email" class="hidden">Your Email*</label>
+
+							<input type="email" class="form-control" id="f-email" name="f-email" aria-describedby="emailHelp" placeholder="Your Email*">
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<label for="f-phone" class="hidden">Phone</label>
+
+							<input type="text" class="form-control" id="f-phone" name="f-phone" aria-describedby="phoneHelp" placeholder="Phone">
+						</div><!-- /.form-group -->
+
+						<div class="form-group">
+							<label for="f-message" class="hidden">How can we help you?</label>
+
+							<textarea type="text" class="form-control" id="f-message" name="f-message" aria-describedby="messageHelp" placeholder="How can we help you?"></textarea>
+						</div><!-- /.form-group -->
+					</div><!-- /.form__body -->
+					
+					<div class="form__foot">
+						<p>
+							Stock2Shop needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at anytime. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, check out our <a href="#">Privacy Policy.</a>
+						</p>
+
+						<button class="btn btn--size1">Submit</button>
+					</div><!-- /.form__foot -->
+				</form>
+			</div><!-- /.form -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+
+	{{- partial "footer.html" . -}}
+</div><!-- /.wrapper --> 
+
+{{ end }}
+
+

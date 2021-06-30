@@ -1,56 +1,14 @@
 ---
-title: "SAP business one integration"
-titleList: SAP
-seoTitle: "SAP Business One Integration"
-seoDescription: "Here’s how SAP Business One works with your applications to streamline your workflow."
+title: "Sap"
+seoTitle: "Sap"
+seoDescription: "Omnico had a common challenge: how to integrate SYSPRO into multiple sales channels. Our solution? A Magento B2B and B2C e-commerce website integrated with Stock2Shop. We worked closely with Omnico to create the perfect solution to suit their needs. Read more!"
+lead: "Omnico is a major importer of lifestyle, cycle and electronic brands, including GoPro, Canondale, Giro, Stages, Ryder and Red-e."
 summary: "ERP software designed to streamline key processes and provide real-time information to give you greater strategic insights, fast."
-lead: "Here’s how SAP Business One works with your applications to streamline your workflow."
-type: source
-image: "/uploads/logo-platform-sap.png"
-imageAlt: sap logo
+image: "/images/sap.png"
+imageAlt: "Sap"
+imageTitle: "Sap"
+imageWidth: "84"
+category: "marketplace"
+aliases: "/sap/sap/"
 weight: 12
-categories: ["erp"]
 ---
-
-## E-commerce websites
-
-{{< thumbnail src="/uploads/logo-platform-s2s.png" link="/integrations/b2b-shopping-cart" alt="stock2shop logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-shopify.png" link="/integrations/shopify" alt="shopify logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-magento.png" link="/integrations/magento" alt="magento logo" style="display:inline">}}
-{{< thumbnail src="/uploads/logo-platform-woocommerce.png" link="/integrations/woocommerce" alt="woocommerce logo" style="display:inline">}}
-
-### Find out more about SAP Business One Integration:
-
-- [SAP Business One Shopify Integration](/integrations/sap-shopify/ "SAP Business One Shopify Integration")
-- [SAP Business One Magento Integration](/integrations/sap-magento/ "SAP Business One Magento Integration")
-- [SAP Business One WooCommerce Integration](/integrations/sap-woocommerce/ "SAP Business One WooCommerce Integration")
-- [SAP Business One B2B Trade Store Integration](/integrations/sap-b2b-trade-store/ "SAP Business One B2B Trade Store Integration")
-
----
-
-## Once you’ve integrated SAP Business One and your e-commerce website, you’ll be able to:
-
-*   #### Sync inventory data
-    
-    Syncing inventory data is simple once you’ve integrated with Stock2Shop.
-*   #### Enrich data
-    
-    There are several workflows for enriching product data so it is ready to sell. These workflows depend on your requirements.
-*   #### Customise product workflow
-    
-    Once you’ve enriched your data, you can decide exactly how to set up your product workflow.
-*   #### Simplify ordering
-    
-    There are a number of choices you can make to customise the ordering process so it suits your workflow perfectly.
-*   #### Streamline ordering
-    
-    The ordering process is simple once you’ve integrated with Stock2Shop.
-*   #### Automate order fulfillment
-    
-    Dispatch orders from SAP Business One to one of our supported fulfillment services.
-*   #### Customise notifications
-    
-    Once you’ve integrated with Stock2Shop, you’ll be able to customise notifications.
-*   #### Streamline workflow
-    
-    Integrating SAP Business One makes your workflow simple and more effective.
