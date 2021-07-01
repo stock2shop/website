@@ -2,7 +2,7 @@
 title: "parcelninja"
 seoTitle: "Parcelninja integration with stock2Shop"
 seoDescription: "A Parcelninja integration with Stock2Shop streamlines your worklflow"
-type: fulfillment
+type: "fulfillment"
 tags: ["warehouse"]
 summary: "Run your e-commerce business from anywhere with ParcelNinja’s scalable, outsourced warehousing and fulfillment solution."
 lead: "TODO"

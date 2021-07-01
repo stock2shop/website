@@ -2,6 +2,7 @@
 title: "IQ retail WooCommerce integration"
 seoTitle: "Integrate iQ Retail with WooCommerce"
 seoDescription: "Integrate iQ Retail with WooCommerce and you'll be able to streamline your workflow and simplify your ordering process. We'll work with you to create the iQ Retail WooCommerce integration that works best for your business. Find out more!" 
+type: "source-channel"
 lead: "If you’re working with iQ Retail and you have a WooCommerce website, it’s really important that they can communicate with each other. That’s how Stock2Shop can help. We improve your workflow and efficiency by integrating with iQ Retail and WooCommerce."
 lead2: "Here’s what you’ll be able to do:"
 ---

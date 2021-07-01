@@ -2,6 +2,7 @@
 title: "microsoft dynamics nav  B2B trade store integration"
 seoTitle: Microsoft Dynamics Nav integsration with Stock2Shop B2B Trade Store"
 seoDescription: "A Microsoft Dynamics NAV B2B trade store integration can streamline your business enormously. Make your B2B sales as simple as possible, sync data, automate orders and customise your workflow to suit your business. Stock2Shop can help. Find out more!"
+type: "source-channel"
 lead: "If you have Microsoft Dynamics NAV as your ERP and you’re running a Stock2Shop B2B trade store, they can be integrated with ease to make your B2B sales as simple as possible. A Microsoft Dynamics NAV B2B trade store integration will streamline your business enormously."
 lead2: "Here’s what you’ll be able to do:"
 

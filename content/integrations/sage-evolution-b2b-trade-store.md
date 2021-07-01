@@ -1,5 +1,6 @@
 ---
 title: "sage 100 evolution  B2B trade store integration"
+type: "source-channel"
 lead: "If you’re running Sage 100 Evolution (formerly Sage Evolution Standard) as your ERP and you have a Stock2Shop B2B trade store, we can easily integrate them with each other. The result? A Sage 100 Evolution B2B trade store integration: a streamlined workflow and more efficient business."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: "Running Sage Evolution and want to connect it to your B2B trade store? A Sage Evolution B2B trade store integration can dramatically improve your workflow, making your business run more efficiently and saving you time - and money. Find out more!"

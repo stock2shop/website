@@ -1,5 +1,6 @@
 ---
 title: "sage business cloud financials woocommerce integration"
+type: "source-channel"
 lead: "If Sage Business Cloud Financials (formerly Sage Live) is your ERP and WooCommerce is your e-commerce website, you’ll want them to be integrated so that they can communicate with each other. That’s where Stock2Shop can help. Stock2Shop integrates with Sage Business Cloud Financials and WooCommerce to streamline your business."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: "A Sage Financials WooCommerce integration is the simplest way to streamline your business. We'll work with you to create the ideal workflow to suit your needs. Automate orders, simplify ordering and sync data - just a few ways Stock2Shop makes e-commerce easier."

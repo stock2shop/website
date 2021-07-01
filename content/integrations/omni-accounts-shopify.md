@@ -2,6 +2,7 @@
 title: "omni accounts shopify integration"
 seotitle: "Omni Accounts integration with Shopify"
 seoDescription: "Let Stock2Shop integrate your Omni Accounts ERP accounting system and your Shopify e-commerce website for simplified ordering, a customised workflow and greater efficiency. Sync inventory, enrich data, customise the whole ordering process and automate order fulfilment for a more productive workflow."
+type: "source-channel"
 lead: "If you’ve chosen Omni Accounts as your ERP and Shopify to run your e-commerce website, you’ll want them to be able to communicate with each other seamlessly. Let Stock2Shop integrate Omni Accounts and Shopify to make your daily business more efficient and streamlined."
 lead2: "Here’s what you’ll be able to do:"
 ---

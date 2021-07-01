@@ -1,6 +1,6 @@
 ---
 title: "shopify"
-type: channel
+type: "channel"
 tags: ["ecommerce"]
 summary: "Start selling today with a purpose-built and fast growing e-commerce platform that’s quick to launch and easy to use."
 lead: "Integrate Shopify with your applications and see how streamlined your workflow becomes."

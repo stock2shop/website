@@ -1,5 +1,6 @@
 ---
 title: "sage 50cloud pastel partner woocommerce integration"
+type: "source-channel"
 lead: "If Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) is your ERP and WooCommerce is your e-commerce website, you’re going to want the two of them to be able to communicate with each other. That’s where Stock2Shop can help. A Sage 50cloud Pastel Partner WooCommerce integration will streamline your workflow."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: ""

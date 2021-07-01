@@ -1,6 +1,7 @@
 ---
 title: "sage 300cloud B2B trade store integration"
 seoTitle: "sage 300cloud (formerly sage accpac) B2B trade store integration"
+type: "source-channel"
 lead: "If you have Sage 300cloud as your ERP and you’re running a Stock2Shop B2B trade store, they can be integrated with ease to make your B2B sales as simple as possible."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: "A Sage 300cloud trade store integration can streamline your business enormously. Make your B2B sales as simple as possible, sync data, automate orders and customise your workflow to suit your business. Stock2Shop can help. Find out more!"

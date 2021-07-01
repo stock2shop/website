@@ -2,6 +2,7 @@
 title: "iQ Retail magento integration"
 seoTitle: "Integrate iQ Retails with your Magento e0commerce store"
 seoDescription: "Integrate Magento with iQ Retail and centralize data management" 
+type: "source-channel"
 lead: "If you’re using iQ Retail as your ERP and running a Magento e-commerce website, it’s important that they are in sync to ensure the most efficient workflow. Stock2Shop works in conjunction with iQ Retail to create an iQ Retail Magento integration – for a seamless e-commerce experience."
 lead2: "Here’s what you’ll be able to do:"
 ---

@@ -2,6 +2,7 @@
 title: "sage 200 evolution shopify integration"
 seoTitle: "Sage 200 Evolution integration with Shopify"
 seoDescription: "Integrate Sage 200 Evolution with Shopify and you'll be able to streamline your workflow and simplify your ordering process. We'll work with you to create theSage 200 Evolution Shopify integration that works best for your business. Find out more!"
+type: "source-channel"
 lead: "If Sage 200 Evolution (Formerly Sage Evolution Premium) is your ERP and you’re running a Shopify e-commerce website, it’s essential that they can communicate with each other. That’s how we can help: integrating Sage 200 Evolution and Shopify will make your daily business operations simple and stress-free."
 lead2: "Here’s what you’ll be able to do:"
 ---

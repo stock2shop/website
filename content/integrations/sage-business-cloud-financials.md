@@ -5,7 +5,8 @@ seoTitle: "Sage Business Cloud Financials (formerly sage live) Integration"
 seoDescription: "A Sage Business Cloud Financials (formerly Sage live) integration can streamline your business significantly. See how Sage Business Cloud Financials works with your applications."
 summary: "Formerly Sage Live: A new business management and accounting solution for growing enterprises."
 lead: "A Sage Business Cloud Financials (formerly Sage live) integration can streamline your business significantly. See how Sage Business Cloud Financials works with your applications."
-type: source
+type: "source"
+tags: ["erp"]
 image: "/uploads/logo-platform-sage-business-cloud-financials.png"
 imageAlt: sage business cloud financials logo
 weight: 6

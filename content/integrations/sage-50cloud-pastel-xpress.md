@@ -5,7 +5,7 @@ seoTitle: "Sage 50cloud Pastel Xpress integration with Stock2Shop"
 seoDescription: " A Sage 50cloud Pastel Xpress integration with Stock2Shop streamlines your workflow"
 summary: "Formerly Sage Partner Xpress Advantagse: Harness the power and productivity of a trusted desktop solution that integrate with Microsoft Office 365."
 lead: "Here’s how to integrate Sage 50cloud Pastel Xpress with your applications for a streamlined workflow."
-type: platform
+type: "source"
 tags: ["erp"]
 image: "/uploads/logo-platform-sage-50cloud-pastel-xpress.png"
 imageAlt: sage 50cloud pastel xpress logo

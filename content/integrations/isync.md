@@ -5,7 +5,7 @@ seoDescription: "An iSync integration can dramatically improve your workflow."
 titleList: isync
 summary: "iSync is the comprehensive ERP & PLM software solution designed specifically for the apparel industry."
 lead: "An iSync integration can dramatically improve your workflow. See how iSync works with your applications."
-type: source
+type: "source"
 tags: ["erp"]
 image: "/uploads/logo-platform-isync.png"
 imageAlt: isync logo

@@ -5,7 +5,8 @@ seoTitle: "Microsoft Dynamics NAV intergration with Stock2Shop"
 seoDescription: "Integrating Microsoft Dynamics NAV with Stock2Shop streamlines your workflow"
 summary: "Microsoft Dynamics NAV helps SMEs and large international groups manage their accounting and finances, supply chain, and operations."
 lead: "Here’s how Microsoft Dynamics NAV works with your applications to streamline your workflow."
-type: platform
+type: "source"
+tags: ["erp"]
 image: "/uploads/logo-platform-ms-dynamics-nav.png"
 imageAlt: ms dynamics logo
 aliases: "/integrations/ms-navision-integration/"

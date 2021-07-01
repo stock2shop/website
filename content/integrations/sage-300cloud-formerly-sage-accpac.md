@@ -5,7 +5,8 @@ seoTitle: "Sage 300cloud (formerly Sage Accpac) integration"
 seoDescription: "Here’s how to integrate Sage 300cloud with your applications for a streamlined workflow."
 summary: "A streamlined and efficient solution for small to mid-market companies with up to several hundred users."
 lead: "Here’s how to integrate Sage 300cloud with your applications for a streamlined workflow."
-type: platform
+type: "source"
+tags: ["erp"]
 image: "/uploads/logo-platform-sage-300cloud.png"
 imageAlt: sage 300cloud logo
 weight: 11

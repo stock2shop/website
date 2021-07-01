@@ -1,5 +1,6 @@
 ---
 title: "sage 100 evolution magento integration"
+type: "source-channel"
 lead: "If you’ve chosen Sage 100 Evolution (formerly Sage Evolution Standard) as your ERP and you have a Magento e-commerce website, it’s really important that they communicate with each other so that you can provide the most seamless e-commerce experience for your customers – and so that your day-to-day business can run smoothly. A Sage 100 Evolution Magento integration can achieve both these goals."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: "Find out how a Sage Evolution Magento integration can improve your workflow, streamline your business and increase your revenue. We'll work with you to integrate Sage Evolution and Magento and provide a tailored workflow to suit your business."

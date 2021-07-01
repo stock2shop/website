@@ -1,5 +1,6 @@
 ---
 title: " SYSPRO shopify integration"
+type: "source-channel"
 lead: "If SYSPRO is your ERP and you’re running a Shopify e-commerce website, it’s essential that they can communicate with each other. That’s how we can help: a SYSPRO Shopify integration will make your daily business operations simple and stress-free."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: "Integrate SYSPRO with Shopify and you'll be able to streamline your workflow and simplify your ordering process. We'll work with you to create the SYSPRO Shopify integration that works best for your business. Find out more!"

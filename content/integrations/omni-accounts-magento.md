@@ -2,6 +2,7 @@
 title: "omni accounts magento integration"
 seoTitle: "Omni Accounts integration with Magento"
 seoDescription: "Integrate your Omni Accounts ERP accounting system and your Magento e-commerce website for maximum efficiency. You’ll be able to sync inventory, enrich product data, customise a workflow to suit your needs and streamline the entire ordering process - including automatic order fulfillment. Easily."
+type: "source-channel"
 lead: "If your ERP is Omni Accounts and you have a Magento e-commerce website, it’s essential that they can talk to each other. Why? So that you can provide the most streamlined e-commerce experience for your customers – and so that your day-to-day business can run seamlessly. With Stock2Shop, you can integrate Omni Accounts and Magento to achieve both these goals."
 lead2: "Here’s what you’ll be able to do:"
 ---

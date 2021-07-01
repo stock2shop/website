@@ -1,6 +1,6 @@
 ---
 title: "takealot"
-type: channel
+type: "channel"
 tags: ["marketplace"]
 summary: "Automatically update your important product information such as pricing, stock levels and delivery lead times on the Takealot marketplace."
 seoTitle: "Integrate to Takealot using Stock2Shop"

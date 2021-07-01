@@ -1,5 +1,6 @@
 ---
 title: "sage 50cloud pastel partner magento integration"
+type: "source-channel"
 lead: "If you’re running Sage 50cloud Pastel Partner (formerly Sage Pastel Partner) as your ERP and Magento as your e-commerce website, you’ll want them to be in sync to ensure the most seamless e-commerce experience. A Sage 50cloud Pastel Partner Magento integration will give you the optimal workflow."
 lead2: "Here’s what you’ll be able to do:"
 seoDescription: "Stock2Shop integrates Sage Pastel Partner with Magento to dramatically improve your workflow. Sync inventory data, automate orders and simplify your business with a Sage Pastel Partner Magento integration. Find out more!"

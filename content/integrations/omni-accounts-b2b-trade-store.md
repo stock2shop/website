@@ -2,6 +2,7 @@
 title: "omni accounts  B2B trade store integration"
 seoTitle: "Omni Accounts integration with Stock2Shop B2B Trade Store"
 seoDescription: "Integrating your Omni Accounts ERP accounting system and your B2B trade store will make it much simpler to run your wholesale business. From streamlining your inventory data management to simplifying the ordering process and automating order fulfillment, you’ll be surprised how efficient it can be."
+type: "source-channel"
 lead: "If your ERP is Omni Accounts and you have a Stock2Shop B2B trade store, we can integrate them with ease. Once we’ve done that, you’ll be able to benefit from a streamlined workflow and a more efficient business."
 lead2: "Here’s what you’ll be able to do:"
 

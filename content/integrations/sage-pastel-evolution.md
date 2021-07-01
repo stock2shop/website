@@ -5,7 +5,8 @@ seoTitle: "Sage 100 Evolution (formerly Sage Evolution Standard) Integration"
 seoDescription: "See how Sage 100 Evolution (formerly Sage Evolution Standard) works with your applications."
 summary: "Formerly Sage Evolution Standard: Ideal for growing companies to manage products, orders, customers, finances and operations."
 lead: "See how Sage 100 Evolution (formerly Sage Evolution Standard) works with your applications."
-type: platform
+type: "source"
+tags: ["erp"]
 image: "/uploads/logo-platform-sage-100-evolution.png"
 imageAlt: sage 100 evolution logo
 weight: 9
