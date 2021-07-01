@@ -3,6 +3,7 @@ title: "iq retail integration"
 seoTitle: "iQ Retail Integration with Stock2Shop"
 seoDescription: "A iQ Retail integration with Stock2Shop streamlines your workflow"
 type: source
+tags: ["erp"]
 summary: "IQ Retail gives you business accounting and management solutions designed to work in a retail, distributive and hospitality environment."
 lead: "Here’s how IQ Retail works with your applications to streamline your workflow."
 image: "/uploads/logo-platform-iq-retail.png"

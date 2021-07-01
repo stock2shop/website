@@ -7,5 +7,6 @@ image: "/uploads/logo-platform-s2s.png"
 imageAlt: Stock2Shop logo
 aliases: "/b2b-shopping-cart/"
 type: "channel"
+tags: ["b2b"]
 ---
 

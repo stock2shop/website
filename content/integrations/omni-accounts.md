@@ -6,11 +6,11 @@ titleList: omni accounts
 summary: "Omni Accounts is an “all-in-one” accounting system that delivers focused, effective enterprise resource planning and business solutions."
 lead: "See how Omni Accounts works with your applications."
 type: source
+tags: ["erp"]
 image: "/uploads/logo-platform-omni.png"
 imageAlt: omni accounts logo
 aliases: "/integrations/omni-accounts-integration/"
 weight: 15
-categories: ["erp"]
 ---
 
 ## E-commerce websites
