@@ -49,10 +49,13 @@ In order to get the most out of your Dolfin integration, view a full list of fea
 ## See supporting documentation
 
 ### Features
-Stock2Shop is an efficient way to seamlessly integrate your ERP or accounting system with your sales channels. Take a look at all the features that our integrations can provide. 
+Stock2Shop is an efficient way to seamlessly integrate your ERP or accounting system with your sales channels. 
+Take a look at all the features that our integrations can provide. 
 
 ### Technical Documentation
-All the concepts and technical information you need to start integrating the Stock2Shop system. Our highly skilled team is available for support from sales through set-up and beyond, and we’ll happily answer any questions you may have. 
+All the concepts and technical information you need to start integrating the Stock2Shop system. 
+Our highly skilled team is available for support from sales through set-up and beyond, and we’ll 
+happily answer any questions you may have. 
 
 
 
