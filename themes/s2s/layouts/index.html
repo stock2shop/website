@@ -228,13 +228,65 @@
 						</li>
 
 						<li>
-							<a href="logistics">Fulfillment / Logistics</a>
+							<a href="warehouse">Fulfillment / Logistics</a>
 						</li>
 					</ul>
 				</nav><!-- /.widget__nav -->
 
-				<div class="widget__body js-slider-filter">
-					{{ partial "features.html" . }}
+				<div class="widget__body js-slider-filter"> 
+					{{ range where .Site.RegularPages "Params.type" "source" }}
+						<div class='widget__item {{ with .Params.tags }}{{ delimit . " "}}{{ end }}' data-category='{{ with .Params.tags }}{{ delimit . " "}}{{ end }}'>
+							<div class="feature">
+								<div class="feature__body">
+									<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" title="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}" style="max-width: 100px;">
+
+									<h4>{{ title .Page.Title }}</h4>
+								</div><!-- /.feature__body -->
+
+								<div class="feature__aside">
+									<p>{{ .Params.Summary }}</p>
+
+									<a href="{{ .Page.RelPermalink }}" class="link">Learn More <i class="ico-arrow-right"></i></a>
+								</div><!-- /.feature__aside -->
+							</div><!-- /.feature -->
+						</div><!-- /.widget__item -->
+					{{ end }}
+
+					{{ range where .Site.RegularPages "Params.type" "channel" }}
+						<div class='widget__item {{ with .Params.tags }}{{ delimit . " "}}{{ end }}' data-category='{{ with .Params.tags }}{{ delimit . " "}}{{ end }}'>
+							<div class="feature">
+								<div class="feature__body">
+									<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" title="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}" style="max-width: 100px;">
+
+									<h4>{{ title .Page.Title }}</h4>
+								</div><!-- /.feature__body -->
+
+								<div class="feature__aside">
+									<p>{{ .Params.Summary }}</p>
+
+									<a href="{{ .Page.RelPermalink }}" class="link">Learn More <i class="ico-arrow-right"></i></a>
+								</div><!-- /.feature__aside -->
+							</div><!-- /.feature -->
+						</div><!-- /.widget__item -->
+					{{ end }}
+
+					{{ range where .Site.RegularPages "Params.type" "fulfillment" }}
+						<div class='widget__item {{ with .Params.tags }}{{ delimit . " "}}{{ end }}' data-category='{{ with .Params.tags }}{{ delimit . " "}}{{ end }}'>
+							<div class="feature">
+								<div class="feature__body">
+									<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" title="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}" style="max-width: 100px;">
+
+									<h4>{{ title .Page.Title }}</h4>
+								</div><!-- /.feature__body -->
+
+								<div class="feature__aside">
+									<p>{{ .Params.Summary }}</p>
+
+									<a href="{{ .Page.RelPermalink }}" class="link">Learn More <i class="ico-arrow-right"></i></a>
+								</div><!-- /.feature__aside -->
+							</div><!-- /.feature -->
+						</div><!-- /.widget__item -->
+					{{ end }}
 				</div><!-- /.widget__body -->
 			</div><!-- /.widget-primary -->
 		</div><!-- /.container -->

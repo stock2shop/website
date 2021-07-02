@@ -1,5 +1,24 @@
 {{ define "main" }}
-{{$channelTitle := .Title}}
+<div class="wrapper">
+    {{- partial "header-alt.html" . -}}
+
+    <div class="hero-alt">
+        <div class="container">
+            <div class="hero__content">
+                <img src="{{ .Params.image }}" width="{{ .Params.imageWidth }}">
+
+                <h1>{{ if .Params.heading }}{{ title .Params.heading }}{{ else }}{{ title .Title }}{{ end }}</h1>            
+                
+                <p>{{ .Params.Lead }}</p>
+            </div><!-- /.hero__content -->
+        </div><!-- /.container -->
+    </div><!-- /.hero-alt -->
+
+    {{- partial "footer.html" . -}}
+</div><!-- /.wrapper --> 
+{{ end }}
+
+<!-- {{$channelTitle := .Title}}
 <h1>{{ title .Title }} Integration</h1>
 <p class="lead">{{ .Params.Lead }}</p>
 
@@ -38,6 +57,5 @@
         </div>
     </div>
     {{ end }}
-</div>
+</div> -->
 
-{{ end }}

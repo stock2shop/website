@@ -13,3 +13,7 @@ ignoreFiles = ["content/api/*"]
   source = "sources"
   channel = "channels"
   fulfillment = "fulfillments"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
