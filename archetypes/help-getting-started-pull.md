@@ -1,11 +1,13 @@
 ---
 title: "connector_name"
-seoTitle: "connector_name Getting Started"
-seoDescription: "Integrate your connector_name with supported B2B and B2C Systems through Stock2Shop"
+# Search engine optimisation
+seoTitle: "connector_name Getting Started (no more than 60 characters)"
+seoDescription: "Integrate your connector_name with supported B2B and B2C Systems through Stock2Shop (no more than 160 characters)"
 seoKeyword: ["connector_name", "Integrations"]
-type: help
-source: "connector-name"
+# Categorisation & redirecting
+type: "help"
 tags: ["gettingstarted", "connector-name"]
+aliases: "link"
 draft: true
 ---
 
