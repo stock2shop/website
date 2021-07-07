@@ -14,11 +14,14 @@ draft: true
 {{connector_name}} is a client-side ERP / accounting system. 
 This means that the {{connector_name}} application is installed on a 
 server at your office, on your actual work computer or on a 
-server in the cloud. In order for Stock2Shop to provide you 
+server in the cloud. 
+
+In order for Stock2Shop to provide you 
 with the full integration capabilities and link {{connector_name}} 
 to other sales channels and fulfilment services such as 
 Shopify, Magento 1.x, Magento 2.x, WooCommerce, Stock2Shops B2B Trade store, 
 Parcelninja and Takealot we need to install software on the server or computer where your {{connector_name}} is set up. 
+
 Below is all documentation you will need regarding your {{connector_name}} integration from start to finish.
 Although this is a guide, Stock2Shop can facilitate complex integrations, however this may result in increased integration time.
 
@@ -30,6 +33,12 @@ we require the following information:
 - Database Name (The name of the database (company) we will be connecting to)
 - Database Username (read-only)
 - Database Password (read-only)
+
+The below must be taken into consideration to ensure we can manage information on a continual basis:
+
+- Outgoing port 8080 should be open.
+- The server must always be online.
+- The user must have full admin rights.
 
 With these credentials, Stock2Shop will be able to integrate with 
 {{connector_name}} and perform the following:
@@ -74,8 +83,9 @@ the minimum required fields are:
 
  ```
  
- Stock2Shop currently does not support the syncing of customers from {{connector_name}} to Stock2Shop.
- At this point in time there are no plans to build out this functionality.
+Stock2Shop currently does not support the syncing of customers from {{connector_name}} to Stock2Shop. 
+At this point in time there are no plans to build out this functionality. 
+If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
  
 ## Syncing Orders to {{connector_name}} {#raise-orders}
 By default, Stock2Shop raises orders to {{connector_name}} with the following order details:
