@@ -76,11 +76,7 @@ the minimum required fields are:
 | Client.Contact_Person  | last_name              | Client Lastname from Contact Person field                 |
 | Clinet.E-Mail          | email                  | Client E-mail                                             |
  ```
- 
-Stock2Shop currently does not support the syncing of customers from Sage 100 Evolution to Stock2Shop. 
-At this point in time there are no plans to build out this functionality. 
-If customers are a requirement, please read up on how to import customers manually in to your client console, [here](/help/how-it-works-customer-import "Manually import customers into Stock2Shop").
- 
+
 ## Syncing Orders to Sage 100 Evolution {#raise-orders}
 If you require Stock2Shop to insert sales orders or invoices into your Sage 100 Evolution, then we need you to install the Pastel Evolution SDK (Software Developers’ Kit) client connector. 
 This process needs to be done directly with Sage and is fairly straightforward. 
