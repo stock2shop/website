@@ -110,7 +110,12 @@ This page details the process of getting setup with Stock2Shop:
 #### Platforms
 Loop through all Platforms and display on left menu. 
 Note: need to confirm how best to do this. 
-Potentially add front matter attribute called platform, i.e platform: "syspro"
+Naming conventions should not be a factor, as long as it is grouped under the platform.
+There should however be at least the following 3 .md files for each platform:
+
+- getting-started.md
+- features.md
+- solutions.md
 
 ```
 Platform_1
@@ -130,12 +135,14 @@ Platform_2
   |- platform_2-user-defined-fields.md
   |- platform_2-solutions.md
   |- any-other-page-relating-to-platform_2.md
-``` 
+
   And so on for all platforms.
+``` 
   
 #### How Stock2Shop Works
 How it works should remain as in it's current structure.
 Broken up into all the important concepts of stock2shop.
+Naming convention is not a factor as long as it is grouped into the correct "section".
 
 ```
 How Stock2Shop works
