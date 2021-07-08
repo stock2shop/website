@@ -87,12 +87,14 @@ A list of all connectors and how they should be named and tagged on Hugo.
 ## Help section (suggested structure)
 Structure of the help section menu:
 
+```
 Menu
   |
   |- Getting Started
   |- Platforms
   |- How Stock2Shop Works
   |- Developer API Docs
+```
 
 #### Getting started
 Add a generic getting started page for Stock2shop.
@@ -110,6 +112,7 @@ Loop through all Platforms and display on left menu.
 Note: need to confirm how best to do this. 
 Potentially add front matter attribute called platform, i.e platform: "syspro"
 
+```
 Platform_1
   |
   |- platform_1-getting-started.md
@@ -127,13 +130,14 @@ Platform_2
   |- platform_2-user-defined-fields.md
   |- platform_2-solutions.md
   |- any-other-page-relating-to-platform_2.md
-  
+``` 
   And so on for all platforms.
   
 #### How Stock2Shop Works
 How it works should remain as in it's current structure.
 Broken up into all the important concepts of stock2shop.
 
+```
 How Stock2Shop works
   |
   |- Console
@@ -151,7 +155,8 @@ How Stock2Shop works
   |- Fulfillments
   |- Queue
   |- Business Models
-  
+```
+
 Tags have already been defined for this section:
 
 | Section         | tag         |
