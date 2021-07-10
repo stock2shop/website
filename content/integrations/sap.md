@@ -1,11 +1,12 @@
 ---
 title: "SAP business one integration"
-titleList: SAP
+titleList: "SAP"
 seoTitle: "SAP Business One"
 seoDescription: "Here’s how SAP Business One works with your applications to streamline your workflow."
 summary: "ERP software designed to streamline key processes and provide real-time information to give you greater strategic insights, fast."
 lead: "Here’s how SAP Business One works with your applications to streamline your workflow."
 type: "source"
+source: "sap"
 tags: ["erp"]
 image: "/uploads/logo-platform-sap.png"
 imageAlt: sap logo
@@ -41,16 +42,5 @@ imageDestopWidthFullfilments: "1007"
 imageMobileFullfilments: "/images/a004.png"
 buttonTextFullfilments: "See how it works"
 buttonHrefFullfilments: "/" 
-
-platformShopifyLinkText: "Shopify Integration"
-platformShopifyLinkHref: "/integrations/sap-shopify/"
-platformMagentoLinkText: "Magento Integration"
-platformMagentoLinkHref: "/integrations/sap-magento/"
-platformWooCommerceLinkText: "WooCommerce Integration"
-platformWooCommerceLinkHref: "/integrations/sap-woocommerce/"
-platformB2bLinkText: "B2B Trade Store Integration"
-platformB2bLinkHref: "/integrations/sap-b2b-trade-store/"
-platformTakealotLinkText: "Takealot Integration"
-platformTakealotLinkHref: "/integrations/sap-takealot/"
 
 ---

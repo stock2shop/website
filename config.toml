@@ -13,6 +13,9 @@ ignoreFiles = ["content/api/*"]
   source = "sources"
   channel = "channels"
   fulfillment = "fulfillments"
+  source-b2b = "source-b2bs"
+  source-channel = "source-channels"
+  source-marketplace = "source-marketplaces"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

@@ -114,17 +114,13 @@
                             <p>List all connections like home page, keyword focus e.g:-</p>
 
                             <ul>
+                                {{ $q1 := where .Site.Pages "Type" "source-channel" }}
+                                {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
+                                {{ range $q1 | intersect $q2 }}
                                 <li>
-                                    <a href="{{ .Params.platformShopifyLinkHref }}" class="link">{{ .Params.seoTitle }} {{ .Params.platformShopifyLinkText }} <i class="ico-arrow-right"></i></a>
+                                    <a href="{{ .Permalink }}" class="link" title="{{.Params.seoTitle}}">{{ .Title }} <i class="ico-arrow-right"></i></a>
                                 </li>
-                                
-                                <li>
-                                    <a href="{{ .Params.platformMagentoLinkHref }}" class="link">{{ .Params.seoTitle }} {{ .Params.platformMagentoLinkText }} <i class="ico-arrow-right"></i></a>
-                                </li>
-                                
-                                <li>
-                                    <a href="{{ .Params.platformWooCommerceLinkHref }}" class="link">{{ .Params.seoTitle }} {{ .Params.platformWooCommerceLinkText }} <i class="ico-arrow-right"></i></a>
-                                </li>
+                                {{ end }}
                             </ul>
                         </div><!-- /.service -->
                     </div><!-- /.col-md- offset-md- -->
@@ -138,9 +134,13 @@
                             <p>Blurb and link to b2b</p>
 
                             <ul>
+                                {{ $q1 := where .Site.Pages "Type" "source-b2b" }}
+                                {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
+                                {{ range $q1 | intersect $q2 }}
                                 <li>
-                                   <a href="{{ .Params.platformB2bLinkHref }}" class="link">{{ .Params.seoTitle }} {{ .Params.platformB2bLinkText }} <i class="ico-arrow-right"></i></a>
+                                    <a href="{{ .Permalink }}" class="link" title="{{.Params.seoTitle}}">{{ .Title }} <i class="ico-arrow-right"></i></a>
                                 </li>
+                                {{ end }}
                             </ul>
                         </div><!-- /.service -->
                     </div><!-- /.col-md- offset-md- -->
@@ -154,9 +154,13 @@
                             <p>Blurb and link to b2b</p>
 
                             <ul>
+                                {{ $q1 := where .Site.Pages "Type" "source-fulfillment" }}
+                                {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
+                                {{ range $q1 | intersect $q2 }}
                                 <li>
-                                   <a href="{{ .Params.platformB2bLinkHref }}" class="link">{{ .Params.seoTitle }} {{ .Params.platformB2bLinkText }} <i class="ico-arrow-right"></i></a>
+                                    <a href="{{ .Permalink }}" class="link" title="{{.Params.seoTitle}}">{{ .Title }} <i class="ico-arrow-right"></i></a>
                                 </li>
+                                {{ end }}
                             </ul>
                         </div><!-- /.service -->
                     </div><!-- /.col-md- offset-md- -->
@@ -170,9 +174,13 @@
                             <p>Blurb and link to b2b</p>
 
                             <ul>
+                                {{ $q1 := where .Site.Pages "Type" "source-marketplace" }}
+                                {{ $q2 := where .Site.Pages "Params.source" .Params.source }}
+                                {{ range $q1 | intersect $q2 }}
                                 <li>
-                                   <a href="{{ .Params.platformTakealotLinkHref }}" class="link">{{ .Params.seoTitle }}  {{ .Params.platformTakealotLinkText }} <i class="ico-arrow-right"></i></a>
+                                    <a href="{{ .Permalink }}" class="link" title="{{.Params.seoTitle}}">{{ .Title }} <i class="ico-arrow-right"></i></a>
                                 </li>
+                                {{ end }}
                             </ul>
                         </div><!-- /.service -->
                     </div><!-- /.col-md- offset-md- -->
