@@ -1,6 +1,9 @@
 var $win = $(window)
 
-function initSliderTablet() {
+/*
+** Init Sliders
+*/
+function initSliders() {
 	if ( $win.width() < 1024 ) {
 		$('.js-slider-tablet').each(function(){
 			var $this = $(this)
@@ -29,8 +32,29 @@ function initSliderTablet() {
 			$('.js-slider-tablet').slick('unslick')
 		}
 	}
+
+	if ( $win.width() < 768 ) {
+		$('.js-slider-mobile').each(function(){
+			var $this = $(this)
+
+			if ( !$this.hasClass('slick-initialized') ) {
+				$this.slick({
+					slidesToShow   : 1,
+					slidesToScroll : 1,
+					dots           : true
+				})
+			}
+		})
+	} else {
+		if ( $('.js-slider-mobile').hasClass('slick-initialized') ) {
+			$('.js-slider-mobile').slick('unslick')
+		}
+	}
 }
 
+/*
+** Init Slider Filter
+*/
 function initSliderFilter() {
 	if ( $win.width() < 768 ) {
 		$('.js-slider-filter').each(function(){
@@ -53,13 +77,16 @@ function initSliderFilter() {
 	}
 }
 
+/*
+** Filter slider elements
+*/
 function filterElements( filterClass ) {
 	$('.js-slider-filter').slick('slickUnfilter')
 	$('.js-slider-filter').slick('slickFilter', $('.' + filterClass).parent().parent())
 }
 
 /*
-* Click Handlers
+** Click Handlers
 */
 $('.btn-burger').on('click', function(e){
 	e.preventDefault()
@@ -123,16 +150,30 @@ $('.js-popup').on('click', function(e){
 	$( $(this).data('target') ).toggleClass('is-visible')
 })
 
+$('.widget-video-alt .widget__btn').on('click', function(e){
+	e.preventDefault()
 
+	$(this).parent().addClass('is-playing')
+})
 
+$('.accordion').on('click', '.accordion__head', function(e) {
+	e.preventDefault()
+	e.stopPropagation()
+
+	$(this)
+		.closest('.accordion')
+		.toggleClass('is-active')
+			.find('> .accordion__body')
+				.slideToggle()
+})
 
 /*
-* Window Events
+** Window Events
 */
 $win.on('load scroll', function(){
 	$('.header').toggleClass('is-fixed', $win.scrollTop() > 0)
 }).on('load resize', function(){
-	initSliderTablet()
+	initSliders()
 
 	initSliderFilter()
 })
