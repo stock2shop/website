@@ -174,6 +174,5 @@ $win.on('load scroll', function(){
 	$('.header').toggleClass('is-fixed', $win.scrollTop() > 0)
 }).on('load resize', function(){
 	initSliders()
-
 	initSliderFilter()
 })
