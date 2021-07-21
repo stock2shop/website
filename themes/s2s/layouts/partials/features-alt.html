@@ -1,6 +1,6 @@
 <div class="features-alt slider-alt">
 	<div class="row js-slider-tablet" data-slides-tablet="2" data-slides-mobile="1">
-		{{ range where .Site.RegularPages "Type" "features-alt" }}
+		{{ range ( first 3 ( where .Site.Pages "Type" "case-studies" ) ) }}
 			<div class="col-md-6">
 				<div class="feature-alt">
 					<img src="{{ .Params.image }}" alt="{{ .Params.imageAlt }}" alt="{{ .Params.imageTitle }}" width="{{ .Params.imageWidth }}">
@@ -15,7 +15,7 @@
 						<i class="ico-arrow-right"></i>
 					</a>
 				</div><!-- /.feature-alt -->
-			</div><!-- /.col-md- offset-md- -->
+			</div><!-- /.col-md-6 -->
 		{{ end }}
 	</div><!-- /.row -->
 </div><!-- /.features-alt -->
